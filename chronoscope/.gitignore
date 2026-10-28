@@ -5,3 +5,4 @@ out/
 __pycache__/
 *.pyc
 docs/sheets/t_*.jpg
+docs/preview_first_60s.mp4
