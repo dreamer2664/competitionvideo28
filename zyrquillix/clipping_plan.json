@@ -1,0 +1,34 @@
+{
+  "version": "v1",
+  "producer": "zyrquillix",
+  "canvas": "1080x1920@30fps",
+  "audio_target": "-14 LUFS, -1 dBTP",
+  "sources": {
+    "S1": {"id": "FDRUMXwb4mg", "title": "IShowSpeed FUNNY MOMENTS", "duration_est": 600, "note": "age-restricted; needs cookies fallback"},
+    "S2": {"id": "rRSxkBGgTfw", "title": "Kai Cenat FUNNY Moments 4", "duration": 539},
+    "S3": {"id": "IpAjsMJKBvk", "title": "Jynxzi Best Moments 2026", "duration": 1036},
+    "S4": {"id": "G0fg27HzFTE", "title": "funniest Jynxzi clips", "duration": 617},
+    "S5": {"id": "zzRhEQ6nX2A", "title": "IMPRACTICAL JOKERS 30mins", "duration": 1708},
+    "S6": {"id": "EajXaGkDweA", "title": "Stable Ronaldo Funny", "duration": 900}
+  },
+  "clips": [
+    {"id": "S1-C1", "source": "S1", "type": "normal", "start": 42, "end": 72, "hook": "BRO WHAT ARE YOU DOING?!"},
+    {"id": "S1-C2", "source": "S1", "type": "normal", "start": 125, "end": 158, "hook": "bark+filter twist"},
+    {"id": "S1-LB", "source": "S1", "type": "leaderboard", "segments": [[15,23],[45,53],[95,103],[145,153],[210,218]], "title": "TOP 5 SPEED RAGES"},
+    {"id": "S2-C1", "source": "S2", "type": "normal", "start": 31, "end": 62, "hook": "Kai slips"},
+    {"id": "S2-C2", "source": "S2", "type": "normal", "start": 255, "end": 287, "hook": "prank call twist"},
+    {"id": "S2-LB", "source": "S2", "type": "leaderboard", "segments": [[12,20],[58,66],[112,120],[188,196],[302,310]], "title": "TOP 5 KAI CHAOS"},
+    {"id": "S3-C1", "source": "S3", "type": "normal", "start": 130, "end": 162, "hook": "Jynxzi rage quit"},
+    {"id": "S3-C2", "source": "S3", "type": "normal", "start": 435, "end": 468, "hook": "whisper->scream"},
+    {"id": "S3-LB", "source": "S3", "type": "leaderboard", "segments": [[22,30],[95,103],[210,218],[345,353],[512,520]], "title": "TOP 5 JYNXZI FREAKOUTS"},
+    {"id": "S4-C1", "source": "S4", "type": "normal", "start": 68, "end": 99, "hook": "1v5 clutch"},
+    {"id": "S4-C2", "source": "S4", "type": "normal", "start": 300, "end": 331, "hook": "chat roasts"},
+    {"id": "S4-LB", "source": "S4", "type": "leaderboard", "segments": [[18,26],[78,86],[145,153],[242,250],[368,376]], "title": "TOP 5 CLUTCHES"},
+    {"id": "S5-C1", "source": "S5", "type": "normal", "start": 200, "end": 232, "hook": "Murr punished"},
+    {"id": "S5-C2", "source": "S5", "type": "normal", "start": 850, "end": 882, "hook": "Q breaks"},
+    {"id": "S5-LB", "source": "S5", "type": "leaderboard", "segments": [[45,53],[210,218],[455,463],[680,688],[920,928]], "title": "TOP 5 JOKERS PUNISHMENTS"},
+    {"id": "S6-C1", "source": "S6", "type": "normal", "start": 125, "end": 156, "hook": "Ronaldo mic fail"},
+    {"id": "S6-C2", "source": "S6", "type": "normal", "start": 380, "end": 412, "hook": "chat spam"},
+    {"id": "S6-LB", "source": "S6", "type": "leaderboard", "segments": [[18,26],[95,103],[188,196],[302,310],[445,453]], "title": "TOP 5 RONALDO L'S"}
+  ]
+}
