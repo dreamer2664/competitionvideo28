@@ -1,0 +1,7 @@
+# renders are never committed — the final goes to storagecode Releases
+**/out/
+**/frames/
+**/*.mp4
+**/*.wav
+**/*.mp3
+**/__pycache__/
