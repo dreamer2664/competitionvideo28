@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVuSans-Bold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H88000000,1,0,0,0,100,100,0,0,1,9,6,2,10,10,120,1
+Style: Highlight,DejaVuSans-Bold,62,&H003BF5FF,&H00FFFFFF,&H00000000,&H88000000,1,0,0,0,108,108,0,0,1,9,6,2,2,10,10,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.20,0:00:14.98,Default,,0,0,0,,oh bit CRA [Music] SH word
+Dialogue: 0,0:00:14.98,0:00:17.81,Default,,0,0,0,,to your dad don't play with 🤣
+Dialogue: 0,0:00:17.81,0:00:19.08,Default,,0,0,0,,me say word to your dad 🤣
+Dialogue: 0,0:00:19.08,0:00:23.91,Default,,0,0,0,,my dad all right bet say
+Dialogue: 0,0:00:23.91,0:00:26.32,Default,,0,0,0,,no more yo like SC fire 🔥🤣
+Dialogue: 0,0:00:30.04,0:00:30.54,Default,,0,0,0,,oh

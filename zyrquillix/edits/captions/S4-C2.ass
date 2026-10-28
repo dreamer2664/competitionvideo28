@@ -1,0 +1,27 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVuSans-Bold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H88000000,1,0,0,0,100,100,0,0,1,9,6,2,10,10,120,1
+Style: Highlight,DejaVuSans-Bold,62,&H003BF5FF,&H00FFFFFF,&H00000000,&H88000000,1,0,0,0,108,108,0,0,1,9,6,2,2,10,10,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.76,0:00:03.90,Default,,0,0,0,,I'm not sleeping with anybody's moms
+Dialogue: 0,0:00:03.90,0:00:05.38,Default,,0,0,0,,okay stop please oh we got ⚡🙏
+Dialogue: 0,0:00:05.38,0:00:06.90,Default,,0,0,0,,a game chat clip dear Lord
+Dialogue: 0,0:00:06.90,0:00:08.86,Default,,0,0,0,,Heavenly Father please give these Gamers 🙏
+Dialogue: 0,0:00:08.86,0:00:10.45,Default,,0,0,0,,the love strength support and positivity
+Dialogue: 0,0:00:10.45,0:00:14.35,Default,,0,0,0,,to not be toxic Gamers and
+Dialogue: 0,0:00:14.35,0:00:16.46,Default,,0,0,0,,be positive encouraging gamers in the
+Dialogue: 0,0:00:16.46,0:00:18.23,Default,,0,0,0,,game chat please and thank you 🙏🤣
+Dialogue: 0,0:00:18.23,0:00:19.89,Default,,0,0,0,,thank you for another blessing day 🤣
+Dialogue: 0,0:00:19.89,0:00:21.29,Default,,0,0,0,,Lord we love you so much 🤣
+Dialogue: 0,0:00:21.29,0:00:25.68,Default,,0,0,0,,I am not in danger Skyler
+Dialogue: 0,0:00:25.68,0:00:28.63,Default,,0,0,0,,I am the danger a man
+Dialogue: 0,0:00:28.63,0:00:30.15,Default,,0,0,0,,opens his door and shot

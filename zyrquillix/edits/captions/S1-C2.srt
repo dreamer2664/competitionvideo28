@@ -1,0 +1,9 @@
+1
+00:00:00,000 --> 00:00:25,000
+bark+filter twist top five
+moment number reveal
+
+2
+00:00:25,000 --> 00:00:28,000
+insane crazy funny
+

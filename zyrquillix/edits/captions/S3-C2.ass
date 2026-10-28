@@ -1,0 +1,24 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVuSans-Bold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H88000000,1,0,0,0,100,100,0,0,1,9,6,2,10,10,120,1
+Style: Highlight,DejaVuSans-Bold,62,&H003BF5FF,&H00FFFFFF,&H00000000,&H88000000,1,0,0,0,108,108,0,0,1,9,6,2,2,10,10,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.21,0:00:03.65,Default,,0,0,0,,puppy. Jasmine. She just got an ⚡
+Dialogue: 0,0:00:03.65,0:00:03.89,Default,,0,0,0,,epic. Chazzy, I love you so 🤣
+Dialogue: 0,0:00:03.89,0:00:08.29,Default,,0,0,0,,much. No dog food for two
+Dialogue: 0,0:00:08.29,0:00:13.96,Default,,0,0,0,,weeks. All right. Enemy combatant flanking
+Dialogue: 0,0:00:13.96,0:00:16.28,Default,,0,0,0,,the staircase behind you. If I'm 🤣
+Dialogue: 0,0:00:16.28,0:00:17.55,Default,,0,0,0,,wrong, I will cash app you 🤣
+Dialogue: 0,0:00:17.55,0:00:20.70,Default,,0,0,0,,$24,000 USD currency. There's an enemy
+Dialogue: 0,0:00:20.70,0:00:24.64,Default,,0,0,0,,combatant flanking the staircase behind you. 🤣
+Dialogue: 0,0:00:28.20,0:00:31.56,Default,,0,0,0,,This is what no sexual intercourse 😱
+Dialogue: 0,0:00:31.56,0:00:32.92,Default,,0,0,0,,does to a >>

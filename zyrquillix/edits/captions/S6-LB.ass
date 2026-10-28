@@ -1,0 +1,31 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVuSans-Bold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H88000000,1,0,0,0,100,100,0,0,1,9,6,2,10,10,120,1
+Style: Highlight,DejaVuSans-Bold,62,&H003BF5FF,&H00FFFFFF,&H00000000,&H88000000,1,0,0,0,108,108,0,0,1,9,6,2,2,10,10,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.25,0:00:03.42,Default,,0,0,0,,I know what we doing. I'm 😱
+Dialogue: 0,0:00:03.42,0:00:05.00,Default,,0,0,0,,not a fan of this one.
+Dialogue: 0,0:00:05.44,0:00:09.26,Default,,0,0,0,,10 reps of So, what did 😱
+Dialogue: 0,0:00:09.26,0:00:10.12,Default,,0,0,0,,you have a degree in? >> 🤣
+Dialogue: 0,0:00:10.12,0:00:13.43,Default,,0,0,0,,Uh, dance. >> Dance. >> Mhm.
+Dialogue: 0,0:00:11.99,0:00:13.54,Default,,0,0,0,,>> I can literally dance right 🔥
+Dialogue: 0,0:00:13.54,0:00:15.99,Default,,0,0,0,,now. I got no >> That's ⚡
+Dialogue: 0,0:00:17.19,0:00:24.26,Default,,0,0,0,,Hey, boys. >> Okay. >> Oh
+Dialogue: 0,0:00:24.06,0:00:26.41,Default,,0,0,0,,>> at? know it's 6:00 a.m.
+Dialogue: 0,0:00:26.41,0:00:29.45,Default,,0,0,0,,in the East Coast right now?
+Dialogue: 0,0:00:27.05,0:00:29.93,Default,,0,0,0,,>> Where, bro? Is that how 🤣
+Dialogue: 0,0:00:29.93,0:00:30.98,Default,,0,0,0,,time zones work? Are you serious? 🤣
+Dialogue: 0,0:00:30.98,0:00:32.29,Default,,0,0,0,,Is that word to mother? Like,
+Dialogue: 0,0:00:32.29,0:00:36.92,Default,,0,0,0,,where bottom >> If you make 🤣
+Dialogue: 0,0:00:36.92,0:00:39.87,Default,,0,0,0,,my [ __ ] crazy, then 🔥
+Dialogue: 0,0:00:39.87,0:00:39.77,Default,,0,0,0,,I'll make your [ __ ] 🤣
+Dialogue: 0,0:00:39.77,0:00:40.36,Default,,0,0,0,,crazy. 🔥

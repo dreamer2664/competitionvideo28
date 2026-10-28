@@ -1,0 +1,23 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVuSans-Bold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H88000000,1,0,0,0,100,100,0,0,1,9,6,2,10,10,120,1
+Style: Highlight,DejaVuSans-Bold,62,&H003BF5FF,&H00FFFFFF,&H00000000,&H88000000,1,0,0,0,108,108,0,0,1,9,6,2,2,10,10,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.37,0:00:10.61,Default,,0,0,0,,[Music] so i see the guy
+Dialogue: 0,0:00:10.61,0:00:14.47,Default,,0,0,0,,eating by himself at the counter
+Dialogue: 0,0:00:12.00,0:00:18.24,Default,,0,0,0,,just loom behind him bud [Laughter]
+Dialogue: 0,0:00:16.80,0:00:21.38,Default,,0,0,0,,right there stand there don't move
+Dialogue: 0,0:00:18.24,0:00:25.99,Default,,0,0,0,,[Music] hi my name is fred
+Dialogue: 0,0:00:25.99,0:00:27.20,Default,,0,0,0,,i make the left band's on
+Dialogue: 0,0:00:27.20,0:00:28.88,Default,,0,0,0,,here tie it to something in
+Dialogue: 0,0:00:28.16,0:00:30.62,Default,,0,0,0,,the room now let me hit
+Dialogue: 0,0:00:30.62,0:00:31.93,Default,,0,0,0,,this okay slides

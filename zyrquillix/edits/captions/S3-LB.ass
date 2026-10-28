@@ -1,0 +1,24 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVuSans-Bold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H88000000,1,0,0,0,100,100,0,0,1,9,6,2,10,10,120,1
+Style: Highlight,DejaVuSans-Bold,62,&H003BF5FF,&H00FFFFFF,&H00000000,&H88000000,1,0,0,0,108,108,0,0,1,9,6,2,2,10,10,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.65,0:00:05.56,Default,,0,0,0,,GRENADE. GRENADE. GRENADE. GRENADE. GRENADE. GRENADE.
+Dialogue: 0,0:00:03.55,0:00:14.65,Default,,0,0,0,,[laughter] yourself a >> in Minecraft? 🤣
+Dialogue: 0,0:00:14.65,0:00:15.68,Default,,0,0,0,,Jesus >> Somebody got to be ⚡
+Dialogue: 0,0:00:15.68,0:00:21.39,Default,,0,0,0,,under toilet seat I have been
+Dialogue: 0,0:00:21.39,0:00:20.76,Default,,0,0,0,,diarrheaing for the last 34 minutes.
+Dialogue: 0,0:00:20.76,0:00:24.49,Default,,0,0,0,,30. Oh my [ __ You 🤣
+Dialogue: 0,0:00:27.20,0:00:31.31,Default,,0,0,0,,[gasps] how did I do? >>
+Dialogue: 0,0:00:31.31,0:00:36.22,Default,,0,0,0,,bro. My Bizarre. I'm a dribbler. 🤣
+Dialogue: 0,0:00:36.22,0:00:35.85,Default,,0,0,0,,I'm a ball handler. Watch these
+Dialogue: 0,0:00:35.85,0:00:39.12,Default,,0,0,0,,cones. Watch this [ __ ]

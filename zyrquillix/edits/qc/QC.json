@@ -1,0 +1,148 @@
+{
+  "clips": [
+    {
+      "file": "S1-C1.mp4",
+      "bytes": 130427,
+      "duration": 30.0,
+      "width": 1080,
+      "height": 1920,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decode_ok": true,
+      "sha256": "fc6077294c71aee5f8f754e97e0cca9ea28e611893195bfcf193713a1314cd41"
+    },
+    {
+      "file": "S1-C2.mp4",
+      "bytes": 131428,
+      "duration": 30.0,
+      "width": 1080,
+      "height": 1920,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decode_ok": true,
+      "sha256": "ce8d8ef7e930962d08b4af58395ea49db97e15bb48dbebefeeef32463952c902"
+    },
+    {
+      "file": "S2-C1.mp4",
+      "bytes": 5305334,
+      "duration": 31.1,
+      "width": 1080,
+      "height": 1920,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decode_ok": true,
+      "sha256": "2fffa9ae0f8f90443f18f5f88ed265ab85bb3e6823a38e0ae372d7c96411830f"
+    },
+    {
+      "file": "S2-C2.mp4",
+      "bytes": 6100174,
+      "duration": 32.0,
+      "width": 1080,
+      "height": 1920,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decode_ok": true,
+      "sha256": "99dc18a95b4a352469372ab9267a18130328b0841e6e60a35a6863035dce9b59"
+    },
+    {
+      "file": "S2-LB.mp4",
+      "bytes": 8536624,
+      "duration": 40.02,
+      "width": 1080,
+      "height": 1920,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decode_ok": true,
+      "sha256": "052e71a3e213f8e890c75284b62f35051747d72d10507f1ca30f3ed5e2372047"
+    },
+    {
+      "file": "S3-C1.mp4",
+      "bytes": 131858,
+      "duration": 30.0,
+      "width": 1080,
+      "height": 1920,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decode_ok": true,
+      "sha256": "68f33af5185d54552dd5479a618818da67332757fd2a232dd78e1d1f2ada88d9"
+    },
+    {
+      "file": "S3-C2.mp4",
+      "bytes": 133011,
+      "duration": 30.0,
+      "width": 1080,
+      "height": 1920,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decode_ok": true,
+      "sha256": "cd7c08ec26252bc5d4cccf288b11a613edcee78d9a9119d10ba2147fc4bcafa4"
+    },
+    {
+      "file": "S4-C1.mp4",
+      "bytes": 131354,
+      "duration": 30.0,
+      "width": 1080,
+      "height": 1920,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decode_ok": true,
+      "sha256": "cb3a2bc4a377ee14a7d0eea0134d192425c347cef531c95d88eca1860de3916e"
+    },
+    {
+      "file": "S4-C2.mp4",
+      "bytes": 132313,
+      "duration": 30.0,
+      "width": 1080,
+      "height": 1920,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decode_ok": true,
+      "sha256": "16872a5090a13c794e095394c927ac37b6478769224f3fb663267edc27d82657"
+    },
+    {
+      "file": "S5-C1.mp4",
+      "bytes": 131359,
+      "duration": 30.0,
+      "width": 1080,
+      "height": 1920,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decode_ok": true,
+      "sha256": "d5c4dd28779a920ce72e8e313e109fee881a7d04c164bbe9fc06338eac899a6f"
+    },
+    {
+      "file": "S5-C2.mp4",
+      "bytes": 48,
+      "duration": 0,
+      "width": null,
+      "height": null,
+      "video_codec": null,
+      "audio_codec": null,
+      "decode_ok": false,
+      "sha256": "64d52708f594e8a1a3a4f76deef7275c8ad5184480c9473d8f60a0c9b6f4628b"
+    },
+    {
+      "file": "S6-C1.mp4",
+      "bytes": 132424,
+      "duration": 30.0,
+      "width": 1080,
+      "height": 1920,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decode_ok": true,
+      "sha256": "61be7a2b91245cc9759ab01c4cf39595cfc2a3891a7a4269310ce5ceaee1fdf4"
+    },
+    {
+      "file": "S6-C2.mp4",
+      "bytes": 133362,
+      "duration": 30.0,
+      "width": 1080,
+      "height": 1920,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "decode_ok": true,
+      "sha256": "c8ede24a74ff60ea02f2ecc006fb581bb73744ab257a5cc65b4881675e656eb0"
+    }
+  ],
+  "total": 13
+}
