@@ -1,0 +1,7 @@
+# working audio + picture never enters git (only the final master does, and it
+# ships through storagecode Releases, not through this repo)
+work/
+out/
+__pycache__/
+*.pyc
+docs/sheets/t_*.jpg
