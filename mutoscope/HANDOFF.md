@@ -111,3 +111,43 @@ GITHUB_TOKEN=… python3 src/release.py
 Nothing in `out/` is needed to resume — it is all rebuildable from `cutlist/` and the
 source ids. `out/` is gitignored on purpose: large media goes to Releases, never into
 ordinary git (`STORAGE_POLICY.md`).
+
+---
+
+## 2026-10-28 ~08:15 UTC — DELIVERED (15/18)
+
+Everything below is done and verified, not planned.
+
+**Release:** https://github.com/dreamer2664/competitionvideo28/releases/tag/mutoscope-clips-v1
+15 assets · 250,620,207 bytes · 439.65 s · public, not a draft, not a prerelease.
+Confirmed readable **anonymously** (no token): asset re-downloaded, `ffprobe` decodes
+`h264 1080x1920 30fps + aac`, SHA-256 matches `docs/RELEASE_RECEIPT.json`.
+
+**Late fixes after the first QC pass:**
+1. `V4-N2-trust-fall` was +0.1 dBTP. Re-limited audio only (`-c:v copy`,
+   `alimiter=limit=0.85`) → −15.7 LUFS / −1.0 dBTP.
+2. Source **V2 (`IpAjsMJKBvk`) carries its own burned-in word-by-word captions**
+   at roughly y≈0.75 of frame. Ours were landing directly on top of them, which
+   read as a stutter. Added a per-source `caption_dy` in `cutlist.json`
+   (V2 = −380) threaded through `build_all.py` → `styles.py`, and re-rendered
+   all three V2 clips. Verified on frames in `/home/user/work/qc/v2fix.jpg`.
+   **If you add more sources, check for burned-in captions before rendering.**
+3. `docs/MANIFEST.json` regenerated after both fixes — hashes are current.
+
+**Final loudness, all 15:** −11.6 to −15.7 LUFS, every true peak ≤ −0.3 dBTP.
+
+**Archived to storagecode @ `f47dbe9`:** `data/competitionvideo28/2026-10-28-mutoscope/`
+(cut list, crop plans, manifest, release receipt, `ASSETS.md` per-asset bindings,
+BLOCKED, PRODUCER_README, HANDOFF) + rows in `data/INDEX.md` and `PUSHES.md`
++ `shifts/2026-10-28-mutoscope.md`. `yt-training-s1` slots deliberately untouched —
+different campaign.
+
+**Still open — the only open thing:** source 1 `FDRUMXwb4mg` is age-restricted, so
+3 of the briefed 18 clips do not exist. Nothing was faked to fill the gap. To finish:
+
+```
+python3 src/fetch.py FDRUMXwb4mg          # needs cookies, or swap the link
+# add the V0 block to cutlist/cutlist.json (copy a V1 block, retime)
+python3 src/build_all.py plan V0 && python3 src/build_all.py render V0
+GITHUB_TOKEN=... python3 src/release.py   # patches the existing release in place
+```
