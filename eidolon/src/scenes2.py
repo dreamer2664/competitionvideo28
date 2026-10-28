@@ -260,7 +260,7 @@ def properties(t, dur):
             d.line([(xx, y + 14), (xx, y + 62)], fill=CYAN + (int(170 * pg),), width=1)
             draw_text(img, (xx + 12, y + 58), "< 10 kHz IN ONE CHANNEL OF FIFTY",
                       FONTS("cond", 15, 400), CYAN, int(200 * pg), "ls", 1.6)
-            draw_text(img, (x1, y + 58), "NATURAL SOURCES: 10⁵–10⁸ Hz WIDE",
+            draw_text(img, (x1, y + 58), "NATURAL SOURCES: 100 kHz – 100 MHz WIDE",
                       FONTS("cond", 13, 400), GREY, int(140 * pg), "rs", 1.6)
 
     # ---- III: shape
@@ -327,14 +327,14 @@ def horns(t, dur):
     if po > 0:
         dashed(d, (592, 330), (1350, 330), AMBER, 1, 5, 7, int(140 * po))
         dashed(d, (600, 296), (692, 296), AMBER, 1, 4, 4, int(120 * po))
-        draw_text(img, (646, 274), "OFFSET ≈ ⅓ BEAM", FONTS("cond", 12, 400), AMBER,
+        draw_text(img, (646, 274), "OFFSET ≈ 1/3 BEAM", FONTS("cond", 12, 400), AMBER,
                   int(150 * po), "cs", 1.6)
 
     p1 = ease_out(prog(t, 9.2, 1.2))
     if p1 > 0:
         draw_text(img, (600, 812), "DETECTED", FONTS("cond", 24, 400), AMBER,
                   int(220 * p1), "cs", 4.0)
-        draw_text(img, (600, 840), "30σ · one channel · 72 s", FONTS("sans", 14, 300, opsz=15),
+        draw_text(img, (600, 840), "30 SIGMA · ONE CHANNEL · 72 S", FONTS("sans", 14, 300, opsz=15),
                   GREY, int(160 * p1), "cs")
     p2v = ease_out(prog(t, 10.6, 1.2))
     if p2v > 0:
@@ -417,9 +417,9 @@ def modern(t, dur):
     rows = 4
     for r in range(rows):
         depth = 1 - r / rows
-        size = 26 + 30 * depth
+        size = 30 + 36 * depth
         yy = 820 - r * 108
-        alpha = int(85 + 55 * depth)
+        alpha = int(120 + 60 * depth)
         n = 7 + r
         for c in range(n):
             xx = 240 + (c + 0.5) * (1440 / n) + (r % 2) * 22
@@ -538,7 +538,7 @@ def coordinates(t, dur):
     if pt > 0:
         draw_text(img, (px + 96, py - 36), "RA 19h 25m 31s", FONTS("cond", 21, 400), PAPER,
                   int(215 * pt), "ls", 2.4)
-        draw_text(img, (px + 96, py - 2), "DEC −26° 57′", FONTS("cond", 21, 400), PAPER,
+        draw_text(img, (px + 96, py - 2), "DEC -26° 57'", FONTS("cond", 21, 400), PAPER,
                   int(215 * pt), "ls", 2.4)
         draw_text(img, (px + 96, py + 34), "SAGITTARIUS · +50 kHz FROM H I", FONTS("cond", 13, 400),
                   GREY, int(150 * pt), "ls", 2.0)

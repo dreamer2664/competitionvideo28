@@ -256,10 +256,15 @@ def build_sfx(L, R):
         add(R, click, tt + 0.006, 0.045)
         tt += 2.0
 
-    # final resolve: one long low note under the last line
+    # final resolve: the chord lands on the end card and rings out to the last frame
     t_end, _ = beat_time("b16")
-    pad_note(L, NOTE["D2"], t_end + 6, 26, gain=0.10)
-    pad_note(R, NOTE["D2"] * 1.001, t_end + 6.02, 26, gain=0.10)
+    end_t = TOTAL - 6.0
+    for note, g in (("D2", 0.10), ("A2", 0.06), ("D3", 0.05), ("F3", 0.04)):
+        pad_note(L, NOTE[note], end_t - 2.0, 9.0, gain=g)
+        pad_note(R, NOTE[note] * 1.0012, end_t - 1.98, 9.0, gain=g)
+    bell(L, NOTE["D5"], end_t + 0.6, gain=0.03, dur=8.0)
+    bell(R, NOTE["D5"] * 1.001, end_t + 0.63, gain=0.028, dur=8.0)
+    label_pad = None
     return L, R
 
 

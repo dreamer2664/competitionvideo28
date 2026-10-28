@@ -48,30 +48,48 @@ def black_lede(t, dur):
             d.line([(x - 66, 391 + i * 46), (x - 66 + 34 * ln, 391 + i * 46)],
                    fill=col + (int(160 * a),), width=1)
 
-    # the waveform: flat noise, one burst, flat again — the film's spine
+    # the waveform: a pen drawing one 72-second pass across the beam.
+    # the clock runs 0 → 72 s; the sky is quiet, then it is not.
     base_y = 660
     x0, x1 = 300, W - 300
-    line_a = ease_out(prog(t, 9.0, 1.2)) * (1 - ease_in_out(prog(t, 31.0, 2.4)))
+    t_draw0, t_draw1 = 9.6, 33.0
+    pen = clamp((t - t_draw0) / (t_draw1 - t_draw0))
+    line_a = ease_out(prog(t, 8.8, 1.0)) * (1 - ease_in_out(prog(t, 33.4, 2.2)))
     if line_a > 0:
         rng = random.Random(11)
+        d.line([(x0, base_y + 60), (x1, base_y + 60)], fill=DIM + (int(55 * line_a),), width=1)
+        n = 620
         pts = []
-        for i in range(0, 601):
-            px = x0 + (x1 - x0) * i / 600
-            env = math.exp(-((t - 24.6) ** 2) / (2 * 0.9 ** 2))
-            amp = 2.0 + env * 96
-            y = base_y + rng.uniform(-1, 1) * amp * (0.55 + 0.45 * math.sin(i * 1.7))
-            pts.append((px, y))
-        polyline(img, pts, PAPER, width=2, alpha=int(110 * line_a))
-        d.line([(x0, base_y + 52), (x1, base_y + 52)], fill=DIM + (int(60 * line_a),), width=1)
-        if t > 24.0:
-            pa = ease_out(prog(t, 24.0, 0.9)) * line_a
-            d.line([(W / 2, base_y - 150), (W / 2, base_y + 46)],
-                   fill=AMBER + (int(140 * pa),), width=1)
-            draw_text(img, (W / 2 + 14, base_y - 148), "×30 the noise", FONTS("cond", 16, 400),
+        for i in range(n + 1):
+            u = i / n
+            px = x0 + (x1 - x0) * u
+            # the drift curve: a gaussian centred on the middle of the pass
+            env = math.exp(-((u - 0.5) ** 2) / (2 * 0.085 ** 2))
+            amp = 6.0 + 96 * env
+            jitter = 0.45 + 0.55 * math.sin(i * 1.7 + t * 3.1)
+            pts.append((px, base_y + rng.uniform(-1, 1) * amp * jitter))
+        seg = pts[:max(2, int(pen * n))]
+        polyline(img, seg, PAPER, width=2, alpha=int(175 * line_a))
+        if 0 < pen < 1:
+            disc(img, seg[-1], 3.6, AMBER, int(230 * line_a))
+        # the clock
+        tt = pen * 72
+        clk = ease_out(prog(t, 8.8, 1.0))
+        draw_text(img, (W / 2, base_y - 190), f"{int(tt):02d}", FONTS("serif", 108, 300),
+                  AMBER, int(185 * clk * line_a), "cs")
+        draw_text(img, (W / 2, base_y - 148), "SECONDS INTO THE PASS", FONTS("cond", 12, 400),
+                  GREY, int(130 * clk * line_a), "cs", 2.8)
+        # the peak, announced once it has happened
+        if pen > 0.5:
+            pa = ease_out(prog(t, t_draw0 + (t_draw1 - t_draw0) * 0.5, 0.8)) * line_a
+            d.line([(W / 2, base_y - 96), (W / 2, base_y + 52)],
+                   fill=AMBER + (int(150 * pa),), width=1)
+            draw_text(img, (W / 2 + 12, base_y - 94), "×30 the noise", FONTS("cond", 15, 400),
                       AMBER, int(200 * pa), "ls", 1.8)
-            label(img, (x0, base_y + 78), "RECEIVED POWER · 1420 MHz", int(110 * pa), GREY, 14)
-            draw_text(img, (x1, base_y + 78), "72 s", FONTS("cond", 14, 400), GREY,
-                      int(130 * pa), "rs", 2.0)
+        draw_text(img, (x0, base_y + 84), "RECEIVED POWER · 1420 MHz", FONTS("cond", 13, 400),
+                  GREY, int(115 * line_a), "ls", 2.4)
+        draw_text(img, (x1, base_y + 84), "72 s", FONTS("cond", 13, 400), GREY,
+                  int(130 * line_a), "rs", 2.0)
     return img
 
 
@@ -259,12 +277,12 @@ def schematic(t, dur):
             disc(img, (hx, 758), 24 + 6 * pulse(t * 0.7 + i, 4.0, 2.0), AMBER,
                  int(18 * p * (0.6 + 0.4 * pulse(t + i, 4.0, 2.0))))
             disc(img, (hx, 758), 2.6, AMBER, int(220 * p))
-        label(img, (1120, 900), "TWO FEED HORNS · OFFSET ≈ ⅓ BEAM", int(180 * p), AMBER, 15)
+        label(img, (1120, 900), "TWO FEED HORNS · OFFSET ≈ 1/3 BEAM", int(180 * p), AMBER, 15)
 
     # --- the collector note
     if t > 13.0:
         p = ease_out(prog(t, 13.0, 1.2))
-        label(img, (W - 96, 300), "2 200 m² COLLECTING AREA", int(150 * p), GREY, 14, "rs", 2.4)
+        label(img, (W - 96, 300), "2 200 SQUARE METRES COLLECTING AREA", int(150 * p), GREY, 14, "rs", 2.4)
         label(img, (W - 96, 324), "≈ A 53 m DISH", int(150 * p), GREY, 14, "rs", 2.4)
     return img
 
@@ -281,7 +299,7 @@ def beam(t, dur):
     pm = ease_out(prog(t, 0.9, 1.4))
     disc(img, (cx, cy), 154, (206, 208, 198), int(18 * pm))
     ring(img, (cx, cy), 154, (206, 208, 198), 1, int(115 * pm))
-    label(img, (cx, cy + 194), "FULL MOON · 31′", int(140 * pm), GREY, 14, "cs", 2.4)
+    label(img, (cx, cy + 194), "FULL MOON · 31 ARCMIN", int(140 * pm), GREY, 14, "cs", 2.4)
 
     pb = ease_out(prog(t, 3.4, 1.6))
     bw, bh = 154 * (8 / 31), 154 * (40 / 31)
@@ -290,7 +308,7 @@ def beam(t, dur):
                     outline=AMBER + (int(220 * pb),), width=2)
         draw_text(img, (cx + 176, cy - 34), "BIG EAR BEAM", FONTS("cond", 17, 400), AMBER,
                   int(200 * pb), "ls", 2.4)
-        draw_text(img, (cx + 176, cy - 6), "8′ × 40′", FONTS("cond", 17, 400), AMBER,
+        draw_text(img, (cx + 176, cy - 6), "8 × 40 ARCMIN", FONTS("cond", 17, 400), AMBER,
                   int(200 * pb), "ls", 2.4)
         draw_text(img, (cx + 176, cy + 26), "the sky drifts through it", FONTS("sans", 15, 300, opsz=16),
                   GREY, int(150 * pb), "ls")
@@ -454,7 +472,6 @@ def _printout_sheet():
 def printout(t, dur):
     sheet = _printout_sheet()
     img = plate("printout", (10, 9, 8), (6, 5, 4))
-    title_block(img, "III · THE PRINT", "The telescope wrote itself down", t, 0.5, y=96)
 
     sw = 1440
     sh = int(PAPER_H * sw / PAPER_W)
@@ -499,7 +516,15 @@ def printout(t, dur):
         draw_text(img, (cx + 8, 356), "CH 02", FONTS("cond", 12, 400), CYAN,
                   int(150 * p), "ls", 1.8)
 
-    label(img, (96, H - 96), "RECONSTRUCTION · NOT THE ORIGINAL SHEET", 90, GREY, 13)
+    # title over the page, on its own scrim, so the type never sits on bare paper
+    scrim = Image.new("RGBA", (W, H), (6, 7, 9, 0))
+    sd = ImageDraw.Draw(scrim)
+    for i in range(300):
+        sd.line([(0, i), (W, i)], fill=(6, 7, 9, int(215 * (1 - i / 300) ** 1.5)))
+    img = Image.alpha_composite(img.convert("RGBA"), scrim).convert("RGB")
+    title_block(img, "III · THE PRINT", "The telescope wrote itself down", t, 0.5, y=96)
+
+    label(img, (W - 96, 96), "RECONSTRUCTION · NOT THE ORIGINAL SHEET", 120, PAPER, 13, "rs", 2.4)
     return img
 
 
@@ -532,12 +557,21 @@ def reader(t, dur):
     warm = warm.filter(ImageFilter.GaussianBlur(110))
     img = Image.alpha_composite(img.convert("RGBA"), warm).convert("RGB")
 
+    # left scrim for the date block
+    scrim = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    sc = ImageDraw.Draw(scrim)
+    for i in range(760):
+        sc.line([(i, 0), (i, H)], fill=(5, 5, 7, int(210 * (1 - i / 760) ** 1.4)))
+    for i in range(260):
+        sc.line([(0, i), (W, i)], fill=(5, 5, 7, int(170 * (1 - i / 260) ** 1.5)))
+    img = Image.alpha_composite(img.convert("RGBA"), scrim).convert("RGB")
+
     d = ImageDraw.Draw(img, "RGBA")
     pa = ease_out(prog(t, 0.6, 1.2))
     draw_text(img, (96, 120), "19 AUGUST 1977", FONTS("cond", 28, 400), AMBER,
-              int(220 * pa), "ls", 5.0)
+              int(230 * pa), "ls", 5.0)
     draw_text(img, (96, 160), "THREE DAYS AFTER THE OBSERVATION", FONTS("cond", 17, 400),
-              PAPER, int(150 * pa), "ls", 3.4)
-    draw_text(img, (W - 96, 120), "J. R. EHMAN · VOLUNTEER", FONTS("cond", 15, 400), GREY,
-              int(150 * pa), "rs", 3.0)
+              PAPER, int(180 * pa), "ls", 3.4)
+    draw_text(img, (W - 96, 120), "J. R. EHMAN · VOLUNTEER", FONTS("cond", 15, 400), PAPER,
+              int(120 * pa), "rs", 3.0)
     return img
