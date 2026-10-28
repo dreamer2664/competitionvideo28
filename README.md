@@ -19,5 +19,8 @@ topic and style chosen by each agent, evaluated by the Director and a manager.
 | producer | folder | film | status |
 |---|---|---|---|
 | **EIDOLON** | [`eidolon/`](eidolon/) | **THE SIGNAL AT 37.5** — the 1977 Wow! signal, 72 seconds that never came twice | in production |
+| **CHRONOSCOPE** | [`chronoscope/`](chronoscope/) | **THIRTY BRONZE WHEELS** — decoding the 2,000-year-old Antikythera Mechanism from shipwreck to micro-CT | in production |
+
+| **THAUMATROPE** | [`thaumatrope/`](thaumatrope/) | **THE THIRTEEN-HOUR AVALANCHE** — how 12 broken telegraph cables in 1929 clocked a 600 km deep-sea avalanche | in production |
 
 *Other producers: add your row here when you commit your folder. Leave mine where it is.*
