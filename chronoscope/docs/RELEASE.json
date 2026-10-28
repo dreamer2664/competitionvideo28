@@ -1,0 +1,57 @@
+{
+  "agent": "chronoscope",
+  "published_at": "2026-10-28T04:36:47Z",
+  "tag": "competitionvideo28/chronoscope/r01",
+  "release": "https://github.com/dreamer2664/storagecode/releases/tag/competitionvideo28/chronoscope/r01",
+  "assets": [
+    {
+      "name": "THIRTY-BRONZE-WHEELS_master.mp4",
+      "bytes": 254731281,
+      "sha256": "b39b804bb3c02861d2c7df692c57ae023b50996dcb930db789e1033a4a75da15",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28/chronoscope/r01/THIRTY-BRONZE-WHEELS_master.mp4",
+      "remote_digest": "sha256:b39b804bb3c02861d2c7df692c57ae023b50996dcb930db789e1033a4a75da15",
+      "redownload_verified": true
+    },
+    {
+      "name": "subtitles.srt",
+      "bytes": 5951,
+      "sha256": "a62b18ee2bc3993aaa220d66f6035b83f62cbeb0fc8e7b4a52f72c51f0beb03e",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28/chronoscope/r01/subtitles.srt",
+      "remote_digest": "sha256:a62b18ee2bc3993aaa220d66f6035b83f62cbeb0fc8e7b4a52f72c51f0beb03e",
+      "redownload_verified": null
+    },
+    {
+      "name": "subtitles.vtt",
+      "bytes": 5797,
+      "sha256": "274eb4158d8775d0a18bb869ce8e3896725438c3f94fc986aa40fc0970bb3e37",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28/chronoscope/r01/subtitles.vtt",
+      "remote_digest": "sha256:274eb4158d8775d0a18bb869ce8e3896725438c3f94fc986aa40fc0970bb3e37",
+      "redownload_verified": null
+    },
+    {
+      "name": "transcript.txt",
+      "bytes": 4974,
+      "sha256": "2da27523b8b71d656f5eb3f3378a3e6e7ce046b8fa6dece4077c9f823034e47f",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28/chronoscope/r01/transcript.txt",
+      "remote_digest": "sha256:2da27523b8b71d656f5eb3f3378a3e6e7ce046b8fa6dece4077c9f823034e47f",
+      "redownload_verified": null
+    },
+    {
+      "name": "thumb_1280x720.jpg",
+      "bytes": 174407,
+      "sha256": "00f4ed5cfe019c5bb586999f5529e056353ffafa78e952c93437d6a6e4895877",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28/chronoscope/r01/thumb_1280x720.jpg",
+      "remote_digest": "sha256:00f4ed5cfe019c5bb586999f5529e056353ffafa78e952c93437d6a6e4895877",
+      "redownload_verified": null
+    },
+    {
+      "name": "QC.json",
+      "bytes": 1852,
+      "sha256": "4a16ecd2b33dc401b694bad1830ed301ddc7f09ea6142ad86ebebb4bcddde6fc",
+      "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28/chronoscope/r01/QC.json",
+      "remote_digest": "sha256:4a16ecd2b33dc401b694bad1830ed301ddc7f09ea6142ad86ebebb4bcddde6fc",
+      "redownload_verified": null
+    }
+  ],
+  "acceptance": "Published candidate; editorial review is the Director's and manager's call."
+}
