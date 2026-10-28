@@ -1,0 +1,294 @@
+[
+  {
+    "start": 60.3,
+    "end": 63.9,
+    "text": " The biggest streamer that I have met so far is Ben Kaisenet.",
+    "words": [
+      {
+        "start": 60.3,
+        "end": 60.74,
+        "word": " The",
+        "probability": 0.625
+      },
+      {
+        "start": 60.74,
+        "end": 60.96,
+        "word": " biggest",
+        "probability": 0.996
+      },
+      {
+        "start": 60.96,
+        "end": 61.64,
+        "word": " streamer",
+        "probability": 0.983
+      },
+      {
+        "start": 61.64,
+        "end": 61.84,
+        "word": " that",
+        "probability": 0.99
+      },
+      {
+        "start": 61.84,
+        "end": 62.04,
+        "word": " I",
+        "probability": 0.987
+      },
+      {
+        "start": 62.04,
+        "end": 62.18,
+        "word": " have",
+        "probability": 0.991
+      },
+      {
+        "start": 62.18,
+        "end": 62.38,
+        "word": " met",
+        "probability": 0.99
+      },
+      {
+        "start": 62.38,
+        "end": 62.6,
+        "word": " so",
+        "probability": 0.997
+      },
+      {
+        "start": 62.6,
+        "end": 62.8,
+        "word": " far",
+        "probability": 0.999
+      },
+      {
+        "start": 62.8,
+        "end": 63.1,
+        "word": " is",
+        "probability": 0.412
+      },
+      {
+        "start": 63.1,
+        "end": 63.26,
+        "word": " Ben",
+        "probability": 0.947
+      },
+      {
+        "start": 63.26,
+        "end": 63.9,
+        "word": " Kaisenet.",
+        "probability": 0.547
+      }
+    ]
+  },
+  {
+    "start": 64.36,
+    "end": 67.14,
+    "text": " Oh, hey. Wait, where'd you meet him?",
+    "words": [
+      {
+        "start": 64.36,
+        "end": 64.88,
+        "word": " Oh,",
+        "probability": 0.516
+      },
+      {
+        "start": 64.96,
+        "end": 65.58,
+        "word": " hey.",
+        "probability": 0.354
+      },
+      {
+        "start": 65.9,
+        "end": 66.42,
+        "word": " Wait,",
+        "probability": 0.692
+      },
+      {
+        "start": 66.42,
+        "end": 66.7,
+        "word": " where'd",
+        "probability": 0.766
+      },
+      {
+        "start": 66.7,
+        "end": 66.78,
+        "word": " you",
+        "probability": 0.997
+      },
+      {
+        "start": 66.78,
+        "end": 66.9,
+        "word": " meet",
+        "probability": 0.996
+      },
+      {
+        "start": 66.9,
+        "end": 67.14,
+        "word": " him?",
+        "probability": 0.996
+      }
+    ]
+  },
+  {
+    "start": 68.46,
+    "end": 69.16,
+    "text": " On here?",
+    "words": [
+      {
+        "start": 68.46,
+        "end": 68.98,
+        "word": " On",
+        "probability": 0.822
+      },
+      {
+        "start": 68.98,
+        "end": 69.16,
+        "word": " here?",
+        "probability": 0.984
+      }
+    ]
+  },
+  {
+    "start": 69.9,
+    "end": 70.6,
+    "text": " I got news.",
+    "words": [
+      {
+        "start": 69.9,
+        "end": 70.16,
+        "word": " I",
+        "probability": 0.578
+      },
+      {
+        "start": 70.16,
+        "end": 70.34,
+        "word": " got",
+        "probability": 0.989
+      },
+      {
+        "start": 70.34,
+        "end": 70.6,
+        "word": " news.",
+        "probability": 0.991
+      }
+    ]
+  },
+  {
+    "start": 72.36,
+    "end": 72.88,
+    "text": " What's the news?",
+    "words": [
+      {
+        "start": 72.36,
+        "end": 72.88,
+        "word": " What's",
+        "probability": 0.203
+      },
+      {
+        "start": 72.88,
+        "end": 72.88,
+        "word": " the",
+        "probability": 0.513
+      },
+      {
+        "start": 72.88,
+        "end": 72.88,
+        "word": " news?",
+        "probability": 0.184
+      }
+    ]
+  },
+  {
+    "start": 74.12,
+    "end": 75.36,
+    "text": " You've met someone bigger.",
+    "words": [
+      {
+        "start": 74.12,
+        "end": 74.64,
+        "word": " You've",
+        "probability": 0.831
+      },
+      {
+        "start": 74.64,
+        "end": 74.78,
+        "word": " met",
+        "probability": 0.997
+      },
+      {
+        "start": 74.78,
+        "end": 75.04,
+        "word": " someone",
+        "probability": 0.991
+      },
+      {
+        "start": 75.04,
+        "end": 75.36,
+        "word": " bigger.",
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "start": 76.74,
+    "end": 78.4,
+    "text": " What? You?",
+    "words": [
+      {
+        "start": 76.74,
+        "end": 77.26,
+        "word": " What?",
+        "probability": 0.808
+      },
+      {
+        "start": 78.38,
+        "end": 78.4,
+        "word": " You?",
+        "probability": 0.972
+      }
+    ]
+  },
+  {
+    "start": 79.04,
+    "end": 79.54,
+    "text": " You bigger?",
+    "words": [
+      {
+        "start": 79.04,
+        "end": 79.4,
+        "word": " You",
+        "probability": 0.435
+      },
+      {
+        "start": 79.4,
+        "end": 79.54,
+        "word": " bigger?",
+        "probability": 0.913
+      }
+    ]
+  },
+  {
+    "start": 80.28,
+    "end": 80.34,
+    "text": " Yep.",
+    "words": [
+      {
+        "start": 80.28,
+        "end": 80.34,
+        "word": " Yep.",
+        "probability": 0.256
+      }
+    ]
+  },
+  {
+    "start": 81.08,
+    "end": 81.26,
+    "text": " Whoa.",
+    "words": [
+      {
+        "start": 81.08,
+        "end": 81.26,
+        "word": " Whoa.",
+        "probability": 0.847
+      }
+    ]
+  }
+]

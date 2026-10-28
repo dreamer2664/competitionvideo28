@@ -1,0 +1,272 @@
+[
+  {
+    "start": 321.0,
+    "end": 323.78,
+    "text": " I am NOT in danger, Skyler.",
+    "words": [
+      {
+        "start": 321.0,
+        "end": 321.34,
+        "word": " I",
+        "probability": 0.843
+      },
+      {
+        "start": 321.34,
+        "end": 321.48,
+        "word": " am",
+        "probability": 0.783
+      },
+      {
+        "start": 321.48,
+        "end": 321.72,
+        "word": " NOT",
+        "probability": 0.513
+      },
+      {
+        "start": 321.72,
+        "end": 322.72,
+        "word": " in",
+        "probability": 0.577
+      },
+      {
+        "start": 322.72,
+        "end": 323.04,
+        "word": " danger,",
+        "probability": 0.892
+      },
+      {
+        "start": 323.4,
+        "end": 323.78,
+        "word": " Skyler.",
+        "probability": 0.638
+      }
+    ]
+  },
+  {
+    "start": 325.04,
+    "end": 326.66,
+    "text": " I AM THE DANGER!",
+    "words": [
+      {
+        "start": 325.04,
+        "end": 325.64,
+        "word": " I",
+        "probability": 0.983
+      },
+      {
+        "start": 325.64,
+        "end": 325.92,
+        "word": " AM",
+        "probability": 0.599
+      },
+      {
+        "start": 325.92,
+        "end": 326.24,
+        "word": " THE",
+        "probability": 0.708
+      },
+      {
+        "start": 326.24,
+        "end": 326.66,
+        "word": " DANGER!",
+        "probability": 0.822
+      }
+    ]
+  },
+  {
+    "start": 327.36,
+    "end": 330.38,
+    "text": " A man opens his door and gets shot and you think that of me.",
+    "words": [
+      {
+        "start": 327.36,
+        "end": 327.36,
+        "word": " A",
+        "probability": 0.913
+      },
+      {
+        "start": 327.36,
+        "end": 328.28,
+        "word": " man",
+        "probability": 0.652
+      },
+      {
+        "start": 328.28,
+        "end": 328.52,
+        "word": " opens",
+        "probability": 0.978
+      },
+      {
+        "start": 328.52,
+        "end": 328.76,
+        "word": " his",
+        "probability": 0.607
+      },
+      {
+        "start": 328.76,
+        "end": 328.94,
+        "word": " door",
+        "probability": 0.998
+      },
+      {
+        "start": 328.94,
+        "end": 329.08,
+        "word": " and",
+        "probability": 0.963
+      },
+      {
+        "start": 329.08,
+        "end": 329.18,
+        "word": " gets",
+        "probability": 0.917
+      },
+      {
+        "start": 329.18,
+        "end": 329.44,
+        "word": " shot",
+        "probability": 0.989
+      },
+      {
+        "start": 329.44,
+        "end": 329.58,
+        "word": " and",
+        "probability": 0.284
+      },
+      {
+        "start": 329.58,
+        "end": 329.68,
+        "word": " you",
+        "probability": 0.882
+      },
+      {
+        "start": 329.68,
+        "end": 329.84,
+        "word": " think",
+        "probability": 0.941
+      },
+      {
+        "start": 329.84,
+        "end": 330.04,
+        "word": " that",
+        "probability": 0.768
+      },
+      {
+        "start": 330.04,
+        "end": 330.2,
+        "word": " of",
+        "probability": 0.901
+      },
+      {
+        "start": 330.2,
+        "end": 330.38,
+        "word": " me.",
+        "probability": 0.996
+      }
+    ]
+  },
+  {
+    "start": 330.72,
+    "end": 331.02,
+    "text": " No.",
+    "words": [
+      {
+        "start": 330.72,
+        "end": 331.02,
+        "word": " No.",
+        "probability": 0.563
+      }
+    ]
+  },
+  {
+    "start": 331.98,
+    "end": 334.3,
+    "text": " I AM the one who knocks.",
+    "words": [
+      {
+        "start": 331.98,
+        "end": 332.58,
+        "word": " I",
+        "probability": 0.98
+      },
+      {
+        "start": 332.58,
+        "end": 332.86,
+        "word": " AM",
+        "probability": 0.642
+      },
+      {
+        "start": 332.86,
+        "end": 333.72,
+        "word": " the",
+        "probability": 0.405
+      },
+      {
+        "start": 333.72,
+        "end": 333.84,
+        "word": " one",
+        "probability": 0.981
+      },
+      {
+        "start": 333.84,
+        "end": 334.0,
+        "word": " who",
+        "probability": 0.989
+      },
+      {
+        "start": 334.0,
+        "end": 334.3,
+        "word": " knocks.",
+        "probability": 0.552
+      }
+    ]
+  },
+  {
+    "start": 337.08,
+    "end": 338.74,
+    "text": " This could not have gone wa-",
+    "words": [
+      {
+        "start": 337.08,
+        "end": 337.68,
+        "word": " This",
+        "probability": 0.372
+      },
+      {
+        "start": 337.68,
+        "end": 337.68,
+        "word": " could",
+        "probability": 0.543
+      },
+      {
+        "start": 337.68,
+        "end": 338.08,
+        "word": " not",
+        "probability": 0.918
+      },
+      {
+        "start": 338.08,
+        "end": 338.46,
+        "word": " have",
+        "probability": 0.991
+      },
+      {
+        "start": 338.46,
+        "end": 338.46,
+        "word": " gone",
+        "probability": 0.469
+      },
+      {
+        "start": 338.46,
+        "end": 338.46,
+        "word": " wa",
+        "probability": 0.219
+      },
+      {
+        "start": 338.46,
+        "end": 338.74,
+        "word": "-",
+        "probability": 0.433
+      }
+    ]
+  }
+]

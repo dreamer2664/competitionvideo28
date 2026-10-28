@@ -1,0 +1,316 @@
+[
+  {
+    "start": 232.0,
+    "end": 232.66,
+    "text": " Now, try that.",
+    "words": [
+      {
+        "start": 232.0,
+        "end": 232.1,
+        "word": " Now,",
+        "probability": 0.703
+      },
+      {
+        "start": 232.26,
+        "end": 232.42,
+        "word": " try",
+        "probability": 0.988
+      },
+      {
+        "start": 232.42,
+        "end": 232.66,
+        "word": " that.",
+        "probability": 0.995
+      }
+    ]
+  },
+  {
+    "start": 232.92,
+    "end": 233.82,
+    "text": " Go right leg back.",
+    "words": [
+      {
+        "start": 232.92,
+        "end": 233.02,
+        "word": " Go",
+        "probability": 0.483
+      },
+      {
+        "start": 233.02,
+        "end": 233.34,
+        "word": " right",
+        "probability": 0.99
+      },
+      {
+        "start": 233.34,
+        "end": 233.52,
+        "word": " leg",
+        "probability": 0.987
+      },
+      {
+        "start": 233.52,
+        "end": 233.82,
+        "word": " back.",
+        "probability": 0.99
+      }
+    ]
+  },
+  {
+    "start": 234.38,
+    "end": 236.58,
+    "text": " Count to five, and as you're counting, end up yelling five.",
+    "words": [
+      {
+        "start": 234.38,
+        "end": 234.38,
+        "word": " Count",
+        "probability": 0.822
+      },
+      {
+        "start": 234.38,
+        "end": 234.52,
+        "word": " to",
+        "probability": 0.976
+      },
+      {
+        "start": 234.52,
+        "end": 234.76,
+        "word": " five,",
+        "probability": 0.921
+      },
+      {
+        "start": 234.82,
+        "end": 234.9,
+        "word": " and",
+        "probability": 0.994
+      },
+      {
+        "start": 234.9,
+        "end": 234.98,
+        "word": " as",
+        "probability": 0.979
+      },
+      {
+        "start": 234.98,
+        "end": 235.1,
+        "word": " you're",
+        "probability": 0.987
+      },
+      {
+        "start": 235.1,
+        "end": 235.36,
+        "word": " counting,",
+        "probability": 0.999
+      },
+      {
+        "start": 235.68,
+        "end": 235.76,
+        "word": " end",
+        "probability": 0.982
+      },
+      {
+        "start": 235.76,
+        "end": 235.88,
+        "word": " up",
+        "probability": 0.989
+      },
+      {
+        "start": 235.88,
+        "end": 236.1,
+        "word": " yelling",
+        "probability": 0.874
+      },
+      {
+        "start": 236.1,
+        "end": 236.58,
+        "word": " five.",
+        "probability": 0.838
+      }
+    ]
+  },
+  {
+    "start": 237.44,
+    "end": 239.18,
+    "text": " Now, try going all the way back like this, and hold.",
+    "words": [
+      {
+        "start": 237.44,
+        "end": 237.68,
+        "word": " Now,",
+        "probability": 0.974
+      },
+      {
+        "start": 237.8,
+        "end": 237.84,
+        "word": " try",
+        "probability": 0.952
+      },
+      {
+        "start": 237.84,
+        "end": 238.02,
+        "word": " going",
+        "probability": 0.977
+      },
+      {
+        "start": 238.02,
+        "end": 238.3,
+        "word": " all",
+        "probability": 0.995
+      },
+      {
+        "start": 238.3,
+        "end": 238.38,
+        "word": " the",
+        "probability": 0.999
+      },
+      {
+        "start": 238.38,
+        "end": 238.42,
+        "word": " way",
+        "probability": 0.993
+      },
+      {
+        "start": 238.42,
+        "end": 238.62,
+        "word": " back",
+        "probability": 0.999
+      },
+      {
+        "start": 238.62,
+        "end": 238.74,
+        "word": " like",
+        "probability": 0.874
+      },
+      {
+        "start": 238.74,
+        "end": 238.88,
+        "word": " this,",
+        "probability": 0.999
+      },
+      {
+        "start": 238.88,
+        "end": 239.0,
+        "word": " and",
+        "probability": 0.997
+      },
+      {
+        "start": 239.0,
+        "end": 239.18,
+        "word": " hold.",
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "start": 239.6,
+    "end": 242.48,
+    "text": " For one, two, three, four, five!",
+    "words": [
+      {
+        "start": 239.6,
+        "end": 239.62,
+        "word": " For",
+        "probability": 0.465
+      },
+      {
+        "start": 239.62,
+        "end": 240.16,
+        "word": " one,",
+        "probability": 0.785
+      },
+      {
+        "start": 240.4,
+        "end": 240.82,
+        "word": " two,",
+        "probability": 0.999
+      },
+      {
+        "start": 241.46,
+        "end": 241.46,
+        "word": " three,",
+        "probability": 0.999
+      },
+      {
+        "start": 242.02,
+        "end": 242.02,
+        "word": " four,",
+        "probability": 0.997
+      },
+      {
+        "start": 242.48,
+        "end": 242.48,
+        "word": " five!",
+        "probability": 0.993
+      }
+    ]
+  },
+  {
+    "start": 243.52,
+    "end": 244.0,
+    "text": " Hahaha!",
+    "words": [
+      {
+        "start": 243.52,
+        "end": 244.0,
+        "word": " Hahaha!",
+        "probability": 0.545
+      }
+    ]
+  },
+  {
+    "start": 244.74,
+    "end": 245.5,
+    "text": " Again, again.",
+    "words": [
+      {
+        "start": 244.74,
+        "end": 245.22,
+        "word": " Again,",
+        "probability": 0.926
+      },
+      {
+        "start": 245.36,
+        "end": 245.5,
+        "word": " again.",
+        "probability": 0.996
+      }
+    ]
+  },
+  {
+    "start": 246.04,
+    "end": 248.44,
+    "text": " One, two, three, four, five!",
+    "words": [
+      {
+        "start": 246.04,
+        "end": 246.16,
+        "word": " One,",
+        "probability": 0.945
+      },
+      {
+        "start": 246.48,
+        "end": 246.76,
+        "word": " two,",
+        "probability": 1.0
+      },
+      {
+        "start": 247.38,
+        "end": 247.38,
+        "word": " three,",
+        "probability": 1.0
+      },
+      {
+        "start": 247.6,
+        "end": 247.86,
+        "word": " four,",
+        "probability": 0.999
+      },
+      {
+        "start": 248.44,
+        "end": 248.44,
+        "word": " five!",
+        "probability": 0.997
+      }
+    ]
+  }
+]

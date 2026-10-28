@@ -1,0 +1,469 @@
+[
+  {
+    "start": 539.0,
+    "end": 540.4,
+    "text": " How many days do you have on this game?",
+    "words": [
+      {
+        "start": 539.0,
+        "end": 539.06,
+        "word": " How",
+        "probability": 0.625
+      },
+      {
+        "start": 539.06,
+        "end": 539.14,
+        "word": " many",
+        "probability": 0.981
+      },
+      {
+        "start": 539.14,
+        "end": 539.86,
+        "word": " days",
+        "probability": 0.274
+      },
+      {
+        "start": 539.86,
+        "end": 540.0,
+        "word": " do",
+        "probability": 0.538
+      },
+      {
+        "start": 540.0,
+        "end": 540.0,
+        "word": " you",
+        "probability": 0.952
+      },
+      {
+        "start": 540.0,
+        "end": 540.08,
+        "word": " have",
+        "probability": 0.926
+      },
+      {
+        "start": 540.08,
+        "end": 540.16,
+        "word": " on",
+        "probability": 0.92
+      },
+      {
+        "start": 540.16,
+        "end": 540.28,
+        "word": " this",
+        "probability": 0.976
+      },
+      {
+        "start": 540.28,
+        "end": 540.4,
+        "word": " game?",
+        "probability": 0.989
+      }
+    ]
+  },
+  {
+    "start": 540.76,
+    "end": 541.34,
+    "text": " Do you see how many days?",
+    "words": [
+      {
+        "start": 540.76,
+        "end": 540.78,
+        "word": " Do",
+        "probability": 0.535
+      },
+      {
+        "start": 540.78,
+        "end": 540.86,
+        "word": " you",
+        "probability": 0.991
+      },
+      {
+        "start": 540.86,
+        "end": 540.96,
+        "word": " see",
+        "probability": 0.987
+      },
+      {
+        "start": 540.96,
+        "end": 541.08,
+        "word": " how",
+        "probability": 0.902
+      },
+      {
+        "start": 541.08,
+        "end": 541.2,
+        "word": " many",
+        "probability": 0.997
+      },
+      {
+        "start": 541.2,
+        "end": 541.34,
+        "word": " days?",
+        "probability": 0.915
+      }
+    ]
+  },
+  {
+    "start": 542.24,
+    "end": 543.4,
+    "text": " You want me to check right now?",
+    "words": [
+      {
+        "start": 542.24,
+        "end": 542.56,
+        "word": " You",
+        "probability": 0.16
+      },
+      {
+        "start": 542.56,
+        "end": 542.66,
+        "word": " want",
+        "probability": 0.8
+      },
+      {
+        "start": 542.66,
+        "end": 542.74,
+        "word": " me",
+        "probability": 0.976
+      },
+      {
+        "start": 542.74,
+        "end": 542.82,
+        "word": " to",
+        "probability": 0.994
+      },
+      {
+        "start": 542.82,
+        "end": 542.96,
+        "word": " check",
+        "probability": 0.868
+      },
+      {
+        "start": 542.96,
+        "end": 543.18,
+        "word": " right",
+        "probability": 0.971
+      },
+      {
+        "start": 543.18,
+        "end": 543.4,
+        "word": " now?",
+        "probability": 0.995
+      }
+    ]
+  },
+  {
+    "start": 543.62,
+    "end": 544.0,
+    "text": " How do I check?",
+    "words": [
+      {
+        "start": 543.62,
+        "end": 543.7,
+        "word": " How",
+        "probability": 0.208
+      },
+      {
+        "start": 543.7,
+        "end": 543.76,
+        "word": " do",
+        "probability": 0.929
+      },
+      {
+        "start": 543.76,
+        "end": 543.84,
+        "word": " I",
+        "probability": 0.969
+      },
+      {
+        "start": 543.84,
+        "end": 544.0,
+        "word": " check?",
+        "probability": 0.979
+      }
+    ]
+  },
+  {
+    "start": 544.22,
+    "end": 545.32,
+    "text": " Yes, check right now.",
+    "words": [
+      {
+        "start": 544.22,
+        "end": 544.32,
+        "word": " Yes,",
+        "probability": 0.408
+      },
+      {
+        "start": 544.32,
+        "end": 544.86,
+        "word": " check",
+        "probability": 0.958
+      },
+      {
+        "start": 544.86,
+        "end": 545.06,
+        "word": " right",
+        "probability": 0.996
+      },
+      {
+        "start": 545.06,
+        "end": 545.32,
+        "word": " now.",
+        "probability": 0.991
+      }
+    ]
+  },
+  {
+    "start": 545.64,
+    "end": 548.9,
+    "text": " Go to home button, go to the controller icon and go down the stairs.",
+    "words": [
+      {
+        "start": 545.64,
+        "end": 545.96,
+        "word": " Go",
+        "probability": 0.976
+      },
+      {
+        "start": 545.96,
+        "end": 546.08,
+        "word": " to",
+        "probability": 0.975
+      },
+      {
+        "start": 546.08,
+        "end": 546.48,
+        "word": " home",
+        "probability": 0.34
+      },
+      {
+        "start": 546.48,
+        "end": 546.7,
+        "word": " button,",
+        "probability": 0.939
+      },
+      {
+        "start": 546.94,
+        "end": 547.02,
+        "word": " go",
+        "probability": 0.981
+      },
+      {
+        "start": 547.02,
+        "end": 547.12,
+        "word": " to",
+        "probability": 0.992
+      },
+      {
+        "start": 547.12,
+        "end": 547.22,
+        "word": " the",
+        "probability": 0.995
+      },
+      {
+        "start": 547.22,
+        "end": 547.5,
+        "word": " controller",
+        "probability": 0.98
+      },
+      {
+        "start": 547.5,
+        "end": 547.84,
+        "word": " icon",
+        "probability": 0.986
+      },
+      {
+        "start": 547.84,
+        "end": 548.3,
+        "word": " and",
+        "probability": 0.51
+      },
+      {
+        "start": 548.3,
+        "end": 548.44,
+        "word": " go",
+        "probability": 0.993
+      },
+      {
+        "start": 548.44,
+        "end": 548.58,
+        "word": " down",
+        "probability": 0.954
+      },
+      {
+        "start": 548.58,
+        "end": 548.7,
+        "word": " the",
+        "probability": 0.962
+      },
+      {
+        "start": 548.7,
+        "end": 548.9,
+        "word": " stairs.",
+        "probability": 0.974
+      }
+    ]
+  },
+  {
+    "start": 552.42,
+    "end": 553.64,
+    "text": " Boy, ain't no fucking way.",
+    "words": [
+      {
+        "start": 552.42,
+        "end": 552.74,
+        "word": " Boy,",
+        "probability": 0.799
+      },
+      {
+        "start": 552.86,
+        "end": 552.92,
+        "word": " ain't",
+        "probability": 0.672
+      },
+      {
+        "start": 552.92,
+        "end": 553.08,
+        "word": " no",
+        "probability": 0.991
+      },
+      {
+        "start": 553.08,
+        "end": 553.38,
+        "word": " fucking",
+        "probability": 0.86
+      },
+      {
+        "start": 553.38,
+        "end": 553.64,
+        "word": " way.",
+        "probability": 0.75
+      }
+    ]
+  },
+  {
+    "start": 554.0,
+    "end": 554.86,
+    "text": " How many days, bro?",
+    "words": [
+      {
+        "start": 554.0,
+        "end": 554.32,
+        "word": " How",
+        "probability": 0.789
+      },
+      {
+        "start": 554.32,
+        "end": 554.44,
+        "word": " many",
+        "probability": 0.997
+      },
+      {
+        "start": 554.44,
+        "end": 554.7,
+        "word": " days,",
+        "probability": 0.998
+      },
+      {
+        "start": 554.7,
+        "end": 554.86,
+        "word": " bro?",
+        "probability": 0.949
+      }
+    ]
+  },
+  {
+    "start": 555.0,
+    "end": 555.9,
+    "text": " Just five seconds left.",
+    "words": [
+      {
+        "start": 555.0,
+        "end": 555.02,
+        "word": " Just",
+        "probability": 0.965
+      },
+      {
+        "start": 555.02,
+        "end": 555.18,
+        "word": " five",
+        "probability": 0.159
+      },
+      {
+        "start": 555.18,
+        "end": 555.72,
+        "word": " seconds",
+        "probability": 0.995
+      },
+      {
+        "start": 555.72,
+        "end": 555.9,
+        "word": " left.",
+        "probability": 0.995
+      }
+    ]
+  },
+  {
+    "start": 557.1,
+    "end": 557.9,
+    "text": " Not a lot, bro.",
+    "words": [
+      {
+        "start": 557.1,
+        "end": 557.38,
+        "word": " Not",
+        "probability": 0.983
+      },
+      {
+        "start": 557.38,
+        "end": 557.52,
+        "word": " a",
+        "probability": 0.993
+      },
+      {
+        "start": 557.52,
+        "end": 557.68,
+        "word": " lot,",
+        "probability": 0.999
+      },
+      {
+        "start": 557.8,
+        "end": 557.9,
+        "word": " bro.",
+        "probability": 0.976
+      }
+    ]
+  },
+  {
+    "start": 558.24,
+    "end": 558.88,
+    "text": " Four hundred and three.",
+    "words": [
+      {
+        "start": 558.24,
+        "end": 558.26,
+        "word": " Four",
+        "probability": 0.247
+      },
+      {
+        "start": 558.26,
+        "end": 558.54,
+        "word": " hundred",
+        "probability": 0.953
+      },
+      {
+        "start": 558.54,
+        "end": 558.7,
+        "word": " and",
+        "probability": 0.97
+      },
+      {
+        "start": 558.7,
+        "end": 558.88,
+        "word": " three.",
+        "probability": 0.998
+      }
+    ]
+  }
+]

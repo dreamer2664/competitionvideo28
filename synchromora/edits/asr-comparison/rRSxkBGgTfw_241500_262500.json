@@ -1,0 +1,368 @@
+[
+  {
+    "start": 241.94,
+    "end": 242.6,
+    "text": " Say it's okay.",
+    "words": [
+      {
+        "start": 241.94,
+        "end": 242.38,
+        "word": " Say",
+        "probability": 0.163
+      },
+      {
+        "start": 242.38,
+        "end": 242.48,
+        "word": " it's",
+        "probability": 0.576
+      },
+      {
+        "start": 242.48,
+        "end": 242.6,
+        "word": " okay.",
+        "probability": 0.629
+      }
+    ]
+  },
+  {
+    "start": 243.36,
+    "end": 244.06,
+    "text": " Say it's okay.",
+    "words": [
+      {
+        "start": 243.36,
+        "end": 243.8,
+        "word": " Say",
+        "probability": 0.162
+      },
+      {
+        "start": 243.8,
+        "end": 243.88,
+        "word": " it's",
+        "probability": 0.762
+      },
+      {
+        "start": 243.88,
+        "end": 244.06,
+        "word": " okay.",
+        "probability": 0.889
+      }
+    ]
+  },
+  {
+    "start": 244.4,
+    "end": 245.32,
+    "text": " I'm sorry, Agent.",
+    "words": [
+      {
+        "start": 244.4,
+        "end": 244.84,
+        "word": " I'm",
+        "probability": 0.915
+      },
+      {
+        "start": 244.84,
+        "end": 245.0,
+        "word": " sorry,",
+        "probability": 0.994
+      },
+      {
+        "start": 245.02,
+        "end": 245.32,
+        "word": " Agent.",
+        "probability": 0.389
+      }
+    ]
+  },
+  {
+    "start": 245.66,
+    "end": 245.88,
+    "text": " For what?",
+    "words": [
+      {
+        "start": 245.66,
+        "end": 245.7,
+        "word": " For",
+        "probability": 0.941
+      },
+      {
+        "start": 245.7,
+        "end": 245.88,
+        "word": " what?",
+        "probability": 0.993
+      }
+    ]
+  },
+  {
+    "start": 246.18,
+    "end": 247.6,
+    "text": " Forget you cold for Christmas.",
+    "words": [
+      {
+        "start": 246.18,
+        "end": 246.5,
+        "word": " Forget",
+        "probability": 0.762
+      },
+      {
+        "start": 246.5,
+        "end": 246.78,
+        "word": " you",
+        "probability": 0.425
+      },
+      {
+        "start": 246.78,
+        "end": 247.0,
+        "word": " cold",
+        "probability": 0.485
+      },
+      {
+        "start": 247.0,
+        "end": 247.3,
+        "word": " for",
+        "probability": 0.882
+      },
+      {
+        "start": 247.3,
+        "end": 247.6,
+        "word": " Christmas.",
+        "probability": 0.959
+      }
+    ]
+  },
+  {
+    "start": 248.12,
+    "end": 249.22,
+    "text": " Alright. And what else?",
+    "words": [
+      {
+        "start": 248.12,
+        "end": 248.34,
+        "word": " Alright.",
+        "probability": 0.788
+      },
+      {
+        "start": 248.9,
+        "end": 248.96,
+        "word": " And",
+        "probability": 0.894
+      },
+      {
+        "start": 248.96,
+        "end": 249.08,
+        "word": " what",
+        "probability": 0.982
+      },
+      {
+        "start": 249.08,
+        "end": 249.22,
+        "word": " else?",
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "start": 250.0,
+    "end": 251.9,
+    "text": " If like you real griff can prank you.",
+    "words": [
+      {
+        "start": 250.0,
+        "end": 250.22,
+        "word": " If",
+        "probability": 0.897
+      },
+      {
+        "start": 250.22,
+        "end": 250.42,
+        "word": " like",
+        "probability": 0.479
+      },
+      {
+        "start": 250.42,
+        "end": 250.64,
+        "word": " you",
+        "probability": 0.34
+      },
+      {
+        "start": 250.64,
+        "end": 250.94,
+        "word": " real",
+        "probability": 0.133
+      },
+      {
+        "start": 250.94,
+        "end": 251.28,
+        "word": " griff",
+        "probability": 0.13
+      },
+      {
+        "start": 251.28,
+        "end": 251.42,
+        "word": " can",
+        "probability": 0.084
+      },
+      {
+        "start": 251.42,
+        "end": 251.64,
+        "word": " prank",
+        "probability": 0.586
+      },
+      {
+        "start": 251.64,
+        "end": 251.9,
+        "word": " you.",
+        "probability": 0.346
+      }
+    ]
+  },
+  {
+    "start": 252.7,
+    "end": 253.14,
+    "text": " Alright.",
+    "words": [
+      {
+        "start": 252.7,
+        "end": 253.14,
+        "word": " Alright.",
+        "probability": 0.832
+      }
+    ]
+  },
+  {
+    "start": 254.38,
+    "end": 255.16,
+    "text": " Hey, let's take it out.",
+    "words": [
+      {
+        "start": 254.38,
+        "end": 254.56,
+        "word": " Hey,",
+        "probability": 0.285
+      },
+      {
+        "start": 254.7,
+        "end": 254.86,
+        "word": " let's",
+        "probability": 0.741
+      },
+      {
+        "start": 254.86,
+        "end": 254.96,
+        "word": " take",
+        "probability": 0.849
+      },
+      {
+        "start": 254.96,
+        "end": 255.06,
+        "word": " it",
+        "probability": 0.969
+      },
+      {
+        "start": 255.06,
+        "end": 255.16,
+        "word": " out.",
+        "probability": 0.98
+      }
+    ]
+  },
+  {
+    "start": 257.36,
+    "end": 257.8,
+    "text": " Ahhh!",
+    "words": [
+      {
+        "start": 257.36,
+        "end": 257.8,
+        "word": " Ahhh!",
+        "probability": 0.209
+      }
+    ]
+  },
+  {
+    "start": 257.92,
+    "end": 260.08,
+    "text": " Please don't let me clip! I don't let it clip!",
+    "words": [
+      {
+        "start": 257.92,
+        "end": 258.12,
+        "word": " Please",
+        "probability": 0.089
+      },
+      {
+        "start": 258.12,
+        "end": 258.8,
+        "word": " don't",
+        "probability": 0.619
+      },
+      {
+        "start": 258.8,
+        "end": 258.96,
+        "word": " let",
+        "probability": 0.279
+      },
+      {
+        "start": 258.96,
+        "end": 259.06,
+        "word": " me",
+        "probability": 0.919
+      },
+      {
+        "start": 259.06,
+        "end": 259.22,
+        "word": " clip!",
+        "probability": 0.493
+      },
+      {
+        "start": 259.56,
+        "end": 259.56,
+        "word": " I",
+        "probability": 0.81
+      },
+      {
+        "start": 259.56,
+        "end": 259.62,
+        "word": " don't",
+        "probability": 0.957
+      },
+      {
+        "start": 259.62,
+        "end": 259.8,
+        "word": " let",
+        "probability": 0.347
+      },
+      {
+        "start": 259.8,
+        "end": 259.88,
+        "word": " it",
+        "probability": 0.363
+      },
+      {
+        "start": 259.88,
+        "end": 260.08,
+        "word": " clip!",
+        "probability": 0.919
+      }
+    ]
+  },
+  {
+    "start": 262.08,
+    "end": 262.48,
+    "text": " I got...",
+    "words": [
+      {
+        "start": 262.08,
+        "end": 262.12,
+        "word": " I",
+        "probability": 0.596
+      },
+      {
+        "start": 262.12,
+        "end": 262.48,
+        "word": " got...",
+        "probability": 0.364
+      }
+    ]
+  }
+]

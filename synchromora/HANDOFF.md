@@ -22,3 +22,9 @@
 - Rendered and visually reviewed a 22.8 s cannonball sample and a 55.5 s three-moment leaderboard sample. Both decoded and probed correctly; sample thumbnails showed the ranked reveal and text. Adjusted standard framing to enlarge the footage without cutting all context.
 - Automatic caption timing has not yet been verified against listening; a second, independent base.en speech-recognition pass is underway as a comparison, not proof of accuracy.
 - Next: inspect the comparison, correct clear transcription defects, render the 15 clips from the five accessible sources, validate/organize them, and publish the release. The first source remains blocked pending an authorized copy.
+
+## 2026-10-28 — caption and release checkpoint
+
+- A draft release exists in `competitionvideo28`, release ID `426365455`, planned tag `synchromora-clips-20261028-r01`. The draft is not yet a completed release. It should be marked partial unless the restricted first source is supplied.
+- Independent faster-whisper base.en comparison ran on 17 selected source windows. The outputs are tracked in `edits/asr-comparison/`; `edits/CAPTION_REVIEW.md` documents the limited corrections and the lack of human-audio verification. Do not claim human-verified subtitles.
+- Bulk rendering of 15 clips for sources 2–6 is underway in the current sandbox. All final assets must be uploaded to the draft release before this machine is lost; files in `work/` are ephemeral and ignored by Git.

@@ -7,7 +7,7 @@
     "video": "H.264",
     "audio": "AAC"
   },
-  "caption_provenance": "YouTube English auto-captions, with a small number of obvious spelling corrections. They are not human-audio-verified.",
+  "caption_provenance": "YouTube English auto-captions; 17 selected windows compared with independent Whisper base.en output and obvious errors corrected. No human audio verification has been performed.",
   "clips": [
     {
       "id": "02-kai-01-worst-revive",
@@ -41,7 +41,7 @@
       "segments": [
         {
           "in": 241.5,
-          "out": 262.5
+          "out": 263.3
         }
       ]
     },
@@ -174,7 +174,7 @@
       "segments": [
         {
           "in": 446.1,
-          "out": 469.0
+          "out": 470.2
         }
       ],
       "focus_x": 0.03
@@ -190,21 +190,21 @@
       "segments": [
         {
           "in": 123.9,
-          "out": 140.3,
+          "out": 141.0,
           "rank": 3,
           "label": "BANDIT EXPERT",
           "emoji": "eyes"
         },
         {
           "in": 321.0,
-          "out": 340.8,
+          "out": 342.0,
           "rank": 2,
           "label": "THE DANGER",
           "emoji": "fire"
         },
         {
           "in": 446.1,
-          "out": 469.0,
+          "out": 470.2,
           "rank": 1,
           "label": "IS THIS LIVE?",
           "emoji": "skull"

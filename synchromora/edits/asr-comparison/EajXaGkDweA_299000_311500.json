@@ -1,0 +1,306 @@
+[
+  {
+    "start": 299.0,
+    "end": 300.66,
+    "text": " Where the fuck is 7-Elevena?",
+    "words": [
+      {
+        "start": 299.0,
+        "end": 299.26,
+        "word": " Where",
+        "probability": 0.183
+      },
+      {
+        "start": 299.26,
+        "end": 299.34,
+        "word": " the",
+        "probability": 0.792
+      },
+      {
+        "start": 299.34,
+        "end": 299.68,
+        "word": " fuck",
+        "probability": 0.898
+      },
+      {
+        "start": 299.68,
+        "end": 299.88,
+        "word": " is",
+        "probability": 0.491
+      },
+      {
+        "start": 299.88,
+        "end": 300.12,
+        "word": " 7",
+        "probability": 0.797
+      },
+      {
+        "start": 300.12,
+        "end": 300.66,
+        "word": "-Elevena?",
+        "probability": 0.669
+      }
+    ]
+  },
+  {
+    "start": 300.78,
+    "end": 303.2,
+    "text": " Yo, did you know it was a 6am in the East Coast right now?",
+    "words": [
+      {
+        "start": 300.78,
+        "end": 300.9,
+        "word": " Yo,",
+        "probability": 0.71
+      },
+      {
+        "start": 301.04,
+        "end": 301.1,
+        "word": " did",
+        "probability": 0.953
+      },
+      {
+        "start": 301.1,
+        "end": 301.18,
+        "word": " you",
+        "probability": 0.992
+      },
+      {
+        "start": 301.18,
+        "end": 301.32,
+        "word": " know",
+        "probability": 0.995
+      },
+      {
+        "start": 301.32,
+        "end": 301.42,
+        "word": " it",
+        "probability": 0.353
+      },
+      {
+        "start": 301.42,
+        "end": 301.48,
+        "word": " was",
+        "probability": 0.52
+      },
+      {
+        "start": 301.48,
+        "end": 301.68,
+        "word": " a",
+        "probability": 0.198
+      },
+      {
+        "start": 301.68,
+        "end": 302.06,
+        "word": " 6am",
+        "probability": 0.33
+      },
+      {
+        "start": 302.06,
+        "end": 302.3,
+        "word": " in",
+        "probability": 0.808
+      },
+      {
+        "start": 302.3,
+        "end": 302.42,
+        "word": " the",
+        "probability": 0.99
+      },
+      {
+        "start": 302.42,
+        "end": 302.58,
+        "word": " East",
+        "probability": 0.624
+      },
+      {
+        "start": 302.58,
+        "end": 302.74,
+        "word": " Coast",
+        "probability": 0.943
+      },
+      {
+        "start": 302.74,
+        "end": 302.92,
+        "word": " right",
+        "probability": 0.955
+      },
+      {
+        "start": 302.92,
+        "end": 303.2,
+        "word": " now?",
+        "probability": 0.998
+      }
+    ]
+  },
+  {
+    "start": 303.7,
+    "end": 308.36,
+    "text": " Where bro? Is that how time zones work? Are you serious? Is that word to your mother?",
+    "words": [
+      {
+        "start": 303.7,
+        "end": 304.06,
+        "word": " Where",
+        "probability": 0.601
+      },
+      {
+        "start": 304.06,
+        "end": 304.36,
+        "word": " bro?",
+        "probability": 0.843
+      },
+      {
+        "start": 304.9,
+        "end": 304.96,
+        "word": " Is",
+        "probability": 0.975
+      },
+      {
+        "start": 304.96,
+        "end": 305.04,
+        "word": " that",
+        "probability": 0.642
+      },
+      {
+        "start": 305.04,
+        "end": 305.16,
+        "word": " how",
+        "probability": 0.978
+      },
+      {
+        "start": 305.16,
+        "end": 305.42,
+        "word": " time",
+        "probability": 0.844
+      },
+      {
+        "start": 305.42,
+        "end": 305.62,
+        "word": " zones",
+        "probability": 0.923
+      },
+      {
+        "start": 305.62,
+        "end": 305.88,
+        "word": " work?",
+        "probability": 0.997
+      },
+      {
+        "start": 306.44,
+        "end": 306.5,
+        "word": " Are",
+        "probability": 0.985
+      },
+      {
+        "start": 306.5,
+        "end": 306.64,
+        "word": " you",
+        "probability": 0.998
+      },
+      {
+        "start": 306.64,
+        "end": 306.78,
+        "word": " serious?",
+        "probability": 0.999
+      },
+      {
+        "start": 307.48,
+        "end": 307.54,
+        "word": " Is",
+        "probability": 0.99
+      },
+      {
+        "start": 307.54,
+        "end": 307.66,
+        "word": " that",
+        "probability": 0.997
+      },
+      {
+        "start": 307.66,
+        "end": 307.86,
+        "word": " word",
+        "probability": 0.376
+      },
+      {
+        "start": 307.86,
+        "end": 308.04,
+        "word": " to",
+        "probability": 0.997
+      },
+      {
+        "start": 308.04,
+        "end": 308.16,
+        "word": " your",
+        "probability": 0.994
+      },
+      {
+        "start": 308.16,
+        "end": 308.36,
+        "word": " mother?",
+        "probability": 0.992
+      }
+    ]
+  },
+  {
+    "start": 309.42,
+    "end": 311.22,
+    "text": " Like where the fuck is the 7-Eleven bro?",
+    "words": [
+      {
+        "start": 309.42,
+        "end": 309.46,
+        "word": " Like",
+        "probability": 0.946
+      },
+      {
+        "start": 309.46,
+        "end": 309.64,
+        "word": " where",
+        "probability": 0.608
+      },
+      {
+        "start": 309.64,
+        "end": 309.74,
+        "word": " the",
+        "probability": 0.986
+      },
+      {
+        "start": 309.74,
+        "end": 310.04,
+        "word": " fuck",
+        "probability": 0.985
+      },
+      {
+        "start": 310.04,
+        "end": 310.22,
+        "word": " is",
+        "probability": 0.993
+      },
+      {
+        "start": 310.22,
+        "end": 310.32,
+        "word": " the",
+        "probability": 0.951
+      },
+      {
+        "start": 310.32,
+        "end": 310.58,
+        "word": " 7",
+        "probability": 0.978
+      },
+      {
+        "start": 310.58,
+        "end": 311.06,
+        "word": "-Eleven",
+        "probability": 0.974
+      },
+      {
+        "start": 311.06,
+        "end": 311.22,
+        "word": " bro?",
+        "probability": 0.262
+      }
+    ]
+  }
+]

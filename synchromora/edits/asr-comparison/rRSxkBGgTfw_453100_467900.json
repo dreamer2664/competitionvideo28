@@ -1,0 +1,232 @@
+[
+  {
+    "start": 453.1,
+    "end": 458.56,
+    "text": " The pool is right there and it's heated bro, and it's he won't jump in right now though now what?",
+    "words": [
+      {
+        "start": 453.1,
+        "end": 453.7,
+        "word": " The",
+        "probability": 0.694
+      },
+      {
+        "start": 453.7,
+        "end": 453.96,
+        "word": " pool",
+        "probability": 0.921
+      },
+      {
+        "start": 453.96,
+        "end": 454.1,
+        "word": " is",
+        "probability": 0.989
+      },
+      {
+        "start": 454.1,
+        "end": 454.28,
+        "word": " right",
+        "probability": 0.998
+      },
+      {
+        "start": 454.28,
+        "end": 454.58,
+        "word": " there",
+        "probability": 0.621
+      },
+      {
+        "start": 454.58,
+        "end": 454.88,
+        "word": " and",
+        "probability": 0.881
+      },
+      {
+        "start": 454.88,
+        "end": 455.02,
+        "word": " it's",
+        "probability": 0.803
+      },
+      {
+        "start": 455.02,
+        "end": 455.24,
+        "word": " heated",
+        "probability": 0.759
+      },
+      {
+        "start": 455.24,
+        "end": 455.5,
+        "word": " bro,",
+        "probability": 0.563
+      },
+      {
+        "start": 455.66,
+        "end": 456.48,
+        "word": " and",
+        "probability": 0.975
+      },
+      {
+        "start": 456.48,
+        "end": 456.68,
+        "word": " it's",
+        "probability": 0.951
+      },
+      {
+        "start": 456.68,
+        "end": 456.84,
+        "word": " he",
+        "probability": 0.274
+      },
+      {
+        "start": 456.84,
+        "end": 457.14,
+        "word": " won't",
+        "probability": 0.657
+      },
+      {
+        "start": 457.14,
+        "end": 457.28,
+        "word": " jump",
+        "probability": 0.98
+      },
+      {
+        "start": 457.28,
+        "end": 457.44,
+        "word": " in",
+        "probability": 0.991
+      },
+      {
+        "start": 457.44,
+        "end": 457.54,
+        "word": " right",
+        "probability": 0.997
+      },
+      {
+        "start": 457.54,
+        "end": 457.74,
+        "word": " now",
+        "probability": 0.995
+      },
+      {
+        "start": 457.74,
+        "end": 457.88,
+        "word": " though",
+        "probability": 0.475
+      },
+      {
+        "start": 457.88,
+        "end": 458.32,
+        "word": " now",
+        "probability": 0.382
+      },
+      {
+        "start": 458.32,
+        "end": 458.56,
+        "word": " what?",
+        "probability": 0.483
+      }
+    ]
+  },
+  {
+    "start": 459.98,
+    "end": 463.32,
+    "text": " I'm saying like you're not you're not even man enough to just jump in that yeah",
+    "words": [
+      {
+        "start": 459.98,
+        "end": 460.38,
+        "word": " I'm",
+        "probability": 0.699
+      },
+      {
+        "start": 460.38,
+        "end": 460.52,
+        "word": " saying",
+        "probability": 0.546
+      },
+      {
+        "start": 460.52,
+        "end": 460.66,
+        "word": " like",
+        "probability": 0.824
+      },
+      {
+        "start": 460.66,
+        "end": 460.82,
+        "word": " you're",
+        "probability": 0.703
+      },
+      {
+        "start": 460.82,
+        "end": 460.98,
+        "word": " not",
+        "probability": 0.995
+      },
+      {
+        "start": 460.98,
+        "end": 461.64,
+        "word": " you're",
+        "probability": 0.907
+      },
+      {
+        "start": 461.64,
+        "end": 461.78,
+        "word": " not",
+        "probability": 0.999
+      },
+      {
+        "start": 461.78,
+        "end": 461.92,
+        "word": " even",
+        "probability": 0.996
+      },
+      {
+        "start": 461.92,
+        "end": 462.14,
+        "word": " man",
+        "probability": 0.942
+      },
+      {
+        "start": 462.14,
+        "end": 462.34,
+        "word": " enough",
+        "probability": 0.99
+      },
+      {
+        "start": 462.34,
+        "end": 462.54,
+        "word": " to",
+        "probability": 0.996
+      },
+      {
+        "start": 462.54,
+        "end": 462.66,
+        "word": " just",
+        "probability": 0.982
+      },
+      {
+        "start": 462.66,
+        "end": 462.86,
+        "word": " jump",
+        "probability": 0.934
+      },
+      {
+        "start": 462.86,
+        "end": 463.06,
+        "word": " in",
+        "probability": 0.975
+      },
+      {
+        "start": 463.06,
+        "end": 463.16,
+        "word": " that",
+        "probability": 0.457
+      },
+      {
+        "start": 463.16,
+        "end": 463.32,
+        "word": " yeah",
+        "probability": 0.382
+      }
+    ]
+  }
+]

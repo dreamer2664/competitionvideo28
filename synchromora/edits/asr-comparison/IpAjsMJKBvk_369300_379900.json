@@ -1,0 +1,94 @@
+[
+  {
+    "start": 369.3,
+    "end": 370.4,
+    "text": " Five seconds remaining.",
+    "words": [
+      {
+        "start": 369.3,
+        "end": 369.9,
+        "word": " Five",
+        "probability": 0.494
+      },
+      {
+        "start": 369.9,
+        "end": 370.12,
+        "word": " seconds",
+        "probability": 0.993
+      },
+      {
+        "start": 370.12,
+        "end": 370.4,
+        "word": " remaining.",
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "start": 374.14,
+    "end": 379.0,
+    "text": " Not bad, kiss. Not bad at all, kid! Not bad!",
+    "words": [
+      {
+        "start": 374.14,
+        "end": 374.78,
+        "word": " Not",
+        "probability": 0.903
+      },
+      {
+        "start": 374.78,
+        "end": 375.1,
+        "word": " bad,",
+        "probability": 0.985
+      },
+      {
+        "start": 375.26,
+        "end": 375.34,
+        "word": " kiss.",
+        "probability": 0.331
+      },
+      {
+        "start": 376.06,
+        "end": 376.38,
+        "word": " Not",
+        "probability": 0.931
+      },
+      {
+        "start": 376.38,
+        "end": 376.8,
+        "word": " bad",
+        "probability": 0.995
+      },
+      {
+        "start": 376.8,
+        "end": 377.04,
+        "word": " at",
+        "probability": 0.979
+      },
+      {
+        "start": 377.04,
+        "end": 377.28,
+        "word": " all,",
+        "probability": 0.998
+      },
+      {
+        "start": 377.48,
+        "end": 377.6,
+        "word": " kid!",
+        "probability": 0.966
+      },
+      {
+        "start": 378.2,
+        "end": 378.56,
+        "word": " Not",
+        "probability": 0.974
+      },
+      {
+        "start": 378.56,
+        "end": 379.0,
+        "word": " bad!",
+        "probability": 0.997
+      }
+    ]
+  }
+]

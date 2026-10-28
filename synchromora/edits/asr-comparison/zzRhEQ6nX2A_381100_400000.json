@@ -1,0 +1,356 @@
+[
+  {
+    "start": 381.1,
+    "end": 381.78,
+    "text": " Try that.",
+    "words": [
+      {
+        "start": 381.1,
+        "end": 381.64,
+        "word": " Try",
+        "probability": 0.312
+      },
+      {
+        "start": 381.64,
+        "end": 381.78,
+        "word": " that.",
+        "probability": 0.987
+      }
+    ]
+  },
+  {
+    "start": 382.26,
+    "end": 383.22,
+    "text": " Oh, yeah, that's great.",
+    "words": [
+      {
+        "start": 382.26,
+        "end": 382.62,
+        "word": " Oh,",
+        "probability": 0.133
+      },
+      {
+        "start": 382.74,
+        "end": 382.82,
+        "word": " yeah,",
+        "probability": 0.917
+      },
+      {
+        "start": 382.9,
+        "end": 383.08,
+        "word": " that's",
+        "probability": 0.99
+      },
+      {
+        "start": 383.08,
+        "end": 383.22,
+        "word": " great.",
+        "probability": 0.846
+      }
+    ]
+  },
+  {
+    "start": 383.66,
+    "end": 384.52,
+    "text": " Alright, try that, sir.",
+    "words": [
+      {
+        "start": 383.66,
+        "end": 383.94,
+        "word": " Alright,",
+        "probability": 0.209
+      },
+      {
+        "start": 384.12,
+        "end": 384.3,
+        "word": " try",
+        "probability": 0.668
+      },
+      {
+        "start": 384.3,
+        "end": 384.44,
+        "word": " that,",
+        "probability": 0.913
+      },
+      {
+        "start": 384.44,
+        "end": 384.52,
+        "word": " sir.",
+        "probability": 0.932
+      }
+    ]
+  },
+  {
+    "start": 384.9,
+    "end": 388.24,
+    "text": " This one, for example, that one is great, right?",
+    "words": [
+      {
+        "start": 384.9,
+        "end": 385.26,
+        "word": " This",
+        "probability": 0.821
+      },
+      {
+        "start": 385.26,
+        "end": 385.44,
+        "word": " one,",
+        "probability": 0.997
+      },
+      {
+        "start": 385.5,
+        "end": 385.58,
+        "word": " for",
+        "probability": 0.999
+      },
+      {
+        "start": 385.58,
+        "end": 385.8,
+        "word": " example,",
+        "probability": 0.998
+      },
+      {
+        "start": 386.16,
+        "end": 387.1,
+        "word": " that",
+        "probability": 0.875
+      },
+      {
+        "start": 387.1,
+        "end": 387.3,
+        "word": " one",
+        "probability": 0.998
+      },
+      {
+        "start": 387.3,
+        "end": 387.46,
+        "word": " is",
+        "probability": 0.995
+      },
+      {
+        "start": 387.46,
+        "end": 387.78,
+        "word": " great,",
+        "probability": 0.992
+      },
+      {
+        "start": 388.1,
+        "end": 388.24,
+        "word": " right?",
+        "probability": 0.994
+      }
+    ]
+  },
+  {
+    "start": 390.18,
+    "end": 392.14,
+    "text": " And then, oh, this is the one I wanted to show you.",
+    "words": [
+      {
+        "start": 390.18,
+        "end": 390.54,
+        "word": " And",
+        "probability": 0.646
+      },
+      {
+        "start": 390.54,
+        "end": 390.74,
+        "word": " then,",
+        "probability": 0.985
+      },
+      {
+        "start": 390.92,
+        "end": 391.04,
+        "word": " oh,",
+        "probability": 0.924
+      },
+      {
+        "start": 391.1,
+        "end": 391.24,
+        "word": " this",
+        "probability": 0.998
+      },
+      {
+        "start": 391.24,
+        "end": 391.36,
+        "word": " is",
+        "probability": 0.993
+      },
+      {
+        "start": 391.36,
+        "end": 391.44,
+        "word": " the",
+        "probability": 0.998
+      },
+      {
+        "start": 391.44,
+        "end": 391.54,
+        "word": " one",
+        "probability": 0.999
+      },
+      {
+        "start": 391.54,
+        "end": 391.62,
+        "word": " I",
+        "probability": 0.992
+      },
+      {
+        "start": 391.62,
+        "end": 391.74,
+        "word": " wanted",
+        "probability": 0.852
+      },
+      {
+        "start": 391.74,
+        "end": 391.86,
+        "word": " to",
+        "probability": 0.995
+      },
+      {
+        "start": 391.86,
+        "end": 392.02,
+        "word": " show",
+        "probability": 0.999
+      },
+      {
+        "start": 392.02,
+        "end": 392.14,
+        "word": " you.",
+        "probability": 0.925
+      }
+    ]
+  },
+  {
+    "start": 392.64,
+    "end": 392.88,
+    "text": " Smell that.",
+    "words": [
+      {
+        "start": 392.64,
+        "end": 392.78,
+        "word": " Smell",
+        "probability": 0.934
+      },
+      {
+        "start": 392.78,
+        "end": 392.88,
+        "word": " that.",
+        "probability": 0.98
+      }
+    ]
+  },
+  {
+    "start": 393.82,
+    "end": 394.48,
+    "text": " Oh, yeah.",
+    "words": [
+      {
+        "start": 393.82,
+        "end": 394.18,
+        "word": " Oh,",
+        "probability": 0.832
+      },
+      {
+        "start": 394.46,
+        "end": 394.48,
+        "word": " yeah.",
+        "probability": 0.994
+      }
+    ]
+  },
+  {
+    "start": 394.96,
+    "end": 395.4,
+    "text": " And that unbelievable?",
+    "words": [
+      {
+        "start": 394.96,
+        "end": 395.08,
+        "word": " And",
+        "probability": 0.372
+      },
+      {
+        "start": 395.08,
+        "end": 395.16,
+        "word": " that",
+        "probability": 0.956
+      },
+      {
+        "start": 395.16,
+        "end": 395.4,
+        "word": " unbelievable?",
+        "probability": 0.826
+      }
+    ]
+  },
+  {
+    "start": 396.96,
+    "end": 397.74,
+    "text": " It's great, right?",
+    "words": [
+      {
+        "start": 396.96,
+        "end": 397.32,
+        "word": " It's",
+        "probability": 0.673
+      },
+      {
+        "start": 397.32,
+        "end": 397.52,
+        "word": " great,",
+        "probability": 0.998
+      },
+      {
+        "start": 397.66,
+        "end": 397.74,
+        "word": " right?",
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "start": 398.02,
+    "end": 398.04,
+    "text": " Yeah.",
+    "words": [
+      {
+        "start": 398.02,
+        "end": 398.04,
+        "word": " Yeah.",
+        "probability": 0.442
+      }
+    ]
+  },
+  {
+    "start": 398.82,
+    "end": 399.24,
+    "text": " That unbelievable?",
+    "words": [
+      {
+        "start": 398.82,
+        "end": 399.0,
+        "word": " That",
+        "probability": 0.27
+      },
+      {
+        "start": 399.0,
+        "end": 399.24,
+        "word": " unbelievable?",
+        "probability": 0.962
+      }
+    ]
+  },
+  {
+    "start": 399.64,
+    "end": 399.76,
+    "text": " Yeah.",
+    "words": [
+      {
+        "start": 399.64,
+        "end": 399.76,
+        "word": " Yeah.",
+        "probability": 0.48
+      }
+    ]
+  }
+]

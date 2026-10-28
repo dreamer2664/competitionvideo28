@@ -1,0 +1,425 @@
+[
+  {
+    "start": 217.68,
+    "end": 220.22,
+    "text": " Jinxie, if you do a sleep stream, can you collab with my mom?",
+    "words": [
+      {
+        "start": 217.68,
+        "end": 218.04,
+        "word": " Jinxie,",
+        "probability": 0.514
+      },
+      {
+        "start": 218.04,
+        "end": 218.16,
+        "word": " if",
+        "probability": 0.815
+      },
+      {
+        "start": 218.16,
+        "end": 218.22,
+        "word": " you",
+        "probability": 0.996
+      },
+      {
+        "start": 218.22,
+        "end": 218.32,
+        "word": " do",
+        "probability": 0.983
+      },
+      {
+        "start": 218.32,
+        "end": 218.4,
+        "word": " a",
+        "probability": 0.983
+      },
+      {
+        "start": 218.4,
+        "end": 218.58,
+        "word": " sleep",
+        "probability": 0.94
+      },
+      {
+        "start": 218.58,
+        "end": 218.86,
+        "word": " stream,",
+        "probability": 0.97
+      },
+      {
+        "start": 218.88,
+        "end": 219.16,
+        "word": " can",
+        "probability": 0.984
+      },
+      {
+        "start": 219.16,
+        "end": 219.28,
+        "word": " you",
+        "probability": 0.997
+      },
+      {
+        "start": 219.28,
+        "end": 219.62,
+        "word": " collab",
+        "probability": 0.922
+      },
+      {
+        "start": 219.62,
+        "end": 219.88,
+        "word": " with",
+        "probability": 0.989
+      },
+      {
+        "start": 219.88,
+        "end": 220.06,
+        "word": " my",
+        "probability": 0.992
+      },
+      {
+        "start": 220.06,
+        "end": 220.22,
+        "word": " mom?",
+        "probability": 0.788
+      }
+    ]
+  },
+  {
+    "start": 220.86,
+    "end": 223.02,
+    "text": " Bro, I'm bros, I'm not gonna sleep with your mom.",
+    "words": [
+      {
+        "start": 220.86,
+        "end": 221.0,
+        "word": " Bro,",
+        "probability": 0.85
+      },
+      {
+        "start": 221.26,
+        "end": 221.42,
+        "word": " I'm",
+        "probability": 0.93
+      },
+      {
+        "start": 221.42,
+        "end": 221.74,
+        "word": " bros,",
+        "probability": 0.601
+      },
+      {
+        "start": 221.78,
+        "end": 221.96,
+        "word": " I'm",
+        "probability": 0.987
+      },
+      {
+        "start": 221.96,
+        "end": 222.06,
+        "word": " not",
+        "probability": 0.995
+      },
+      {
+        "start": 222.06,
+        "end": 222.24,
+        "word": " gonna",
+        "probability": 0.789
+      },
+      {
+        "start": 222.24,
+        "end": 222.5,
+        "word": " sleep",
+        "probability": 0.996
+      },
+      {
+        "start": 222.5,
+        "end": 222.68,
+        "word": " with",
+        "probability": 0.998
+      },
+      {
+        "start": 222.68,
+        "end": 222.82,
+        "word": " your",
+        "probability": 0.987
+      },
+      {
+        "start": 222.82,
+        "end": 223.02,
+        "word": " mom.",
+        "probability": 0.979
+      }
+    ]
+  },
+  {
+    "start": 223.24,
+    "end": 223.84,
+    "text": " Stop asking.",
+    "words": [
+      {
+        "start": 223.24,
+        "end": 223.32,
+        "word": " Stop",
+        "probability": 0.962
+      },
+      {
+        "start": 223.32,
+        "end": 223.84,
+        "word": " asking.",
+        "probability": 0.992
+      }
+    ]
+  },
+  {
+    "start": 224.76,
+    "end": 226.08,
+    "text": " Storm, think of a different type stuff.",
+    "words": [
+      {
+        "start": 224.76,
+        "end": 225.12,
+        "word": " Storm,",
+        "probability": 0.899
+      },
+      {
+        "start": 225.36,
+        "end": 225.38,
+        "word": " think",
+        "probability": 0.581
+      },
+      {
+        "start": 225.38,
+        "end": 225.5,
+        "word": " of",
+        "probability": 0.894
+      },
+      {
+        "start": 225.5,
+        "end": 225.5,
+        "word": " a",
+        "probability": 0.357
+      },
+      {
+        "start": 225.5,
+        "end": 225.6,
+        "word": " different",
+        "probability": 0.638
+      },
+      {
+        "start": 225.6,
+        "end": 226.02,
+        "word": " type",
+        "probability": 0.743
+      },
+      {
+        "start": 226.02,
+        "end": 226.08,
+        "word": " stuff.",
+        "probability": 0.557
+      }
+    ]
+  },
+  {
+    "start": 230.52,
+    "end": 233.64,
+    "text": " Bro, I'm bros.",
+    "words": [
+      {
+        "start": 230.52,
+        "end": 230.88,
+        "word": " Bro,",
+        "probability": 0.95
+      },
+      {
+        "start": 233.1,
+        "end": 233.26,
+        "word": " I'm",
+        "probability": 0.997
+      },
+      {
+        "start": 233.26,
+        "end": 233.64,
+        "word": " bros.",
+        "probability": 0.983
+      }
+    ]
+  },
+  {
+    "start": 233.98,
+    "end": 236.0,
+    "text": " I've said it before and I'll say it again, I'm bros.",
+    "words": [
+      {
+        "start": 233.98,
+        "end": 234.08,
+        "word": " I've",
+        "probability": 0.968
+      },
+      {
+        "start": 234.08,
+        "end": 234.22,
+        "word": " said",
+        "probability": 0.979
+      },
+      {
+        "start": 234.22,
+        "end": 234.36,
+        "word": " it",
+        "probability": 0.99
+      },
+      {
+        "start": 234.36,
+        "end": 234.6,
+        "word": " before",
+        "probability": 0.999
+      },
+      {
+        "start": 234.6,
+        "end": 234.82,
+        "word": " and",
+        "probability": 0.702
+      },
+      {
+        "start": 234.82,
+        "end": 234.94,
+        "word": " I'll",
+        "probability": 0.975
+      },
+      {
+        "start": 234.94,
+        "end": 235.1,
+        "word": " say",
+        "probability": 0.995
+      },
+      {
+        "start": 235.1,
+        "end": 235.26,
+        "word": " it",
+        "probability": 0.995
+      },
+      {
+        "start": 235.26,
+        "end": 235.46,
+        "word": " again,",
+        "probability": 0.999
+      },
+      {
+        "start": 235.6,
+        "end": 235.62,
+        "word": " I'm",
+        "probability": 0.992
+      },
+      {
+        "start": 235.62,
+        "end": 236.0,
+        "word": " bros.",
+        "probability": 0.988
+      }
+    ]
+  },
+  {
+    "start": 236.66,
+    "end": 238.22,
+    "text": " I am not gonna sleep with your mom.",
+    "words": [
+      {
+        "start": 236.66,
+        "end": 236.78,
+        "word": " I",
+        "probability": 0.992
+      },
+      {
+        "start": 236.78,
+        "end": 236.9,
+        "word": " am",
+        "probability": 0.886
+      },
+      {
+        "start": 236.9,
+        "end": 237.06,
+        "word": " not",
+        "probability": 0.987
+      },
+      {
+        "start": 237.06,
+        "end": 237.26,
+        "word": " gonna",
+        "probability": 0.946
+      },
+      {
+        "start": 237.26,
+        "end": 237.58,
+        "word": " sleep",
+        "probability": 0.998
+      },
+      {
+        "start": 237.58,
+        "end": 237.82,
+        "word": " with",
+        "probability": 1.0
+      },
+      {
+        "start": 237.82,
+        "end": 237.98,
+        "word": " your",
+        "probability": 0.993
+      },
+      {
+        "start": 237.98,
+        "end": 238.22,
+        "word": " mom.",
+        "probability": 0.991
+      }
+    ]
+  },
+  {
+    "start": 238.48,
+    "end": 239.78,
+    "text": " Can you stop asking me?",
+    "words": [
+      {
+        "start": 238.48,
+        "end": 238.56,
+        "word": " Can",
+        "probability": 0.992
+      },
+      {
+        "start": 238.56,
+        "end": 238.72,
+        "word": " you",
+        "probability": 0.998
+      },
+      {
+        "start": 238.72,
+        "end": 239.04,
+        "word": " stop",
+        "probability": 0.98
+      },
+      {
+        "start": 239.04,
+        "end": 239.52,
+        "word": " asking",
+        "probability": 0.992
+      },
+      {
+        "start": 239.52,
+        "end": 239.78,
+        "word": " me?",
+        "probability": 0.995
+      }
+    ]
+  },
+  {
+    "start": 239.78,
+    "end": 239.98,
+    "text": " .",
+    "words": [
+      {
+        "start": 239.78,
+        "end": 239.98,
+        "word": " .",
+        "probability": 0.249
+      }
+    ]
+  }
+]

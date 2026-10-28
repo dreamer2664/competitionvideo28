@@ -1,0 +1,112 @@
+[
+  {
+    "start": 123.9,
+    "end": 130.76,
+    "text": " They call me the bandit trick exquisite expert. I am the bandit tricking",
+    "words": [
+      {
+        "start": 123.9,
+        "end": 124.46,
+        "word": " They",
+        "probability": 0.906
+      },
+      {
+        "start": 124.46,
+        "end": 124.64,
+        "word": " call",
+        "probability": 0.798
+      },
+      {
+        "start": 124.64,
+        "end": 124.84,
+        "word": " me",
+        "probability": 0.84
+      },
+      {
+        "start": 124.84,
+        "end": 124.98,
+        "word": " the",
+        "probability": 0.946
+      },
+      {
+        "start": 124.98,
+        "end": 125.38,
+        "word": " bandit",
+        "probability": 0.834
+      },
+      {
+        "start": 125.38,
+        "end": 125.64,
+        "word": " trick",
+        "probability": 0.961
+      },
+      {
+        "start": 125.64,
+        "end": 126.58,
+        "word": " exquisite",
+        "probability": 0.799
+      },
+      {
+        "start": 126.58,
+        "end": 127.5,
+        "word": " expert.",
+        "probability": 0.963
+      },
+      {
+        "start": 128.06,
+        "end": 129.0,
+        "word": " I",
+        "probability": 0.993
+      },
+      {
+        "start": 129.0,
+        "end": 129.14,
+        "word": " am",
+        "probability": 0.937
+      },
+      {
+        "start": 129.14,
+        "end": 129.32,
+        "word": " the",
+        "probability": 0.988
+      },
+      {
+        "start": 129.32,
+        "end": 129.88,
+        "word": " bandit",
+        "probability": 0.978
+      },
+      {
+        "start": 129.88,
+        "end": 130.76,
+        "word": " tricking",
+        "probability": 0.933
+      }
+    ]
+  },
+  {
+    "start": 130.76,
+    "end": 140.24,
+    "text": " Oh my god",
+    "words": [
+      {
+        "start": 130.76,
+        "end": 131.04,
+        "word": " Oh",
+        "probability": 0.324
+      },
+      {
+        "start": 131.04,
+        "end": 140.24,
+        "word": " my",
+        "probability": 0.799
+      },
+      {
+        "start": 140.24,
+        "end": 140.24,
+        "word": " god",
+        "probability": 0.828
+      }
+    ]
+  }
+]

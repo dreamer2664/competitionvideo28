@@ -1,0 +1,179 @@
+[
+  {
+    "start": 40.3,
+    "end": 44.7,
+    "text": " My dad my dad was watching I have to see this",
+    "words": [
+      {
+        "start": 40.3,
+        "end": 40.74,
+        "word": " My",
+        "probability": 0.717
+      },
+      {
+        "start": 40.74,
+        "end": 41.06,
+        "word": " dad",
+        "probability": 0.842
+      },
+      {
+        "start": 41.06,
+        "end": 42.22,
+        "word": " my",
+        "probability": 0.602
+      },
+      {
+        "start": 42.22,
+        "end": 42.6,
+        "word": " dad",
+        "probability": 0.98
+      },
+      {
+        "start": 42.6,
+        "end": 42.78,
+        "word": " was",
+        "probability": 0.943
+      },
+      {
+        "start": 42.78,
+        "end": 43.24,
+        "word": " watching",
+        "probability": 0.998
+      },
+      {
+        "start": 43.24,
+        "end": 44.08,
+        "word": " I",
+        "probability": 0.731
+      },
+      {
+        "start": 44.08,
+        "end": 44.2,
+        "word": " have",
+        "probability": 0.904
+      },
+      {
+        "start": 44.2,
+        "end": 44.34,
+        "word": " to",
+        "probability": 0.999
+      },
+      {
+        "start": 44.34,
+        "end": 44.48,
+        "word": " see",
+        "probability": 0.995
+      },
+      {
+        "start": 44.48,
+        "end": 44.7,
+        "word": " this",
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "start": 48.38,
+    "end": 50.76,
+    "text": " Yes, yes, he scored",
+    "words": [
+      {
+        "start": 48.38,
+        "end": 49.02,
+        "word": " Yes,",
+        "probability": 0.781
+      },
+      {
+        "start": 49.42,
+        "end": 49.98,
+        "word": " yes,",
+        "probability": 0.918
+      },
+      {
+        "start": 50.24,
+        "end": 50.28,
+        "word": " he",
+        "probability": 0.595
+      },
+      {
+        "start": 50.28,
+        "end": 50.76,
+        "word": " scored",
+        "probability": 0.628
+      }
+    ]
+  },
+  {
+    "start": 50.76,
+    "end": 56.28,
+    "text": " W your dad. Yes, dude. My dad is so happy here",
+    "words": [
+      {
+        "start": 50.76,
+        "end": 52.02,
+        "word": " W",
+        "probability": 0.001
+      },
+      {
+        "start": 52.02,
+        "end": 52.94,
+        "word": " your",
+        "probability": 0.221
+      },
+      {
+        "start": 52.94,
+        "end": 53.38,
+        "word": " dad.",
+        "probability": 0.965
+      },
+      {
+        "start": 53.42,
+        "end": 54.06,
+        "word": " Yes,",
+        "probability": 0.992
+      },
+      {
+        "start": 54.06,
+        "end": 54.96,
+        "word": " dude.",
+        "probability": 0.994
+      },
+      {
+        "start": 55.06,
+        "end": 55.18,
+        "word": " My",
+        "probability": 0.997
+      },
+      {
+        "start": 55.18,
+        "end": 55.44,
+        "word": " dad",
+        "probability": 0.985
+      },
+      {
+        "start": 55.44,
+        "end": 55.56,
+        "word": " is",
+        "probability": 0.987
+      },
+      {
+        "start": 55.56,
+        "end": 55.74,
+        "word": " so",
+        "probability": 0.999
+      },
+      {
+        "start": 55.74,
+        "end": 56.0,
+        "word": " happy",
+        "probability": 0.998
+      },
+      {
+        "start": 56.0,
+        "end": 56.28,
+        "word": " here",
+        "probability": 0.992
+      }
+    ]
+  }
+]

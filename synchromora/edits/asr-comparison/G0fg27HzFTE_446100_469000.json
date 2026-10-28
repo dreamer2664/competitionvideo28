@@ -1,0 +1,404 @@
+[
+  {
+    "start": 446.1,
+    "end": 452.46,
+    "text": " Is this live motherfucker? I'm gonna answer this one time. Do you know what a time zone is G?",
+    "words": [
+      {
+        "start": 446.1,
+        "end": 446.56,
+        "word": " Is",
+        "probability": 0.601
+      },
+      {
+        "start": 446.56,
+        "end": 446.72,
+        "word": " this",
+        "probability": 0.984
+      },
+      {
+        "start": 446.72,
+        "end": 447.06,
+        "word": " live",
+        "probability": 0.963
+      },
+      {
+        "start": 447.06,
+        "end": 448.04,
+        "word": " motherfucker?",
+        "probability": 0.804
+      },
+      {
+        "start": 448.34,
+        "end": 448.44,
+        "word": " I'm",
+        "probability": 0.98
+      },
+      {
+        "start": 448.44,
+        "end": 448.54,
+        "word": " gonna",
+        "probability": 0.836
+      },
+      {
+        "start": 448.54,
+        "end": 448.92,
+        "word": " answer",
+        "probability": 0.996
+      },
+      {
+        "start": 448.92,
+        "end": 449.2,
+        "word": " this",
+        "probability": 0.998
+      },
+      {
+        "start": 449.2,
+        "end": 449.48,
+        "word": " one",
+        "probability": 0.989
+      },
+      {
+        "start": 449.48,
+        "end": 449.94,
+        "word": " time.",
+        "probability": 0.996
+      },
+      {
+        "start": 450.4,
+        "end": 450.96,
+        "word": " Do",
+        "probability": 0.977
+      },
+      {
+        "start": 450.96,
+        "end": 451.02,
+        "word": " you",
+        "probability": 0.994
+      },
+      {
+        "start": 451.02,
+        "end": 451.14,
+        "word": " know",
+        "probability": 0.998
+      },
+      {
+        "start": 451.14,
+        "end": 451.3,
+        "word": " what",
+        "probability": 0.993
+      },
+      {
+        "start": 451.3,
+        "end": 451.38,
+        "word": " a",
+        "probability": 0.994
+      },
+      {
+        "start": 451.38,
+        "end": 451.68,
+        "word": " time",
+        "probability": 0.962
+      },
+      {
+        "start": 451.68,
+        "end": 451.98,
+        "word": " zone",
+        "probability": 0.904
+      },
+      {
+        "start": 451.98,
+        "end": 452.24,
+        "word": " is",
+        "probability": 0.997
+      },
+      {
+        "start": 452.24,
+        "end": 452.46,
+        "word": " G?",
+        "probability": 0.288
+      }
+    ]
+  },
+  {
+    "start": 452.86,
+    "end": 455.84,
+    "text": " It's 4.25 p.m. E. S. D. Okay",
+    "words": [
+      {
+        "start": 452.86,
+        "end": 453.42,
+        "word": " It's",
+        "probability": 0.982
+      },
+      {
+        "start": 453.42,
+        "end": 453.6,
+        "word": " 4",
+        "probability": 0.398
+      },
+      {
+        "start": 453.6,
+        "end": 454.04,
+        "word": ".25",
+        "probability": 0.827
+      },
+      {
+        "start": 454.04,
+        "end": 454.46,
+        "word": " p",
+        "probability": 0.212
+      },
+      {
+        "start": 454.46,
+        "end": 454.66,
+        "word": ".m.",
+        "probability": 0.993
+      },
+      {
+        "start": 454.86,
+        "end": 454.9,
+        "word": " E.",
+        "probability": 0.65
+      },
+      {
+        "start": 455.0,
+        "end": 455.1,
+        "word": " S.",
+        "probability": 0.446
+      },
+      {
+        "start": 455.32,
+        "end": 455.34,
+        "word": " D.",
+        "probability": 0.756
+      },
+      {
+        "start": 455.56,
+        "end": 455.84,
+        "word": " Okay",
+        "probability": 0.865
+      }
+    ]
+  },
+  {
+    "start": 456.78,
+    "end": 463.16,
+    "text": " Meaning if you look at your phone on your time, it's gonna correlate to my time if you ask if it's live again",
+    "words": [
+      {
+        "start": 456.78,
+        "end": 457.34,
+        "word": " Meaning",
+        "probability": 0.048
+      },
+      {
+        "start": 457.34,
+        "end": 457.9,
+        "word": " if",
+        "probability": 0.948
+      },
+      {
+        "start": 457.9,
+        "end": 458.06,
+        "word": " you",
+        "probability": 1.0
+      },
+      {
+        "start": 458.06,
+        "end": 458.16,
+        "word": " look",
+        "probability": 0.999
+      },
+      {
+        "start": 458.16,
+        "end": 458.32,
+        "word": " at",
+        "probability": 1.0
+      },
+      {
+        "start": 458.32,
+        "end": 458.46,
+        "word": " your",
+        "probability": 0.999
+      },
+      {
+        "start": 458.46,
+        "end": 458.74,
+        "word": " phone",
+        "probability": 0.999
+      },
+      {
+        "start": 458.74,
+        "end": 458.94,
+        "word": " on",
+        "probability": 0.999
+      },
+      {
+        "start": 458.94,
+        "end": 459.1,
+        "word": " your",
+        "probability": 0.999
+      },
+      {
+        "start": 459.1,
+        "end": 459.48,
+        "word": " time,",
+        "probability": 0.998
+      },
+      {
+        "start": 459.64,
+        "end": 459.74,
+        "word": " it's",
+        "probability": 0.988
+      },
+      {
+        "start": 459.74,
+        "end": 459.82,
+        "word": " gonna",
+        "probability": 0.818
+      },
+      {
+        "start": 459.82,
+        "end": 460.22,
+        "word": " correlate",
+        "probability": 0.988
+      },
+      {
+        "start": 460.22,
+        "end": 460.5,
+        "word": " to",
+        "probability": 0.995
+      },
+      {
+        "start": 460.5,
+        "end": 460.62,
+        "word": " my",
+        "probability": 0.998
+      },
+      {
+        "start": 460.62,
+        "end": 460.98,
+        "word": " time",
+        "probability": 0.998
+      },
+      {
+        "start": 460.98,
+        "end": 461.72,
+        "word": " if",
+        "probability": 0.476
+      },
+      {
+        "start": 461.72,
+        "end": 461.88,
+        "word": " you",
+        "probability": 0.998
+      },
+      {
+        "start": 461.88,
+        "end": 462.18,
+        "word": " ask",
+        "probability": 0.978
+      },
+      {
+        "start": 462.18,
+        "end": 462.42,
+        "word": " if",
+        "probability": 0.973
+      },
+      {
+        "start": 462.42,
+        "end": 462.64,
+        "word": " it's",
+        "probability": 0.992
+      },
+      {
+        "start": 462.64,
+        "end": 462.82,
+        "word": " live",
+        "probability": 0.841
+      },
+      {
+        "start": 462.82,
+        "end": 463.16,
+        "word": " again",
+        "probability": 0.987
+      }
+    ]
+  },
+  {
+    "start": 463.16,
+    "end": 464.4,
+    "text": " I will personally",
+    "words": [
+      {
+        "start": 463.16,
+        "end": 463.56,
+        "word": " I",
+        "probability": 0.201
+      },
+      {
+        "start": 463.56,
+        "end": 463.72,
+        "word": " will",
+        "probability": 0.919
+      },
+      {
+        "start": 463.72,
+        "end": 464.4,
+        "word": " personally",
+        "probability": 0.98
+      }
+    ]
+  },
+  {
+    "start": 465.22,
+    "end": 465.84,
+    "text": " bend you",
+    "words": [
+      {
+        "start": 465.12,
+        "end": 465.4,
+        "word": " bend",
+        "probability": 0.268
+      },
+      {
+        "start": 465.4,
+        "end": 465.84,
+        "word": " you",
+        "probability": 0.991
+      }
+    ]
+  },
+  {
+    "start": 466.94,
+    "end": 468.62,
+    "text": " Nobody else me myself",
+    "words": [
+      {
+        "start": 466.94,
+        "end": 467.5,
+        "word": " Nobody",
+        "probability": 0.827
+      },
+      {
+        "start": 467.5,
+        "end": 467.88,
+        "word": " else",
+        "probability": 0.987
+      },
+      {
+        "start": 467.88,
+        "end": 468.22,
+        "word": " me",
+        "probability": 0.828
+      },
+      {
+        "start": 468.22,
+        "end": 468.62,
+        "word": " myself",
+        "probability": 0.971
+      }
+    ]
+  }
+]

@@ -1,0 +1,474 @@
+[
+  {
+    "start": 172.16,
+    "end": 172.48,
+    "text": " Okay.",
+    "words": [
+      {
+        "start": 172.16,
+        "end": 172.48,
+        "word": " Okay.",
+        "probability": 0.152
+      }
+    ]
+  },
+  {
+    "start": 173.26,
+    "end": 173.86,
+    "text": " Good night out.",
+    "words": [
+      {
+        "start": 173.26,
+        "end": 173.58,
+        "word": " Good",
+        "probability": 0.588
+      },
+      {
+        "start": 173.58,
+        "end": 173.7,
+        "word": " night",
+        "probability": 0.532
+      },
+      {
+        "start": 173.7,
+        "end": 173.86,
+        "word": " out.",
+        "probability": 0.724
+      }
+    ]
+  },
+  {
+    "start": 174.88,
+    "end": 175.7,
+    "text": " Oh my god, that's me.",
+    "words": [
+      {
+        "start": 174.88,
+        "end": 175.2,
+        "word": " Oh",
+        "probability": 0.278
+      },
+      {
+        "start": 175.2,
+        "end": 175.28,
+        "word": " my",
+        "probability": 0.872
+      },
+      {
+        "start": 175.28,
+        "end": 175.38,
+        "word": " god,",
+        "probability": 0.638
+      },
+      {
+        "start": 175.52,
+        "end": 175.62,
+        "word": " that's",
+        "probability": 0.628
+      },
+      {
+        "start": 175.62,
+        "end": 175.7,
+        "word": " me.",
+        "probability": 0.731
+      }
+    ]
+  },
+  {
+    "start": 175.9,
+    "end": 176.24,
+    "text": " Please, please.",
+    "words": [
+      {
+        "start": 175.9,
+        "end": 175.98,
+        "word": " Please,",
+        "probability": 0.202
+      },
+      {
+        "start": 176.14,
+        "end": 176.24,
+        "word": " please.",
+        "probability": 0.308
+      }
+    ]
+  },
+  {
+    "start": 176.46,
+    "end": 176.72,
+    "text": " I swear to God.",
+    "words": [
+      {
+        "start": 176.46,
+        "end": 176.46,
+        "word": " I",
+        "probability": 0.174
+      },
+      {
+        "start": 176.46,
+        "end": 176.46,
+        "word": " swear",
+        "probability": 0.625
+      },
+      {
+        "start": 176.46,
+        "end": 176.6,
+        "word": " to",
+        "probability": 0.394
+      },
+      {
+        "start": 176.6,
+        "end": 176.72,
+        "word": " God.",
+        "probability": 0.473
+      }
+    ]
+  },
+  {
+    "start": 176.9,
+    "end": 177.54,
+    "text": " On the backside me.",
+    "words": [
+      {
+        "start": 176.9,
+        "end": 177.1,
+        "word": " On",
+        "probability": 0.099
+      },
+      {
+        "start": 177.1,
+        "end": 177.18,
+        "word": " the",
+        "probability": 0.905
+      },
+      {
+        "start": 177.18,
+        "end": 177.38,
+        "word": " backside",
+        "probability": 0.482
+      },
+      {
+        "start": 177.38,
+        "end": 177.54,
+        "word": " me.",
+        "probability": 0.233
+      }
+    ]
+  },
+  {
+    "start": 177.72,
+    "end": 178.22,
+    "text": " On the backside me.",
+    "words": [
+      {
+        "start": 177.72,
+        "end": 177.78,
+        "word": " On",
+        "probability": 0.683
+      },
+      {
+        "start": 177.78,
+        "end": 177.88,
+        "word": " the",
+        "probability": 0.991
+      },
+      {
+        "start": 177.88,
+        "end": 178.08,
+        "word": " backside",
+        "probability": 0.985
+      },
+      {
+        "start": 178.08,
+        "end": 178.22,
+        "word": " me.",
+        "probability": 0.804
+      }
+    ]
+  },
+  {
+    "start": 178.5,
+    "end": 179.4,
+    "text": " Stand down, guy.",
+    "words": [
+      {
+        "start": 178.5,
+        "end": 178.8,
+        "word": " Stand",
+        "probability": 0.845
+      },
+      {
+        "start": 178.8,
+        "end": 179.16,
+        "word": " down,",
+        "probability": 0.443
+      },
+      {
+        "start": 179.3,
+        "end": 179.4,
+        "word": " guy.",
+        "probability": 0.36
+      }
+    ]
+  },
+  {
+    "start": 180.04,
+    "end": 180.68,
+    "text": " Stand down.",
+    "words": [
+      {
+        "start": 180.04,
+        "end": 180.36,
+        "word": " Stand",
+        "probability": 0.976
+      },
+      {
+        "start": 180.36,
+        "end": 180.68,
+        "word": " down.",
+        "probability": 0.902
+      }
+    ]
+  },
+  {
+    "start": 180.86,
+    "end": 182.42,
+    "text": " Hold on, quick quick quick quick quick quick quick quick quick quick quick quick quick.",
+    "words": [
+      {
+        "start": 180.86,
+        "end": 181.0,
+        "word": " Hold",
+        "probability": 0.53
+      },
+      {
+        "start": 181.0,
+        "end": 181.12,
+        "word": " on,",
+        "probability": 0.366
+      },
+      {
+        "start": 181.18,
+        "end": 181.3,
+        "word": " quick",
+        "probability": 0.085
+      },
+      {
+        "start": 181.3,
+        "end": 181.78,
+        "word": " quick",
+        "probability": 0.618
+      },
+      {
+        "start": 181.78,
+        "end": 181.98,
+        "word": " quick",
+        "probability": 0.908
+      },
+      {
+        "start": 181.98,
+        "end": 182.1,
+        "word": " quick",
+        "probability": 0.82
+      },
+      {
+        "start": 182.1,
+        "end": 182.28,
+        "word": " quick",
+        "probability": 0.645
+      },
+      {
+        "start": 182.28,
+        "end": 182.32,
+        "word": " quick",
+        "probability": 0.517
+      },
+      {
+        "start": 182.32,
+        "end": 182.34,
+        "word": " quick",
+        "probability": 0.406
+      },
+      {
+        "start": 182.34,
+        "end": 182.38,
+        "word": " quick",
+        "probability": 0.401
+      },
+      {
+        "start": 182.38,
+        "end": 182.4,
+        "word": " quick",
+        "probability": 0.49
+      },
+      {
+        "start": 182.4,
+        "end": 182.4,
+        "word": " quick",
+        "probability": 0.59
+      },
+      {
+        "start": 182.4,
+        "end": 182.4,
+        "word": " quick",
+        "probability": 0.588
+      },
+      {
+        "start": 182.4,
+        "end": 182.4,
+        "word": " quick",
+        "probability": 0.651
+      },
+      {
+        "start": 182.4,
+        "end": 182.42,
+        "word": " quick.",
+        "probability": 0.719
+      }
+    ]
+  },
+  {
+    "start": 182.42,
+    "end": 183.44,
+    "text": " Get up, get up.",
+    "words": [
+      {
+        "start": 182.42,
+        "end": 182.5,
+        "word": " Get",
+        "probability": 0.326
+      },
+      {
+        "start": 182.5,
+        "end": 182.54,
+        "word": " up,",
+        "probability": 0.854
+      },
+      {
+        "start": 183.28,
+        "end": 183.32,
+        "word": " get",
+        "probability": 0.958
+      },
+      {
+        "start": 183.32,
+        "end": 183.44,
+        "word": " up.",
+        "probability": 0.962
+      }
+    ]
+  },
+  {
+    "start": 183.62,
+    "end": 183.82,
+    "text": " Get up.",
+    "words": [
+      {
+        "start": 183.62,
+        "end": 183.62,
+        "word": " Get",
+        "probability": 0.466
+      },
+      {
+        "start": 183.62,
+        "end": 183.82,
+        "word": " up.",
+        "probability": 0.96
+      }
+    ]
+  },
+  {
+    "start": 184.58,
+    "end": 185.02,
+    "text": " I'm up up up.",
+    "words": [
+      {
+        "start": 184.58,
+        "end": 184.64,
+        "word": " I'm",
+        "probability": 0.66
+      },
+      {
+        "start": 184.64,
+        "end": 184.64,
+        "word": " up",
+        "probability": 0.637
+      },
+      {
+        "start": 184.64,
+        "end": 184.8,
+        "word": " up",
+        "probability": 0.404
+      },
+      {
+        "start": 184.8,
+        "end": 185.02,
+        "word": " up.",
+        "probability": 0.66
+      }
+    ]
+  },
+  {
+    "start": 185.44,
+    "end": 185.84,
+    "text": " I'm up up.",
+    "words": [
+      {
+        "start": 185.44,
+        "end": 185.64,
+        "word": " I'm",
+        "probability": 0.9
+      },
+      {
+        "start": 185.64,
+        "end": 185.64,
+        "word": " up",
+        "probability": 0.904
+      },
+      {
+        "start": 185.64,
+        "end": 185.84,
+        "word": " up.",
+        "probability": 0.451
+      }
+    ]
+  },
+  {
+    "start": 185.88,
+    "end": 185.92,
+    "text": " Get up.",
+    "words": [
+      {
+        "start": 185.88,
+        "end": 185.88,
+        "word": " Get",
+        "probability": 0.483
+      },
+      {
+        "start": 185.88,
+        "end": 185.92,
+        "word": " up.",
+        "probability": 0.684
+      }
+    ]
+  },
+  {
+    "start": 187.36,
+    "end": 188.3,
+    "text": " Oh, fuck.",
+    "words": [
+      {
+        "start": 187.36,
+        "end": 187.68,
+        "word": " Oh,",
+        "probability": 0.093
+      },
+      {
+        "start": 188.3,
+        "end": 188.3,
+        "word": " fuck.",
+        "probability": 0.805
+      }
+    ]
+  }
+]

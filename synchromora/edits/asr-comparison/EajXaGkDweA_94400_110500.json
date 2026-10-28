@@ -1,0 +1,105 @@
+[
+  {
+    "start": 94.4,
+    "end": 99.72,
+    "text": " So what did you have a degree in dance dance I can literally dance right now",
+    "words": [
+      {
+        "start": 94.4,
+        "end": 95.08,
+        "word": " So",
+        "probability": 0.523
+      },
+      {
+        "start": 95.08,
+        "end": 95.22,
+        "word": " what",
+        "probability": 0.813
+      },
+      {
+        "start": 95.22,
+        "end": 95.32,
+        "word": " did",
+        "probability": 0.993
+      },
+      {
+        "start": 95.32,
+        "end": 95.42,
+        "word": " you",
+        "probability": 0.998
+      },
+      {
+        "start": 95.42,
+        "end": 95.56,
+        "word": " have",
+        "probability": 0.998
+      },
+      {
+        "start": 95.56,
+        "end": 95.62,
+        "word": " a",
+        "probability": 0.983
+      },
+      {
+        "start": 95.62,
+        "end": 95.8,
+        "word": " degree",
+        "probability": 0.996
+      },
+      {
+        "start": 95.8,
+        "end": 95.96,
+        "word": " in",
+        "probability": 0.969
+      },
+      {
+        "start": 95.96,
+        "end": 96.24,
+        "word": " dance",
+        "probability": 0.512
+      },
+      {
+        "start": 96.24,
+        "end": 97.22,
+        "word": " dance",
+        "probability": 0.775
+      },
+      {
+        "start": 97.22,
+        "end": 98.26,
+        "word": " I",
+        "probability": 0.483
+      },
+      {
+        "start": 98.26,
+        "end": 98.92,
+        "word": " can",
+        "probability": 0.978
+      },
+      {
+        "start": 98.92,
+        "end": 99.1,
+        "word": " literally",
+        "probability": 0.966
+      },
+      {
+        "start": 99.1,
+        "end": 99.36,
+        "word": " dance",
+        "probability": 0.991
+      },
+      {
+        "start": 99.36,
+        "end": 99.54,
+        "word": " right",
+        "probability": 0.98
+      },
+      {
+        "start": 99.54,
+        "end": 99.72,
+        "word": " now",
+        "probability": 0.988
+      }
+    ]
+  }
+]
