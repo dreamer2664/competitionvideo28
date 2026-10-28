@@ -258,30 +258,61 @@ _VIG = None
 _GRAIN = []
 
 
-def vignette_mask(strength=0.62):
+def vignette_mask(strength=0.46, floor=0.52):
     global _VIG
     if _VIG is None:
         yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
         nx = (xx - W / 2) / (W / 2)
         ny = (yy - H / 2) / (H / 2)
         r = np.sqrt(nx ** 2 * 0.82 + ny ** 2)
-        _VIG = np.clip(1 - strength * np.clip(r - 0.28, 0, None) ** 1.7, 0, 1).astype(np.float32)
+        _VIG = np.clip(1 - strength * np.clip(r - 0.30, 0, None) ** 1.7,
+                       floor, 1).astype(np.float32)
     return _VIG
 
 
-def base_plate(top, bottom, scrim=True):
-    """A vertical gradient background with vignette (and the caption scrim) baked
-    in, so every frame starts from a finished plate and only draws the motion."""
-    t = np.linspace(0, 1, H, dtype=np.float32)[:, None, None]
+_GLOW = None
+
+
+def _key_glow():
+    """A very wide, very faint warm key at 38% height: the plate is dark, not black."""
+    global _GLOW
+    if _GLOW is None:
+        yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+        d = np.sqrt(((xx - W * 0.5) / (W * 0.62)) ** 2 + ((yy - H * 0.38) / (H * 0.55)) ** 2)
+        g = np.clip(1 - d, 0, 1) ** 2.1
+        _GLOW = (g * 15.0).astype(np.float32)
+    return _GLOW
+
+
+def base_plate(top=(30, 34, 44), bottom=(10, 12, 17), scrim=True):
+    """A vertical gradient with vignette, a faint key and the caption scrim baked in,
+    so every frame starts from a finished plate and only draws the motion.
+    Calibrated for a phone screen: the film is dark, but it is never black."""
+    t = np.linspace(0, 1, H, dtype=np.float32)[:, None, None] ** 0.85
     a = np.array(top, dtype=np.float32)[None, None, :]
     b = np.array(bottom, dtype=np.float32)[None, None, :]
     arr = (a * (1 - t) + b * t)
     arr = np.repeat(arr, W, axis=1)
+    arr += _key_glow()[..., None] * np.array([1.0, 0.82, 0.62], dtype=np.float32)
     arr *= vignette_mask()[..., None]
     if scrim:
-        g = np.clip((np.arange(H) - H * 0.74) / (H * 0.26), 0, 1)[:, None, None] ** 1.5
-        arr = arr * (1 - 0.55 * g)
+        g = np.clip((np.arange(H) - H * 0.76) / (H * 0.24), 0, 1)[:, None, None] ** 1.4
+        arr = arr * (1 - 0.38 * g)
     return Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8))
+
+
+_LUT = None
+
+
+def shadow_lift():
+    """One grade over everything: lift the toe so shadows read on a phone, leave the
+    highlights where the type needs them."""
+    global _LUT
+    if _LUT is None:
+        i = np.arange(256, dtype=np.float32)
+        out = i + 14.0 * (1 - i / 255.0) ** 2.2
+        _LUT = np.clip(out, 0, 255).astype(np.uint8)
+    return _LUT
 
 
 def make_grain(n=6, amount=5.0):
@@ -302,6 +333,7 @@ def add_grain(img, frame_idx):
     p = plates[frame_idx % len(plates)]
     arr = np.asarray(img).astype(np.int16)
     arr = np.clip(arr + p[..., None], 0, 255).astype(np.uint8)
+    arr = shadow_lift()[arr]
     return Image.fromarray(arr)
 
 

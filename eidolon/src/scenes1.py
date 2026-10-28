@@ -426,7 +426,7 @@ def _printout_sheet():
     import numpy as np
     from canvas import FONTS as _F
     rng = random.Random(1977)
-    sheet = Image.new("RGB", (PAPER_W, PAPER_H), (230, 224, 209))
+    sheet = Image.new("RGB", (PAPER_W, PAPER_H), (196, 189, 173))
     arr = np.asarray(sheet).astype(np.int16)
     noise = np.random.default_rng(3).normal(0, 3.2, (PAPER_H // 2, PAPER_W // 2))
     noise = np.array(Image.fromarray((noise + 128).clip(0, 255).astype(np.uint8))
@@ -456,7 +456,7 @@ def _printout_sheet():
         d.text((70, y), f"{1016 + r:04d}.{r:02d}", font=small, fill=(110, 104, 92, 170))
         chars = [str(rng.randint(0, 6)) for _ in range(50)]
         chars[2] = " "                       # the quiet channel, until it isn't
-        d.text((x0, y - 2), "".join(chars), font=mono, fill=(38, 40, 44, 235))
+        d.text((x0, y - 2), "".join(chars), font=mono, fill=(34, 36, 40, 232))
         row_y[r] = y
         y += 34
         if y > PAPER_H - 90:
@@ -473,12 +473,12 @@ def printout(t, dur):
     sheet = _printout_sheet()
     img = plate("printout", (10, 9, 8), (6, 5, 4))
 
-    sw = 1440
+    sw = 1080
     sh = int(PAPER_H * sw / PAPER_W)
     sc = sheet.resize((sw, sh), Image.LANCZOS)
-    scroll = ease_in_out(prog(t, 6.0, 22.0)) * 190
-    x = (W - sw) // 2
-    y = int(200 - scroll)
+    scroll = ease_in_out(prog(t, 6.0, 22.0)) * 140
+    x = W - sw - 140
+    y = int(190 - scroll)
 
     d = ImageDraw.Draw(img, "RGBA")
     d.rectangle([x - 10, y - 10, x + sw + 10, y + sh + 10], fill=(0, 0, 0, 130))
@@ -488,7 +488,7 @@ def printout(t, dur):
     lamp = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ld = ImageDraw.Draw(lamp)
     lx = 900 + 120 * math.sin(t * 0.18)
-    for r, a in ((760, 15), (520, 17), (320, 20)):
+    for r, a in ((760, 9), (520, 11), (320, 13)):
         ld.ellipse([lx - r, 300 - r * 0.7, lx + r, 300 + r * 0.7], fill=(255, 214, 150, a))
     lamp = lamp.filter(ImageFilter.GaussianBlur(90))
     img = Image.alpha_composite(img.convert("RGBA"), lamp).convert("RGB")
@@ -511,20 +511,23 @@ def printout(t, dur):
     # channel-2 bracket: this column will matter
     if t > 9.0:
         p = ease_out(prog(t, 9.0, 1.4))
-        cx = x + sc.width * (meta_x := _print_cache["meta"]["x0"] / PAPER_W)
+        cx = x + sc.width * (_print_cache["meta"]["x0"] / PAPER_W)
         d.line([(cx, 330), (cx, 330 + 26 * p)], fill=CYAN + (int(120 * p),), width=1)
         draw_text(img, (cx + 8, 356), "CH 02", FONTS("cond", 12, 400), CYAN,
                   int(150 * p), "ls", 1.8)
 
-    # title over the page, on its own scrim, so the type never sits on bare paper
-    scrim = Image.new("RGBA", (W, H), (6, 7, 9, 0))
+    # a left scrim so the type never sits on bare paper, then the title over it
+    scrim = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     sd = ImageDraw.Draw(scrim)
-    for i in range(300):
-        sd.line([(0, i), (W, i)], fill=(6, 7, 9, int(215 * (1 - i / 300) ** 1.5)))
+    for i in range(700):
+        sd.line([(i, 0), (i, H)], fill=(7, 8, 11, int(225 * (1 - i / 700) ** 1.25)))
+    for i in range(230):
+        sd.line([(0, i), (W, i)], fill=(7, 8, 11, int(190 * (1 - i / 230) ** 1.4)))
     img = Image.alpha_composite(img.convert("RGBA"), scrim).convert("RGB")
-    title_block(img, "III · THE PRINT", "The telescope wrote itself down", t, 0.5, y=96)
+    title_block(img, "III · THE PRINT", "The telescope wrote itself down", t, 0.5, y=150,
+                max_w=820)
 
-    label(img, (W - 96, 96), "RECONSTRUCTION · NOT THE ORIGINAL SHEET", 120, PAPER, 13, "rs", 2.4)
+    label(img, (96, H - 118), "RECONSTRUCTION · NOT THE ORIGINAL SHEET", 140, PAPER, 13, "ls", 2.4)
     return img
 
 
@@ -552,7 +555,7 @@ def reader(t, dur):
 
     warm = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     wd = ImageDraw.Draw(warm)
-    for r, a in ((820, 24), (520, 28)):
+    for r, a in ((820, 16), (520, 19)):
         wd.ellipse([700 - r, 250 - r * 0.55, 700 + r, 250 + r * 0.55], fill=(255, 197, 120, a))
     warm = warm.filter(ImageFilter.GaussianBlur(110))
     img = Image.alpha_composite(img.convert("RGBA"), warm).convert("RGB")

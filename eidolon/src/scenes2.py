@@ -188,11 +188,11 @@ def mark(t, dur):
     hand_ellipse(img, (COL_X + 34, COL_Y0 + 2.4 * COL_STEP), 104, 5 * COL_STEP * 0.60,
                  prog(t, 7.2, 1.4), RED, 4, seed=9)
     wp = prog(t, 9.0, 0.9)
-    write_text(img, (300, 780), "Wow!", FONTS("hand", 200, 600), RED, wp, angle=-4.0, alpha=245)
+    write_text(img, (212, 566), "Wow!", FONTS("hand", 200, 600), RED, wp, angle=-4.0, alpha=245)
 
     if t > 11.6:
         p = ease_out(prog(t, 11.6, 1.2))
-        draw_text(img, (300, 830), "J. R. EHMAN · 19 AUGUST 1977", FONTS("cond", 15, 400),
+        draw_text(img, (224, 852), "J. R. EHMAN · 19 AUGUST 1977", FONTS("cond", 15, 400),
                   GREY, int(170 * p), "ls", 2.8)
     return img
 
