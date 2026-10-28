@@ -1,0 +1,432 @@
+1
+00:00:00,292 --> 00:00:06,912
+At 8:32 PM Universal Time on
+November 18, 1929, six transatlantic
+
+2
+00:00:06,942 --> 00:00:10,286
+telegraph cables south of Newfoundland
+went dead at the exact same
+
+3
+00:00:10,316 --> 00:00:13,529
+instant. An undersea
+earthquake had just struck.
+
+4
+00:00:13,747 --> 00:00:16,620
+What baffled engineers was
+the next thirteen hours.
+
+5
+00:00:16,660 --> 00:00:20,210
+Fifty-nine minutes after shaking
+stopped, a seventh cable snapped
+
+6
+00:00:20,240 --> 00:00:22,931
+farther south. Three
+hours in, an eighth.
+
+7
+00:00:22,971 --> 00:00:26,666
+At thirteen hours seventeen
+minutes, a twelfth tore apart five
+
+8
+00:00:26,696 --> 00:00:28,477
+hundred kilometers offshore.
+
+9
+00:00:28,720 --> 00:00:32,064
+Something unseen had marched across
+the pitch-black Atlantic floor
+
+10
+00:00:32,094 --> 00:00:35,477
+at highway speed, cutting
+steel lines one by one.
+
+11
+00:00:35,517 --> 00:00:39,171
+For twenty-three years, nobody
+on Earth could prove what it was.
+
+12
+00:00:39,477 --> 00:00:43,403
+In 1929, the seabed off
+Newfoundland was the busiest cable
+
+13
+00:00:43,433 --> 00:00:46,947
+crossroads on Earth— linking
+North American stock markets and
+
+14
+00:00:46,977 --> 00:00:49,068
+newsrooms directly to Europe.
+
+15
+00:00:49,289 --> 00:00:52,089
+Each deep-sea cable was
+armored for the abyss:
+
+16
+00:00:52,129 --> 00:00:56,458
+a stranded copper core, gutta-percha
+latex insulation, tanned jute,
+
+17
+00:00:56,498 --> 00:00:58,420
+and galvanized steel wires.
+
+18
+00:00:58,643 --> 00:01:02,620
+Automatic recorders stamped the
+exact minute any circuit failed.
+
+19
+00:01:02,660 --> 00:01:05,882
+On shore, a Wheatstone bridge
+measured the surviving copper's
+
+20
+00:01:05,912 --> 00:01:09,778
+electrical resistance— converting
+ohms straight into nautical miles
+
+21
+00:01:09,808 --> 00:01:10,786
+to the break.
+
+22
+00:01:11,022 --> 00:01:15,327
+When that magnitude 7.2 quake shook
+the Grand Banks, it also sent a
+
+23
+00:01:15,367 --> 00:01:19,220
+devastating tsunami onto Newfoundland's
+Burin Peninsula, claiming
+
+24
+00:01:19,250 --> 00:01:21,597
+twenty-eight lives along Placentia Bay.
+
+25
+00:01:21,892 --> 00:01:25,879
+At sea, repair ships worked nearly
+a year grappling severed lines
+
+26
+00:01:25,909 --> 00:01:30,020
+from three miles down. When
+hydrographer Vladimir de Smitt mapped
+
+27
+00:01:30,060 --> 00:01:33,270
+all twenty-eight breaks across
+twelve cables, an extraordinary
+
+28
+00:01:33,300 --> 00:01:34,622
+pattern emerged.
+
+29
+00:01:34,844 --> 00:01:38,566
+Every cable on the shallow
+continental shelf stayed intact.
+
+30
+00:01:38,606 --> 00:01:41,828
+Six cables on the steep continental
+slope around the epicenter
+
+31
+00:01:41,858 --> 00:01:45,748
+failed simultaneously within
+sixty seconds, crushed by instant
+
+32
+00:01:45,778 --> 00:01:46,691
+slumps.
+
+33
+00:01:46,918 --> 00:01:50,796
+Then six deeper cables snapped
+downslope in strict north-to-south
+
+34
+00:01:50,826 --> 00:01:54,667
+order: fourteen minutes, fifty-nine
+minutes, three hours three
+
+35
+00:01:54,697 --> 00:01:58,842
+minutes, nine hours one minute,
+ten hours eighteen, and thirteen
+
+36
+00:01:58,872 --> 00:02:02,835
+hours seventeen minutes— nearly
+five thousand meters deep, where two
+
+37
+00:02:02,865 --> 00:02:05,377
+hundred miles of wire
+vanished under sand.
+
+38
+00:02:05,681 --> 00:02:09,219
+Why would steel cables break half
+a day after an earthquake stopped?
+
+39
+00:02:09,249 --> 00:02:14,741
+In Nature, geologist J. W. Gregory
+blamed parallel faults unzipping
+
+40
+00:02:14,771 --> 00:02:18,954
+southward. Yet seismographs
+recorded only two aftershocks—
+
+41
+00:02:18,994 --> 00:02:21,207
+both back at the original epicenter.
+
+42
+00:02:21,431 --> 00:02:25,527
+Others blamed wet silt weighing
+cables down, or erosion from the
+
+43
+00:02:25,557 --> 00:02:28,369
+overhead tsunami.
+Physics ruled both out:
+
+44
+00:02:28,409 --> 00:02:32,374
+the tsunami crossed the Atlantic
+ten times faster than the breaks.
+
+45
+00:02:32,414 --> 00:02:35,633
+For two decades, the
+cold case stood unsolved.
+
+46
+00:02:35,936 --> 00:02:38,881
+The key came from a glass
+flume in the Netherlands.
+
+47
+00:02:38,921 --> 00:02:43,042
+Testing Reginald Daly's canyon
+hypothesis, Philip Kuenen released
+
+48
+00:02:43,072 --> 00:02:46,901
+muddy slurries underwater— proving
+that sediment-heavy water plunges
+
+49
+00:02:46,931 --> 00:02:50,373
+beneath clear water like
+a dense liquid avalanche.
+
+50
+00:02:50,608 --> 00:02:54,500
+Still, skeptics doubted a tank
+experiment could span an ocean.
+
+51
+00:02:54,540 --> 00:02:58,867
+Until December 1952, when Bruce
+Heezen and Maurice Ewing at
+
+52
+00:02:58,897 --> 00:03:03,418
+Columbia's Lamont Observatory
+reopened those 1929 Western Union
+
+53
+00:03:03,448 --> 00:03:04,302
+logs.
+
+54
+00:03:04,524 --> 00:03:07,928
+They realized the six delayed
+cables were tripwires across an
+
+55
+00:03:07,958 --> 00:03:12,227
+abyssal racetrack. Two hundred
+cubic kilometers of shaken slope mud
+
+56
+00:03:12,267 --> 00:03:16,181
+had mixed with seawater into a
+roaring turbidity current hundreds of
+
+57
+00:03:16,211 --> 00:03:17,302
+meters tall.
+
+58
+00:03:17,536 --> 00:03:21,438
+Plotting cable distance against
+outage time turned broken wires into
+
+59
+00:03:21,468 --> 00:03:25,661
+a speedometer. Heezen and Ewing
+calculated peak speeds near fifty
+
+60
+00:03:25,691 --> 00:03:28,236
+knots, slowing to twelve on the plain—
+
+61
+00:03:28,276 --> 00:03:32,384
+later refined in 1988 to
+sixty-seven kilometers an hour.
+
+62
+00:03:32,678 --> 00:03:35,672
+A bold reconstruction still
+needed physical proof.
+
+63
+00:03:35,712 --> 00:03:40,245
+If the 1929 flow outran the
+southernmost cable, a fresh sheet of
+
+64
+00:03:40,275 --> 00:03:44,046
+coastal sand had to lie out
+on the Sohm Abyssal Plain.
+
+65
+00:03:44,275 --> 00:03:48,043
+Lamont ships lowered steel piston
+corers more than three miles to
+
+66
+00:03:48,073 --> 00:03:52,085
+the bottom. Atop ancient deep-sea
+clay sat a sharp graded bed of
+
+67
+00:03:52,115 --> 00:03:56,674
+sand, pebbles, and shallow-water
+shells— dropped coarse-grains-first
+
+68
+00:03:56,714 --> 00:03:59,104
+as the 1929 current slowed.
+
+69
+00:03:59,330 --> 00:04:03,160
+Beside Marie Tharp's pioneering
+ocean-floor maps, that core settled
+
+70
+00:04:03,190 --> 00:04:06,535
+the debate. The abyss
+was not a stagnant tomb—
+
+71
+00:04:06,575 --> 00:04:09,725
+it was a living landscape
+carved by canyons and submarine
+
+72
+00:04:09,755 --> 00:04:10,890
+avalanches.
+
+73
+00:04:11,185 --> 00:04:14,203
+Today, that discovery
+protects the digital world.
+
+74
+00:04:14,243 --> 00:04:18,582
+Over 1.8 million kilometers of
+garden-hose-thin fiber-optic cables
+
+75
+00:04:18,612 --> 00:04:22,358
+cross the seafloor, carrying
+more than ninety-nine percent of
+
+76
+00:04:22,398 --> 00:04:24,469
+intercontinental internet traffic.
+
+77
+00:04:24,689 --> 00:04:26,931
+And the same geohazard still strikes.
+
+78
+00:04:26,971 --> 00:04:31,989
+On January 15, 2022, Hunga Tonga's
+eruption unleashed undersea
+
+79
+00:04:32,019 --> 00:04:35,644
+volcanic currents reaching
+122 kilometers an hour—
+
+80
+00:04:35,684 --> 00:04:38,574
+the fastest seafloor
+flows ever recorded.
+
+81
+00:04:38,800 --> 00:04:41,333
+Once again, cables clocked the surge:
+
+82
+00:04:41,373 --> 00:04:45,506
+Tonga's domestic line snapped at
+4:30 AM, and its international
+
+83
+00:04:45,536 --> 00:04:49,887
+fiber broke seventy-four minutes
+later— wrecking 194 kilometers of
+
+84
+00:04:49,917 --> 00:04:53,103
+cable and isolating a
+nation for five weeks.
+
+85
+00:04:53,333 --> 00:04:58,400
+Armed with the lessons of 1929 and
+2022, modern engineers map canyon
+
+86
+00:04:58,430 --> 00:05:03,096
+chutes with multibeam sonar, detour
+around unstable slopes, and bury
+
+87
+00:05:03,126 --> 00:05:04,578
+coastal crossings.
+
+88
+00:05:04,852 --> 00:05:08,633
+Every packet of light crossing an
+ocean today rides on glass threads
+
+89
+00:05:08,663 --> 00:05:12,444
+guarded by what twelve broken
+telegraph wires accidentally recorded
+
+90
+00:05:12,474 --> 00:05:18,045
+on November 18, 1929— over thirteen
+hours and seventeen minutes.

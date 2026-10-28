@@ -1,0 +1,48 @@
+[00:00.00] (S01) At 8:32 PM Universal Time on November 18, 1929, six transatlantic telegraph cables south of Newfoundland went dead at the exact same instant. An undersea earthquake had just struck.
+
+[00:13.62] (S02) What baffled engineers was the next thirteen hours. Fifty-nine minutes after shaking stopped, a seventh cable snapped farther south. Three hours in, an eighth. At thirteen hours seventeen minutes, a twelfth tore apart five hundred kilometers offshore.
+
+[00:28.58] (S03) Something unseen had marched across the pitch-black Atlantic floor at highway speed, cutting steel lines one by one. For twenty-three years, nobody on Earth could prove what it was.
+
+[00:39.34] (S04) In 1929, the seabed off Newfoundland was the busiest cable crossroads on Earth—linking North American stock markets and newsrooms directly to Europe.
+
+[00:49.16] (S05) Each deep-sea cable was armored for the abyss: a stranded copper core, gutta-percha latex insulation, tanned jute, and galvanized steel wires.
+
+[00:58.51] (S06) Automatic recorders stamped the exact minute any circuit failed. On shore, a Wheatstone bridge measured the surviving copper's electrical resistance—converting ohms straight into nautical miles to the break.
+
+[01:10.89] (S07) When that magnitude 7.2 quake shook the Grand Banks, it also sent a devastating tsunami onto Newfoundland's Burin Peninsula, claiming twenty-eight lives along Placentia Bay.
+
+[01:21.76] (S08) At sea, repair ships worked nearly a year grappling severed lines from three miles down. When hydrographer Vladimir de Smitt mapped all twenty-eight breaks across twelve cables, an extraordinary pattern emerged.
+
+[01:34.71] (S09) Every cable on the shallow continental shelf stayed intact. Six cables on the steep continental slope around the epicenter failed simultaneously within sixty seconds, crushed by instant slumps.
+
+[01:46.78] (S10) Then six deeper cables snapped downslope in strict north-to-south order: fourteen minutes, fifty-nine minutes, three hours three minutes, nine hours one minute, ten hours eighteen, and thirteen hours seventeen minutes—nearly five thousand meters deep, where two hundred miles of wire vanished under sand.
+
+[02:05.55] (S11) Why would steel cables break half a day after an earthquake stopped? In Nature, geologist J. W. Gregory blamed parallel faults unzipping southward. Yet seismographs recorded only two aftershocks—both back at the original epicenter.
+
+[02:21.30] (S12) Others blamed wet silt weighing cables down, or erosion from the overhead tsunami. Physics ruled both out: the tsunami crossed the Atlantic ten times faster than the breaks. For two decades, the cold case stood unsolved.
+
+[02:35.79] (S13) The key came from a glass flume in the Netherlands. Testing Reginald Daly's canyon hypothesis, Philip Kuenen released muddy slurries underwater—proving that sediment-heavy water plunges beneath clear water like a dense liquid avalanche.
+
+[02:50.46] (S14) Still, skeptics doubted a tank experiment could span an ocean. Until December 1952, when Bruce Heezen and Maurice Ewing at Columbia's Lamont Observatory reopened those 1929 Western Union logs.
+
+[03:04.39] (S15) They realized the six delayed cables were tripwires across an abyssal racetrack. Two hundred cubic kilometers of shaken slope mud had mixed with seawater into a roaring turbidity current hundreds of meters tall.
+
+[03:17.39] (S16) Plotting cable distance against outage time turned broken wires into a speedometer. Heezen and Ewing calculated peak speeds near fifty knots, slowing to twelve on the plain—later refined in 1988 to sixty-seven kilometers an hour.
+
+[03:32.54] (S17) A bold reconstruction still needed physical proof. If the 1929 flow outran the southernmost cable, a fresh sheet of coastal sand had to lie out on the Sohm Abyssal Plain.
+
+[03:44.14] (S18) Lamont ships lowered steel piston corers more than three miles to the bottom. Atop ancient deep-sea clay sat a sharp graded bed of sand, pebbles, and shallow-water shells—dropped coarse-grains-first as the 1929 current slowed.
+
+[03:59.19] (S19) Beside Marie Tharp's pioneering ocean-floor maps, that core settled the debate. The abyss was not a stagnant tomb—it was a living landscape carved by canyons and submarine avalanches.
+
+[04:11.05] (S20) Today, that discovery protects the digital world. Over 1.8 million kilometers of garden-hose-thin fiber-optic cables cross the seafloor, carrying more than ninety-nine percent of intercontinental internet traffic.
+
+[04:24.56] (S21) And the same geohazard still strikes. On January 15, 2022, Hunga Tonga's eruption unleashed undersea volcanic currents reaching 122 kilometers an hour—the fastest seafloor flows ever recorded.
+
+[04:38.66] (S22) Once again, cables clocked the surge: Tonga's domestic line snapped at 4:30 AM, and its international fiber broke seventy-four minutes later—wrecking 194 kilometers of cable and isolating a nation for five weeks.
+
+[04:53.20] (S23) Armed with the lessons of 1929 and 2022, modern engineers map canyon chutes with multibeam sonar, detour around unstable slopes, and bury coastal crossings.
+
+[05:04.72] (S24) Every packet of light crossing an ocean today rides on glass threads guarded by what twelve broken telegraph wires accidentally recorded on November 18, 1929—over thirteen hours and seventeen minutes.
+

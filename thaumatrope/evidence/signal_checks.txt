@@ -1,0 +1,3 @@
+Full-file decode errors: 0 (NONE)
+Black frames >=0.2s: 0
+Silent gaps >=1.0s @ -42dB: 0

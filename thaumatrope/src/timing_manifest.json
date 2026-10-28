@@ -1,0 +1,5654 @@
+{
+  "fps": 30,
+  "total_frames": 9599,
+  "total_duration": 319.9667,
+  "voice": "en-US-AndrewNeural",
+  "voice_rate": "+3%",
+  "shots": [
+    {
+      "id": "S01",
+      "act": "ACT I \u00b7 THE NIGHT THE ATLANTIC WENT SILENT",
+      "mode": "plate_telegraph_hook",
+      "plate": "plate_01_telegraph_room.jpg",
+      "plate_secondary": null,
+      "narration": "At 8:32 PM Universal Time on November 18, 1929, six transatlantic telegraph cables south of Newfoundland went dead at the exact same instant. An undersea earthquake had just struck.",
+      "wav": "/tmp/thaumatrope_build/tts/S01.wav",
+      "shot_start": 0.0,
+      "speech_start": 0.28,
+      "speech_end": 13.2664,
+      "shot_end": 13.6164,
+      "duration": 13.3364,
+      "words": [
+        {
+          "start": 0.012,
+          "end": 0.17,
+          "text": "At"
+        },
+        {
+          "start": 0.23,
+          "end": 1.493,
+          "text": "8:32 PM"
+        },
+        {
+          "start": 1.76,
+          "end": 2.257,
+          "text": "Universal"
+        },
+        {
+          "start": 2.269,
+          "end": 2.658,
+          "text": "Time"
+        },
+        {
+          "start": 2.767,
+          "end": 2.876,
+          "text": "on"
+        },
+        {
+          "start": 2.888,
+          "end": 5.243,
+          "text": "November 18, 1929"
+        },
+        {
+          "start": 5.546,
+          "end": 5.837,
+          "text": "six"
+        },
+        {
+          "start": 5.849,
+          "end": 6.65,
+          "text": "transatlantic"
+        },
+        {
+          "start": 6.662,
+          "end": 7.184,
+          "text": "telegraph"
+        },
+        {
+          "start": 7.196,
+          "end": 7.536,
+          "text": "cables"
+        },
+        {
+          "start": 7.548,
+          "end": 7.852,
+          "text": "south"
+        },
+        {
+          "start": 7.864,
+          "end": 7.949,
+          "text": "of"
+        },
+        {
+          "start": 7.961,
+          "end": 8.519,
+          "text": "Newfoundland"
+        },
+        {
+          "start": 8.531,
+          "end": 8.774,
+          "text": "went"
+        },
+        {
+          "start": 8.823,
+          "end": 9.078,
+          "text": "dead"
+        },
+        {
+          "start": 9.09,
+          "end": 9.162,
+          "text": "at"
+        },
+        {
+          "start": 9.175,
+          "end": 9.247,
+          "text": "the"
+        },
+        {
+          "start": 9.26,
+          "end": 9.733,
+          "text": "exact"
+        },
+        {
+          "start": 9.745,
+          "end": 10.024,
+          "text": "same"
+        },
+        {
+          "start": 10.036,
+          "end": 10.473,
+          "text": "instant"
+        },
+        {
+          "start": 10.874,
+          "end": 10.946,
+          "text": "An"
+        },
+        {
+          "start": 10.959,
+          "end": 11.347,
+          "text": "undersea"
+        },
+        {
+          "start": 11.359,
+          "end": 11.893,
+          "text": "earthquake"
+        },
+        {
+          "start": 12.027,
+          "end": 12.184,
+          "text": "had"
+        },
+        {
+          "start": 12.196,
+          "end": 12.439,
+          "text": "just"
+        },
+        {
+          "start": 12.451,
+          "end": 12.888,
+          "text": "struck"
+        }
+      ],
+      "cues": [
+        {
+          "start": 0.292,
+          "end": 6.912,
+          "lines": [
+            "At 8:32 PM Universal Time on",
+            "November 18, 1929, six transatlantic"
+          ],
+          "text": "At 8:32 PM Universal Time on November 18, 1929, six transatlantic"
+        },
+        {
+          "start": 6.942,
+          "end": 10.286,
+          "lines": [
+            "telegraph cables south of Newfoundland",
+            "went dead at the exact same"
+          ],
+          "text": "telegraph cables south of Newfoundland went dead at the exact same"
+        },
+        {
+          "start": 10.316,
+          "end": 13.529,
+          "lines": [
+            "instant. An undersea",
+            "earthquake had just struck."
+          ],
+          "text": "instant. An undersea earthquake had just struck."
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "act": "ACT I \u00b7 THE NIGHT THE ATLANTIC WENT SILENT",
+      "mode": "map_teaser_countdown",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "What baffled engineers was the next thirteen hours. Fifty-nine minutes after shaking stopped, a seventh cable snapped farther south. Three hours in, an eighth. At thirteen hours seventeen minutes, a twelfth tore apart five hundred kilometers offshore.",
+      "wav": "/tmp/thaumatrope_build/tts/S02.wav",
+      "shot_start": 13.6164,
+      "speech_start": 13.7364,
+      "speech_end": 28.1966,
+      "shot_end": 28.5766,
+      "duration": 14.9602,
+      "words": [
+        {
+          "start": 0.011,
+          "end": 0.169,
+          "text": "What"
+        },
+        {
+          "start": 0.181,
+          "end": 0.582,
+          "text": "baffled"
+        },
+        {
+          "start": 0.594,
+          "end": 1.091,
+          "text": "engineers"
+        },
+        {
+          "start": 1.104,
+          "end": 1.237,
+          "text": "was"
+        },
+        {
+          "start": 1.249,
+          "end": 1.322,
+          "text": "the"
+        },
+        {
+          "start": 1.334,
+          "end": 1.638,
+          "text": "next"
+        },
+        {
+          "start": 1.65,
+          "end": 2.002,
+          "text": "thirteen"
+        },
+        {
+          "start": 2.014,
+          "end": 2.475,
+          "text": "hours"
+        },
+        {
+          "start": 2.924,
+          "end": 3.373,
+          "text": "Fifty-nine"
+        },
+        {
+          "start": 3.385,
+          "end": 3.664,
+          "text": "minutes"
+        },
+        {
+          "start": 3.676,
+          "end": 3.943,
+          "text": "after"
+        },
+        {
+          "start": 3.955,
+          "end": 4.32,
+          "text": "shaking"
+        },
+        {
+          "start": 4.332,
+          "end": 4.781,
+          "text": "stopped"
+        },
+        {
+          "start": 5.096,
+          "end": 5.146,
+          "text": "a"
+        },
+        {
+          "start": 5.145,
+          "end": 5.545,
+          "text": "seventh"
+        },
+        {
+          "start": 5.557,
+          "end": 5.922,
+          "text": "cable"
+        },
+        {
+          "start": 6.067,
+          "end": 6.492,
+          "text": "snapped"
+        },
+        {
+          "start": 6.504,
+          "end": 6.844,
+          "text": "farther"
+        },
+        {
+          "start": 6.856,
+          "end": 7.281,
+          "text": "south"
+        },
+        {
+          "start": 7.705,
+          "end": 7.875,
+          "text": "Three"
+        },
+        {
+          "start": 7.888,
+          "end": 8.167,
+          "text": "hours"
+        },
+        {
+          "start": 8.179,
+          "end": 8.324,
+          "text": "in"
+        },
+        {
+          "start": 8.361,
+          "end": 8.458,
+          "text": "an"
+        },
+        {
+          "start": 8.47,
+          "end": 8.834,
+          "text": "eighth"
+        },
+        {
+          "start": 9.235,
+          "end": 9.356,
+          "text": "At"
+        },
+        {
+          "start": 9.368,
+          "end": 9.829,
+          "text": "thirteen"
+        },
+        {
+          "start": 9.841,
+          "end": 10.169,
+          "text": "hours"
+        },
+        {
+          "start": 10.181,
+          "end": 10.679,
+          "text": "seventeen"
+        },
+        {
+          "start": 10.691,
+          "end": 11.116,
+          "text": "minutes"
+        },
+        {
+          "start": 11.334,
+          "end": 11.384,
+          "text": "a"
+        },
+        {
+          "start": 11.383,
+          "end": 11.783,
+          "text": "twelfth"
+        },
+        {
+          "start": 11.795,
+          "end": 12.014,
+          "text": "tore"
+        },
+        {
+          "start": 12.026,
+          "end": 12.414,
+          "text": "apart"
+        },
+        {
+          "start": 12.608,
+          "end": 12.948,
+          "text": "five"
+        },
+        {
+          "start": 12.96,
+          "end": 13.264,
+          "text": "hundred"
+        },
+        {
+          "start": 13.276,
+          "end": 13.786,
+          "text": "kilometers"
+        },
+        {
+          "start": 13.798,
+          "end": 14.356,
+          "text": "offshore"
+        }
+      ],
+      "cues": [
+        {
+          "start": 13.747,
+          "end": 16.62,
+          "lines": [
+            "What baffled engineers was",
+            "the next thirteen hours."
+          ],
+          "text": "What baffled engineers was the next thirteen hours."
+        },
+        {
+          "start": 16.66,
+          "end": 20.21,
+          "lines": [
+            "Fifty-nine minutes after shaking",
+            "stopped, a seventh cable snapped"
+          ],
+          "text": "Fifty-nine minutes after shaking stopped, a seventh cable snapped"
+        },
+        {
+          "start": 20.24,
+          "end": 22.931,
+          "lines": [
+            "farther south. Three",
+            "hours in, an eighth."
+          ],
+          "text": "farther south. Three hours in, an eighth."
+        },
+        {
+          "start": 22.971,
+          "end": 26.666,
+          "lines": [
+            "At thirteen hours seventeen",
+            "minutes, a twelfth tore apart five"
+          ],
+          "text": "At thirteen hours seventeen minutes, a twelfth tore apart five"
+        },
+        {
+          "start": 26.696,
+          "end": 28.477,
+          "lines": [
+            "hundred kilometers offshore."
+          ],
+          "text": "hundred kilometers offshore."
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "act": "ACT I \u00b7 THE NIGHT THE ATLANTIC WENT SILENT",
+      "mode": "plate_title_reveal",
+      "plate": "plate_02_abyssal_cable.jpg",
+      "plate_secondary": null,
+      "narration": "Something unseen had marched across the pitch-black Atlantic floor at highway speed, cutting steel lines one by one. For twenty-three years, nobody on Earth could prove what it was.",
+      "wav": "/tmp/thaumatrope_build/tts/S03.wav",
+      "shot_start": 28.5766,
+      "speech_start": 28.6966,
+      "speech_end": 38.891,
+      "shot_end": 39.341,
+      "duration": 10.7644,
+      "words": [
+        {
+          "start": 0.023,
+          "end": 0.4,
+          "text": "Something"
+        },
+        {
+          "start": 0.412,
+          "end": 0.885,
+          "text": "unseen"
+        },
+        {
+          "start": 0.897,
+          "end": 1.079,
+          "text": "had"
+        },
+        {
+          "start": 1.091,
+          "end": 1.443,
+          "text": "marched"
+        },
+        {
+          "start": 1.455,
+          "end": 1.856,
+          "text": "across"
+        },
+        {
+          "start": 1.868,
+          "end": 1.965,
+          "text": "the"
+        },
+        {
+          "start": 1.977,
+          "end": 2.523,
+          "text": "pitch-black"
+        },
+        {
+          "start": 2.536,
+          "end": 2.985,
+          "text": "Atlantic"
+        },
+        {
+          "start": 2.997,
+          "end": 3.385,
+          "text": "floor"
+        },
+        {
+          "start": 3.397,
+          "end": 3.47,
+          "text": "at"
+        },
+        {
+          "start": 3.482,
+          "end": 3.907,
+          "text": "highway"
+        },
+        {
+          "start": 3.919,
+          "end": 4.429,
+          "text": "speed"
+        },
+        {
+          "start": 4.72,
+          "end": 4.999,
+          "text": "cutting"
+        },
+        {
+          "start": 5.011,
+          "end": 5.351,
+          "text": "steel"
+        },
+        {
+          "start": 5.363,
+          "end": 5.667,
+          "text": "lines"
+        },
+        {
+          "start": 5.679,
+          "end": 5.873,
+          "text": "one"
+        },
+        {
+          "start": 5.885,
+          "end": 6.067,
+          "text": "by"
+        },
+        {
+          "start": 6.079,
+          "end": 6.395,
+          "text": "one"
+        },
+        {
+          "start": 6.82,
+          "end": 6.88,
+          "text": "For"
+        },
+        {
+          "start": 6.892,
+          "end": 7.366,
+          "text": "twenty-three"
+        },
+        {
+          "start": 7.378,
+          "end": 7.815,
+          "text": "years"
+        },
+        {
+          "start": 8.07,
+          "end": 8.434,
+          "text": "nobody"
+        },
+        {
+          "start": 8.446,
+          "end": 8.591,
+          "text": "on"
+        },
+        {
+          "start": 8.604,
+          "end": 8.871,
+          "text": "Earth"
+        },
+        {
+          "start": 8.883,
+          "end": 9.065,
+          "text": "could"
+        },
+        {
+          "start": 9.077,
+          "end": 9.453,
+          "text": "prove"
+        },
+        {
+          "start": 9.465,
+          "end": 9.587,
+          "text": "what"
+        },
+        {
+          "start": 9.599,
+          "end": 9.684,
+          "text": "it"
+        },
+        {
+          "start": 9.696,
+          "end": 10.084,
+          "text": "was"
+        }
+      ],
+      "cues": [
+        {
+          "start": 28.72,
+          "end": 32.064,
+          "lines": [
+            "Something unseen had marched across",
+            "the pitch-black Atlantic floor"
+          ],
+          "text": "Something unseen had marched across the pitch-black Atlantic floor"
+        },
+        {
+          "start": 32.094,
+          "end": 35.477,
+          "lines": [
+            "at highway speed, cutting",
+            "steel lines one by one."
+          ],
+          "text": "at highway speed, cutting steel lines one by one."
+        },
+        {
+          "start": 35.517,
+          "end": 39.171,
+          "lines": [
+            "For twenty-three years, nobody",
+            "on Earth could prove what it was."
+          ],
+          "text": "For twenty-three years, nobody on Earth could prove what it was."
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "act": "ACT II \u00b7 THE ACCIDENTAL INSTRUMENT",
+      "mode": "corridor_map_1929",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "In 1929, the seabed off Newfoundland was the busiest cable crossroads on Earth\u2014linking North American stock markets and newsrooms directly to Europe.",
+      "wav": "/tmp/thaumatrope_build/tts/S04.wav",
+      "shot_start": 39.341,
+      "speech_start": 39.461,
+      "speech_end": 48.8051,
+      "shot_end": 49.1551,
+      "duration": 9.8141,
+      "words": [
+        {
+          "start": 0.016,
+          "end": 1.12,
+          "text": "In 1929"
+        },
+        {
+          "start": 1.351,
+          "end": 1.436,
+          "text": "the"
+        },
+        {
+          "start": 1.448,
+          "end": 1.885,
+          "text": "seabed"
+        },
+        {
+          "start": 1.897,
+          "end": 2.115,
+          "text": "off"
+        },
+        {
+          "start": 2.127,
+          "end": 2.698,
+          "text": "Newfoundland"
+        },
+        {
+          "start": 2.71,
+          "end": 2.855,
+          "text": "was"
+        },
+        {
+          "start": 2.868,
+          "end": 2.977,
+          "text": "the"
+        },
+        {
+          "start": 3.062,
+          "end": 3.608,
+          "text": "busiest"
+        },
+        {
+          "start": 3.62,
+          "end": 3.96,
+          "text": "cable"
+        },
+        {
+          "start": 3.972,
+          "end": 4.567,
+          "text": "crossroads"
+        },
+        {
+          "start": 4.579,
+          "end": 4.712,
+          "text": "on"
+        },
+        {
+          "start": 4.724,
+          "end": 5.089,
+          "text": "Earth"
+        },
+        {
+          "start": 5.55,
+          "end": 5.914,
+          "text": "linking"
+        },
+        {
+          "start": 5.926,
+          "end": 6.169,
+          "text": "North"
+        },
+        {
+          "start": 6.181,
+          "end": 6.569,
+          "text": "American"
+        },
+        {
+          "start": 6.581,
+          "end": 6.897,
+          "text": "stock"
+        },
+        {
+          "start": 6.909,
+          "end": 7.322,
+          "text": "markets"
+        },
+        {
+          "start": 7.334,
+          "end": 7.504,
+          "text": "and"
+        },
+        {
+          "start": 7.516,
+          "end": 8.098,
+          "text": "newsrooms"
+        },
+        {
+          "start": 8.11,
+          "end": 8.693,
+          "text": "directly"
+        },
+        {
+          "start": 8.705,
+          "end": 8.814,
+          "text": "to"
+        },
+        {
+          "start": 8.826,
+          "end": 9.239,
+          "text": "Europe"
+        }
+      ],
+      "cues": [
+        {
+          "start": 39.477,
+          "end": 43.403,
+          "lines": [
+            "In 1929, the seabed off",
+            "Newfoundland was the busiest cable"
+          ],
+          "text": "In 1929, the seabed off Newfoundland was the busiest cable"
+        },
+        {
+          "start": 43.433,
+          "end": 46.947,
+          "lines": [
+            "crossroads on Earth\u2014 linking",
+            "North American stock markets and"
+          ],
+          "text": "crossroads on Earth\u2014 linking North American stock markets and"
+        },
+        {
+          "start": 46.977,
+          "end": 49.068,
+          "lines": [
+            "newsrooms directly to Europe."
+          ],
+          "text": "newsrooms directly to Europe."
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "act": "ACT II \u00b7 THE ACCIDENTAL INSTRUMENT",
+      "mode": "cable_cross_section",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "Each deep-sea cable was armored for the abyss: a stranded copper core, gutta-percha latex insulation, tanned jute, and galvanized steel wires.",
+      "wav": "/tmp/thaumatrope_build/tts/S05.wav",
+      "shot_start": 49.1551,
+      "speech_start": 49.2751,
+      "speech_end": 58.1576,
+      "shot_end": 58.5076,
+      "duration": 9.3525,
+      "words": [
+        {
+          "start": 0.014,
+          "end": 0.294,
+          "text": "Each"
+        },
+        {
+          "start": 0.354,
+          "end": 0.828,
+          "text": "deep-sea"
+        },
+        {
+          "start": 0.84,
+          "end": 1.216,
+          "text": "cable"
+        },
+        {
+          "start": 1.228,
+          "end": 1.386,
+          "text": "was"
+        },
+        {
+          "start": 1.446,
+          "end": 1.811,
+          "text": "armored"
+        },
+        {
+          "start": 1.823,
+          "end": 1.944,
+          "text": "for"
+        },
+        {
+          "start": 1.956,
+          "end": 2.053,
+          "text": "the"
+        },
+        {
+          "start": 2.065,
+          "end": 2.563,
+          "text": "abyss"
+        },
+        {
+          "start": 2.854,
+          "end": 2.904,
+          "text": "a"
+        },
+        {
+          "start": 2.915,
+          "end": 3.364,
+          "text": "stranded"
+        },
+        {
+          "start": 3.376,
+          "end": 3.74,
+          "text": "copper"
+        },
+        {
+          "start": 3.752,
+          "end": 4.153,
+          "text": "core"
+        },
+        {
+          "start": 4.42,
+          "end": 4.954,
+          "text": "gutta-percha"
+        },
+        {
+          "start": 4.966,
+          "end": 5.439,
+          "text": "latex"
+        },
+        {
+          "start": 5.451,
+          "end": 6.07,
+          "text": "insulation"
+        },
+        {
+          "start": 6.349,
+          "end": 6.641,
+          "text": "tanned"
+        },
+        {
+          "start": 6.653,
+          "end": 6.932,
+          "text": "jute"
+        },
+        {
+          "start": 7.223,
+          "end": 7.332,
+          "text": "and"
+        },
+        {
+          "start": 7.345,
+          "end": 7.939,
+          "text": "galvanized"
+        },
+        {
+          "start": 7.951,
+          "end": 8.255,
+          "text": "steel"
+        },
+        {
+          "start": 8.267,
+          "end": 8.777,
+          "text": "wires"
+        }
+      ],
+      "cues": [
+        {
+          "start": 49.289,
+          "end": 52.089,
+          "lines": [
+            "Each deep-sea cable was",
+            "armored for the abyss:"
+          ],
+          "text": "Each deep-sea cable was armored for the abyss:"
+        },
+        {
+          "start": 52.129,
+          "end": 56.458,
+          "lines": [
+            "a stranded copper core, gutta-percha",
+            "latex insulation, tanned jute,"
+          ],
+          "text": "a stranded copper core, gutta-percha latex insulation, tanned jute,"
+        },
+        {
+          "start": 56.498,
+          "end": 58.42,
+          "lines": [
+            "and galvanized steel wires."
+          ],
+          "text": "and galvanized steel wires."
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "act": "ACT II \u00b7 THE ACCIDENTAL INSTRUMENT",
+      "mode": "wheatstone_fault_locator",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "Automatic recorders stamped the exact minute any circuit failed. On shore, a Wheatstone bridge measured the surviving copper's electrical resistance\u2014converting ohms straight into nautical miles to the break.",
+      "wav": "/tmp/thaumatrope_build/tts/S06.wav",
+      "shot_start": 58.5076,
+      "speech_start": 58.6276,
+      "speech_end": 70.5062,
+      "shot_end": 70.8862,
+      "duration": 12.3786,
+      "words": [
+        {
+          "start": 0.015,
+          "end": 0.464,
+          "text": "Automatic"
+        },
+        {
+          "start": 0.476,
+          "end": 1.01,
+          "text": "recorders"
+        },
+        {
+          "start": 1.107,
+          "end": 1.568,
+          "text": "stamped"
+        },
+        {
+          "start": 1.58,
+          "end": 1.653,
+          "text": "the"
+        },
+        {
+          "start": 1.665,
+          "end": 2.224,
+          "text": "exact"
+        },
+        {
+          "start": 2.236,
+          "end": 2.575,
+          "text": "minute"
+        },
+        {
+          "start": 2.721,
+          "end": 2.855,
+          "text": "any"
+        },
+        {
+          "start": 2.867,
+          "end": 3.231,
+          "text": "circuit"
+        },
+        {
+          "start": 3.243,
+          "end": 3.631,
+          "text": "failed"
+        },
+        {
+          "start": 4.032,
+          "end": 4.153,
+          "text": "On"
+        },
+        {
+          "start": 4.165,
+          "end": 4.578,
+          "text": "shore"
+        },
+        {
+          "start": 4.76,
+          "end": 4.821,
+          "text": "a"
+        },
+        {
+          "start": 4.833,
+          "end": 5.342,
+          "text": "Wheatstone"
+        },
+        {
+          "start": 5.355,
+          "end": 5.731,
+          "text": "bridge"
+        },
+        {
+          "start": 5.743,
+          "end": 6.143,
+          "text": "measured"
+        },
+        {
+          "start": 6.156,
+          "end": 6.228,
+          "text": "the"
+        },
+        {
+          "start": 6.241,
+          "end": 6.823,
+          "text": "surviving"
+        },
+        {
+          "start": 6.835,
+          "end": 7.272,
+          "text": "copper's"
+        },
+        {
+          "start": 7.284,
+          "end": 7.794,
+          "text": "electrical"
+        },
+        {
+          "start": 7.806,
+          "end": 8.473,
+          "text": "resistance"
+        },
+        {
+          "start": 8.753,
+          "end": 9.262,
+          "text": "converting"
+        },
+        {
+          "start": 9.274,
+          "end": 9.457,
+          "text": "ohms"
+        },
+        {
+          "start": 9.469,
+          "end": 9.906,
+          "text": "straight"
+        },
+        {
+          "start": 9.991,
+          "end": 10.173,
+          "text": "into"
+        },
+        {
+          "start": 10.185,
+          "end": 10.682,
+          "text": "nautical"
+        },
+        {
+          "start": 10.694,
+          "end": 11.168,
+          "text": "miles"
+        },
+        {
+          "start": 11.18,
+          "end": 11.277,
+          "text": "to"
+        },
+        {
+          "start": 11.289,
+          "end": 11.374,
+          "text": "the"
+        },
+        {
+          "start": 11.386,
+          "end": 11.774,
+          "text": "break"
+        }
+      ],
+      "cues": [
+        {
+          "start": 58.643,
+          "end": 62.62,
+          "lines": [
+            "Automatic recorders stamped the",
+            "exact minute any circuit failed."
+          ],
+          "text": "Automatic recorders stamped the exact minute any circuit failed."
+        },
+        {
+          "start": 62.66,
+          "end": 65.882,
+          "lines": [
+            "On shore, a Wheatstone bridge",
+            "measured the surviving copper's"
+          ],
+          "text": "On shore, a Wheatstone bridge measured the surviving copper's"
+        },
+        {
+          "start": 65.912,
+          "end": 69.778,
+          "lines": [
+            "electrical resistance\u2014 converting",
+            "ohms straight into nautical miles"
+          ],
+          "text": "electrical resistance\u2014 converting ohms straight into nautical miles"
+        },
+        {
+          "start": 69.808,
+          "end": 70.786,
+          "lines": [
+            "to the break."
+          ],
+          "text": "to the break."
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "act": "ACT II \u00b7 THE ACCIDENTAL INSTRUMENT",
+      "mode": "plate_burin_tragedy",
+      "plate": "plate_03_burin_storm.jpg",
+      "plate_secondary": null,
+      "narration": "When that magnitude 7.2 quake shook the Grand Banks, it also sent a devastating tsunami onto Newfoundland's Burin Peninsula, claiming twenty-eight lives along Placentia Bay.",
+      "wav": "/tmp/thaumatrope_build/tts/S07.wav",
+      "shot_start": 70.8862,
+      "speech_start": 71.0062,
+      "speech_end": 81.3172,
+      "shot_end": 81.7572,
+      "duration": 10.871,
+      "words": [
+        {
+          "start": 0.016,
+          "end": 0.101,
+          "text": "When"
+        },
+        {
+          "start": 0.113,
+          "end": 0.283,
+          "text": "that"
+        },
+        {
+          "start": 0.295,
+          "end": 0.914,
+          "text": "magnitude"
+        },
+        {
+          "start": 0.926,
+          "end": 1.812,
+          "text": "7.2"
+        },
+        {
+          "start": 1.824,
+          "end": 2.14,
+          "text": "quake"
+        },
+        {
+          "start": 2.152,
+          "end": 2.395,
+          "text": "shook"
+        },
+        {
+          "start": 2.407,
+          "end": 2.48,
+          "text": "the"
+        },
+        {
+          "start": 2.492,
+          "end": 2.783,
+          "text": "Grand"
+        },
+        {
+          "start": 2.795,
+          "end": 3.256,
+          "text": "Banks"
+        },
+        {
+          "start": 3.487,
+          "end": 3.56,
+          "text": "it"
+        },
+        {
+          "start": 3.572,
+          "end": 3.887,
+          "text": "also"
+        },
+        {
+          "start": 3.9,
+          "end": 4.142,
+          "text": "sent"
+        },
+        {
+          "start": 4.203,
+          "end": 4.3,
+          "text": "a"
+        },
+        {
+          "start": 4.361,
+          "end": 4.98,
+          "text": "devastating"
+        },
+        {
+          "start": 4.992,
+          "end": 5.635,
+          "text": "tsunami"
+        },
+        {
+          "start": 5.647,
+          "end": 5.89,
+          "text": "onto"
+        },
+        {
+          "start": 5.902,
+          "end": 6.594,
+          "text": "Newfoundland's"
+        },
+        {
+          "start": 6.606,
+          "end": 6.946,
+          "text": "Burin"
+        },
+        {
+          "start": 6.958,
+          "end": 7.565,
+          "text": "Peninsula"
+        },
+        {
+          "start": 7.856,
+          "end": 8.232,
+          "text": "claiming"
+        },
+        {
+          "start": 8.244,
+          "end": 8.705,
+          "text": "twenty-eight"
+        },
+        {
+          "start": 8.717,
+          "end": 9.118,
+          "text": "lives"
+        },
+        {
+          "start": 9.13,
+          "end": 9.421,
+          "text": "along"
+        },
+        {
+          "start": 9.434,
+          "end": 9.883,
+          "text": "Placentia"
+        },
+        {
+          "start": 9.895,
+          "end": 10.174,
+          "text": "Bay"
+        }
+      ],
+      "cues": [
+        {
+          "start": 71.022,
+          "end": 75.327,
+          "lines": [
+            "When that magnitude 7.2 quake shook",
+            "the Grand Banks, it also sent a"
+          ],
+          "text": "When that magnitude 7.2 quake shook the Grand Banks, it also sent a"
+        },
+        {
+          "start": 75.367,
+          "end": 79.22,
+          "lines": [
+            "devastating tsunami onto Newfoundland's",
+            "Burin Peninsula, claiming"
+          ],
+          "text": "devastating tsunami onto Newfoundland's Burin Peninsula, claiming"
+        },
+        {
+          "start": 79.25,
+          "end": 81.597,
+          "lines": [
+            "twenty-eight lives along Placentia Bay."
+          ],
+          "text": "twenty-eight lives along Placentia Bay."
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "act": "ACT III \u00b7 THE STOPWATCH ON THE SLOPE",
+      "mode": "plate_cable_ship_logs",
+      "plate": "plate_04_cable_ship.jpg",
+      "plate_secondary": null,
+      "narration": "At sea, repair ships worked nearly a year grappling severed lines from three miles down. When hydrographer Vladimir de Smitt mapped all twenty-eight breaks across twelve cables, an extraordinary pattern emerged.",
+      "wav": "/tmp/thaumatrope_build/tts/S08.wav",
+      "shot_start": 81.7572,
+      "speech_start": 81.8772,
+      "speech_end": 94.352,
+      "shot_end": 94.712,
+      "duration": 12.9548,
+      "words": [
+        {
+          "start": 0.015,
+          "end": 0.137,
+          "text": "At"
+        },
+        {
+          "start": 0.149,
+          "end": 0.464,
+          "text": "sea"
+        },
+        {
+          "start": 0.841,
+          "end": 1.132,
+          "text": "repair"
+        },
+        {
+          "start": 1.144,
+          "end": 1.459,
+          "text": "ships"
+        },
+        {
+          "start": 1.472,
+          "end": 1.811,
+          "text": "worked"
+        },
+        {
+          "start": 1.824,
+          "end": 2.236,
+          "text": "nearly"
+        },
+        {
+          "start": 2.248,
+          "end": 2.298,
+          "text": "a"
+        },
+        {
+          "start": 2.297,
+          "end": 2.661,
+          "text": "year"
+        },
+        {
+          "start": 2.673,
+          "end": 3.195,
+          "text": "grappling"
+        },
+        {
+          "start": 3.207,
+          "end": 3.62,
+          "text": "severed"
+        },
+        {
+          "start": 3.632,
+          "end": 4.02,
+          "text": "lines"
+        },
+        {
+          "start": 4.032,
+          "end": 4.214,
+          "text": "from"
+        },
+        {
+          "start": 4.226,
+          "end": 4.53,
+          "text": "three"
+        },
+        {
+          "start": 4.542,
+          "end": 4.894,
+          "text": "miles"
+        },
+        {
+          "start": 4.906,
+          "end": 5.258,
+          "text": "down"
+        },
+        {
+          "start": 5.659,
+          "end": 5.768,
+          "text": "When"
+        },
+        {
+          "start": 5.78,
+          "end": 6.508,
+          "text": "hydrographer"
+        },
+        {
+          "start": 6.52,
+          "end": 7.127,
+          "text": "Vladimir"
+        },
+        {
+          "start": 7.139,
+          "end": 7.26,
+          "text": "de"
+        },
+        {
+          "start": 7.273,
+          "end": 7.649,
+          "text": "Smitt"
+        },
+        {
+          "start": 7.661,
+          "end": 8.074,
+          "text": "mapped"
+        },
+        {
+          "start": 8.183,
+          "end": 8.401,
+          "text": "all"
+        },
+        {
+          "start": 8.413,
+          "end": 8.826,
+          "text": "twenty-eight"
+        },
+        {
+          "start": 8.838,
+          "end": 9.166,
+          "text": "breaks"
+        },
+        {
+          "start": 9.178,
+          "end": 9.566,
+          "text": "across"
+        },
+        {
+          "start": 9.578,
+          "end": 9.894,
+          "text": "twelve"
+        },
+        {
+          "start": 9.906,
+          "end": 10.343,
+          "text": "cables"
+        },
+        {
+          "start": 10.622,
+          "end": 10.683,
+          "text": "an"
+        },
+        {
+          "start": 10.695,
+          "end": 11.411,
+          "text": "extraordinary"
+        },
+        {
+          "start": 11.423,
+          "end": 11.811,
+          "text": "pattern"
+        },
+        {
+          "start": 11.824,
+          "end": 12.394,
+          "text": "emerged"
+        }
+      ],
+      "cues": [
+        {
+          "start": 81.892,
+          "end": 85.879,
+          "lines": [
+            "At sea, repair ships worked nearly",
+            "a year grappling severed lines"
+          ],
+          "text": "At sea, repair ships worked nearly a year grappling severed lines"
+        },
+        {
+          "start": 85.909,
+          "end": 90.02,
+          "lines": [
+            "from three miles down. When",
+            "hydrographer Vladimir de Smitt mapped"
+          ],
+          "text": "from three miles down. When hydrographer Vladimir de Smitt mapped"
+        },
+        {
+          "start": 90.06,
+          "end": 93.27,
+          "lines": [
+            "all twenty-eight breaks across",
+            "twelve cables, an extraordinary"
+          ],
+          "text": "all twenty-eight breaks across twelve cables, an extraordinary"
+        },
+        {
+          "start": 93.3,
+          "end": 94.622,
+          "lines": [
+            "pattern emerged."
+          ],
+          "text": "pattern emerged."
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "act": "ACT III \u00b7 THE STOPWATCH ON THE SLOPE",
+      "mode": "slope_profile_instant",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "Every cable on the shallow continental shelf stayed intact. Six cables on the steep continental slope around the epicenter failed simultaneously within sixty seconds, crushed by instant slumps.",
+      "wav": "/tmp/thaumatrope_build/tts/S09.wav",
+      "shot_start": 94.712,
+      "speech_start": 94.832,
+      "speech_end": 106.4209,
+      "shot_end": 106.7809,
+      "duration": 12.0689,
+      "words": [
+        {
+          "start": 0.012,
+          "end": 0.267,
+          "text": "Every"
+        },
+        {
+          "start": 0.279,
+          "end": 0.655,
+          "text": "cable"
+        },
+        {
+          "start": 0.667,
+          "end": 0.752,
+          "text": "on"
+        },
+        {
+          "start": 0.764,
+          "end": 0.825,
+          "text": "the"
+        },
+        {
+          "start": 0.837,
+          "end": 1.274,
+          "text": "shallow"
+        },
+        {
+          "start": 1.286,
+          "end": 1.941,
+          "text": "continental"
+        },
+        {
+          "start": 1.954,
+          "end": 2.342,
+          "text": "shelf"
+        },
+        {
+          "start": 2.463,
+          "end": 2.803,
+          "text": "stayed"
+        },
+        {
+          "start": 2.815,
+          "end": 3.361,
+          "text": "intact"
+        },
+        {
+          "start": 3.774,
+          "end": 4.005,
+          "text": "Six"
+        },
+        {
+          "start": 4.017,
+          "end": 4.429,
+          "text": "cables"
+        },
+        {
+          "start": 4.441,
+          "end": 4.526,
+          "text": "on"
+        },
+        {
+          "start": 4.539,
+          "end": 4.611,
+          "text": "the"
+        },
+        {
+          "start": 4.623,
+          "end": 4.975,
+          "text": "steep"
+        },
+        {
+          "start": 4.988,
+          "end": 5.546,
+          "text": "continental"
+        },
+        {
+          "start": 5.558,
+          "end": 5.922,
+          "text": "slope"
+        },
+        {
+          "start": 6.007,
+          "end": 6.347,
+          "text": "around"
+        },
+        {
+          "start": 6.359,
+          "end": 6.432,
+          "text": "the"
+        },
+        {
+          "start": 6.444,
+          "end": 7.014,
+          "text": "epicenter"
+        },
+        {
+          "start": 7.026,
+          "end": 7.403,
+          "text": "failed"
+        },
+        {
+          "start": 7.415,
+          "end": 8.361,
+          "text": "simultaneously"
+        },
+        {
+          "start": 8.422,
+          "end": 8.738,
+          "text": "within"
+        },
+        {
+          "start": 8.75,
+          "end": 9.162,
+          "text": "sixty"
+        },
+        {
+          "start": 9.174,
+          "end": 9.721,
+          "text": "seconds"
+        },
+        {
+          "start": 10.0,
+          "end": 10.412,
+          "text": "crushed"
+        },
+        {
+          "start": 10.424,
+          "end": 10.558,
+          "text": "by"
+        },
+        {
+          "start": 10.57,
+          "end": 10.934,
+          "text": "instant"
+        },
+        {
+          "start": 10.946,
+          "end": 11.492,
+          "text": "slumps"
+        }
+      ],
+      "cues": [
+        {
+          "start": 94.844,
+          "end": 98.566,
+          "lines": [
+            "Every cable on the shallow",
+            "continental shelf stayed intact."
+          ],
+          "text": "Every cable on the shallow continental shelf stayed intact."
+        },
+        {
+          "start": 98.606,
+          "end": 101.828,
+          "lines": [
+            "Six cables on the steep continental",
+            "slope around the epicenter"
+          ],
+          "text": "Six cables on the steep continental slope around the epicenter"
+        },
+        {
+          "start": 101.858,
+          "end": 105.748,
+          "lines": [
+            "failed simultaneously within",
+            "sixty seconds, crushed by instant"
+          ],
+          "text": "failed simultaneously within sixty seconds, crushed by instant"
+        },
+        {
+          "start": 105.778,
+          "end": 106.691,
+          "lines": [
+            "slumps."
+          ],
+          "text": "slumps."
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "act": "ACT III \u00b7 THE STOPWATCH ON THE SLOPE",
+      "mode": "stopwatch_sequence_map",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "Then six deeper cables snapped downslope in strict north-to-south order: fourteen minutes, fifty-nine minutes, three hours three minutes, nine hours one minute, ten hours eighteen, and thirteen hours seventeen minutes\u2014nearly five thousand meters deep, where two hundred miles of wire vanished under sand.",
+      "wav": "/tmp/thaumatrope_build/tts/S10.wav",
+      "shot_start": 106.7809,
+      "speech_start": 106.9009,
+      "speech_end": 125.0967,
+      "shot_end": 125.5467,
+      "duration": 18.7658,
+      "words": [
+        {
+          "start": 0.017,
+          "end": 0.248,
+          "text": "Then"
+        },
+        {
+          "start": 0.26,
+          "end": 0.588,
+          "text": "six"
+        },
+        {
+          "start": 0.6,
+          "end": 0.94,
+          "text": "deeper"
+        },
+        {
+          "start": 0.952,
+          "end": 1.364,
+          "text": "cables"
+        },
+        {
+          "start": 1.377,
+          "end": 1.886,
+          "text": "snapped"
+        },
+        {
+          "start": 1.898,
+          "end": 2.517,
+          "text": "downslope"
+        },
+        {
+          "start": 2.59,
+          "end": 2.699,
+          "text": "in"
+        },
+        {
+          "start": 2.712,
+          "end": 3.136,
+          "text": "strict"
+        },
+        {
+          "start": 3.148,
+          "end": 3.913,
+          "text": "north-to-south"
+        },
+        {
+          "start": 3.925,
+          "end": 4.253,
+          "text": "order"
+        },
+        {
+          "start": 4.556,
+          "end": 4.993,
+          "text": "fourteen"
+        },
+        {
+          "start": 5.005,
+          "end": 5.442,
+          "text": "minutes"
+        },
+        {
+          "start": 5.636,
+          "end": 6.158,
+          "text": "fifty-nine"
+        },
+        {
+          "start": 6.17,
+          "end": 6.619,
+          "text": "minutes"
+        },
+        {
+          "start": 6.838,
+          "end": 7.105,
+          "text": "three"
+        },
+        {
+          "start": 7.117,
+          "end": 7.505,
+          "text": "hours"
+        },
+        {
+          "start": 7.517,
+          "end": 7.784,
+          "text": "three"
+        },
+        {
+          "start": 7.796,
+          "end": 8.27,
+          "text": "minutes"
+        },
+        {
+          "start": 8.561,
+          "end": 8.864,
+          "text": "nine"
+        },
+        {
+          "start": 8.877,
+          "end": 9.192,
+          "text": "hours"
+        },
+        {
+          "start": 9.204,
+          "end": 9.447,
+          "text": "one"
+        },
+        {
+          "start": 9.459,
+          "end": 9.763,
+          "text": "minute"
+        },
+        {
+          "start": 10.066,
+          "end": 10.248,
+          "text": "ten"
+        },
+        {
+          "start": 10.26,
+          "end": 10.576,
+          "text": "hours"
+        },
+        {
+          "start": 10.588,
+          "end": 11.061,
+          "text": "eighteen"
+        },
+        {
+          "start": 11.377,
+          "end": 11.498,
+          "text": "and"
+        },
+        {
+          "start": 11.51,
+          "end": 11.959,
+          "text": "thirteen"
+        },
+        {
+          "start": 11.971,
+          "end": 12.299,
+          "text": "hours"
+        },
+        {
+          "start": 12.311,
+          "end": 12.772,
+          "text": "seventeen"
+        },
+        {
+          "start": 12.784,
+          "end": 13.161,
+          "text": "minutes"
+        },
+        {
+          "start": 13.452,
+          "end": 13.78,
+          "text": "nearly"
+        },
+        {
+          "start": 13.792,
+          "end": 14.18,
+          "text": "five"
+        },
+        {
+          "start": 14.192,
+          "end": 14.629,
+          "text": "thousand"
+        },
+        {
+          "start": 14.641,
+          "end": 14.969,
+          "text": "meters"
+        },
+        {
+          "start": 14.981,
+          "end": 15.297,
+          "text": "deep"
+        },
+        {
+          "start": 15.6,
+          "end": 15.746,
+          "text": "where"
+        },
+        {
+          "start": 15.758,
+          "end": 15.952,
+          "text": "two"
+        },
+        {
+          "start": 15.964,
+          "end": 16.219,
+          "text": "hundred"
+        },
+        {
+          "start": 16.231,
+          "end": 16.619,
+          "text": "miles"
+        },
+        {
+          "start": 16.631,
+          "end": 16.729,
+          "text": "of"
+        },
+        {
+          "start": 16.741,
+          "end": 17.056,
+          "text": "wire"
+        },
+        {
+          "start": 17.068,
+          "end": 17.493,
+          "text": "vanished"
+        },
+        {
+          "start": 17.505,
+          "end": 17.675,
+          "text": "under"
+        },
+        {
+          "start": 17.687,
+          "end": 18.088,
+          "text": "sand"
+        }
+      ],
+      "cues": [
+        {
+          "start": 106.918,
+          "end": 110.796,
+          "lines": [
+            "Then six deeper cables snapped",
+            "downslope in strict north-to-south"
+          ],
+          "text": "Then six deeper cables snapped downslope in strict north-to-south"
+        },
+        {
+          "start": 110.826,
+          "end": 114.667,
+          "lines": [
+            "order: fourteen minutes, fifty-nine",
+            "minutes, three hours three"
+          ],
+          "text": "order: fourteen minutes, fifty-nine minutes, three hours three"
+        },
+        {
+          "start": 114.697,
+          "end": 118.842,
+          "lines": [
+            "minutes, nine hours one minute,",
+            "ten hours eighteen, and thirteen"
+          ],
+          "text": "minutes, nine hours one minute, ten hours eighteen, and thirteen"
+        },
+        {
+          "start": 118.872,
+          "end": 122.835,
+          "lines": [
+            "hours seventeen minutes\u2014 nearly",
+            "five thousand meters deep, where two"
+          ],
+          "text": "hours seventeen minutes\u2014 nearly five thousand meters deep, where two"
+        },
+        {
+          "start": 122.865,
+          "end": 125.377,
+          "lines": [
+            "hundred miles of wire",
+            "vanished under sand."
+          ],
+          "text": "hundred miles of wire vanished under sand."
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "act": "ACT IV \u00b7 TWENTY-THREE YEARS OF WRONG ANSWERS",
+      "mode": "hypothesis_faults",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "Why would steel cables break half a day after an earthquake stopped? In Nature, geologist J. W. Gregory blamed parallel faults unzipping southward. Yet seismographs recorded only two aftershocks\u2014both back at the original epicenter.",
+      "wav": "/tmp/thaumatrope_build/tts/S11.wav",
+      "shot_start": 125.5467,
+      "speech_start": 125.6667,
+      "speech_end": 140.9369,
+      "shot_end": 141.2969,
+      "duration": 15.7502,
+      "words": [
+        {
+          "start": 0.014,
+          "end": 0.135,
+          "text": "Why"
+        },
+        {
+          "start": 0.147,
+          "end": 0.269,
+          "text": "would"
+        },
+        {
+          "start": 0.281,
+          "end": 0.572,
+          "text": "steel"
+        },
+        {
+          "start": 0.584,
+          "end": 0.961,
+          "text": "cables"
+        },
+        {
+          "start": 0.973,
+          "end": 1.264,
+          "text": "break"
+        },
+        {
+          "start": 1.276,
+          "end": 1.555,
+          "text": "half"
+        },
+        {
+          "start": 1.567,
+          "end": 1.617,
+          "text": "a"
+        },
+        {
+          "start": 1.628,
+          "end": 1.944,
+          "text": "day"
+        },
+        {
+          "start": 1.956,
+          "end": 2.211,
+          "text": "after"
+        },
+        {
+          "start": 2.223,
+          "end": 2.296,
+          "text": "an"
+        },
+        {
+          "start": 2.308,
+          "end": 2.708,
+          "text": "earthquake"
+        },
+        {
+          "start": 2.72,
+          "end": 3.181,
+          "text": "stopped"
+        },
+        {
+          "start": 3.582,
+          "end": 3.715,
+          "text": "In"
+        },
+        {
+          "start": 3.728,
+          "end": 4.177,
+          "text": "Nature"
+        },
+        {
+          "start": 4.359,
+          "end": 5.002,
+          "text": "geologist"
+        },
+        {
+          "start": 5.014,
+          "end": 5.402,
+          "text": "J"
+        },
+        {
+          "start": 5.657,
+          "end": 6.058,
+          "text": "W"
+        },
+        {
+          "start": 6.373,
+          "end": 6.798,
+          "text": "Gregory"
+        },
+        {
+          "start": 6.81,
+          "end": 7.198,
+          "text": "blamed"
+        },
+        {
+          "start": 7.211,
+          "end": 7.83,
+          "text": "parallel"
+        },
+        {
+          "start": 7.951,
+          "end": 8.4,
+          "text": "faults"
+        },
+        {
+          "start": 8.509,
+          "end": 9.092,
+          "text": "unzipping"
+        },
+        {
+          "start": 9.104,
+          "end": 9.674,
+          "text": "southward"
+        },
+        {
+          "start": 10.075,
+          "end": 10.257,
+          "text": "Yet"
+        },
+        {
+          "start": 10.269,
+          "end": 11.058,
+          "text": "seismographs"
+        },
+        {
+          "start": 11.07,
+          "end": 11.567,
+          "text": "recorded"
+        },
+        {
+          "start": 11.64,
+          "end": 11.968,
+          "text": "only"
+        },
+        {
+          "start": 11.98,
+          "end": 12.271,
+          "text": "two"
+        },
+        {
+          "start": 12.283,
+          "end": 13.06,
+          "text": "aftershocks"
+        },
+        {
+          "start": 13.327,
+          "end": 13.606,
+          "text": "both"
+        },
+        {
+          "start": 13.618,
+          "end": 13.934,
+          "text": "back"
+        },
+        {
+          "start": 13.946,
+          "end": 14.007,
+          "text": "at"
+        },
+        {
+          "start": 14.019,
+          "end": 14.116,
+          "text": "the"
+        },
+        {
+          "start": 14.128,
+          "end": 14.613,
+          "text": "original"
+        },
+        {
+          "start": 14.626,
+          "end": 15.172,
+          "text": "epicenter"
+        }
+      ],
+      "cues": [
+        {
+          "start": 125.681,
+          "end": 129.219,
+          "lines": [
+            "Why would steel cables break half",
+            "a day after an earthquake stopped?"
+          ],
+          "text": "Why would steel cables break half a day after an earthquake stopped?"
+        },
+        {
+          "start": 129.249,
+          "end": 134.741,
+          "lines": [
+            "In Nature, geologist J. W. Gregory",
+            "blamed parallel faults unzipping"
+          ],
+          "text": "In Nature, geologist J. W. Gregory blamed parallel faults unzipping"
+        },
+        {
+          "start": 134.771,
+          "end": 138.954,
+          "lines": [
+            "southward. Yet seismographs",
+            "recorded only two aftershocks\u2014"
+          ],
+          "text": "southward. Yet seismographs recorded only two aftershocks\u2014"
+        },
+        {
+          "start": 138.994,
+          "end": 141.207,
+          "lines": [
+            "both back at the original epicenter."
+          ],
+          "text": "both back at the original epicenter."
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "act": "ACT IV \u00b7 TWENTY-THREE YEARS OF WRONG ANSWERS",
+      "mode": "hypothesis_tsunami",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "Others blamed wet silt weighing cables down, or erosion from the overhead tsunami. Physics ruled both out: the tsunami crossed the Atlantic ten times faster than the breaks. For two decades, the cold case stood unsolved.",
+      "wav": "/tmp/thaumatrope_build/tts/S12.wav",
+      "shot_start": 141.2969,
+      "speech_start": 141.4169,
+      "speech_end": 155.3532,
+      "shot_end": 155.7932,
+      "duration": 14.4963,
+      "words": [
+        {
+          "start": 0.014,
+          "end": 0.293,
+          "text": "Others"
+        },
+        {
+          "start": 0.306,
+          "end": 0.682,
+          "text": "blamed"
+        },
+        {
+          "start": 0.694,
+          "end": 0.961,
+          "text": "wet"
+        },
+        {
+          "start": 1.082,
+          "end": 1.483,
+          "text": "silt"
+        },
+        {
+          "start": 1.495,
+          "end": 1.835,
+          "text": "weighing"
+        },
+        {
+          "start": 1.847,
+          "end": 2.235,
+          "text": "cables"
+        },
+        {
+          "start": 2.247,
+          "end": 2.648,
+          "text": "down"
+        },
+        {
+          "start": 3.06,
+          "end": 3.17,
+          "text": "or"
+        },
+        {
+          "start": 3.182,
+          "end": 3.752,
+          "text": "erosion"
+        },
+        {
+          "start": 3.886,
+          "end": 4.019,
+          "text": "from"
+        },
+        {
+          "start": 4.031,
+          "end": 4.128,
+          "text": "the"
+        },
+        {
+          "start": 4.14,
+          "end": 4.602,
+          "text": "overhead"
+        },
+        {
+          "start": 4.614,
+          "end": 5.111,
+          "text": "tsunami"
+        },
+        {
+          "start": 5.573,
+          "end": 5.876,
+          "text": "Physics"
+        },
+        {
+          "start": 5.888,
+          "end": 6.167,
+          "text": "ruled"
+        },
+        {
+          "start": 6.179,
+          "end": 6.446,
+          "text": "both"
+        },
+        {
+          "start": 6.458,
+          "end": 6.701,
+          "text": "out"
+        },
+        {
+          "start": 6.992,
+          "end": 7.09,
+          "text": "the"
+        },
+        {
+          "start": 7.102,
+          "end": 7.551,
+          "text": "tsunami"
+        },
+        {
+          "start": 7.563,
+          "end": 7.927,
+          "text": "crossed"
+        },
+        {
+          "start": 7.939,
+          "end": 8.036,
+          "text": "the"
+        },
+        {
+          "start": 8.048,
+          "end": 8.643,
+          "text": "Atlantic"
+        },
+        {
+          "start": 8.704,
+          "end": 8.971,
+          "text": "ten"
+        },
+        {
+          "start": 8.983,
+          "end": 9.323,
+          "text": "times"
+        },
+        {
+          "start": 9.335,
+          "end": 9.796,
+          "text": "faster"
+        },
+        {
+          "start": 9.808,
+          "end": 9.929,
+          "text": "than"
+        },
+        {
+          "start": 9.941,
+          "end": 10.014,
+          "text": "the"
+        },
+        {
+          "start": 10.026,
+          "end": 10.56,
+          "text": "breaks"
+        },
+        {
+          "start": 10.997,
+          "end": 11.07,
+          "text": "For"
+        },
+        {
+          "start": 11.082,
+          "end": 11.264,
+          "text": "two"
+        },
+        {
+          "start": 11.276,
+          "end": 11.871,
+          "text": "decades"
+        },
+        {
+          "start": 12.077,
+          "end": 12.174,
+          "text": "the"
+        },
+        {
+          "start": 12.187,
+          "end": 12.478,
+          "text": "cold"
+        },
+        {
+          "start": 12.49,
+          "end": 12.891,
+          "text": "case"
+        },
+        {
+          "start": 13.0,
+          "end": 13.218,
+          "text": "stood"
+        },
+        {
+          "start": 13.23,
+          "end": 13.837,
+          "text": "unsolved"
+        }
+      ],
+      "cues": [
+        {
+          "start": 141.431,
+          "end": 145.527,
+          "lines": [
+            "Others blamed wet silt weighing",
+            "cables down, or erosion from the"
+          ],
+          "text": "Others blamed wet silt weighing cables down, or erosion from the"
+        },
+        {
+          "start": 145.557,
+          "end": 148.369,
+          "lines": [
+            "overhead tsunami.",
+            "Physics ruled both out:"
+          ],
+          "text": "overhead tsunami. Physics ruled both out:"
+        },
+        {
+          "start": 148.409,
+          "end": 152.374,
+          "lines": [
+            "the tsunami crossed the Atlantic",
+            "ten times faster than the breaks."
+          ],
+          "text": "the tsunami crossed the Atlantic ten times faster than the breaks."
+        },
+        {
+          "start": 152.414,
+          "end": 155.633,
+          "lines": [
+            "For two decades, the",
+            "cold case stood unsolved."
+          ],
+          "text": "For two decades, the cold case stood unsolved."
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "act": "ACT V \u00b7 MUD HEAVIER THAN WATER",
+      "mode": "plate_kuenen_flume",
+      "plate": "plate_06_kuenen_flume.jpg",
+      "plate_secondary": null,
+      "narration": "The key came from a glass flume in the Netherlands. Testing Reginald Daly's canyon hypothesis, Philip Kuenen released muddy slurries underwater\u2014proving that sediment-heavy water plunges beneath clear water like a dense liquid avalanche.",
+      "wav": "/tmp/thaumatrope_build/tts/S13.wav",
+      "shot_start": 155.7932,
+      "speech_start": 155.9132,
+      "speech_end": 170.1026,
+      "shot_end": 170.4626,
+      "duration": 14.6694,
+      "words": [
+        {
+          "start": 0.023,
+          "end": 0.073,
+          "text": "The"
+        },
+        {
+          "start": 0.083,
+          "end": 0.338,
+          "text": "key"
+        },
+        {
+          "start": 0.35,
+          "end": 0.605,
+          "text": "came"
+        },
+        {
+          "start": 0.617,
+          "end": 0.751,
+          "text": "from"
+        },
+        {
+          "start": 0.763,
+          "end": 0.813,
+          "text": "a"
+        },
+        {
+          "start": 0.824,
+          "end": 1.212,
+          "text": "glass"
+        },
+        {
+          "start": 1.224,
+          "end": 1.612,
+          "text": "flume"
+        },
+        {
+          "start": 1.77,
+          "end": 1.831,
+          "text": "in"
+        },
+        {
+          "start": 1.843,
+          "end": 1.904,
+          "text": "the"
+        },
+        {
+          "start": 1.916,
+          "end": 2.596,
+          "text": "Netherlands"
+        },
+        {
+          "start": 3.008,
+          "end": 3.409,
+          "text": "Testing"
+        },
+        {
+          "start": 3.421,
+          "end": 3.943,
+          "text": "Reginald"
+        },
+        {
+          "start": 3.955,
+          "end": 4.355,
+          "text": "Daly's"
+        },
+        {
+          "start": 4.367,
+          "end": 4.744,
+          "text": "canyon"
+        },
+        {
+          "start": 4.756,
+          "end": 5.605,
+          "text": "hypothesis"
+        },
+        {
+          "start": 5.848,
+          "end": 6.163,
+          "text": "Philip"
+        },
+        {
+          "start": 6.176,
+          "end": 6.576,
+          "text": "Kuenen"
+        },
+        {
+          "start": 6.734,
+          "end": 7.147,
+          "text": "released"
+        },
+        {
+          "start": 7.159,
+          "end": 7.535,
+          "text": "muddy"
+        },
+        {
+          "start": 7.547,
+          "end": 8.13,
+          "text": "slurries"
+        },
+        {
+          "start": 8.142,
+          "end": 8.651,
+          "text": "underwater"
+        },
+        {
+          "start": 8.955,
+          "end": 9.282,
+          "text": "proving"
+        },
+        {
+          "start": 9.295,
+          "end": 9.428,
+          "text": "that"
+        },
+        {
+          "start": 9.44,
+          "end": 10.193,
+          "text": "sediment-heavy"
+        },
+        {
+          "start": 10.205,
+          "end": 10.581,
+          "text": "water"
+        },
+        {
+          "start": 10.593,
+          "end": 11.006,
+          "text": "plunges"
+        },
+        {
+          "start": 11.018,
+          "end": 11.443,
+          "text": "beneath"
+        },
+        {
+          "start": 11.455,
+          "end": 11.831,
+          "text": "clear"
+        },
+        {
+          "start": 11.843,
+          "end": 12.256,
+          "text": "water"
+        },
+        {
+          "start": 12.438,
+          "end": 12.571,
+          "text": "like"
+        },
+        {
+          "start": 12.583,
+          "end": 12.717,
+          "text": "a"
+        },
+        {
+          "start": 12.729,
+          "end": 13.032,
+          "text": "dense"
+        },
+        {
+          "start": 13.045,
+          "end": 13.409,
+          "text": "liquid"
+        },
+        {
+          "start": 13.421,
+          "end": 14.076,
+          "text": "avalanche"
+        }
+      ],
+      "cues": [
+        {
+          "start": 155.936,
+          "end": 158.881,
+          "lines": [
+            "The key came from a glass",
+            "flume in the Netherlands."
+          ],
+          "text": "The key came from a glass flume in the Netherlands."
+        },
+        {
+          "start": 158.921,
+          "end": 163.042,
+          "lines": [
+            "Testing Reginald Daly's canyon",
+            "hypothesis, Philip Kuenen released"
+          ],
+          "text": "Testing Reginald Daly's canyon hypothesis, Philip Kuenen released"
+        },
+        {
+          "start": 163.072,
+          "end": 166.901,
+          "lines": [
+            "muddy slurries underwater\u2014 proving",
+            "that sediment-heavy water plunges"
+          ],
+          "text": "muddy slurries underwater\u2014 proving that sediment-heavy water plunges"
+        },
+        {
+          "start": 166.931,
+          "end": 170.373,
+          "lines": [
+            "beneath clear water like",
+            "a dense liquid avalanche."
+          ],
+          "text": "beneath clear water like a dense liquid avalanche."
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "act": "ACT V \u00b7 MUD HEAVIER THAN WATER",
+      "mode": "plate_lamont_1952",
+      "plate": "plate_08_lamont_drafting.jpg",
+      "plate_secondary": null,
+      "narration": "Still, skeptics doubted a tank experiment could span an ocean. Until December 1952, when Bruce Heezen and Maurice Ewing at Columbia's Lamont Observatory reopened those 1929 Western Union logs.",
+      "wav": "/tmp/thaumatrope_build/tts/S14.wav",
+      "shot_start": 170.4626,
+      "speech_start": 170.5826,
+      "speech_end": 184.0323,
+      "shot_end": 184.3923,
+      "duration": 13.9297,
+      "words": [
+        {
+          "start": 0.025,
+          "end": 0.389,
+          "text": "Still"
+        },
+        {
+          "start": 0.681,
+          "end": 1.154,
+          "text": "skeptics"
+        },
+        {
+          "start": 1.166,
+          "end": 1.469,
+          "text": "doubted"
+        },
+        {
+          "start": 1.482,
+          "end": 1.532,
+          "text": "a"
+        },
+        {
+          "start": 1.542,
+          "end": 1.821,
+          "text": "tank"
+        },
+        {
+          "start": 1.834,
+          "end": 2.489,
+          "text": "experiment"
+        },
+        {
+          "start": 2.598,
+          "end": 2.756,
+          "text": "could"
+        },
+        {
+          "start": 2.768,
+          "end": 3.108,
+          "text": "span"
+        },
+        {
+          "start": 3.12,
+          "end": 3.205,
+          "text": "an"
+        },
+        {
+          "start": 3.217,
+          "end": 3.557,
+          "text": "ocean"
+        },
+        {
+          "start": 3.957,
+          "end": 4.188,
+          "text": "Until"
+        },
+        {
+          "start": 4.2,
+          "end": 5.668,
+          "text": "December 1952"
+        },
+        {
+          "start": 5.96,
+          "end": 6.118,
+          "text": "when"
+        },
+        {
+          "start": 6.13,
+          "end": 6.542,
+          "text": "Bruce"
+        },
+        {
+          "start": 6.554,
+          "end": 7.101,
+          "text": "Heezen"
+        },
+        {
+          "start": 7.21,
+          "end": 7.295,
+          "text": "and"
+        },
+        {
+          "start": 7.307,
+          "end": 7.756,
+          "text": "Maurice"
+        },
+        {
+          "start": 7.768,
+          "end": 8.12,
+          "text": "Ewing"
+        },
+        {
+          "start": 8.205,
+          "end": 8.302,
+          "text": "at"
+        },
+        {
+          "start": 8.314,
+          "end": 8.897,
+          "text": "Columbia's"
+        },
+        {
+          "start": 8.909,
+          "end": 9.334,
+          "text": "Lamont"
+        },
+        {
+          "start": 9.346,
+          "end": 10.086,
+          "text": "Observatory"
+        },
+        {
+          "start": 10.098,
+          "end": 10.741,
+          "text": "reopened"
+        },
+        {
+          "start": 10.814,
+          "end": 11.008,
+          "text": "those"
+        },
+        {
+          "start": 11.02,
+          "end": 12.149,
+          "text": "1929"
+        },
+        {
+          "start": 12.161,
+          "end": 12.537,
+          "text": "Western"
+        },
+        {
+          "start": 12.55,
+          "end": 12.853,
+          "text": "Union"
+        },
+        {
+          "start": 12.865,
+          "end": 13.351,
+          "text": "logs"
+        }
+      ],
+      "cues": [
+        {
+          "start": 170.608,
+          "end": 174.5,
+          "lines": [
+            "Still, skeptics doubted a tank",
+            "experiment could span an ocean."
+          ],
+          "text": "Still, skeptics doubted a tank experiment could span an ocean."
+        },
+        {
+          "start": 174.54,
+          "end": 178.867,
+          "lines": [
+            "Until December 1952, when Bruce",
+            "Heezen and Maurice Ewing at"
+          ],
+          "text": "Until December 1952, when Bruce Heezen and Maurice Ewing at"
+        },
+        {
+          "start": 178.897,
+          "end": 183.418,
+          "lines": [
+            "Columbia's Lamont Observatory",
+            "reopened those 1929 Western Union"
+          ],
+          "text": "Columbia's Lamont Observatory reopened those 1929 Western Union"
+        },
+        {
+          "start": 183.448,
+          "end": 184.302,
+          "lines": [
+            "logs."
+          ],
+          "text": "logs."
+        }
+      ]
+    },
+    {
+      "id": "S15",
+      "act": "ACT V \u00b7 MUD HEAVIER THAN WATER",
+      "mode": "plate_slump_to_turbidity",
+      "plate": "plate_05_continental_slump.jpg",
+      "plate_secondary": "plate_07_turbidity_head.jpg",
+      "narration": "They realized the six delayed cables were tripwires across an abyssal racetrack. Two hundred cubic kilometers of shaken slope mud had mixed with seawater into a roaring turbidity current hundreds of meters tall.",
+      "wav": "/tmp/thaumatrope_build/tts/S15.wav",
+      "shot_start": 184.3923,
+      "speech_start": 184.5123,
+      "speech_end": 197.0318,
+      "shot_end": 197.3918,
+      "duration": 12.9995,
+      "words": [
+        {
+          "start": 0.012,
+          "end": 0.109,
+          "text": "They"
+        },
+        {
+          "start": 0.121,
+          "end": 0.655,
+          "text": "realized"
+        },
+        {
+          "start": 0.667,
+          "end": 0.752,
+          "text": "the"
+        },
+        {
+          "start": 0.764,
+          "end": 1.092,
+          "text": "six"
+        },
+        {
+          "start": 1.104,
+          "end": 1.48,
+          "text": "delayed"
+        },
+        {
+          "start": 1.493,
+          "end": 1.893,
+          "text": "cables"
+        },
+        {
+          "start": 1.905,
+          "end": 2.014,
+          "text": "were"
+        },
+        {
+          "start": 2.027,
+          "end": 2.682,
+          "text": "tripwires"
+        },
+        {
+          "start": 2.694,
+          "end": 3.264,
+          "text": "across"
+        },
+        {
+          "start": 3.349,
+          "end": 3.434,
+          "text": "an"
+        },
+        {
+          "start": 3.446,
+          "end": 3.847,
+          "text": "abyssal"
+        },
+        {
+          "start": 3.859,
+          "end": 4.478,
+          "text": "racetrack"
+        },
+        {
+          "start": 4.891,
+          "end": 5.048,
+          "text": "Two"
+        },
+        {
+          "start": 5.06,
+          "end": 5.4,
+          "text": "hundred"
+        },
+        {
+          "start": 5.412,
+          "end": 5.764,
+          "text": "cubic"
+        },
+        {
+          "start": 5.777,
+          "end": 6.371,
+          "text": "kilometers"
+        },
+        {
+          "start": 6.383,
+          "end": 6.456,
+          "text": "of"
+        },
+        {
+          "start": 6.468,
+          "end": 6.917,
+          "text": "shaken"
+        },
+        {
+          "start": 6.929,
+          "end": 7.269,
+          "text": "slope"
+        },
+        {
+          "start": 7.281,
+          "end": 7.585,
+          "text": "mud"
+        },
+        {
+          "start": 7.755,
+          "end": 7.973,
+          "text": "had"
+        },
+        {
+          "start": 7.985,
+          "end": 8.289,
+          "text": "mixed"
+        },
+        {
+          "start": 8.301,
+          "end": 8.434,
+          "text": "with"
+        },
+        {
+          "start": 8.446,
+          "end": 9.09,
+          "text": "seawater"
+        },
+        {
+          "start": 9.187,
+          "end": 9.454,
+          "text": "into"
+        },
+        {
+          "start": 9.466,
+          "end": 9.563,
+          "text": "a"
+        },
+        {
+          "start": 9.575,
+          "end": 10.012,
+          "text": "roaring"
+        },
+        {
+          "start": 10.024,
+          "end": 10.667,
+          "text": "turbidity"
+        },
+        {
+          "start": 10.716,
+          "end": 11.056,
+          "text": "current"
+        },
+        {
+          "start": 11.068,
+          "end": 11.59,
+          "text": "hundreds"
+        },
+        {
+          "start": 11.602,
+          "end": 11.687,
+          "text": "of"
+        },
+        {
+          "start": 11.699,
+          "end": 12.063,
+          "text": "meters"
+        },
+        {
+          "start": 12.075,
+          "end": 12.403,
+          "text": "tall"
+        }
+      ],
+      "cues": [
+        {
+          "start": 184.524,
+          "end": 187.928,
+          "lines": [
+            "They realized the six delayed",
+            "cables were tripwires across an"
+          ],
+          "text": "They realized the six delayed cables were tripwires across an"
+        },
+        {
+          "start": 187.958,
+          "end": 192.227,
+          "lines": [
+            "abyssal racetrack. Two hundred",
+            "cubic kilometers of shaken slope mud"
+          ],
+          "text": "abyssal racetrack. Two hundred cubic kilometers of shaken slope mud"
+        },
+        {
+          "start": 192.267,
+          "end": 196.181,
+          "lines": [
+            "had mixed with seawater into a",
+            "roaring turbidity current hundreds of"
+          ],
+          "text": "had mixed with seawater into a roaring turbidity current hundreds of"
+        },
+        {
+          "start": 196.211,
+          "end": 197.302,
+          "lines": [
+            "meters tall."
+          ],
+          "text": "meters tall."
+        }
+      ]
+    },
+    {
+      "id": "S16",
+      "act": "ACT V \u00b7 MUD HEAVIER THAN WATER",
+      "mode": "velocity_curve_1952",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "Plotting cable distance against outage time turned broken wires into a speedometer. Heezen and Ewing calculated peak speeds near fifty knots, slowing to twelve on the plain\u2014later refined in 1988 to sixty-seven kilometers an hour.",
+      "wav": "/tmp/thaumatrope_build/tts/S16.wav",
+      "shot_start": 197.3918,
+      "speech_start": 197.5118,
+      "speech_end": 212.1036,
+      "shot_end": 212.5436,
+      "duration": 15.1518,
+      "words": [
+        {
+          "start": 0.024,
+          "end": 0.315,
+          "text": "Plotting"
+        },
+        {
+          "start": 0.327,
+          "end": 0.643,
+          "text": "cable"
+        },
+        {
+          "start": 0.655,
+          "end": 1.055,
+          "text": "distance"
+        },
+        {
+          "start": 1.067,
+          "end": 1.432,
+          "text": "against"
+        },
+        {
+          "start": 1.504,
+          "end": 1.844,
+          "text": "outage"
+        },
+        {
+          "start": 1.856,
+          "end": 2.232,
+          "text": "time"
+        },
+        {
+          "start": 2.33,
+          "end": 2.633,
+          "text": "turned"
+        },
+        {
+          "start": 2.645,
+          "end": 3.033,
+          "text": "broken"
+        },
+        {
+          "start": 3.046,
+          "end": 3.555,
+          "text": "wires"
+        },
+        {
+          "start": 3.665,
+          "end": 3.944,
+          "text": "into"
+        },
+        {
+          "start": 3.956,
+          "end": 4.016,
+          "text": "a"
+        },
+        {
+          "start": 4.029,
+          "end": 4.72,
+          "text": "speedometer"
+        },
+        {
+          "start": 5.145,
+          "end": 5.594,
+          "text": "Heezen"
+        },
+        {
+          "start": 5.667,
+          "end": 5.8,
+          "text": "and"
+        },
+        {
+          "start": 5.813,
+          "end": 6.152,
+          "text": "Ewing"
+        },
+        {
+          "start": 6.165,
+          "end": 6.844,
+          "text": "calculated"
+        },
+        {
+          "start": 6.856,
+          "end": 7.123,
+          "text": "peak"
+        },
+        {
+          "start": 7.135,
+          "end": 7.609,
+          "text": "speeds"
+        },
+        {
+          "start": 7.621,
+          "end": 7.839,
+          "text": "near"
+        },
+        {
+          "start": 7.851,
+          "end": 8.167,
+          "text": "fifty"
+        },
+        {
+          "start": 8.179,
+          "end": 8.677,
+          "text": "knots"
+        },
+        {
+          "start": 8.919,
+          "end": 9.283,
+          "text": "slowing"
+        },
+        {
+          "start": 9.296,
+          "end": 9.368,
+          "text": "to"
+        },
+        {
+          "start": 9.381,
+          "end": 9.769,
+          "text": "twelve"
+        },
+        {
+          "start": 9.781,
+          "end": 9.866,
+          "text": "on"
+        },
+        {
+          "start": 9.878,
+          "end": 9.939,
+          "text": "the"
+        },
+        {
+          "start": 9.951,
+          "end": 10.327,
+          "text": "plain"
+        },
+        {
+          "start": 10.764,
+          "end": 10.995,
+          "text": "later"
+        },
+        {
+          "start": 11.007,
+          "end": 11.456,
+          "text": "refined"
+        },
+        {
+          "start": 11.468,
+          "end": 12.487,
+          "text": "in 1988"
+        },
+        {
+          "start": 12.633,
+          "end": 12.718,
+          "text": "to"
+        },
+        {
+          "start": 12.73,
+          "end": 13.519,
+          "text": "sixty-seven"
+        },
+        {
+          "start": 13.531,
+          "end": 14.065,
+          "text": "kilometers"
+        },
+        {
+          "start": 14.077,
+          "end": 14.138,
+          "text": "an"
+        },
+        {
+          "start": 14.15,
+          "end": 14.49,
+          "text": "hour"
+        }
+      ],
+      "cues": [
+        {
+          "start": 197.536,
+          "end": 201.438,
+          "lines": [
+            "Plotting cable distance against",
+            "outage time turned broken wires into"
+          ],
+          "text": "Plotting cable distance against outage time turned broken wires into"
+        },
+        {
+          "start": 201.468,
+          "end": 205.661,
+          "lines": [
+            "a speedometer. Heezen and Ewing",
+            "calculated peak speeds near fifty"
+          ],
+          "text": "a speedometer. Heezen and Ewing calculated peak speeds near fifty"
+        },
+        {
+          "start": 205.691,
+          "end": 208.236,
+          "lines": [
+            "knots, slowing to twelve on the plain\u2014"
+          ],
+          "text": "knots, slowing to twelve on the plain\u2014"
+        },
+        {
+          "start": 208.276,
+          "end": 212.384,
+          "lines": [
+            "later refined in 1988 to",
+            "sixty-seven kilometers an hour."
+          ],
+          "text": "later refined in 1988 to sixty-seven kilometers an hour."
+        }
+      ]
+    },
+    {
+      "id": "S17",
+      "act": "ACT VI \u00b7 THE CORE FROM THREE MILES DOWN",
+      "mode": "plate_ship_coring",
+      "plate": "plate_09_research_ship_core.jpg",
+      "plate_secondary": null,
+      "narration": "A bold reconstruction still needed physical proof. If the 1929 flow outran the southernmost cable, a fresh sheet of coastal sand had to lie out on the Sohm Abyssal Plain.",
+      "wav": "/tmp/thaumatrope_build/tts/S17.wav",
+      "shot_start": 212.5436,
+      "speech_start": 212.6636,
+      "speech_end": 223.7761,
+      "shot_end": 224.1361,
+      "duration": 11.5925,
+      "words": [
+        {
+          "start": 0.014,
+          "end": 0.087,
+          "text": "A"
+        },
+        {
+          "start": 0.099,
+          "end": 0.414,
+          "text": "bold"
+        },
+        {
+          "start": 0.426,
+          "end": 1.167,
+          "text": "reconstruction"
+        },
+        {
+          "start": 1.179,
+          "end": 1.482,
+          "text": "still"
+        },
+        {
+          "start": 1.494,
+          "end": 1.798,
+          "text": "needed"
+        },
+        {
+          "start": 1.81,
+          "end": 2.21,
+          "text": "physical"
+        },
+        {
+          "start": 2.222,
+          "end": 2.647,
+          "text": "proof"
+        },
+        {
+          "start": 3.048,
+          "end": 3.145,
+          "text": "If"
+        },
+        {
+          "start": 3.157,
+          "end": 3.218,
+          "text": "the"
+        },
+        {
+          "start": 3.23,
+          "end": 4.188,
+          "text": "1929"
+        },
+        {
+          "start": 4.201,
+          "end": 4.577,
+          "text": "flow"
+        },
+        {
+          "start": 4.698,
+          "end": 5.196,
+          "text": "outran"
+        },
+        {
+          "start": 5.208,
+          "end": 5.293,
+          "text": "the"
+        },
+        {
+          "start": 5.305,
+          "end": 5.948,
+          "text": "southernmost"
+        },
+        {
+          "start": 5.96,
+          "end": 6.349,
+          "text": "cable"
+        },
+        {
+          "start": 6.725,
+          "end": 6.775,
+          "text": "a"
+        },
+        {
+          "start": 6.773,
+          "end": 7.113,
+          "text": "fresh"
+        },
+        {
+          "start": 7.125,
+          "end": 7.477,
+          "text": "sheet"
+        },
+        {
+          "start": 7.489,
+          "end": 7.599,
+          "text": "of"
+        },
+        {
+          "start": 7.611,
+          "end": 8.048,
+          "text": "coastal"
+        },
+        {
+          "start": 8.06,
+          "end": 8.533,
+          "text": "sand"
+        },
+        {
+          "start": 8.642,
+          "end": 8.837,
+          "text": "had"
+        },
+        {
+          "start": 8.849,
+          "end": 8.922,
+          "text": "to"
+        },
+        {
+          "start": 8.934,
+          "end": 9.213,
+          "text": "lie"
+        },
+        {
+          "start": 9.225,
+          "end": 9.516,
+          "text": "out"
+        },
+        {
+          "start": 9.674,
+          "end": 9.759,
+          "text": "on"
+        },
+        {
+          "start": 9.771,
+          "end": 9.856,
+          "text": "the"
+        },
+        {
+          "start": 9.868,
+          "end": 10.232,
+          "text": "Sohm"
+        },
+        {
+          "start": 10.244,
+          "end": 10.608,
+          "text": "Abyssal"
+        },
+        {
+          "start": 10.621,
+          "end": 10.985,
+          "text": "Plain"
+        }
+      ],
+      "cues": [
+        {
+          "start": 212.678,
+          "end": 215.672,
+          "lines": [
+            "A bold reconstruction still",
+            "needed physical proof."
+          ],
+          "text": "A bold reconstruction still needed physical proof."
+        },
+        {
+          "start": 215.712,
+          "end": 220.245,
+          "lines": [
+            "If the 1929 flow outran the",
+            "southernmost cable, a fresh sheet of"
+          ],
+          "text": "If the 1929 flow outran the southernmost cable, a fresh sheet of"
+        },
+        {
+          "start": 220.275,
+          "end": 224.046,
+          "lines": [
+            "coastal sand had to lie out",
+            "on the Sohm Abyssal Plain."
+          ],
+          "text": "coastal sand had to lie out on the Sohm Abyssal Plain."
+        }
+      ]
+    },
+    {
+      "id": "S18",
+      "act": "ACT VI \u00b7 THE CORE FROM THREE MILES DOWN",
+      "mode": "piston_core_graded_bed",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "Lamont ships lowered steel piston corers more than three miles to the bottom. Atop ancient deep-sea clay sat a sharp graded bed of sand, pebbles, and shallow-water shells\u2014dropped coarse-grains-first as the 1929 current slowed.",
+      "wav": "/tmp/thaumatrope_build/tts/S18.wav",
+      "shot_start": 224.1361,
+      "speech_start": 224.2561,
+      "speech_end": 238.8341,
+      "shot_end": 239.1941,
+      "duration": 15.058,
+      "words": [
+        {
+          "start": 0.019,
+          "end": 0.322,
+          "text": "Lamont"
+        },
+        {
+          "start": 0.334,
+          "end": 0.711,
+          "text": "ships"
+        },
+        {
+          "start": 0.723,
+          "end": 1.147,
+          "text": "lowered"
+        },
+        {
+          "start": 1.16,
+          "end": 1.463,
+          "text": "steel"
+        },
+        {
+          "start": 1.475,
+          "end": 1.9,
+          "text": "piston"
+        },
+        {
+          "start": 1.912,
+          "end": 2.422,
+          "text": "corers"
+        },
+        {
+          "start": 2.434,
+          "end": 2.713,
+          "text": "more"
+        },
+        {
+          "start": 2.725,
+          "end": 2.883,
+          "text": "than"
+        },
+        {
+          "start": 2.895,
+          "end": 3.211,
+          "text": "three"
+        },
+        {
+          "start": 3.223,
+          "end": 3.684,
+          "text": "miles"
+        },
+        {
+          "start": 3.696,
+          "end": 3.805,
+          "text": "to"
+        },
+        {
+          "start": 3.817,
+          "end": 3.902,
+          "text": "the"
+        },
+        {
+          "start": 3.914,
+          "end": 4.266,
+          "text": "bottom"
+        },
+        {
+          "start": 4.667,
+          "end": 5.019,
+          "text": "Atop"
+        },
+        {
+          "start": 5.104,
+          "end": 5.528,
+          "text": "ancient"
+        },
+        {
+          "start": 5.541,
+          "end": 5.965,
+          "text": "deep-sea"
+        },
+        {
+          "start": 5.978,
+          "end": 6.354,
+          "text": "clay"
+        },
+        {
+          "start": 6.366,
+          "end": 6.56,
+          "text": "sat"
+        },
+        {
+          "start": 6.572,
+          "end": 6.622,
+          "text": "a"
+        },
+        {
+          "start": 6.609,
+          "end": 7.009,
+          "text": "sharp"
+        },
+        {
+          "start": 7.082,
+          "end": 7.531,
+          "text": "graded"
+        },
+        {
+          "start": 7.543,
+          "end": 7.749,
+          "text": "bed"
+        },
+        {
+          "start": 7.761,
+          "end": 7.846,
+          "text": "of"
+        },
+        {
+          "start": 7.859,
+          "end": 8.368,
+          "text": "sand"
+        },
+        {
+          "start": 8.647,
+          "end": 9.181,
+          "text": "pebbles"
+        },
+        {
+          "start": 9.363,
+          "end": 9.473,
+          "text": "and"
+        },
+        {
+          "start": 9.485,
+          "end": 10.152,
+          "text": "shallow-water"
+        },
+        {
+          "start": 10.164,
+          "end": 10.65,
+          "text": "shells"
+        },
+        {
+          "start": 10.929,
+          "end": 11.281,
+          "text": "dropped"
+        },
+        {
+          "start": 11.293,
+          "end": 12.3,
+          "text": "coarse-grains-first"
+        },
+        {
+          "start": 12.458,
+          "end": 12.555,
+          "text": "as"
+        },
+        {
+          "start": 12.567,
+          "end": 12.652,
+          "text": "the"
+        },
+        {
+          "start": 12.664,
+          "end": 13.72,
+          "text": "1929"
+        },
+        {
+          "start": 13.732,
+          "end": 14.024,
+          "text": "current"
+        },
+        {
+          "start": 14.036,
+          "end": 14.473,
+          "text": "slowed"
+        }
+      ],
+      "cues": [
+        {
+          "start": 224.275,
+          "end": 228.043,
+          "lines": [
+            "Lamont ships lowered steel piston",
+            "corers more than three miles to"
+          ],
+          "text": "Lamont ships lowered steel piston corers more than three miles to"
+        },
+        {
+          "start": 228.073,
+          "end": 232.085,
+          "lines": [
+            "the bottom. Atop ancient deep-sea",
+            "clay sat a sharp graded bed of"
+          ],
+          "text": "the bottom. Atop ancient deep-sea clay sat a sharp graded bed of"
+        },
+        {
+          "start": 232.115,
+          "end": 236.674,
+          "lines": [
+            "sand, pebbles, and shallow-water",
+            "shells\u2014 dropped coarse-grains-first"
+          ],
+          "text": "sand, pebbles, and shallow-water shells\u2014 dropped coarse-grains-first"
+        },
+        {
+          "start": 236.714,
+          "end": 239.104,
+          "lines": [
+            "as the 1929 current slowed."
+          ],
+          "text": "as the 1929 current slowed."
+        }
+      ]
+    },
+    {
+      "id": "S19",
+      "act": "ACT VI \u00b7 THE CORE FROM THREE MILES DOWN",
+      "mode": "tharp_ocean_floor_map",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "Beside Marie Tharp's pioneering ocean-floor maps, that core settled the debate. The abyss was not a stagnant tomb\u2014it was a living landscape carved by canyons and submarine avalanches.",
+      "wav": "/tmp/thaumatrope_build/tts/S19.wav",
+      "shot_start": 239.1941,
+      "speech_start": 239.3141,
+      "speech_end": 250.6102,
+      "shot_end": 251.0502,
+      "duration": 11.8561,
+      "words": [
+        {
+          "start": 0.016,
+          "end": 0.38,
+          "text": "Beside"
+        },
+        {
+          "start": 0.392,
+          "end": 0.659,
+          "text": "Marie"
+        },
+        {
+          "start": 0.672,
+          "end": 1.072,
+          "text": "Tharp's"
+        },
+        {
+          "start": 1.084,
+          "end": 1.715,
+          "text": "pioneering"
+        },
+        {
+          "start": 1.764,
+          "end": 2.286,
+          "text": "ocean-floor"
+        },
+        {
+          "start": 2.298,
+          "end": 2.795,
+          "text": "maps"
+        },
+        {
+          "start": 3.026,
+          "end": 3.196,
+          "text": "that"
+        },
+        {
+          "start": 3.208,
+          "end": 3.475,
+          "text": "core"
+        },
+        {
+          "start": 3.487,
+          "end": 3.863,
+          "text": "settled"
+        },
+        {
+          "start": 3.876,
+          "end": 3.948,
+          "text": "the"
+        },
+        {
+          "start": 3.96,
+          "end": 4.41,
+          "text": "debate"
+        },
+        {
+          "start": 4.822,
+          "end": 4.907,
+          "text": "The"
+        },
+        {
+          "start": 4.919,
+          "end": 5.356,
+          "text": "abyss"
+        },
+        {
+          "start": 5.368,
+          "end": 5.55,
+          "text": "was"
+        },
+        {
+          "start": 5.562,
+          "end": 5.866,
+          "text": "not"
+        },
+        {
+          "start": 5.878,
+          "end": 5.928,
+          "text": "a"
+        },
+        {
+          "start": 5.939,
+          "end": 6.509,
+          "text": "stagnant"
+        },
+        {
+          "start": 6.521,
+          "end": 6.897,
+          "text": "tomb"
+        },
+        {
+          "start": 7.261,
+          "end": 7.311,
+          "text": "it"
+        },
+        {
+          "start": 7.322,
+          "end": 7.431,
+          "text": "was"
+        },
+        {
+          "start": 7.443,
+          "end": 7.493,
+          "text": "a"
+        },
+        {
+          "start": 7.504,
+          "end": 7.868,
+          "text": "living"
+        },
+        {
+          "start": 7.88,
+          "end": 8.463,
+          "text": "landscape"
+        },
+        {
+          "start": 8.475,
+          "end": 8.9,
+          "text": "carved"
+        },
+        {
+          "start": 8.912,
+          "end": 9.058,
+          "text": "by"
+        },
+        {
+          "start": 9.07,
+          "end": 9.749,
+          "text": "canyons"
+        },
+        {
+          "start": 9.761,
+          "end": 9.883,
+          "text": "and"
+        },
+        {
+          "start": 9.895,
+          "end": 10.429,
+          "text": "submarine"
+        },
+        {
+          "start": 10.441,
+          "end": 11.193,
+          "text": "avalanches"
+        }
+      ],
+      "cues": [
+        {
+          "start": 239.33,
+          "end": 243.16,
+          "lines": [
+            "Beside Marie Tharp's pioneering",
+            "ocean-floor maps, that core settled"
+          ],
+          "text": "Beside Marie Tharp's pioneering ocean-floor maps, that core settled"
+        },
+        {
+          "start": 243.19,
+          "end": 246.535,
+          "lines": [
+            "the debate. The abyss",
+            "was not a stagnant tomb\u2014"
+          ],
+          "text": "the debate. The abyss was not a stagnant tomb\u2014"
+        },
+        {
+          "start": 246.575,
+          "end": 249.725,
+          "lines": [
+            "it was a living landscape",
+            "carved by canyons and submarine"
+          ],
+          "text": "it was a living landscape carved by canyons and submarine"
+        },
+        {
+          "start": 249.755,
+          "end": 250.89,
+          "lines": [
+            "avalanches."
+          ],
+          "text": "avalanches."
+        }
+      ]
+    },
+    {
+      "id": "S20",
+      "act": "ACT VII \u00b7 THE FRAGILE FLOOR OF THE INTERNET",
+      "mode": "plate_modern_fiber_stats",
+      "plate": "plate_10_modern_fiber.jpg",
+      "plate_secondary": null,
+      "narration": "Today, that discovery protects the digital world. Over 1.8 million kilometers of garden-hose-thin fiber-optic cables cross the seafloor, carrying more than ninety-nine percent of intercontinental internet traffic.",
+      "wav": "/tmp/thaumatrope_build/tts/S20.wav",
+      "shot_start": 251.0502,
+      "speech_start": 251.1702,
+      "speech_end": 264.1992,
+      "shot_end": 264.5592,
+      "duration": 13.509,
+      "words": [
+        {
+          "start": 0.015,
+          "end": 0.33,
+          "text": "Today"
+        },
+        {
+          "start": 0.585,
+          "end": 0.719,
+          "text": "that"
+        },
+        {
+          "start": 0.731,
+          "end": 1.265,
+          "text": "discovery"
+        },
+        {
+          "start": 1.277,
+          "end": 1.811,
+          "text": "protects"
+        },
+        {
+          "start": 1.823,
+          "end": 1.932,
+          "text": "the"
+        },
+        {
+          "start": 1.944,
+          "end": 2.308,
+          "text": "digital"
+        },
+        {
+          "start": 2.321,
+          "end": 2.673,
+          "text": "world"
+        },
+        {
+          "start": 3.073,
+          "end": 3.316,
+          "text": "Over"
+        },
+        {
+          "start": 3.328,
+          "end": 4.214,
+          "text": "1.8"
+        },
+        {
+          "start": 4.226,
+          "end": 4.711,
+          "text": "million"
+        },
+        {
+          "start": 4.724,
+          "end": 5.306,
+          "text": "kilometers"
+        },
+        {
+          "start": 5.318,
+          "end": 5.44,
+          "text": "of"
+        },
+        {
+          "start": 5.452,
+          "end": 6.398,
+          "text": "garden-hose-thin"
+        },
+        {
+          "start": 6.41,
+          "end": 7.017,
+          "text": "fiber-optic"
+        },
+        {
+          "start": 7.029,
+          "end": 7.43,
+          "text": "cables"
+        },
+        {
+          "start": 7.442,
+          "end": 7.806,
+          "text": "cross"
+        },
+        {
+          "start": 7.818,
+          "end": 7.903,
+          "text": "the"
+        },
+        {
+          "start": 7.915,
+          "end": 8.498,
+          "text": "seafloor"
+        },
+        {
+          "start": 8.789,
+          "end": 9.214,
+          "text": "carrying"
+        },
+        {
+          "start": 9.226,
+          "end": 9.432,
+          "text": "more"
+        },
+        {
+          "start": 9.444,
+          "end": 9.639,
+          "text": "than"
+        },
+        {
+          "start": 9.651,
+          "end": 10.294,
+          "text": "ninety-nine"
+        },
+        {
+          "start": 10.306,
+          "end": 10.828,
+          "text": "percent"
+        },
+        {
+          "start": 11.046,
+          "end": 11.156,
+          "text": "of"
+        },
+        {
+          "start": 11.228,
+          "end": 12.041,
+          "text": "intercontinental"
+        },
+        {
+          "start": 12.054,
+          "end": 12.381,
+          "text": "internet"
+        },
+        {
+          "start": 12.393,
+          "end": 12.927,
+          "text": "traffic"
+        }
+      ],
+      "cues": [
+        {
+          "start": 251.185,
+          "end": 254.203,
+          "lines": [
+            "Today, that discovery",
+            "protects the digital world."
+          ],
+          "text": "Today, that discovery protects the digital world."
+        },
+        {
+          "start": 254.243,
+          "end": 258.582,
+          "lines": [
+            "Over 1.8 million kilometers of",
+            "garden-hose-thin fiber-optic cables"
+          ],
+          "text": "Over 1.8 million kilometers of garden-hose-thin fiber-optic cables"
+        },
+        {
+          "start": 258.612,
+          "end": 262.358,
+          "lines": [
+            "cross the seafloor, carrying",
+            "more than ninety-nine percent of"
+          ],
+          "text": "cross the seafloor, carrying more than ninety-nine percent of"
+        },
+        {
+          "start": 262.398,
+          "end": 264.469,
+          "lines": [
+            "intercontinental internet traffic."
+          ],
+          "text": "intercontinental internet traffic."
+        }
+      ]
+    },
+    {
+      "id": "S21",
+      "act": "ACT VII \u00b7 THE FRAGILE FLOOR OF THE INTERNET",
+      "mode": "hunga_tonga_2022_map",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "And the same geohazard still strikes. On January 15, 2022, Hunga Tonga's eruption unleashed undersea volcanic currents reaching 122 kilometers an hour\u2014the fastest seafloor flows ever recorded.",
+      "wav": "/tmp/thaumatrope_build/tts/S21.wav",
+      "shot_start": 264.5592,
+      "speech_start": 264.6792,
+      "speech_end": 278.3037,
+      "shot_end": 278.6637,
+      "duration": 14.1045,
+      "words": [
+        {
+          "start": 0.01,
+          "end": 0.071,
+          "text": "And"
+        },
+        {
+          "start": 0.083,
+          "end": 0.156,
+          "text": "the"
+        },
+        {
+          "start": 0.168,
+          "end": 0.472,
+          "text": "same"
+        },
+        {
+          "start": 0.484,
+          "end": 1.066,
+          "text": "geohazard"
+        },
+        {
+          "start": 1.078,
+          "end": 1.297,
+          "text": "still"
+        },
+        {
+          "start": 1.309,
+          "end": 1.891,
+          "text": "strikes"
+        },
+        {
+          "start": 2.292,
+          "end": 2.413,
+          "text": "On"
+        },
+        {
+          "start": 2.425,
+          "end": 4.658,
+          "text": "January 15, 2022"
+        },
+        {
+          "start": 5.022,
+          "end": 5.277,
+          "text": "Hunga"
+        },
+        {
+          "start": 5.289,
+          "end": 5.69,
+          "text": "Tonga's"
+        },
+        {
+          "start": 5.702,
+          "end": 6.224,
+          "text": "eruption"
+        },
+        {
+          "start": 6.285,
+          "end": 6.855,
+          "text": "unleashed"
+        },
+        {
+          "start": 6.916,
+          "end": 7.328,
+          "text": "undersea"
+        },
+        {
+          "start": 7.34,
+          "end": 7.874,
+          "text": "volcanic"
+        },
+        {
+          "start": 7.887,
+          "end": 8.275,
+          "text": "currents"
+        },
+        {
+          "start": 8.287,
+          "end": 8.688,
+          "text": "reaching"
+        },
+        {
+          "start": 8.7,
+          "end": 9.792,
+          "text": "122"
+        },
+        {
+          "start": 9.804,
+          "end": 10.326,
+          "text": "kilometers"
+        },
+        {
+          "start": 10.338,
+          "end": 10.411,
+          "text": "an"
+        },
+        {
+          "start": 10.423,
+          "end": 10.702,
+          "text": "hour"
+        },
+        {
+          "start": 11.005,
+          "end": 11.09,
+          "text": "the"
+        },
+        {
+          "start": 11.103,
+          "end": 11.661,
+          "text": "fastest"
+        },
+        {
+          "start": 11.673,
+          "end": 12.158,
+          "text": "seafloor"
+        },
+        {
+          "start": 12.171,
+          "end": 12.656,
+          "text": "flows"
+        },
+        {
+          "start": 12.789,
+          "end": 12.984,
+          "text": "ever"
+        },
+        {
+          "start": 12.996,
+          "end": 13.518,
+          "text": "recorded"
+        }
+      ],
+      "cues": [
+        {
+          "start": 264.689,
+          "end": 266.931,
+          "lines": [
+            "And the same geohazard still strikes."
+          ],
+          "text": "And the same geohazard still strikes."
+        },
+        {
+          "start": 266.971,
+          "end": 271.989,
+          "lines": [
+            "On January 15, 2022, Hunga Tonga's",
+            "eruption unleashed undersea"
+          ],
+          "text": "On January 15, 2022, Hunga Tonga's eruption unleashed undersea"
+        },
+        {
+          "start": 272.019,
+          "end": 275.644,
+          "lines": [
+            "volcanic currents reaching",
+            "122 kilometers an hour\u2014"
+          ],
+          "text": "volcanic currents reaching 122 kilometers an hour\u2014"
+        },
+        {
+          "start": 275.684,
+          "end": 278.574,
+          "lines": [
+            "the fastest seafloor",
+            "flows ever recorded."
+          ],
+          "text": "the fastest seafloor flows ever recorded."
+        }
+      ]
+    },
+    {
+      "id": "S22",
+      "act": "ACT VII \u00b7 THE FRAGILE FLOOR OF THE INTERNET",
+      "mode": "tonga_outage_comparison",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "Once again, cables clocked the surge: Tonga's domestic line snapped at 4:30 AM, and its international fiber broke seventy-four minutes later\u2014wrecking 194 kilometers of cable and isolating a nation for five weeks.",
+      "wav": "/tmp/thaumatrope_build/tts/S22.wav",
+      "shot_start": 278.6637,
+      "speech_start": 278.7837,
+      "speech_end": 292.8234,
+      "shot_end": 293.2034,
+      "duration": 14.5397,
+      "words": [
+        {
+          "start": 0.016,
+          "end": 0.21,
+          "text": "Once"
+        },
+        {
+          "start": 0.222,
+          "end": 0.611,
+          "text": "again"
+        },
+        {
+          "start": 0.841,
+          "end": 1.242,
+          "text": "cables"
+        },
+        {
+          "start": 1.254,
+          "end": 1.691,
+          "text": "clocked"
+        },
+        {
+          "start": 1.703,
+          "end": 1.788,
+          "text": "the"
+        },
+        {
+          "start": 1.8,
+          "end": 2.322,
+          "text": "surge"
+        },
+        {
+          "start": 2.589,
+          "end": 2.965,
+          "text": "Tonga's"
+        },
+        {
+          "start": 2.977,
+          "end": 3.487,
+          "text": "domestic"
+        },
+        {
+          "start": 3.499,
+          "end": 3.79,
+          "text": "line"
+        },
+        {
+          "start": 3.803,
+          "end": 4.264,
+          "text": "snapped"
+        },
+        {
+          "start": 4.276,
+          "end": 4.361,
+          "text": "at"
+        },
+        {
+          "start": 4.373,
+          "end": 5.526,
+          "text": "4:30 AM"
+        },
+        {
+          "start": 5.866,
+          "end": 5.938,
+          "text": "and"
+        },
+        {
+          "start": 5.951,
+          "end": 6.072,
+          "text": "its"
+        },
+        {
+          "start": 6.084,
+          "end": 6.739,
+          "text": "international"
+        },
+        {
+          "start": 6.752,
+          "end": 7.104,
+          "text": "fiber"
+        },
+        {
+          "start": 7.116,
+          "end": 7.395,
+          "text": "broke"
+        },
+        {
+          "start": 7.468,
+          "end": 8.123,
+          "text": "seventy-four"
+        },
+        {
+          "start": 8.135,
+          "end": 8.426,
+          "text": "minutes"
+        },
+        {
+          "start": 8.438,
+          "end": 8.73,
+          "text": "later"
+        },
+        {
+          "start": 9.13,
+          "end": 9.434,
+          "text": "wrecking"
+        },
+        {
+          "start": 9.446,
+          "end": 10.489,
+          "text": "194"
+        },
+        {
+          "start": 10.502,
+          "end": 11.023,
+          "text": "kilometers"
+        },
+        {
+          "start": 11.036,
+          "end": 11.12,
+          "text": "of"
+        },
+        {
+          "start": 11.133,
+          "end": 11.606,
+          "text": "cable"
+        },
+        {
+          "start": 11.849,
+          "end": 11.958,
+          "text": "and"
+        },
+        {
+          "start": 11.97,
+          "end": 12.48,
+          "text": "isolating"
+        },
+        {
+          "start": 12.492,
+          "end": 12.542,
+          "text": "a"
+        },
+        {
+          "start": 12.528,
+          "end": 12.953,
+          "text": "nation"
+        },
+        {
+          "start": 12.965,
+          "end": 13.111,
+          "text": "for"
+        },
+        {
+          "start": 13.123,
+          "end": 13.438,
+          "text": "five"
+        },
+        {
+          "start": 13.451,
+          "end": 13.948,
+          "text": "weeks"
+        }
+      ],
+      "cues": [
+        {
+          "start": 278.8,
+          "end": 281.333,
+          "lines": [
+            "Once again, cables clocked the surge:"
+          ],
+          "text": "Once again, cables clocked the surge:"
+        },
+        {
+          "start": 281.373,
+          "end": 285.506,
+          "lines": [
+            "Tonga's domestic line snapped at",
+            "4:30 AM, and its international"
+          ],
+          "text": "Tonga's domestic line snapped at 4:30 AM, and its international"
+        },
+        {
+          "start": 285.536,
+          "end": 289.887,
+          "lines": [
+            "fiber broke seventy-four minutes",
+            "later\u2014 wrecking 194 kilometers of"
+          ],
+          "text": "fiber broke seventy-four minutes later\u2014 wrecking 194 kilometers of"
+        },
+        {
+          "start": 289.917,
+          "end": 293.103,
+          "lines": [
+            "cable and isolating a",
+            "nation for five weeks."
+          ],
+          "text": "cable and isolating a nation for five weeks."
+        }
+      ]
+    },
+    {
+      "id": "S23",
+      "act": "ACT VII \u00b7 THE FRAGILE FLOOR OF THE INTERNET",
+      "mode": "cable_engineering_lessons",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "Armed with the lessons of 1929 and 2022, modern engineers map canyon chutes with multibeam sonar, detour around unstable slopes, and bury coastal crossings.",
+      "wav": "/tmp/thaumatrope_build/tts/S23.wav",
+      "shot_start": 293.2034,
+      "speech_start": 293.3234,
+      "speech_end": 304.2982,
+      "shot_end": 304.7182,
+      "duration": 11.5148,
+      "words": [
+        {
+          "start": 0.01,
+          "end": 0.228,
+          "text": "Armed"
+        },
+        {
+          "start": 0.24,
+          "end": 0.349,
+          "text": "with"
+        },
+        {
+          "start": 0.362,
+          "end": 0.459,
+          "text": "the"
+        },
+        {
+          "start": 0.471,
+          "end": 0.896,
+          "text": "lessons"
+        },
+        {
+          "start": 0.908,
+          "end": 0.98,
+          "text": "of"
+        },
+        {
+          "start": 0.993,
+          "end": 2.097,
+          "text": "1929"
+        },
+        {
+          "start": 2.182,
+          "end": 2.291,
+          "text": "and"
+        },
+        {
+          "start": 2.303,
+          "end": 3.238,
+          "text": "2022"
+        },
+        {
+          "start": 3.541,
+          "end": 3.82,
+          "text": "modern"
+        },
+        {
+          "start": 3.832,
+          "end": 4.366,
+          "text": "engineers"
+        },
+        {
+          "start": 4.379,
+          "end": 4.718,
+          "text": "map"
+        },
+        {
+          "start": 4.73,
+          "end": 5.095,
+          "text": "canyon"
+        },
+        {
+          "start": 5.107,
+          "end": 5.422,
+          "text": "chutes"
+        },
+        {
+          "start": 5.434,
+          "end": 5.58,
+          "text": "with"
+        },
+        {
+          "start": 5.592,
+          "end": 6.272,
+          "text": "multibeam"
+        },
+        {
+          "start": 6.284,
+          "end": 6.757,
+          "text": "sonar"
+        },
+        {
+          "start": 7.048,
+          "end": 7.473,
+          "text": "detour"
+        },
+        {
+          "start": 7.485,
+          "end": 7.837,
+          "text": "around"
+        },
+        {
+          "start": 7.898,
+          "end": 8.493,
+          "text": "unstable"
+        },
+        {
+          "start": 8.505,
+          "end": 9.014,
+          "text": "slopes"
+        },
+        {
+          "start": 9.281,
+          "end": 9.415,
+          "text": "and"
+        },
+        {
+          "start": 9.427,
+          "end": 9.791,
+          "text": "bury"
+        },
+        {
+          "start": 9.803,
+          "end": 10.192,
+          "text": "coastal"
+        },
+        {
+          "start": 10.204,
+          "end": 10.883,
+          "text": "crossings"
+        }
+      ],
+      "cues": [
+        {
+          "start": 293.333,
+          "end": 298.4,
+          "lines": [
+            "Armed with the lessons of 1929 and",
+            "2022, modern engineers map canyon"
+          ],
+          "text": "Armed with the lessons of 1929 and 2022, modern engineers map canyon"
+        },
+        {
+          "start": 298.43,
+          "end": 303.096,
+          "lines": [
+            "chutes with multibeam sonar, detour",
+            "around unstable slopes, and bury"
+          ],
+          "text": "chutes with multibeam sonar, detour around unstable slopes, and bury"
+        },
+        {
+          "start": 303.126,
+          "end": 304.578,
+          "lines": [
+            "coastal crossings."
+          ],
+          "text": "coastal crossings."
+        }
+      ]
+    },
+    {
+      "id": "S24",
+      "act": "ACT VII \u00b7 THE FRAGILE FLOOR OF THE INTERNET",
+      "mode": "coda_abyssal_web",
+      "plate": null,
+      "plate_secondary": null,
+      "narration": "Every packet of light crossing an ocean today rides on glass threads guarded by what twelve broken telegraph wires accidentally recorded on November 18, 1929\u2014over thirteen hours and seventeen minutes.",
+      "wav": "/tmp/thaumatrope_build/tts/S24.wav",
+      "shot_start": 304.7182,
+      "speech_start": 304.8382,
+      "speech_end": 317.7651,
+      "shot_end": 319.9667,
+      "duration": 15.2485,
+      "words": [
+        {
+          "start": 0.014,
+          "end": 0.245,
+          "text": "Every"
+        },
+        {
+          "start": 0.257,
+          "end": 0.682,
+          "text": "packet"
+        },
+        {
+          "start": 0.694,
+          "end": 0.791,
+          "text": "of"
+        },
+        {
+          "start": 0.803,
+          "end": 1.131,
+          "text": "light"
+        },
+        {
+          "start": 1.143,
+          "end": 1.604,
+          "text": "crossing"
+        },
+        {
+          "start": 1.616,
+          "end": 1.701,
+          "text": "an"
+        },
+        {
+          "start": 1.713,
+          "end": 2.029,
+          "text": "ocean"
+        },
+        {
+          "start": 2.041,
+          "end": 2.417,
+          "text": "today"
+        },
+        {
+          "start": 2.429,
+          "end": 2.818,
+          "text": "rides"
+        },
+        {
+          "start": 2.83,
+          "end": 2.963,
+          "text": "on"
+        },
+        {
+          "start": 2.976,
+          "end": 3.425,
+          "text": "glass"
+        },
+        {
+          "start": 3.437,
+          "end": 3.813,
+          "text": "threads"
+        },
+        {
+          "start": 3.825,
+          "end": 4.201,
+          "text": "guarded"
+        },
+        {
+          "start": 4.213,
+          "end": 4.347,
+          "text": "by"
+        },
+        {
+          "start": 4.359,
+          "end": 4.553,
+          "text": "what"
+        },
+        {
+          "start": 4.565,
+          "end": 5.039,
+          "text": "twelve"
+        },
+        {
+          "start": 5.051,
+          "end": 5.403,
+          "text": "broken"
+        },
+        {
+          "start": 5.415,
+          "end": 6.01,
+          "text": "telegraph"
+        },
+        {
+          "start": 6.07,
+          "end": 6.471,
+          "text": "wires"
+        },
+        {
+          "start": 6.483,
+          "end": 7.065,
+          "text": "accidentally"
+        },
+        {
+          "start": 7.078,
+          "end": 7.624,
+          "text": "recorded"
+        },
+        {
+          "start": 7.636,
+          "end": 7.757,
+          "text": "on"
+        },
+        {
+          "start": 7.769,
+          "end": 10.172,
+          "text": "November 18, 1929"
+        },
+        {
+          "start": 10.573,
+          "end": 10.743,
+          "text": "over"
+        },
+        {
+          "start": 10.755,
+          "end": 11.204,
+          "text": "thirteen"
+        },
+        {
+          "start": 11.216,
+          "end": 11.629,
+          "text": "hours"
+        },
+        {
+          "start": 11.738,
+          "end": 11.871,
+          "text": "and"
+        },
+        {
+          "start": 11.883,
+          "end": 12.369,
+          "text": "seventeen"
+        },
+        {
+          "start": 12.381,
+          "end": 12.83,
+          "text": "minutes"
+        }
+      ],
+      "cues": [
+        {
+          "start": 304.852,
+          "end": 308.633,
+          "lines": [
+            "Every packet of light crossing an",
+            "ocean today rides on glass threads"
+          ],
+          "text": "Every packet of light crossing an ocean today rides on glass threads"
+        },
+        {
+          "start": 308.663,
+          "end": 312.444,
+          "lines": [
+            "guarded by what twelve broken",
+            "telegraph wires accidentally recorded"
+          ],
+          "text": "guarded by what twelve broken telegraph wires accidentally recorded"
+        },
+        {
+          "start": 312.474,
+          "end": 318.045,
+          "lines": [
+            "on November 18, 1929\u2014 over thirteen",
+            "hours and seventeen minutes."
+          ],
+          "text": "on November 18, 1929\u2014 over thirteen hours and seventeen minutes."
+        }
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.292,
+      "end": 6.912,
+      "lines": [
+        "At 8:32 PM Universal Time on",
+        "November 18, 1929, six transatlantic"
+      ],
+      "text": "At 8:32 PM Universal Time on November 18, 1929, six transatlantic"
+    },
+    {
+      "start": 6.942,
+      "end": 10.286,
+      "lines": [
+        "telegraph cables south of Newfoundland",
+        "went dead at the exact same"
+      ],
+      "text": "telegraph cables south of Newfoundland went dead at the exact same"
+    },
+    {
+      "start": 10.316,
+      "end": 13.529,
+      "lines": [
+        "instant. An undersea",
+        "earthquake had just struck."
+      ],
+      "text": "instant. An undersea earthquake had just struck."
+    },
+    {
+      "start": 13.747,
+      "end": 16.62,
+      "lines": [
+        "What baffled engineers was",
+        "the next thirteen hours."
+      ],
+      "text": "What baffled engineers was the next thirteen hours."
+    },
+    {
+      "start": 16.66,
+      "end": 20.21,
+      "lines": [
+        "Fifty-nine minutes after shaking",
+        "stopped, a seventh cable snapped"
+      ],
+      "text": "Fifty-nine minutes after shaking stopped, a seventh cable snapped"
+    },
+    {
+      "start": 20.24,
+      "end": 22.931,
+      "lines": [
+        "farther south. Three",
+        "hours in, an eighth."
+      ],
+      "text": "farther south. Three hours in, an eighth."
+    },
+    {
+      "start": 22.971,
+      "end": 26.666,
+      "lines": [
+        "At thirteen hours seventeen",
+        "minutes, a twelfth tore apart five"
+      ],
+      "text": "At thirteen hours seventeen minutes, a twelfth tore apart five"
+    },
+    {
+      "start": 26.696,
+      "end": 28.477,
+      "lines": [
+        "hundred kilometers offshore."
+      ],
+      "text": "hundred kilometers offshore."
+    },
+    {
+      "start": 28.72,
+      "end": 32.064,
+      "lines": [
+        "Something unseen had marched across",
+        "the pitch-black Atlantic floor"
+      ],
+      "text": "Something unseen had marched across the pitch-black Atlantic floor"
+    },
+    {
+      "start": 32.094,
+      "end": 35.477,
+      "lines": [
+        "at highway speed, cutting",
+        "steel lines one by one."
+      ],
+      "text": "at highway speed, cutting steel lines one by one."
+    },
+    {
+      "start": 35.517,
+      "end": 39.171,
+      "lines": [
+        "For twenty-three years, nobody",
+        "on Earth could prove what it was."
+      ],
+      "text": "For twenty-three years, nobody on Earth could prove what it was."
+    },
+    {
+      "start": 39.477,
+      "end": 43.403,
+      "lines": [
+        "In 1929, the seabed off",
+        "Newfoundland was the busiest cable"
+      ],
+      "text": "In 1929, the seabed off Newfoundland was the busiest cable"
+    },
+    {
+      "start": 43.433,
+      "end": 46.947,
+      "lines": [
+        "crossroads on Earth\u2014 linking",
+        "North American stock markets and"
+      ],
+      "text": "crossroads on Earth\u2014 linking North American stock markets and"
+    },
+    {
+      "start": 46.977,
+      "end": 49.068,
+      "lines": [
+        "newsrooms directly to Europe."
+      ],
+      "text": "newsrooms directly to Europe."
+    },
+    {
+      "start": 49.289,
+      "end": 52.089,
+      "lines": [
+        "Each deep-sea cable was",
+        "armored for the abyss:"
+      ],
+      "text": "Each deep-sea cable was armored for the abyss:"
+    },
+    {
+      "start": 52.129,
+      "end": 56.458,
+      "lines": [
+        "a stranded copper core, gutta-percha",
+        "latex insulation, tanned jute,"
+      ],
+      "text": "a stranded copper core, gutta-percha latex insulation, tanned jute,"
+    },
+    {
+      "start": 56.498,
+      "end": 58.42,
+      "lines": [
+        "and galvanized steel wires."
+      ],
+      "text": "and galvanized steel wires."
+    },
+    {
+      "start": 58.643,
+      "end": 62.62,
+      "lines": [
+        "Automatic recorders stamped the",
+        "exact minute any circuit failed."
+      ],
+      "text": "Automatic recorders stamped the exact minute any circuit failed."
+    },
+    {
+      "start": 62.66,
+      "end": 65.882,
+      "lines": [
+        "On shore, a Wheatstone bridge",
+        "measured the surviving copper's"
+      ],
+      "text": "On shore, a Wheatstone bridge measured the surviving copper's"
+    },
+    {
+      "start": 65.912,
+      "end": 69.778,
+      "lines": [
+        "electrical resistance\u2014 converting",
+        "ohms straight into nautical miles"
+      ],
+      "text": "electrical resistance\u2014 converting ohms straight into nautical miles"
+    },
+    {
+      "start": 69.808,
+      "end": 70.786,
+      "lines": [
+        "to the break."
+      ],
+      "text": "to the break."
+    },
+    {
+      "start": 71.022,
+      "end": 75.327,
+      "lines": [
+        "When that magnitude 7.2 quake shook",
+        "the Grand Banks, it also sent a"
+      ],
+      "text": "When that magnitude 7.2 quake shook the Grand Banks, it also sent a"
+    },
+    {
+      "start": 75.367,
+      "end": 79.22,
+      "lines": [
+        "devastating tsunami onto Newfoundland's",
+        "Burin Peninsula, claiming"
+      ],
+      "text": "devastating tsunami onto Newfoundland's Burin Peninsula, claiming"
+    },
+    {
+      "start": 79.25,
+      "end": 81.597,
+      "lines": [
+        "twenty-eight lives along Placentia Bay."
+      ],
+      "text": "twenty-eight lives along Placentia Bay."
+    },
+    {
+      "start": 81.892,
+      "end": 85.879,
+      "lines": [
+        "At sea, repair ships worked nearly",
+        "a year grappling severed lines"
+      ],
+      "text": "At sea, repair ships worked nearly a year grappling severed lines"
+    },
+    {
+      "start": 85.909,
+      "end": 90.02,
+      "lines": [
+        "from three miles down. When",
+        "hydrographer Vladimir de Smitt mapped"
+      ],
+      "text": "from three miles down. When hydrographer Vladimir de Smitt mapped"
+    },
+    {
+      "start": 90.06,
+      "end": 93.27,
+      "lines": [
+        "all twenty-eight breaks across",
+        "twelve cables, an extraordinary"
+      ],
+      "text": "all twenty-eight breaks across twelve cables, an extraordinary"
+    },
+    {
+      "start": 93.3,
+      "end": 94.622,
+      "lines": [
+        "pattern emerged."
+      ],
+      "text": "pattern emerged."
+    },
+    {
+      "start": 94.844,
+      "end": 98.566,
+      "lines": [
+        "Every cable on the shallow",
+        "continental shelf stayed intact."
+      ],
+      "text": "Every cable on the shallow continental shelf stayed intact."
+    },
+    {
+      "start": 98.606,
+      "end": 101.828,
+      "lines": [
+        "Six cables on the steep continental",
+        "slope around the epicenter"
+      ],
+      "text": "Six cables on the steep continental slope around the epicenter"
+    },
+    {
+      "start": 101.858,
+      "end": 105.748,
+      "lines": [
+        "failed simultaneously within",
+        "sixty seconds, crushed by instant"
+      ],
+      "text": "failed simultaneously within sixty seconds, crushed by instant"
+    },
+    {
+      "start": 105.778,
+      "end": 106.691,
+      "lines": [
+        "slumps."
+      ],
+      "text": "slumps."
+    },
+    {
+      "start": 106.918,
+      "end": 110.796,
+      "lines": [
+        "Then six deeper cables snapped",
+        "downslope in strict north-to-south"
+      ],
+      "text": "Then six deeper cables snapped downslope in strict north-to-south"
+    },
+    {
+      "start": 110.826,
+      "end": 114.667,
+      "lines": [
+        "order: fourteen minutes, fifty-nine",
+        "minutes, three hours three"
+      ],
+      "text": "order: fourteen minutes, fifty-nine minutes, three hours three"
+    },
+    {
+      "start": 114.697,
+      "end": 118.842,
+      "lines": [
+        "minutes, nine hours one minute,",
+        "ten hours eighteen, and thirteen"
+      ],
+      "text": "minutes, nine hours one minute, ten hours eighteen, and thirteen"
+    },
+    {
+      "start": 118.872,
+      "end": 122.835,
+      "lines": [
+        "hours seventeen minutes\u2014 nearly",
+        "five thousand meters deep, where two"
+      ],
+      "text": "hours seventeen minutes\u2014 nearly five thousand meters deep, where two"
+    },
+    {
+      "start": 122.865,
+      "end": 125.377,
+      "lines": [
+        "hundred miles of wire",
+        "vanished under sand."
+      ],
+      "text": "hundred miles of wire vanished under sand."
+    },
+    {
+      "start": 125.681,
+      "end": 129.219,
+      "lines": [
+        "Why would steel cables break half",
+        "a day after an earthquake stopped?"
+      ],
+      "text": "Why would steel cables break half a day after an earthquake stopped?"
+    },
+    {
+      "start": 129.249,
+      "end": 134.741,
+      "lines": [
+        "In Nature, geologist J. W. Gregory",
+        "blamed parallel faults unzipping"
+      ],
+      "text": "In Nature, geologist J. W. Gregory blamed parallel faults unzipping"
+    },
+    {
+      "start": 134.771,
+      "end": 138.954,
+      "lines": [
+        "southward. Yet seismographs",
+        "recorded only two aftershocks\u2014"
+      ],
+      "text": "southward. Yet seismographs recorded only two aftershocks\u2014"
+    },
+    {
+      "start": 138.994,
+      "end": 141.207,
+      "lines": [
+        "both back at the original epicenter."
+      ],
+      "text": "both back at the original epicenter."
+    },
+    {
+      "start": 141.431,
+      "end": 145.527,
+      "lines": [
+        "Others blamed wet silt weighing",
+        "cables down, or erosion from the"
+      ],
+      "text": "Others blamed wet silt weighing cables down, or erosion from the"
+    },
+    {
+      "start": 145.557,
+      "end": 148.369,
+      "lines": [
+        "overhead tsunami.",
+        "Physics ruled both out:"
+      ],
+      "text": "overhead tsunami. Physics ruled both out:"
+    },
+    {
+      "start": 148.409,
+      "end": 152.374,
+      "lines": [
+        "the tsunami crossed the Atlantic",
+        "ten times faster than the breaks."
+      ],
+      "text": "the tsunami crossed the Atlantic ten times faster than the breaks."
+    },
+    {
+      "start": 152.414,
+      "end": 155.633,
+      "lines": [
+        "For two decades, the",
+        "cold case stood unsolved."
+      ],
+      "text": "For two decades, the cold case stood unsolved."
+    },
+    {
+      "start": 155.936,
+      "end": 158.881,
+      "lines": [
+        "The key came from a glass",
+        "flume in the Netherlands."
+      ],
+      "text": "The key came from a glass flume in the Netherlands."
+    },
+    {
+      "start": 158.921,
+      "end": 163.042,
+      "lines": [
+        "Testing Reginald Daly's canyon",
+        "hypothesis, Philip Kuenen released"
+      ],
+      "text": "Testing Reginald Daly's canyon hypothesis, Philip Kuenen released"
+    },
+    {
+      "start": 163.072,
+      "end": 166.901,
+      "lines": [
+        "muddy slurries underwater\u2014 proving",
+        "that sediment-heavy water plunges"
+      ],
+      "text": "muddy slurries underwater\u2014 proving that sediment-heavy water plunges"
+    },
+    {
+      "start": 166.931,
+      "end": 170.373,
+      "lines": [
+        "beneath clear water like",
+        "a dense liquid avalanche."
+      ],
+      "text": "beneath clear water like a dense liquid avalanche."
+    },
+    {
+      "start": 170.608,
+      "end": 174.5,
+      "lines": [
+        "Still, skeptics doubted a tank",
+        "experiment could span an ocean."
+      ],
+      "text": "Still, skeptics doubted a tank experiment could span an ocean."
+    },
+    {
+      "start": 174.54,
+      "end": 178.867,
+      "lines": [
+        "Until December 1952, when Bruce",
+        "Heezen and Maurice Ewing at"
+      ],
+      "text": "Until December 1952, when Bruce Heezen and Maurice Ewing at"
+    },
+    {
+      "start": 178.897,
+      "end": 183.418,
+      "lines": [
+        "Columbia's Lamont Observatory",
+        "reopened those 1929 Western Union"
+      ],
+      "text": "Columbia's Lamont Observatory reopened those 1929 Western Union"
+    },
+    {
+      "start": 183.448,
+      "end": 184.302,
+      "lines": [
+        "logs."
+      ],
+      "text": "logs."
+    },
+    {
+      "start": 184.524,
+      "end": 187.928,
+      "lines": [
+        "They realized the six delayed",
+        "cables were tripwires across an"
+      ],
+      "text": "They realized the six delayed cables were tripwires across an"
+    },
+    {
+      "start": 187.958,
+      "end": 192.227,
+      "lines": [
+        "abyssal racetrack. Two hundred",
+        "cubic kilometers of shaken slope mud"
+      ],
+      "text": "abyssal racetrack. Two hundred cubic kilometers of shaken slope mud"
+    },
+    {
+      "start": 192.267,
+      "end": 196.181,
+      "lines": [
+        "had mixed with seawater into a",
+        "roaring turbidity current hundreds of"
+      ],
+      "text": "had mixed with seawater into a roaring turbidity current hundreds of"
+    },
+    {
+      "start": 196.211,
+      "end": 197.302,
+      "lines": [
+        "meters tall."
+      ],
+      "text": "meters tall."
+    },
+    {
+      "start": 197.536,
+      "end": 201.438,
+      "lines": [
+        "Plotting cable distance against",
+        "outage time turned broken wires into"
+      ],
+      "text": "Plotting cable distance against outage time turned broken wires into"
+    },
+    {
+      "start": 201.468,
+      "end": 205.661,
+      "lines": [
+        "a speedometer. Heezen and Ewing",
+        "calculated peak speeds near fifty"
+      ],
+      "text": "a speedometer. Heezen and Ewing calculated peak speeds near fifty"
+    },
+    {
+      "start": 205.691,
+      "end": 208.236,
+      "lines": [
+        "knots, slowing to twelve on the plain\u2014"
+      ],
+      "text": "knots, slowing to twelve on the plain\u2014"
+    },
+    {
+      "start": 208.276,
+      "end": 212.384,
+      "lines": [
+        "later refined in 1988 to",
+        "sixty-seven kilometers an hour."
+      ],
+      "text": "later refined in 1988 to sixty-seven kilometers an hour."
+    },
+    {
+      "start": 212.678,
+      "end": 215.672,
+      "lines": [
+        "A bold reconstruction still",
+        "needed physical proof."
+      ],
+      "text": "A bold reconstruction still needed physical proof."
+    },
+    {
+      "start": 215.712,
+      "end": 220.245,
+      "lines": [
+        "If the 1929 flow outran the",
+        "southernmost cable, a fresh sheet of"
+      ],
+      "text": "If the 1929 flow outran the southernmost cable, a fresh sheet of"
+    },
+    {
+      "start": 220.275,
+      "end": 224.046,
+      "lines": [
+        "coastal sand had to lie out",
+        "on the Sohm Abyssal Plain."
+      ],
+      "text": "coastal sand had to lie out on the Sohm Abyssal Plain."
+    },
+    {
+      "start": 224.275,
+      "end": 228.043,
+      "lines": [
+        "Lamont ships lowered steel piston",
+        "corers more than three miles to"
+      ],
+      "text": "Lamont ships lowered steel piston corers more than three miles to"
+    },
+    {
+      "start": 228.073,
+      "end": 232.085,
+      "lines": [
+        "the bottom. Atop ancient deep-sea",
+        "clay sat a sharp graded bed of"
+      ],
+      "text": "the bottom. Atop ancient deep-sea clay sat a sharp graded bed of"
+    },
+    {
+      "start": 232.115,
+      "end": 236.674,
+      "lines": [
+        "sand, pebbles, and shallow-water",
+        "shells\u2014 dropped coarse-grains-first"
+      ],
+      "text": "sand, pebbles, and shallow-water shells\u2014 dropped coarse-grains-first"
+    },
+    {
+      "start": 236.714,
+      "end": 239.104,
+      "lines": [
+        "as the 1929 current slowed."
+      ],
+      "text": "as the 1929 current slowed."
+    },
+    {
+      "start": 239.33,
+      "end": 243.16,
+      "lines": [
+        "Beside Marie Tharp's pioneering",
+        "ocean-floor maps, that core settled"
+      ],
+      "text": "Beside Marie Tharp's pioneering ocean-floor maps, that core settled"
+    },
+    {
+      "start": 243.19,
+      "end": 246.535,
+      "lines": [
+        "the debate. The abyss",
+        "was not a stagnant tomb\u2014"
+      ],
+      "text": "the debate. The abyss was not a stagnant tomb\u2014"
+    },
+    {
+      "start": 246.575,
+      "end": 249.725,
+      "lines": [
+        "it was a living landscape",
+        "carved by canyons and submarine"
+      ],
+      "text": "it was a living landscape carved by canyons and submarine"
+    },
+    {
+      "start": 249.755,
+      "end": 250.89,
+      "lines": [
+        "avalanches."
+      ],
+      "text": "avalanches."
+    },
+    {
+      "start": 251.185,
+      "end": 254.203,
+      "lines": [
+        "Today, that discovery",
+        "protects the digital world."
+      ],
+      "text": "Today, that discovery protects the digital world."
+    },
+    {
+      "start": 254.243,
+      "end": 258.582,
+      "lines": [
+        "Over 1.8 million kilometers of",
+        "garden-hose-thin fiber-optic cables"
+      ],
+      "text": "Over 1.8 million kilometers of garden-hose-thin fiber-optic cables"
+    },
+    {
+      "start": 258.612,
+      "end": 262.358,
+      "lines": [
+        "cross the seafloor, carrying",
+        "more than ninety-nine percent of"
+      ],
+      "text": "cross the seafloor, carrying more than ninety-nine percent of"
+    },
+    {
+      "start": 262.398,
+      "end": 264.469,
+      "lines": [
+        "intercontinental internet traffic."
+      ],
+      "text": "intercontinental internet traffic."
+    },
+    {
+      "start": 264.689,
+      "end": 266.931,
+      "lines": [
+        "And the same geohazard still strikes."
+      ],
+      "text": "And the same geohazard still strikes."
+    },
+    {
+      "start": 266.971,
+      "end": 271.989,
+      "lines": [
+        "On January 15, 2022, Hunga Tonga's",
+        "eruption unleashed undersea"
+      ],
+      "text": "On January 15, 2022, Hunga Tonga's eruption unleashed undersea"
+    },
+    {
+      "start": 272.019,
+      "end": 275.644,
+      "lines": [
+        "volcanic currents reaching",
+        "122 kilometers an hour\u2014"
+      ],
+      "text": "volcanic currents reaching 122 kilometers an hour\u2014"
+    },
+    {
+      "start": 275.684,
+      "end": 278.574,
+      "lines": [
+        "the fastest seafloor",
+        "flows ever recorded."
+      ],
+      "text": "the fastest seafloor flows ever recorded."
+    },
+    {
+      "start": 278.8,
+      "end": 281.333,
+      "lines": [
+        "Once again, cables clocked the surge:"
+      ],
+      "text": "Once again, cables clocked the surge:"
+    },
+    {
+      "start": 281.373,
+      "end": 285.506,
+      "lines": [
+        "Tonga's domestic line snapped at",
+        "4:30 AM, and its international"
+      ],
+      "text": "Tonga's domestic line snapped at 4:30 AM, and its international"
+    },
+    {
+      "start": 285.536,
+      "end": 289.887,
+      "lines": [
+        "fiber broke seventy-four minutes",
+        "later\u2014 wrecking 194 kilometers of"
+      ],
+      "text": "fiber broke seventy-four minutes later\u2014 wrecking 194 kilometers of"
+    },
+    {
+      "start": 289.917,
+      "end": 293.103,
+      "lines": [
+        "cable and isolating a",
+        "nation for five weeks."
+      ],
+      "text": "cable and isolating a nation for five weeks."
+    },
+    {
+      "start": 293.333,
+      "end": 298.4,
+      "lines": [
+        "Armed with the lessons of 1929 and",
+        "2022, modern engineers map canyon"
+      ],
+      "text": "Armed with the lessons of 1929 and 2022, modern engineers map canyon"
+    },
+    {
+      "start": 298.43,
+      "end": 303.096,
+      "lines": [
+        "chutes with multibeam sonar, detour",
+        "around unstable slopes, and bury"
+      ],
+      "text": "chutes with multibeam sonar, detour around unstable slopes, and bury"
+    },
+    {
+      "start": 303.126,
+      "end": 304.578,
+      "lines": [
+        "coastal crossings."
+      ],
+      "text": "coastal crossings."
+    },
+    {
+      "start": 304.852,
+      "end": 308.633,
+      "lines": [
+        "Every packet of light crossing an",
+        "ocean today rides on glass threads"
+      ],
+      "text": "Every packet of light crossing an ocean today rides on glass threads"
+    },
+    {
+      "start": 308.663,
+      "end": 312.444,
+      "lines": [
+        "guarded by what twelve broken",
+        "telegraph wires accidentally recorded"
+      ],
+      "text": "guarded by what twelve broken telegraph wires accidentally recorded"
+    },
+    {
+      "start": 312.474,
+      "end": 318.045,
+      "lines": [
+        "on November 18, 1929\u2014 over thirteen",
+        "hours and seventeen minutes."
+      ],
+      "text": "on November 18, 1929\u2014 over thirteen hours and seventeen minutes."
+    }
+  ]
+}

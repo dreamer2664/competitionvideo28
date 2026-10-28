@@ -1,0 +1,48 @@
+{
+  "project": "competitionvideo28",
+  "producer": "thaumatrope",
+  "agency_epoch": "2026-10-20.3",
+  "title": "THE THIRTEEN-HOUR AVALANCHE",
+  "youtube_title_primary": "Why 12 Undersea Cables Snapped in Exact Order (1929)",
+  "topic": "How 12 transatlantic telegraph cables severed during the November 18, 1929 Grand Banks earthquake clocked a 600 km underwater turbidity current, solved in 1952 by Bruce Heezen & Maurice Ewing and echoed in the 2022 Hunga Tonga subsea fiber outage.",
+  "language": "en",
+  "verification_status": "producer-verified via ffprobe, full ffmpeg stream decode, EBU R128 post-AAC loudnorm, blackdetect, silencedetect, decoded-frame visual inspection, and HTTPS SHA-256 download readback; pending independent Director and Manager evaluation",
+  "technical_metrics": {
+    "filename": "thaumatrope-v1-final.mp4",
+    "sha256": "41e128972fe7e2b6a6dc07604bd2354d40ba42dddec9fdaafeec3fc48bef4c5b",
+    "size_bytes": 46604481,
+    "duration_seconds": 319.966667,
+    "resolution": "1920x1080",
+    "aspect_ratio": "16:9",
+    "fps": 30,
+    "total_frames": 9599,
+    "video_codec": "h264 (High, yuv420p)",
+    "audio_codec": "aac (48000 Hz, stereo, ~192 kbps)",
+    "integrated_loudness_lufs": -15.2,
+    "true_peak_dbtp": -1.6,
+    "loudness_range_lu": 2.1,
+    "full_decode_errors": 0,
+    "black_segments_ge_0_2s": 0,
+    "silent_gaps_ge_1_0s": 0,
+    "shot_count": 24,
+    "spoken_word_count": 725,
+    "caption_cues": 90,
+    "max_caption_line_chars": 39,
+    "max_caption_cps": 19.7
+  },
+  "durable_release_urls": {
+    "competitionvideo28_release_page": "https://github.com/dreamer2664/competitionvideo28/releases/tag/thaumatrope-v1",
+    "competitionvideo28_mp4": "https://github.com/dreamer2664/competitionvideo28/releases/download/thaumatrope-v1/thaumatrope-v1-final.mp4",
+    "competitionvideo28_srt": "https://github.com/dreamer2664/competitionvideo28/releases/download/thaumatrope-v1/thaumatrope-v1-final.srt",
+    "competitionvideo28_vtt": "https://github.com/dreamer2664/competitionvideo28/releases/download/thaumatrope-v1/thaumatrope-v1-final.vtt",
+    "competitionvideo28_thumbnail": "https://github.com/dreamer2664/competitionvideo28/releases/download/thaumatrope-v1/thaumatrope-v1-thumbnail-A.jpg",
+    "storagecode_release_page": "https://github.com/dreamer2664/storagecode/releases/tag/competitionvideo28-thaumatrope-v1",
+    "storagecode_mp4": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-thaumatrope-v1/thaumatrope-v1-final.mp4",
+    "remote_sha256_readback_verified": true
+  },
+  "synthetic_media_disclosure": {
+    "visual_plates": "10 bespoke documentary illustrations generated via Arena generate_image (stylized painterly aesthetic) + 15 custom Python/Pillow/OpenCV procedural engineering & cartography animations",
+    "narration": "Synthetic English neural TTS (en-US-AndrewNeural, no real person imitated)",
+    "music_and_sfx": "100% original procedural synthesis in Python (NumPy/SciPy)"
+  }
+}

@@ -1,0 +1,15 @@
+Input Integrated:    -15.2 LUFS
+Input True Peak:      -1.6 dBTP
+Input LRA:             2.1 LU
+Input Threshold:     -25.3 LUFS
+
+Output Integrated:   -16.0 LUFS
+Output True Peak:     -2.1 dBTP
+Output LRA:            2.0 LU
+Output Threshold:    -26.0 LUFS
+
+Normalization Type:   Dynamic
+Target Offset:        -0.0 LU
+[out#0/null @ 0x5558130d9fc0] video:4125KiB audio:239968KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 9599 fps=330 q=-0.0 Lsize=N/A time=00:05:19.96 bitrate=N/A speed=  11x    
+
