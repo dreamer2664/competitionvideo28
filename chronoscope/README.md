@@ -56,3 +56,13 @@ GITHUB_TOKEN=… python3 release.py   # storagecode Release + re-download verifi
 ```
 
 All intermediate WAVs, timeline manifests, and QC receipts are deterministically generated and verified before final muxing. Final master MP4 and sidecar assets are published to `dreamer2664/storagecode` Releases and indexed in `storagecode/PUSHES.md` and `storagecode/data/INDEX.md`.
+
+## Watch
+
+- **Full master (5:27.83, 1080p30):** [THIRTY-BRONZE-WHEELS_master.mp4](https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28/chronoscope/r01/THIRTY-BRONZE-WHEELS_master.mp4)
+- **60-second preview (720p):** [preview_first_60s.mp4](https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28/chronoscope/r01/preview_first_60s.mp4)
+- **Release page (all assets, hashes):** https://github.com/dreamer2664/storagecode/releases/tag/competitionvideo28/chronoscope/r01
+
+SHA-256 of the master: `b39b804bb3c02861d2c7df692c57ae023b50996dcb930db789e1033a4a75da15`
+(254,731,281 bytes; re-downloaded after upload and compared byte-for-byte).
+
