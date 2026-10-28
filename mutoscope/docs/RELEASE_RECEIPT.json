@@ -1,0 +1,176 @@
+{
+  "generated_utc": "2026-10-28T08:12:52Z",
+  "agent": "mutoscope",
+  "repo": "dreamer2664/competitionvideo28",
+  "tag": "mutoscope-clips-v1",
+  "release_url": "https://github.com/dreamer2664/competitionvideo28/releases/tag/mutoscope-clips-v1",
+  "verified": 15,
+  "total": 15,
+  "assets": [
+    {
+      "key": "V1-LB-top5",
+      "asset": "mutoscope-V1-LB-top5-v1.mp4",
+      "asset_id": 684303903,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V1-LB-top5-v1.mp4",
+      "size_bytes": 27642773,
+      "sha256_local": "a627c3b4750c9d6b05adda3847925e4e8926d0bc4e1f7a64459d2832f7ce253d",
+      "sha256_readback": "a627c3b4750c9d6b05adda3847925e4e8926d0bc4e1f7a64459d2832f7ce253d",
+      "verified": true,
+      "duration_s": 44.53
+    },
+    {
+      "key": "V1-N1-grenade-panic",
+      "asset": "mutoscope-V1-N1-grenade-panic-v1.mp4",
+      "asset_id": 684304056,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V1-N1-grenade-panic-v1.mp4",
+      "size_bytes": 6352128,
+      "sha256_local": "3f81fe64c2ecce89d81d237ab15defa6ca3c59ae05da57a51a7634829c3c23e0",
+      "sha256_readback": "3f81fe64c2ecce89d81d237ab15defa6ca3c59ae05da57a51a7634829c3c23e0",
+      "verified": true,
+      "duration_s": 15.0
+    },
+    {
+      "key": "V1-N2-celery-thief",
+      "asset": "mutoscope-V1-N2-celery-thief-v1.mp4",
+      "asset_id": 684304188,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V1-N2-celery-thief-v1.mp4",
+      "size_bytes": 11271566,
+      "sha256_local": "c1e34faf38a5fd9daba8dc5d0335b4befb0d90f890bac3d9d267e0c140c32162",
+      "sha256_readback": "c1e34faf38a5fd9daba8dc5d0335b4befb0d90f890bac3d9d267e0c140c32162",
+      "verified": true,
+      "duration_s": 22.0
+    },
+    {
+      "key": "V2-LB-top5",
+      "asset": "mutoscope-V2-LB-top5-v1.mp4",
+      "asset_id": 684304325,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V2-LB-top5-v1.mp4",
+      "size_bytes": 22643253,
+      "sha256_local": "3a618505684d151ea51891562a3f678ba65d090bb0f36fb36e5f9d83bfb9fd73",
+      "sha256_readback": "3a618505684d151ea51891562a3f678ba65d090bb0f36fb36e5f9d83bfb9fd73",
+      "verified": true,
+      "duration_s": 46.03
+    },
+    {
+      "key": "V2-N1-grenade-spam",
+      "asset": "mutoscope-V2-N1-grenade-spam-v1.mp4",
+      "asset_id": 684304457,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V2-N1-grenade-spam-v1.mp4",
+      "size_bytes": 13213467,
+      "sha256_local": "76f4d43ee3e4d2dddc17dcd4faeffceb760b4e27b1393a906f407fe2cff6669f",
+      "sha256_readback": "76f4d43ee3e4d2dddc17dcd4faeffceb760b4e27b1393a906f407fe2cff6669f",
+      "verified": true,
+      "duration_s": 22.0
+    },
+    {
+      "key": "V2-N2-gummy-619",
+      "asset": "mutoscope-V2-N2-gummy-619-v1.mp4",
+      "asset_id": 684304523,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V2-N2-gummy-619-v1.mp4",
+      "size_bytes": 15688628,
+      "sha256_local": "f78c01b0f9e02b8415d04e060758d1188cf8b7aa9e204597ebdbaa29345fa8b3",
+      "sha256_readback": "f78c01b0f9e02b8415d04e060758d1188cf8b7aa9e204597ebdbaa29345fa8b3",
+      "verified": true,
+      "duration_s": 23.0
+    },
+    {
+      "key": "V3-LB-top5",
+      "asset": "mutoscope-V3-LB-top5-v1.mp4",
+      "asset_id": 684304644,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V3-LB-top5-v1.mp4",
+      "size_bytes": 27515754,
+      "sha256_local": "de6736bbea035ae96424491af100e1af381d1770ee55c1671821334a906d0efe",
+      "sha256_readback": "de6736bbea035ae96424491af100e1af381d1770ee55c1671821334a906d0efe",
+      "verified": true,
+      "duration_s": 45.03
+    },
+    {
+      "key": "V3-N1-is-that-tom",
+      "asset": "mutoscope-V3-N1-is-that-tom-v1.mp4",
+      "asset_id": 684304789,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V3-N1-is-that-tom-v1.mp4",
+      "size_bytes": 10846468,
+      "sha256_local": "7642428cc0f327d02dd814f9b9931e8f1761ddb50beed50992fb0fbed8ee66c6",
+      "sha256_readback": "7642428cc0f327d02dd814f9b9931e8f1761ddb50beed50992fb0fbed8ee66c6",
+      "verified": true,
+      "duration_s": 16.0
+    },
+    {
+      "key": "V3-N2-i-am-the-danger",
+      "asset": "mutoscope-V3-N2-i-am-the-danger-v1.mp4",
+      "asset_id": 684304904,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V3-N2-i-am-the-danger-v1.mp4",
+      "size_bytes": 16654887,
+      "sha256_local": "5e7efe4e0a8f6db77aa40e19ab271465b28aa418df1c8753fd5013289a4b2ee2",
+      "sha256_readback": "5e7efe4e0a8f6db77aa40e19ab271465b28aa418df1c8753fd5013289a4b2ee2",
+      "verified": true,
+      "duration_s": 22.0
+    },
+    {
+      "key": "V4-LB-top5",
+      "asset": "mutoscope-V4-LB-top5-v1.mp4",
+      "asset_id": 684305010,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V4-LB-top5-v1.mp4",
+      "size_bytes": 25292819,
+      "sha256_local": "64169a9d731356c9ea1a3062fa7cffae3daf873c457571abda5ab9283da37dfe",
+      "sha256_readback": "64169a9d731356c9ea1a3062fa7cffae3daf873c457571abda5ab9283da37dfe",
+      "verified": true,
+      "duration_s": 48.03
+    },
+    {
+      "key": "V4-N1-avocado-crowd",
+      "asset": "mutoscope-V4-N1-avocado-crowd-v1.mp4",
+      "asset_id": 684305136,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V4-N1-avocado-crowd-v1.mp4",
+      "size_bytes": 10810210,
+      "sha256_local": "2db240fcf11264fecbbdcdb5a96383789ac99e35cf9ebcb66492bec45128db89",
+      "sha256_readback": "2db240fcf11264fecbbdcdb5a96383789ac99e35cf9ebcb66492bec45128db89",
+      "verified": true,
+      "duration_s": 22.0
+    },
+    {
+      "key": "V4-N2-trust-fall",
+      "asset": "mutoscope-V4-N2-trust-fall-v1.mp4",
+      "asset_id": 684305217,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V4-N2-trust-fall-v1.mp4",
+      "size_bytes": 12328395,
+      "sha256_local": "e13f571e7ca5877753f4302ae27b7fcd95f50f03bbf7d067b1d28c6bffdbec65",
+      "sha256_readback": "e13f571e7ca5877753f4302ae27b7fcd95f50f03bbf7d067b1d28c6bffdbec65",
+      "verified": true,
+      "duration_s": 22.0
+    },
+    {
+      "key": "V5-LB-top5",
+      "asset": "mutoscope-V5-LB-top5-v1.mp4",
+      "asset_id": 684305294,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V5-LB-top5-v1.mp4",
+      "size_bytes": 28350760,
+      "sha256_local": "836e82dc945ce71766378e0f0bb37b1efba14135ce821f5ab9bf6af440c5b379",
+      "sha256_readback": "836e82dc945ce71766378e0f0bb37b1efba14135ce821f5ab9bf6af440c5b379",
+      "verified": true,
+      "duration_s": 48.03
+    },
+    {
+      "key": "V5-N1-stay-in-the-box",
+      "asset": "mutoscope-V5-N1-stay-in-the-box-v1.mp4",
+      "asset_id": 684305419,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V5-N1-stay-in-the-box-v1.mp4",
+      "size_bytes": 11658536,
+      "sha256_local": "7a62fb3eecbdc7d37a491d137238ae75f25bec8af7affc4d0f86088a79c29c75",
+      "sha256_readback": "7a62fb3eecbdc7d37a491d137238ae75f25bec8af7affc4d0f86088a79c29c75",
+      "verified": true,
+      "duration_s": 22.0
+    },
+    {
+      "key": "V5-N2-that-one-got-her",
+      "asset": "mutoscope-V5-N2-that-one-got-her-v1.mp4",
+      "asset_id": 684305553,
+      "browser_download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/mutoscope-clips-v1/mutoscope-V5-N2-that-one-got-her-v1.mp4",
+      "size_bytes": 10350563,
+      "sha256_local": "26d4ff55cd428c7dff16265d1c30b523e49f561eac6b0ec1a4fc72ab56f12a61",
+      "sha256_readback": "26d4ff55cd428c7dff16265d1c30b523e49f561eac6b0ec1a4fc72ab56f12a61",
+      "verified": true,
+      "duration_s": 22.0
+    }
+  ]
+}
