@@ -80,13 +80,18 @@ def _watermark(track: Track, duration: float, handle: str = "@mutoscope",
 
 def normal_track(duration: float, cues, hook: str, hook_emoji: str,
                  beats: list[float], mode: str, emoji_stabs: list[tuple[float, str]],
-                 end_card: str | None = None, seed: int = 0):
-    """Build the overlay + SFX for a single-moment short."""
+                 end_card: str | None = None, seed: int = 0, cap_dy: int = 0):
+    """Build the overlay + SFX for a single-moment short.
+
+    `cap_dy` lifts the caption band. Some source compilations already burn in their
+    own word-by-word captions; stacking ours directly on top of theirs reads as a
+    stutter, so those sources push ours clear instead of duplicating in place.
+    """
     rnd = random.Random(seed)
     tr = Track(duration)
     sfx: list[tuple[float, str, float]] = []
 
-    cap_y = CAPTION_Y_COVER if mode == "cover" else CAPTION_Y_FIT
+    cap_y = (CAPTION_Y_COVER if mode == "cover" else CAPTION_Y_FIT) + cap_dy
 
     # top scrim keeps the hook legible over bright footage
     tr.add_static(vertical_scrim(330, top_alpha=165, bottom_alpha=0), 0, 0)
@@ -210,7 +215,7 @@ def _rank_row(rank: int, label: str, state: str, width: int = 660) -> Image.Imag
 
 
 def leaderboard_track(duration: float, entries: list[dict], title_parts, sub: str,
-                      cues_by_entry: list, mode: str, seed: int = 0):
+                      cues_by_entry: list, mode: str, seed: int = 0, cap_dy: int = 0):
     """`entries`: [{rank, label, t0, t1, beats, emoji}] in play order (5 -> 1)."""
     rnd = random.Random(seed)
     tr = Track(duration)
@@ -273,7 +278,7 @@ def leaderboard_track(duration: float, entries: list[dict], title_parts, sub: st
                           drift=(0, -20)))
 
     # captions per entry
-    cap_y = CAPTION_Y_COVER + 60 if mode == "cover" else CAPTION_Y_FIT + 40
+    cap_y = (CAPTION_Y_COVER + 60 if mode == "cover" else CAPTION_Y_FIT + 40) + cap_dy
     for cues in cues_by_entry:
         _caption_sprites(tr, cues, cap_y, size=92, sfx=sfx, accent_every=4)
 

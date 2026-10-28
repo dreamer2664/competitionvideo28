@@ -1,0 +1,386 @@
+{
+  "generated_utc": "2026-10-28T08:11:57Z",
+  "agent": "mutoscope",
+  "clips": [
+    {
+      "key": "V1-N1-grenade-panic",
+      "status": "ok",
+      "file": "V1-N1-grenade-panic.mp4",
+      "kind": "normal",
+      "source_video_id": "rRSxkBGgTfw",
+      "source_url": "https://youtu.be/rRSxkBGgTfw?is=VgqjaIn-GUVdlzx_",
+      "source_title": "Kai Cenat FUNNY Moments Compilation 4",
+      "segments": [
+        [
+          174.0,
+          189.0
+        ]
+      ],
+      "sha256": "3f81fe64c2ecce89d81d237ab15defa6ca3c59ae05da57a51a7634829c3c23e0",
+      "duration": 15.0,
+      "size_bytes": 6352128,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V1-N2-celery-thief",
+      "status": "ok",
+      "file": "V1-N2-celery-thief.mp4",
+      "kind": "normal",
+      "source_video_id": "rRSxkBGgTfw",
+      "source_url": "https://youtu.be/rRSxkBGgTfw?is=VgqjaIn-GUVdlzx_",
+      "source_title": "Kai Cenat FUNNY Moments Compilation 4",
+      "segments": [
+        [
+          56.0,
+          78.0
+        ]
+      ],
+      "sha256": "c1e34faf38a5fd9daba8dc5d0335b4befb0d90f890bac3d9d267e0c140c32162",
+      "duration": 22.0,
+      "size_bytes": 11271566,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V1-LB-top5",
+      "status": "ok",
+      "file": "V1-LB-top5.mp4",
+      "kind": "leaderboard",
+      "source_video_id": "rRSxkBGgTfw",
+      "source_url": "https://youtu.be/rRSxkBGgTfw?is=VgqjaIn-GUVdlzx_",
+      "source_title": "Kai Cenat FUNNY Moments Compilation 4",
+      "segments": [
+        [
+          50.0,
+          58.5
+        ],
+        [
+          165.5,
+          174.5
+        ],
+        [
+          344.5,
+          353.5
+        ],
+        [
+          500.5,
+          509.0
+        ],
+        [
+          525.0,
+          534.5
+        ]
+      ],
+      "sha256": "a627c3b4750c9d6b05adda3847925e4e8926d0bc4e1f7a64459d2832f7ce253d",
+      "duration": 44.53,
+      "size_bytes": 27642773,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V2-N1-grenade-spam",
+      "status": "ok",
+      "file": "V2-N1-grenade-spam.mp4",
+      "kind": "normal",
+      "source_video_id": "IpAjsMJKBvk",
+      "source_url": "https://youtu.be/IpAjsMJKBvk?is=syccUoLccG_oNmlD",
+      "source_title": "Jynxzi Best Moments Compilation 2026",
+      "segments": [
+        [
+          21.0,
+          43.0
+        ]
+      ],
+      "sha256": "76f4d43ee3e4d2dddc17dcd4faeffceb760b4e27b1393a906f407fe2cff6669f",
+      "duration": 22.0,
+      "size_bytes": 13213467,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V2-N2-gummy-619",
+      "status": "ok",
+      "file": "V2-N2-gummy-619.mp4",
+      "kind": "normal",
+      "source_video_id": "IpAjsMJKBvk",
+      "source_url": "https://youtu.be/IpAjsMJKBvk?is=syccUoLccG_oNmlD",
+      "source_title": "Jynxzi Best Moments Compilation 2026",
+      "segments": [
+        [
+          625.0,
+          648.0
+        ]
+      ],
+      "sha256": "f78c01b0f9e02b8415d04e060758d1188cf8b7aa9e204597ebdbaa29345fa8b3",
+      "duration": 23.0,
+      "size_bytes": 15688628,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V2-LB-top5",
+      "status": "ok",
+      "file": "V2-LB-top5.mp4",
+      "kind": "leaderboard",
+      "source_video_id": "IpAjsMJKBvk",
+      "source_url": "https://youtu.be/IpAjsMJKBvk?is=syccUoLccG_oNmlD",
+      "source_title": "Jynxzi Best Moments Compilation 2026",
+      "segments": [
+        [
+          48.5,
+          57.5
+        ],
+        [
+          188.0,
+          197.0
+        ],
+        [
+          433.0,
+          442.0
+        ],
+        [
+          499.0,
+          508.0
+        ],
+        [
+          930.0,
+          940.0
+        ]
+      ],
+      "sha256": "3a618505684d151ea51891562a3f678ba65d090bb0f36fb36e5f9d83bfb9fd73",
+      "duration": 46.03,
+      "size_bytes": 22643253,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V3-N1-is-that-tom",
+      "status": "ok",
+      "file": "V3-N1-is-that-tom.mp4",
+      "kind": "normal",
+      "source_video_id": "G0fg27HzFTE",
+      "source_url": "https://youtu.be/G0fg27HzFTE?is=acIBoYnrWB6-zOu2",
+      "source_title": "funniest Jynxzi clips of all time",
+      "segments": [
+        [
+          392.0,
+          408.0
+        ]
+      ],
+      "sha256": "7642428cc0f327d02dd814f9b9931e8f1761ddb50beed50992fb0fbed8ee66c6",
+      "duration": 16.0,
+      "size_bytes": 10846468,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V3-N2-i-am-the-danger",
+      "status": "ok",
+      "file": "V3-N2-i-am-the-danger.mp4",
+      "kind": "normal",
+      "source_video_id": "G0fg27HzFTE",
+      "source_url": "https://youtu.be/G0fg27HzFTE?is=acIBoYnrWB6-zOu2",
+      "source_title": "funniest Jynxzi clips of all time",
+      "segments": [
+        [
+          320.0,
+          342.0
+        ]
+      ],
+      "sha256": "5e7efe4e0a8f6db77aa40e19ab271465b28aa418df1c8753fd5013289a4b2ee2",
+      "duration": 22.0,
+      "size_bytes": 16654887,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V3-LB-top5",
+      "status": "ok",
+      "file": "V3-LB-top5.mp4",
+      "kind": "leaderboard",
+      "source_video_id": "G0fg27HzFTE",
+      "source_url": "https://youtu.be/G0fg27HzFTE?is=acIBoYnrWB6-zOu2",
+      "source_title": "funniest Jynxzi clips of all time",
+      "segments": [
+        [
+          20.0,
+          28.5
+        ],
+        [
+          115.0,
+          124.0
+        ],
+        [
+          234.0,
+          243.0
+        ],
+        [
+          151.5,
+          160.5
+        ],
+        [
+          606.0,
+          615.5
+        ]
+      ],
+      "sha256": "de6736bbea035ae96424491af100e1af381d1770ee55c1671821334a906d0efe",
+      "duration": 45.03,
+      "size_bytes": 27515754,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V4-N1-avocado-crowd",
+      "status": "ok",
+      "file": "V4-N1-avocado-crowd.mp4",
+      "kind": "normal",
+      "source_video_id": "zzRhEQ6nX2A",
+      "source_url": "https://youtu.be/zzRhEQ6nX2A?is=H4p1JUoqQrMe6rO5",
+      "source_title": "IMPRACTICAL JOKERS - BEST OF FUNNY MOMENTS - 30mins",
+      "segments": [
+        [
+          1012.0,
+          1034.0
+        ]
+      ],
+      "sha256": "2db240fcf11264fecbbdcdb5a96383789ac99e35cf9ebcb66492bec45128db89",
+      "duration": 22.0,
+      "size_bytes": 10810210,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V4-N2-trust-fall",
+      "status": "ok",
+      "file": "V4-N2-trust-fall.mp4",
+      "kind": "normal",
+      "source_video_id": "zzRhEQ6nX2A",
+      "source_url": "https://youtu.be/zzRhEQ6nX2A?is=H4p1JUoqQrMe6rO5",
+      "source_title": "IMPRACTICAL JOKERS - BEST OF FUNNY MOMENTS - 30mins",
+      "segments": [
+        [
+          713.0,
+          735.0
+        ]
+      ],
+      "sha256": "e13f571e7ca5877753f4302ae27b7fcd95f50f03bbf7d067b1d28c6bffdbec65",
+      "duration": 22.0,
+      "size_bytes": 12328395,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V4-LB-top5",
+      "status": "ok",
+      "file": "V4-LB-top5.mp4",
+      "kind": "leaderboard",
+      "source_video_id": "zzRhEQ6nX2A",
+      "source_url": "https://youtu.be/zzRhEQ6nX2A?is=H4p1JUoqQrMe6rO5",
+      "source_title": "IMPRACTICAL JOKERS - BEST OF FUNNY MOMENTS - 30mins",
+      "segments": [
+        [
+          364.5,
+          374.0
+        ],
+        [
+          408.0,
+          418.0
+        ],
+        [
+          1358.5,
+          1368.0
+        ],
+        [
+          1275.5,
+          1285.0
+        ],
+        [
+          1521.5,
+          1531.0
+        ]
+      ],
+      "sha256": "64169a9d731356c9ea1a3062fa7cffae3daf873c457571abda5ab9283da37dfe",
+      "duration": 48.03,
+      "size_bytes": 25292819,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V5-N1-stay-in-the-box",
+      "status": "ok",
+      "file": "V5-N1-stay-in-the-box.mp4",
+      "kind": "normal",
+      "source_video_id": "EajXaGkDweA",
+      "source_url": "https://youtu.be/EajXaGkDweA?is=eoW6OhMYPRi0m3Is",
+      "source_title": "Stable Ronaldo Funny Moments!",
+      "segments": [
+        [
+          32.0,
+          54.0
+        ]
+      ],
+      "sha256": "7a62fb3eecbdc7d37a491d137238ae75f25bec8af7affc4d0f86088a79c29c75",
+      "duration": 22.0,
+      "size_bytes": 11658536,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V5-N2-that-one-got-her",
+      "status": "ok",
+      "file": "V5-N2-that-one-got-her.mp4",
+      "kind": "normal",
+      "source_video_id": "EajXaGkDweA",
+      "source_url": "https://youtu.be/EajXaGkDweA?is=eoW6OhMYPRi0m3Is",
+      "source_title": "Stable Ronaldo Funny Moments!",
+      "segments": [
+        [
+          687.0,
+          709.0
+        ]
+      ],
+      "sha256": "26d4ff55cd428c7dff16265d1c30b523e49f561eac6b0ec1a4fc72ab56f12a61",
+      "duration": 22.0,
+      "size_bytes": 10350563,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    },
+    {
+      "key": "V5-LB-top5",
+      "status": "ok",
+      "file": "V5-LB-top5.mp4",
+      "kind": "leaderboard",
+      "source_video_id": "EajXaGkDweA",
+      "source_url": "https://youtu.be/EajXaGkDweA?is=eoW6OhMYPRi0m3Is",
+      "source_title": "Stable Ronaldo Funny Moments!",
+      "segments": [
+        [
+          102.5,
+          112.0
+        ],
+        [
+          238.0,
+          247.5
+        ],
+        [
+          600.0,
+          610.0
+        ],
+        [
+          730.0,
+          739.5
+        ],
+        [
+          885.5,
+          895.0
+        ]
+      ],
+      "sha256": "836e82dc945ce71766378e0f0bb37b1efba14135ce821f5ab9bf6af440c5b379",
+      "duration": 48.03,
+      "size_bytes": 28350760,
+      "video": "h264 1080x1920 30fps",
+      "audio": "aac 48000Hz 2ch"
+    }
+  ]
+}

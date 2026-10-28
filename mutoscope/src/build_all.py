@@ -142,7 +142,7 @@ def render_one(key: str):
         tr, sx = normal_track(
             dur, cues, n["hook"], n["hook_emoji"], n["beats"], plan.mode,
             [(t, e) for t, e in n["emoji"]], n.get("end_card"),
-            seed=abs(hash(key)) % 9999)
+            seed=abs(hash(key)) % 9999, cap_dy=s.get("caption_dy", 0))
     else:
         lb = job["spec"]
         entries, cues_by, segs, cur = [], [], [], 0.0
@@ -171,7 +171,8 @@ def render_one(key: str):
         tr, sx = leaderboard_track(
             dur, entries,
             [(lb["title_lead"], INK), (s["subject"], RED), (lb["title_tail"], INK)],
-            lb["sub"], cues_by, mode, seed=abs(hash(key)) % 9999)
+            lb["sub"], cues_by, mode, seed=abs(hash(key)) % 9999,
+            cap_dy=s.get("caption_dy", 0))
 
     composite(tmp_base, tr, sx, out, quiet=False)
     if os.path.exists(tmp_base):

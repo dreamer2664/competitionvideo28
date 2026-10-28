@@ -201,7 +201,9 @@
             "t1": 940.0
           }
         ]
-      }
+      },
+      "caption_dy": -380,
+      "note": "source IpAjsMJKBvk is a portrait compilation with its own burned-in word-by-word captions around y~0.75 of frame; ours are lifted 380px so the two never stack"
     },
     {
       "id": "V3",
@@ -511,6 +513,7 @@
     "r1 2026-10-28 mutoscope: V1/N1 174-189 (was 178-200, crossed a colour-bar card at ~189s)",
     "r1 2026-10-28 mutoscope: V2/L1 -> 930-940 Australia's Underwater (was 812-822, half-black multicam)",
     "r1 2026-10-28 mutoscope: V5/L4 -> 238-247.5 athletic cat (was 175.5-185, blank wall + door)",
-    "r1 2026-10-28 mutoscope: V5/L3 -> 600-610 emergency button (was 649.5-659, a DAW screen)"
+    "r1 2026-10-28 mutoscope: V5/L3 -> 600-610 emergency button (was 649.5-659, a DAW screen)",
+    "r2 2026-10-28 mutoscope: V2 caption_dy=-380 — source has burned-in captions; ours were stacking on them"
   ]
 }
