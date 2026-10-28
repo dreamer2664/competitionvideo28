@@ -1,0 +1,7 @@
+Full-stream FFmpeg decode exit code: 0 (0 decode errors)
+Black segments detected (d>=0.1s): 0
+Silent gaps detected (d>=1.0s @ -45dB): 0
+Measured Post-AAC Integrated Loudness: -15.51 LUFS (target -16.0 +/- 1.5 LUFS)
+Measured Post-AAC True Peak: -2.93 dBTP (requirement <= -1.0 dBTP)
+Measured Loudness Range (LRA): 2.50 LU
+Freeze segments detected (d>=1.2s @ -60dB): 0

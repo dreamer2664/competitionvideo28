@@ -1,0 +1,6 @@
+File: praxinoscope-v1-final.mp4
+Size: 177228405 bytes (169.02 MiB)
+SHA-256: 4e90905237f913e844c40e23639c8331db3af6c55c614e00e2633e30aea29a9d
+Duration: 327.00 seconds (5.45 minutes)
+Video: h264 (High), 1920x1080, yuv420p, 30/1 fps, 9810 frames
+Audio: aac, 48000 Hz, 2 channels (stereo), 196 kbps

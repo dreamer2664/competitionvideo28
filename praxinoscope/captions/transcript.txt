@@ -1,0 +1,74 @@
+[S01 | 00:00:00.000 - 00:00:14.800 | en-US-BrianNeural]
+At five twenty-five P.M. on November ninth, sixteen seventy-six, astronomers at the Paris Observatory aimed their telescopes at Jupiter. By the best tables on Earth, its innermost moon, Io, should have flashed out of shadow right then. Nothing happened.
+
+[S02 | 00:00:14.800 - 00:00:29.433 | en-US-BrianNeural]
+Five minutes passed. Then nine. At five thirty-five and forty-five seconds, a golden spark emerged from Jupiter's shadow — ten minutes late. Yet eleven weeks earlier, Danish astronomer Ole Roemer had predicted that exact delay.
+
+[S03 | 00:00:29.433 - 00:00:42.467 | en-US-BrianNeural]
+Roemer's thesis defied two thousand years of physics: Io had not slowed down. Light itself was still crossing the solar system. This is how a moon of Jupiter and a toothed brass wheel over Paris caught the speed of light.
+
+[S04 | 00:00:42.467 - 00:00:55.367 | en-GB-RyanNeural]
+From Aristotle to Rene Descartes, natural philosophy treated instantaneous light as sacred law. In sixteen thirty-four, Descartes wrote that if any time delay were ever detected in an eclipse, his entire philosophy would collapse.
+
+[S05 | 00:00:55.367 - 00:01:07.467 | en-US-BrianNeural]
+Four years later, Galileo Galilei tried to test that claim. Two observers stood on Tuscan hilltops nearly a mile apart at night with shuttered lanterns, uncovering the second flame the instant the first spark appeared.
+
+[S06 | 00:01:07.467 - 00:01:19.967 | en-US-BrianNeural]
+Galileo saw no lag, and the arithmetic shows why. A two-mile light trip takes ten point seven microseconds. A human thumb takes two hundred thousand microseconds to react — eighteen thousand times too slow.
+
+[S07 | 00:01:19.967 - 00:01:34.100 | en-US-BrianNeural]
+Nobody in Paris set out to clock light. King Louis the Fourteenth built the observatory to solve longitude at sea. Because Earth turns fifteen degrees per hour, navigators needed reference time, and pendulum clocks failed on ships.
+
+[S08 | 00:01:34.100 - 00:01:47.400 | en-US-BrianNeural]
+So Galileo and Cassini used a clock in the sky. Jupiter's innermost moon, Io, orbits every forty-two hours and twenty-eight minutes — plunging into shadow like a universal timepiece visible across the globe.
+
+[S09 | 00:01:47.400 - 00:02:00.467 | en-US-BrianNeural]
+In sixteen seventy-one, Jean Picard sailed to Tycho Brahe's ruined observatory on Hven and recruited young Ole Roemer to time Io's eclipses against Paris. Their sightings redrew France's coastline with unprecedented precision.
+
+[S10 | 00:02:00.467 - 00:02:14.067 | en-US-BrianNeural]
+In Paris, Roemer and Cassini analyzed forty eclipses of Io logged between sixteen sixty-eight and sixteen seventy-six. A stubborn anomaly stood out: for half the year Io arrived early; for the other half, it drifted late.
+
+[S11 | 00:02:14.067 - 00:02:27.300 | en-US-BrianNeural]
+Roemer traced the puzzle to Earth's orbit. Because Jupiter's shadow points away from the Sun, we see immersions at C while Earth approaches Jupiter along arc G to H, and emersions at D while Earth recedes along arc K to L.
+
+[S12 | 00:02:27.300 - 00:02:40.200 | en-US-BrianNeural]
+Over a single orbit of Io, the extra light path adds barely fifteen seconds. But summed across forty consecutive orbits while Earth recedes from K to L, that growing distance compounds into the ten-minute delay of November ninth.
+
+[S13 | 00:02:40.200 - 00:02:51.400 | en-GB-RyanNeural]
+On December seventh, sixteen seventy-six, Roemer published his proof in the Journal des Scavans: light requires about eleven minutes to cross the radius of Earth's orbit, or twenty-two minutes across its full diameter.
+
+[S14 | 00:02:51.400 - 00:03:02.667 | en-US-BrianNeural]
+In sixteen ninety, Christiaan Huygens combined Roemer's twenty-two-minute delay with Cassini's solar distance to compute the first numerical speed of light: two hundred fourteen thousand kilometers per second.
+
+[S15 | 00:03:02.667 - 00:03:15.467 | en-US-BrianNeural]
+Isaac Newton embraced Roemer's proof, yet Cassini rejected it. Because Jupiter's three outer moons followed tilted orbits that lacked the same simple residual table, the Paris Academy doubted finite light speed for fifty-two years.
+
+[S16 | 00:03:15.467 - 00:03:29.200 | en-US-BrianNeural]
+Vindication came in seventeen twenty-eight from English astronomer James Bradley. Sighting Gamma Draconis through a vertical telescope inside a chimney at Kew, Bradley saw the star shift south in March and north in September by twenty arcseconds.
+
+[S17 | 00:03:29.200 - 00:03:41.733 | en-GB-RyanNeural]
+Just as a moving boat tilts the apparent wind on a masthead vane, Earth's thirty-kilometer-per-second orbital motion tilts incoming starlight by one part in ten thousand two hundred ten — proving light takes eight minutes and twelve seconds from the Sun.
+
+[S18 | 00:03:41.733 - 00:03:55.533 | en-US-BrianNeural]
+Still, every proof relied on the heavens. Could human instruments clock light on Earth? In July eighteen forty-nine, Hippolyte Fizeau aimed a lantern from Suresnes to a mirror on Montmartre eight thousand six hundred thirty-three meters away.
+
+[S19 | 00:03:55.533 - 00:04:08.233 | en-US-BrianNeural]
+At the telescope's focus spun a brass wheel cut with seven hundred twenty square teeth and seven hundred twenty gaps. A beam flashed out through a gap, crossed eight point six kilometers to Montmartre, and reflected straight back.
+
+[S20 | 00:04:08.233 - 00:04:20.067 | en-GB-RyanNeural]
+As Fizeau spun the wheel to twelve point six revolutions per second, the seventeen-kilometer round trip took fifty-five microseconds — the exact time needed for the adjacent brass tooth to slide into place and eclipse the returning beam.
+
+[S21 | 00:04:20.067 - 00:04:32.700 | en-US-BrianNeural]
+Doubling the spin to twenty-five point two revolutions let the returning pulse slip through the next gap. At thirty-seven point eight revolutions, the next tooth blocked it again — clocking light at three hundred fifteen thousand kilometers per second.
+
+[S22 | 00:04:32.700 - 00:04:46.700 | en-US-BrianNeural]
+Toothed wheels soon gave way to rotating mirrors. Leon Foucault measured two hundred ninety-eight thousand kilometers per second in eighteen sixty-two, and in nineteen twenty-six Albert Michelson bounced light thirty-five kilometers between California peaks.
+
+[S23 | 00:04:46.700 - 00:04:58.733 | en-US-BrianNeural]
+By nineteen seventy-two, stabilized lasers reduced the uncertainty to one point two meters per second. Physics hit a wall: our measurement of light's speed had become sharper than the definition of the meter itself.
+
+[S24 | 00:04:58.733 - 00:05:11.733 | en-US-BrianNeural]
+So on October twentieth, nineteen eighty-three, the General Conference on Weights and Measures flipped the definition forever: locking the speed of light at two hundred ninety-nine million, seven hundred ninety-two thousand, four hundred fifty-eight meters per second.
+
+[S25 | 00:05:11.733 - 00:05:27.000 | en-US-BrianNeural]
+Every time a GPS satellite locates your phone, or an antenna tracks a probe past Jupiter, we rely on the truth Ole Roemer uncovered in sixteen seventy-six: when a tiny moon emerged ten minutes late, and proved that looking into space is looking back through time.

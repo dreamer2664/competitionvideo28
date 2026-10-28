@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "producer": "praxinoscope",
+  "film_title": "THE TEN-MINUTE ECLIPSE: How a Moon of Jupiter and a 720-Tooth Wheel Caught the Speed of Light (1676-1849)",
+  "youtube_title": "The 10-Minute Eclipse That Proved Light Isn't Instant (1676)",
+  "published_utc": "2026-10-28T07:33:39Z",
+  "duration_seconds": 327.0,
+  "total_frames": 9810,
+  "fps": 30,
+  "resolution": "1920x1080",
+  "master_mp4_sha256": "4e90905237f913e844c40e23639c8331db3af6c55c614e00e2633e30aea29a9d",
+  "master_mp4_bytes": 177228405,
+  "loudness_lufs": -15.51,
+  "true_peak_dbtp": -2.93,
+  "decode_errors": 0,
+  "black_segments": 0,
+  "silent_gaps_over_1s": 0,
+  "freeze_segments_over_1_2s": 0,
+  "releases": {
+    "dreamer2664/competitionvideo28": {
+      "tag": "praxinoscope-v1",
+      "html_url": "https://github.com/dreamer2664/competitionvideo28/releases/tag/praxinoscope-v1",
+      "assets": [
+        {
+          "name": "praxinoscope-v1-final.mp4",
+          "bytes": 177228405,
+          "sha256": "4e90905237f913e844c40e23639c8331db3af6c55c614e00e2633e30aea29a9d",
+          "url": "https://github.com/dreamer2664/competitionvideo28/releases/download/praxinoscope-v1/praxinoscope-v1-final.mp4",
+          "readback_verified": true
+        },
+        {
+          "name": "praxinoscope-v1-preview-60s.mp4",
+          "bytes": 9767912,
+          "sha256": "d4210922be1d933f399059c2bbcc1edc527305526ac0ff1b429413a68863b20e",
+          "url": "https://github.com/dreamer2664/competitionvideo28/releases/download/praxinoscope-v1/praxinoscope-v1-preview-60s.mp4",
+          "readback_verified": true
+        },
+        {
+          "name": "subtitles.srt",
+          "bytes": 9218,
+          "sha256": "e2c7d14230d91b9082847fc06b450b7532dfa79ac726084ca306e247bf69005f",
+          "url": "https://github.com/dreamer2664/competitionvideo28/releases/download/praxinoscope-v1/subtitles.srt",
+          "readback_verified": true
+        },
+        {
+          "name": "subtitles.vtt",
+          "bytes": 8930,
+          "sha256": "870e7098d6c2dced8114c01e754b636195834765a67dd04f14b795d5c5590cc5",
+          "url": "https://github.com/dreamer2664/competitionvideo28/releases/download/praxinoscope-v1/subtitles.vtt",
+          "readback_verified": true
+        },
+        {
+          "name": "transcript.txt",
+          "bytes": 7271,
+          "sha256": "e2efcf7dc76fefe2022aae820966a591e119eddaac061216ce80d44094fca07a",
+          "url": "https://github.com/dreamer2664/competitionvideo28/releases/download/praxinoscope-v1/transcript.txt",
+          "readback_verified": true
+        },
+        {
+          "name": "thumbnail_a_jupiter_eclipse.png",
+          "bytes": 744764,
+          "sha256": "869d05287a8087dedbc6f5e9b2d7612b24e29f83a17c4b112210ab0998f93856",
+          "url": "https://github.com/dreamer2664/competitionvideo28/releases/download/praxinoscope-v1/thumbnail_a_jupiter_eclipse.png",
+          "readback_verified": true
+        },
+        {
+          "name": "thumbnail_b_fizeau_wheel.png",
+          "bytes": 1356705,
+          "sha256": "794f3cab9cc9c3e7416656801ee6b8aeeb8cea75c89d16313b2ba10e50519148",
+          "url": "https://github.com/dreamer2664/competitionvideo28/releases/download/praxinoscope-v1/thumbnail_b_fizeau_wheel.png",
+          "readback_verified": true
+        },
+        {
+          "name": "thumbnail_c_montmartre_beam.png",
+          "bytes": 1362799,
+          "sha256": "284abfee0c3e9405641ff5e6c191126abd9de6b17eb3235653823c63f6379926",
+          "url": "https://github.com/dreamer2664/competitionvideo28/releases/download/praxinoscope-v1/thumbnail_c_montmartre_beam.png",
+          "readback_verified": true
+        }
+      ]
+    },
+    "dreamer2664/storagecode": {
+      "tag": "competitionvideo28-praxinoscope-v1",
+      "html_url": "https://github.com/dreamer2664/storagecode/releases/tag/competitionvideo28-praxinoscope-v1",
+      "assets": [
+        {
+          "name": "praxinoscope-v1-final.mp4",
+          "bytes": 177228405,
+          "sha256": "4e90905237f913e844c40e23639c8331db3af6c55c614e00e2633e30aea29a9d",
+          "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-praxinoscope-v1/praxinoscope-v1-final.mp4",
+          "readback_verified": true
+        },
+        {
+          "name": "praxinoscope-v1-preview-60s.mp4",
+          "bytes": 9767912,
+          "sha256": "d4210922be1d933f399059c2bbcc1edc527305526ac0ff1b429413a68863b20e",
+          "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-praxinoscope-v1/praxinoscope-v1-preview-60s.mp4",
+          "readback_verified": true
+        },
+        {
+          "name": "subtitles.srt",
+          "bytes": 9218,
+          "sha256": "e2c7d14230d91b9082847fc06b450b7532dfa79ac726084ca306e247bf69005f",
+          "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-praxinoscope-v1/subtitles.srt",
+          "readback_verified": true
+        },
+        {
+          "name": "subtitles.vtt",
+          "bytes": 8930,
+          "sha256": "870e7098d6c2dced8114c01e754b636195834765a67dd04f14b795d5c5590cc5",
+          "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-praxinoscope-v1/subtitles.vtt",
+          "readback_verified": true
+        },
+        {
+          "name": "transcript.txt",
+          "bytes": 7271,
+          "sha256": "e2efcf7dc76fefe2022aae820966a591e119eddaac061216ce80d44094fca07a",
+          "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-praxinoscope-v1/transcript.txt",
+          "readback_verified": true
+        },
+        {
+          "name": "thumbnail_a_jupiter_eclipse.png",
+          "bytes": 744764,
+          "sha256": "869d05287a8087dedbc6f5e9b2d7612b24e29f83a17c4b112210ab0998f93856",
+          "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-praxinoscope-v1/thumbnail_a_jupiter_eclipse.png",
+          "readback_verified": true
+        },
+        {
+          "name": "thumbnail_b_fizeau_wheel.png",
+          "bytes": 1356705,
+          "sha256": "794f3cab9cc9c3e7416656801ee6b8aeeb8cea75c89d16313b2ba10e50519148",
+          "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-praxinoscope-v1/thumbnail_b_fizeau_wheel.png",
+          "readback_verified": true
+        },
+        {
+          "name": "thumbnail_c_montmartre_beam.png",
+          "bytes": 1362799,
+          "sha256": "284abfee0c3e9405641ff5e6c191126abd9de6b17eb3235653823c63f6379926",
+          "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-praxinoscope-v1/thumbnail_c_montmartre_beam.png",
+          "readback_verified": true
+        }
+      ]
+    }
+  }
+}

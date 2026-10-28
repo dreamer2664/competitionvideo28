@@ -1,0 +1,488 @@
+1
+00:00:00,162 --> 00:00:04,708
+At five twenty-five P.M. on
+November ninth, sixteen seventy-six,
+
+2
+00:00:04,738 --> 00:00:08,639
+astronomers at the Paris Observatory
+aimed their telescopes at Jupiter.
+
+3
+00:00:08,660 --> 00:00:11,902
+By the best tables on Earth,
+its innermost moon, Io, should
+
+4
+00:00:11,595 --> 00:00:14,672
+have flashed out of shadow
+right then. Nothing happened.
+
+5
+00:00:14,960 --> 00:00:18,965
+Five minutes passed. Then nine.
+At five thirty-five and forty-five
+
+6
+00:00:18,995 --> 00:00:23,965
+seconds, a golden spark emerged from
+Jupiter's shadow ten minutes late.
+
+7
+00:00:23,995 --> 00:00:28,059
+Yet eleven weeks earlier, Danish
+astronomer Ole Roemer had predicted
+
+8
+00:00:28,089 --> 00:00:29,250
+that exact delay.
+
+9
+00:00:29,613 --> 00:00:33,535
+Roemer's thesis defied two thousand
+years of physics: Io had not
+
+10
+00:00:33,565 --> 00:00:37,836
+slowed down. Light itself was still
+crossing the solar system. This
+
+11
+00:00:37,866 --> 00:00:40,614
+is how a moon of Jupiter
+and a toothed brass wheel
+
+12
+00:00:40,343 --> 00:00:42,376
+over Paris caught the speed of light.
+
+13
+00:00:42,647 --> 00:00:45,943
+From Aristotle to Rene Descartes,
+natural philosophy treated
+
+14
+00:00:45,759 --> 00:00:50,266
+instantaneous light as sacred law.
+In sixteen thirty-four, Descartes
+
+15
+00:00:50,296 --> 00:00:53,208
+wrote that if any time delay
+were ever detected in an
+
+16
+00:00:52,440 --> 00:00:55,160
+eclipse, his entire
+philosophy would collapse.
+
+17
+00:00:55,527 --> 00:00:59,210
+Four years later, Galileo Galilei
+tried to test that claim. Two
+
+18
+00:00:59,240 --> 00:01:02,701
+observers stood on Tuscan hilltops
+nearly a mile apart at night
+
+19
+00:01:02,508 --> 00:01:06,244
+with shuttered lanterns, uncovering
+the second flame the instant the
+
+20
+00:01:05,994 --> 00:01:07,258
+first spark appeared.
+
+21
+00:01:07,634 --> 00:01:11,584
+Galileo saw no lag, and the
+arithmetic shows why. A two-mile
+
+22
+00:01:11,614 --> 00:01:15,471
+light trip takes ten point seven
+microseconds. A human thumb takes
+
+23
+00:01:15,501 --> 00:01:19,347
+two hundred thousand microseconds
+to react eighteen thousand times too
+
+24
+00:01:19,102 --> 00:01:19,758
+slow.
+
+25
+00:01:20,152 --> 00:01:23,344
+Nobody in Paris set out to
+clock light. King Louis the
+
+26
+00:01:23,374 --> 00:01:27,128
+Fourteenth built the observatory
+to solve longitude at sea. Because
+
+27
+00:01:27,158 --> 00:01:31,739
+Earth turns fifteen degrees per hour,
+navigators needed reference time,
+
+28
+00:01:31,769 --> 00:01:33,904
+and pendulum clocks failed on ships.
+
+29
+00:01:34,264 --> 00:01:37,949
+So Galileo and Cassini used
+a clock in the sky. Jupiter's
+
+30
+00:01:37,979 --> 00:01:42,250
+innermost moon, Io, orbits every
+forty-two hours and twenty-eight
+
+31
+00:01:42,280 --> 00:01:46,459
+minutes plunging into shadow like a
+universal timepiece visible across
+
+32
+00:01:46,489 --> 00:01:47,167
+the globe.
+
+33
+00:01:47,565 --> 00:01:51,285
+In sixteen seventy-one, Jean Picard
+sailed to Tycho Brahe's ruined
+
+34
+00:01:51,315 --> 00:01:54,777
+observatory on Hven and recruited
+young Ole Roemer to time Io's
+
+35
+00:01:54,595 --> 00:01:58,682
+eclipses against Paris. Their sightings
+redrew France's coastline with
+
+36
+00:01:58,712 --> 00:02:00,285
+unprecedented precision.
+
+37
+00:02:00,655 --> 00:02:04,696
+In Paris, Roemer and Cassini
+analyzed forty eclipses of Io logged
+
+38
+00:02:04,726 --> 00:02:08,627
+between sixteen sixty-eight and
+sixteen seventy-six. A stubborn anomaly
+
+39
+00:02:08,614 --> 00:02:12,265
+stood out: for half the year
+Io arrived early; for the
+
+40
+00:02:12,295 --> 00:02:13,868
+other half, it drifted late.
+
+41
+00:02:14,236 --> 00:02:17,917
+Roemer traced the puzzle to Earth's
+orbit. Because Jupiter's shadow
+
+42
+00:02:17,837 --> 00:02:20,868
+points away from the Sun,
+we see immersions at C while
+
+43
+00:02:20,898 --> 00:02:24,412
+Earth approaches Jupiter along
+arc G to H, and emersions at
+
+44
+00:02:24,442 --> 00:02:27,128
+D while Earth recedes along arc K to L.
+
+45
+00:02:27,463 --> 00:02:30,598
+Over a single orbit of Io,
+the extra light path adds
+
+46
+00:02:30,628 --> 00:02:34,584
+barely fifteen seconds. But summed
+across forty consecutive orbits while
+
+47
+00:02:34,390 --> 00:02:37,972
+Earth recedes from K to L, that
+growing distance compounds into
+
+48
+00:02:38,002 --> 00:02:40,145
+the ten-minute delay of November ninth.
+
+49
+00:02:40,380 --> 00:02:44,281
+On December seventh, sixteen
+seventy-six, Roemer published his proof
+
+50
+00:02:43,984 --> 00:02:47,775
+the Journal des Scavans: light
+requires about eleven minutes to cross
+
+51
+00:02:47,230 --> 00:02:50,856
+the radius of Earth's orbit, or
+twenty-two minutes across its full
+
+52
+00:02:50,383 --> 00:02:51,177
+diameter.
+
+53
+00:02:51,563 --> 00:02:54,618
+In sixteen ninety, Christiaan
+Huygens combined Roemer's
+
+54
+00:02:54,648 --> 00:02:58,384
+twenty-two-minute delay with Cassini's
+solar distance to compute the
+
+55
+00:02:57,652 --> 00:03:01,659
+first numerical speed of light: two
+hundred fourteen thousand kilometers
+
+56
+00:03:01,689 --> 00:03:02,459
+per second.
+
+57
+00:03:02,831 --> 00:03:07,158
+Isaac Newton embraced Roemer's proof,
+yet Cassini rejected it. Because
+
+58
+00:03:07,188 --> 00:03:11,089
+Jupiter's three outer moons followed
+tilted orbits that lacked the same
+
+59
+00:03:10,480 --> 00:03:14,381
+simple residual table, the Paris
+Academy doubted finite light speed for
+
+60
+00:03:14,195 --> 00:03:15,275
+fifty-two years.
+
+61
+00:03:15,627 --> 00:03:19,583
+Vindication came in seventeen
+twenty-eight from English astronomer
+
+62
+00:03:19,523 --> 00:03:23,369
+Bradley. Sighting Gamma Draconis
+through a vertical telescope inside a
+
+63
+00:03:23,101 --> 00:03:26,580
+chimney at Kew, Bradley saw
+the star shift south in March
+
+64
+00:03:26,610 --> 00:03:29,032
+and north in September
+by twenty arcseconds.
+
+65
+00:03:29,380 --> 00:03:32,127
+Just as a moving boat tilts
+the apparent wind on a
+
+66
+00:03:31,645 --> 00:03:35,546
+masthead vane, Earth's
+thirty-kilometer-per-second orbital
+
+67
+00:03:35,062 --> 00:03:38,553
+incoming starlight by one part
+in ten thousand two hundred ten
+
+68
+00:03:38,583 --> 00:03:42,209
+proving light takes eight minutes
+and twelve seconds from the Sun.
+
+69
+00:03:41,922 --> 00:03:45,903
+Still, every proof relied on the
+heavens. Could human instruments clock
+
+70
+00:03:45,933 --> 00:03:50,330
+light on Earth? In July eighteen
+forty-nine, Hippolyte Fizeau aimed a
+
+71
+00:03:50,360 --> 00:03:53,987
+lantern from Suresnes to a mirror
+on Montmartre eight thousand six
+
+72
+00:03:53,674 --> 00:03:55,487
+hundred thirty-three meters away.
+
+73
+00:03:55,702 --> 00:03:58,889
+At the telescope's focus spun
+a brass wheel cut with seven
+
+74
+00:03:58,638 --> 00:04:02,210
+hundred twenty square teeth and
+seven hundred twenty gaps. A beam
+
+75
+00:04:02,032 --> 00:04:05,549
+flashed out through a gap, crossed
+eight point six kilometers to
+
+76
+00:04:05,484 --> 00:04:08,021
+Montmartre, and
+reflected straight back.
+
+77
+00:04:08,413 --> 00:04:11,710
+As Fizeau spun the wheel to
+twelve point six revolutions per
+
+78
+00:04:11,158 --> 00:04:15,059
+second, the seventeen-kilometer round
+trip took fifty-five microseconds
+
+79
+00:04:15,000 --> 00:04:18,242
+the exact time needed for the
+adjacent brass tooth to slide
+
+80
+00:04:17,775 --> 00:04:20,083
+into place and eclipse
+the returning beam.
+
+81
+00:04:20,227 --> 00:04:24,183
+Doubling the spin to twenty-five point
+two revolutions let the returning
+
+82
+00:04:23,712 --> 00:04:27,008
+pulse slip through the next
+gap. At thirty-seven point eight
+
+83
+00:04:26,739 --> 00:04:30,475
+revolutions, the next tooth blocked
+it again clocking light at three
+
+84
+00:04:30,226 --> 00:04:32,808
+hundred fifteen thousand
+kilometers per second.
+
+85
+00:04:32,888 --> 00:04:36,906
+Toothed wheels soon gave way to
+rotating mirrors. Leon Foucault
+
+86
+00:04:36,936 --> 00:04:40,617
+two hundred ninety-eight thousand
+kilometers per second in eighteen
+
+87
+00:04:39,906 --> 00:04:43,718
+sixty-two, and in nineteen twenty-six
+Albert Michelson bounced light
+
+88
+00:04:43,748 --> 00:04:46,491
+thirty-five kilometers
+between California peaks.
+
+89
+00:04:46,860 --> 00:04:50,820
+By nineteen seventy-two, stabilized
+lasers reduced the uncertainty to
+
+90
+00:04:50,850 --> 00:04:54,352
+one point two meters per
+second. Physics hit a wall: our
+
+91
+00:04:54,382 --> 00:04:58,228
+measurement of light's speed had
+become sharper than the definition of
+
+92
+00:04:57,478 --> 00:04:58,581
+the meter itself.
+
+93
+00:04:58,906 --> 00:05:02,752
+So on October twentieth, nineteen
+eighty-three, the General Conference
+
+94
+00:05:02,117 --> 00:05:05,799
+on Weights and Measures flipped
+the definition forever: locking the
+
+95
+00:05:05,488 --> 00:05:09,005
+speed of light at two hundred
+ninety-nine million, seven hundred
+
+96
+00:05:08,390 --> 00:05:11,907
+ninety-two thousand, four hundred
+fifty-eight meters per second.
+
+97
+00:05:11,916 --> 00:05:15,338
+Every time a GPS satellite
+locates your phone, or an antenna
+
+98
+00:05:15,368 --> 00:05:18,549
+tracks a probe past Jupiter,
+we rely on the truth Ole
+
+99
+00:05:18,579 --> 00:05:22,677
+Roemer uncovered in sixteen
+seventy-six: when a tiny moon emerged
+
+100
+00:05:22,707 --> 00:05:26,224
+minutes late, and proved that
+looking into space is looking back
+
+101
+00:05:25,746 --> 00:05:26,471
+through time.

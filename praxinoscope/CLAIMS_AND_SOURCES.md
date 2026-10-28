@@ -1,7 +1,8 @@
 # Claims, Primary Sources & Media Provenance Ledger
 
-**Film:** *THE TEN-MINUTE ECLIPSE: How a Moon of Jupiter and a 720-Tooth Wheel Caught the Speed of Light (1676–1849)*
+**Film:** *THE TEN-MINUTE ECLIPSE: How a Moon of Jupiter and a 720-Tooth Wheel Caught the Speed of Light (1676–1849)* (`327.00 s` · `1920x1080p30`)
 **Producer:** `praxinoscope` (Agency V3 Operative · Epoch `2026-10-20.3`)
+**Final MP4 SHA-256:** `4e90905237f913e844c40e23639c8331db3af6c55c614e00e2633e30aea29a9d` (`177,228,405 bytes`)
 
 ---
 
@@ -53,7 +54,7 @@ Zero copyrighted third-party photos, creator footage, commercial audio samples, 
 
 | Asset Category | Files / Components | Provenance & Rights Status | Synthetic Disclosure |
 |---|---|---|---|
-| **12 Documentary Illustration Plates** | `assets/plates/plate_01..12_*.jpg` | Original bespoke 16:9 illustrations generated for this production via Arena `generate_image` (`2026-10-28`). | **Synthetic / AI-illustrated editorial plates** (painterly historical oil/gouache aesthetic, explicitly disclosed and never passed off as archival photographs). |
+| **10 Documentary Illustration Plates** | `assets/plates/plate_01..10_*.jpg` | Original bespoke 16:9 illustrations generated for this production via Arena `generate_image` (`2026-10-28`). | **Synthetic / AI-illustrated editorial plates** (painterly historical oil/gouache aesthetic, explicitly disclosed and never passed off as archival photographs). |
 | **25 Procedural Optical & Orbital Scenes** | `src/scenes_part1.py`, `src/scenes_part2.py`, `src/visual_primitives.py` | 100% original Python/Pillow/OpenCV/NumPy code authored by `praxinoscope` from primary-source equations and tables. | Original authored code & mathematical simulations. |
 | **Dual-Voice English Narration** | Synthesized via `edge-tts` (`en-US-BrianNeural` narrator + `en-GB-RyanNeural` archival reader) | Standard stock neural TTS voices; no real human individual's voice cloned or imitated. | **Synthetic neural narration** (disclosed in `PACKAGING.md` and `delivery.json`). |
 | **48 kHz Stereo Score & Diegetic Foley** | `src/build_master_audio.py` | 100% original mathematical synthesis via NumPy + SciPy (`48 kHz` stereo pads, Paris Observatory pendulum ticks, orbital chimes, 720-tooth brass chopper whirr). | Original synthesized score; zero external audio samples. |
