@@ -1,0 +1,516 @@
+{
+  "_comment": "MUTOSCOPE cut list for competitionvideo28/clippingvids. Timestamps are seconds into the ORIGINAL source. Chosen by reading the full auto-transcript against an audio reaction-energy ranking (src/analyze.py), then eyeballing a frame from every segment. Each source yields 2 normal shorts + 1 leaderboard short.",
+  "sources": [
+    {
+      "id": "V1",
+      "video_id": "rRSxkBGgTfw",
+      "url": "https://youtu.be/rRSxkBGgTfw?is=VgqjaIn-GUVdlzx_",
+      "title": "Kai Cenat FUNNY Moments Compilation 4",
+      "channel": "Kai Cenat Shorts",
+      "duration_s": 538.56,
+      "subject": "KAI CENAT",
+      "normal": [
+        {
+          "slug": "grenade-panic",
+          "t0": 174.0,
+          "t1": 189.0,
+          "hook": "THE PANIC IS UNREAL",
+          "hook_emoji": "😭",
+          "beats": [
+            5.0,
+            10.5
+          ],
+          "emoji": [
+            [
+              2.5,
+              "💣"
+            ],
+            [
+              7.0,
+              "😭"
+            ],
+            [
+              12.0,
+              "💀"
+            ]
+          ],
+          "end_card": "HE NEVER GOT UP"
+        },
+        {
+          "slug": "celery-thief",
+          "t0": 56.0,
+          "t1": 78.0,
+          "hook": "ACCUSED OVER CELERY",
+          "hook_emoji": "🥬",
+          "beats": [
+            7.0,
+            15.5
+          ],
+          "emoji": [
+            [
+              4.0,
+              "🤨"
+            ],
+            [
+              10.0,
+              "😂"
+            ],
+            [
+              17.0,
+              "💀"
+            ]
+          ],
+          "end_card": "WHERE'S THE CELERY"
+        }
+      ],
+      "leaderboard": {
+        "slug": "top5",
+        "title_lead": "RANKING FUNNIEST ",
+        "title_tail": " MOMENTS",
+        "sub": "NUMBER 1 IS PURE CHAOS",
+        "entries": [
+          {
+            "rank": 5,
+            "label": "Say Word To Your Dad 🫡",
+            "t0": 50.0,
+            "t1": 58.5
+          },
+          {
+            "rank": 4,
+            "label": "Grenade Out!! 💣",
+            "t0": 165.5,
+            "t1": 174.5
+          },
+          {
+            "rank": 3,
+            "label": "Please Stop Talking 🤐",
+            "t0": 344.5,
+            "t1": 353.5
+          },
+          {
+            "rank": 2,
+            "label": "Goddamn?? 😳",
+            "t0": 500.5,
+            "t1": 509.0
+          },
+          {
+            "rank": 1,
+            "label": "HEY HEY HEY HEY 🚨",
+            "t0": 525.0,
+            "t1": 534.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "V2",
+      "video_id": "IpAjsMJKBvk",
+      "url": "https://youtu.be/IpAjsMJKBvk?is=syccUoLccG_oNmlD",
+      "title": "Jynxzi Best Moments Compilation 2026",
+      "channel": "NeverMissClip",
+      "duration_s": 1036.45,
+      "subject": "JYNXZI",
+      "normal": [
+        {
+          "slug": "grenade-spam",
+          "t0": 21.0,
+          "t1": 43.0,
+          "hook": "HE SAID IT 9 TIMES",
+          "hook_emoji": "💣",
+          "beats": [
+            5.0,
+            13.5
+          ],
+          "emoji": [
+            [
+              3.2,
+              "💣"
+            ],
+            [
+              8.0,
+              "😂"
+            ],
+            [
+              15.0,
+              "🔥"
+            ]
+          ],
+          "end_card": "THE CUT IS CLEAN"
+        },
+        {
+          "slug": "gummy-619",
+          "t0": 625.0,
+          "t1": 648.0,
+          "hook": "WAIT TILL HE EATS IT",
+          "hook_emoji": "😭",
+          "beats": [
+            6.0,
+            15.0
+          ],
+          "emoji": [
+            [
+              4.0,
+              "🐻"
+            ],
+            [
+              10.0,
+              "😭"
+            ],
+            [
+              17.5,
+              "💀"
+            ]
+          ],
+          "end_card": "619!!"
+        }
+      ],
+      "leaderboard": {
+        "slug": "top5",
+        "title_lead": "RANKING BEST ",
+        "title_tail": " MOMENTS EVER",
+        "sub": "NUMBER 1 KILLED HIM",
+        "entries": [
+          {
+            "rank": 5,
+            "label": "Dad Scored! 🎮",
+            "t0": 48.5,
+            "t1": 57.5
+          },
+          {
+            "rank": 4,
+            "label": "Singing To Himself 🎤",
+            "t0": 188.0,
+            "t1": 197.0
+          },
+          {
+            "rank": 3,
+            "label": "No Dog Food 2 Weeks 🐕",
+            "t0": 433.0,
+            "t1": 442.0
+          },
+          {
+            "rank": 2,
+            "label": "Who Is Ohio?? 🗿",
+            "t0": 499.0,
+            "t1": 508.0
+          },
+          {
+            "rank": 1,
+            "label": "Australia's Underwater 🌊",
+            "t0": 930.0,
+            "t1": 940.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "V3",
+      "video_id": "G0fg27HzFTE",
+      "url": "https://youtu.be/G0fg27HzFTE?is=acIBoYnrWB6-zOu2",
+      "title": "funniest Jynxzi clips of all time",
+      "channel": "Jynxzi Live",
+      "duration_s": 616.58,
+      "subject": "JYNXZI",
+      "normal": [
+        {
+          "slug": "is-that-tom",
+          "t0": 392.0,
+          "t1": 408.0,
+          "hook": "HE THOUGHT HE WAS SAFE",
+          "hook_emoji": "💀",
+          "beats": [
+            4.6,
+            9.4
+          ],
+          "emoji": [
+            [
+              2.6,
+              "👀"
+            ],
+            [
+              6.4,
+              "💀"
+            ],
+            [
+              11.0,
+              "😭"
+            ]
+          ],
+          "end_card": "IS THAT TOM??"
+        },
+        {
+          "slug": "i-am-the-danger",
+          "t0": 320.0,
+          "t1": 342.0,
+          "hook": "HE WENT FULL HEISENBERG",
+          "hook_emoji": "🧪",
+          "beats": [
+            6.0,
+            14.5
+          ],
+          "emoji": [
+            [
+              3.5,
+              "🧪"
+            ],
+            [
+              9.0,
+              "🔥"
+            ],
+            [
+              16.0,
+              "😂"
+            ]
+          ],
+          "end_card": "I AM THE ONE WHO KNOCKS"
+        }
+      ],
+      "leaderboard": {
+        "slug": "top5",
+        "title_lead": "RANKING FUNNIEST ",
+        "title_tail": " CLIPS",
+        "sub": "NUMBER 1 BROKE HIM",
+        "entries": [
+          {
+            "rank": 5,
+            "label": "Two Of Them Are 1HP 🎯",
+            "t0": 20.0,
+            "t1": 28.5
+          },
+          {
+            "rank": 4,
+            "label": "The Bandit Trick 🤡",
+            "t0": 115.0,
+            "t1": 124.0
+          },
+          {
+            "rank": 3,
+            "label": "Stop Asking Him 💀",
+            "t0": 234.0,
+            "t1": 243.0
+          },
+          {
+            "rank": 2,
+            "label": "Bro Is The Thinker 🗿",
+            "t0": 151.5,
+            "t1": 160.5
+          },
+          {
+            "rank": 1,
+            "label": "Gamer Shower Needed 🚿",
+            "t0": 606.0,
+            "t1": 615.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "V4",
+      "video_id": "zzRhEQ6nX2A",
+      "url": "https://youtu.be/zzRhEQ6nX2A?is=H4p1JUoqQrMe6rO5",
+      "title": "IMPRACTICAL JOKERS - BEST OF FUNNY MOMENTS - 30mins",
+      "channel": "THE BEST OF",
+      "duration_s": 1707.85,
+      "subject": "IMPRACTICAL JOKERS",
+      "normal": [
+        {
+          "slug": "avocado-crowd",
+          "t0": 1012.0,
+          "t1": 1034.0,
+          "hook": "THE WHOLE CROWD SAW IT",
+          "hook_emoji": "😳",
+          "beats": [
+            6.5,
+            14.0
+          ],
+          "emoji": [
+            [
+              3.5,
+              "🥑"
+            ],
+            [
+              9.0,
+              "😂"
+            ],
+            [
+              16.0,
+              "😳"
+            ]
+          ],
+          "end_card": "SHE'S NOT EVEN POPPING"
+        },
+        {
+          "slug": "trust-fall",
+          "t0": 713.0,
+          "t1": 735.0,
+          "hook": "HE ACTUALLY YELLED IT",
+          "hook_emoji": "🙆",
+          "beats": [
+            7.0,
+            15.0
+          ],
+          "emoji": [
+            [
+              4.0,
+              "🙆"
+            ],
+            [
+              10.5,
+              "😂"
+            ],
+            [
+              17.0,
+              "💀"
+            ]
+          ],
+          "end_card": "TRUST FALL!!"
+        }
+      ],
+      "leaderboard": {
+        "slug": "top5",
+        "title_lead": "RANKING BEST ",
+        "title_tail": " MOMENTS",
+        "sub": "NUMBER 1 IS LEGENDARY",
+        "entries": [
+          {
+            "rank": 5,
+            "label": "The Sharks Were Out 🦈",
+            "t0": 364.5,
+            "t1": 374.0
+          },
+          {
+            "rank": 4,
+            "label": "Hands Across America 🤝",
+            "t0": 408.0,
+            "t1": 418.0
+          },
+          {
+            "rank": 3,
+            "label": "Two Scoops For One 🍨",
+            "t0": 1358.5,
+            "t1": 1368.0
+          },
+          {
+            "rank": 2,
+            "label": "That Kid Is Dead 💀",
+            "t0": 1275.5,
+            "t1": 1285.0
+          },
+          {
+            "rank": 1,
+            "label": "Stealing My Thing! 😤",
+            "t0": 1521.5,
+            "t1": 1531.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "V5",
+      "video_id": "EajXaGkDweA",
+      "url": "https://youtu.be/EajXaGkDweA?is=eoW6OhMYPRi0m3Is",
+      "title": "Stable Ronaldo Funny Moments!",
+      "channel": "Half Court",
+      "duration_s": 899.68,
+      "subject": "STABLE RONALDO",
+      "normal": [
+        {
+          "slug": "stay-in-the-box",
+          "t0": 32.0,
+          "t1": 54.0,
+          "hook": "GET OUT OF MY SKIN",
+          "hook_emoji": "😭",
+          "beats": [
+            5.5,
+            13.0
+          ],
+          "emoji": [
+            [
+              3.0,
+              "📦"
+            ],
+            [
+              8.5,
+              "😭"
+            ],
+            [
+              15.5,
+              "💀"
+            ]
+          ],
+          "end_card": "STAY IN THE BOX"
+        },
+        {
+          "slug": "that-one-got-her",
+          "t0": 687.0,
+          "t1": 709.0,
+          "hook": "THAT ONE GOT HER",
+          "hook_emoji": "💀",
+          "beats": [
+            6.0,
+            14.0
+          ],
+          "emoji": [
+            [
+              3.5,
+              "👟"
+            ],
+            [
+              9.0,
+              "💀"
+            ],
+            [
+              16.0,
+              "😂"
+            ]
+          ],
+          "end_card": "RUN!!"
+        }
+      ],
+      "leaderboard": {
+        "slug": "top5",
+        "title_lead": "RANKING FUNNIEST ",
+        "title_tail": " MOMENTS",
+        "sub": "NUMBER 1 HAD HIM DONE",
+        "entries": [
+          {
+            "rank": 5,
+            "label": "Hey Hey Hey No! 🙅",
+            "t0": 102.5,
+            "t1": 112.0
+          },
+          {
+            "rank": 4,
+            "label": "Most Athletic Cat Ever 🐱",
+            "t0": 238.0,
+            "t1": 247.5
+          },
+          {
+            "rank": 3,
+            "label": "He Pressed The Button 🚨",
+            "t0": 600.0,
+            "t1": 610.0
+          },
+          {
+            "rank": 2,
+            "label": "I Love You Too 🥹",
+            "t0": 730.0,
+            "t1": 739.5
+          },
+          {
+            "rank": 1,
+            "label": "Put The Camera Down 📸",
+            "t0": 885.5,
+            "t1": 895.0
+          }
+        ]
+      }
+    }
+  ],
+  "_revisions": [
+    "r1 2026-10-28 mutoscope: V1/N1 174-189 (was 178-200, crossed a colour-bar card at ~189s)",
+    "r1 2026-10-28 mutoscope: V2/L1 -> 930-940 Australia's Underwater (was 812-822, half-black multicam)",
+    "r1 2026-10-28 mutoscope: V5/L4 -> 238-247.5 athletic cat (was 175.5-185, blank wall + door)",
+    "r1 2026-10-28 mutoscope: V5/L3 -> 600-610 emergency button (was 649.5-659, a DAW screen)"
+  ]
+}
