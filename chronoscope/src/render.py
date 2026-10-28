@@ -12,7 +12,10 @@ import sys
 import time
 from pathlib import Path
 
-from PIL import Image
+import math
+
+import numpy as np
+from PIL import Image, ImageDraw, ImageFilter
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
@@ -44,6 +47,68 @@ def shot_for_frame(f, tl):
     return tl["shots"][-1] if f >= tl["shots"][-1]["frame_end"] else tl["shots"][0]
 
 
+# ---------------------------------------------------------------- living layer
+# Every frame gets three continuous, low-amplitude motions: a breathing camera,
+# animated film grain and a drifting light band. Without them a diagram shot can
+# sit pixel-identical for seconds and the film reads as a slideshow (measured:
+# 45 freeze segments over 1.2 s in master r01, longest 16.0 s).
+_GRAIN = None
+_LIGHT = None
+
+
+def _grain_bank():
+    """Six mid-grey noise fields, cycled every two frames and blended at ~4%.
+    Low amplitude on purpose: enough to keep the encoder awake and the picture
+    alive, never enough to read as snow over the diagrams."""
+    global _GRAIN
+    if _GRAIN is None:
+        rng = np.random.default_rng(4242)
+        bank = []
+        for i in range(6):
+            n = rng.normal(0, 15.0, (270, 480)).astype(np.float32)
+            g = Image.fromarray(np.clip(128 + n, 0, 255).astype(np.uint8), "L").convert("RGB")
+            bank.append(g)
+        _GRAIN = bank
+    return _GRAIN
+
+
+def _light_layer():
+    global _LIGHT
+    if _LIGHT is None:
+        small = Image.new("RGBA", (240, 135), (0, 0, 0, 0))
+        d = ImageDraw.Draw(small)
+        d.ellipse((60, 30, 180, 105), fill=(255, 238, 206, 70))
+        _LIGHT = small.filter(ImageFilter.GaussianBlur(26))
+    return _LIGHT
+
+
+def living_layer(img, f, shot):
+    """breathing camera + animated grain + drifting warm light band."""
+    # 1. breathing camera: scale 1.006 -> 1.020, slow lissajous drift
+    ph = shot["index"] * 1.7
+    s = 1.008 + 0.006 * math.sin(2 * math.pi * f / 780.0 + ph)
+    dx = 2.4 * math.sin(2 * math.pi * f / 690.0 + ph * 0.7)
+    dy = 1.8 * math.cos(2 * math.pi * f / 910.0 + ph * 1.3)
+    inv = 1.0 / s
+    a = inv
+    c = -(inv - 1.0) * W / 2 + dx
+    e = inv
+    fff = -(inv - 1.0) * H / 2 + dy
+    img = img.transform((W, H), Image.AFFINE, (a, 0, c, 0, e, fff), resample=Image.BILINEAR)
+
+    # 2. drifting light band (quarter-res sprite, upscaled)
+    sp = _light_layer()
+    lx = (f * 1.9) % (W + 900) - 450
+    light = sp.resize((520, 420), Image.BILINEAR).convert("RGBA")
+    halo = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    halo.alpha_composite(light, (int(max(-260, min(W + 260, lx))), int(H * 0.18)))
+    img = Image.alpha_composite(img.convert("RGBA"), halo)
+
+    # 3. animated grain, blended at low amplitude
+    g = _grain_bank()[(f // 2) % 6].resize((W, H), Image.BILINEAR)
+    return Image.blend(img.convert("RGB"), g, 0.045)
+
+
 def render_frame(f, tl):
     s = shot_for_frame(f, tl)
     t = (f - s["frame_start"]) / float(FPS)
@@ -54,7 +119,7 @@ def render_frame(f, tl):
     img = fn(img, s, u, t, tl)
     if img.mode != "RGB":
         img = img.convert("RGB")
-    return img
+    return living_layer(img, f, s)
 
 
 def main():

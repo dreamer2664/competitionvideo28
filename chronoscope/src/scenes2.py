@@ -435,19 +435,23 @@ def saros_spiral_dial(img, shot, u, t, tl):
     # Exeligmos dial
     ex, ey, er = 1470, 420, 140
     d.ellipse((ex - er, ey - er, ex + er, ey + er), fill=(10, 16, 24, 200), outline=with_alpha(GOLD, 0.45), width=2)
+    LABELS = []
     for k in range(3):
         a0 = -math.pi / 2 + k * 2 * math.pi / 3
         a1 = a0 + 2 * math.pi / 3
         d.arc((ex - er, ey - er, ex + er, ey + er), math.degrees(a0) + 2, math.degrees(a1) - 2,
               fill=with_alpha(BRONZE_LIGHT, 0.5), width=1)
-        mx = ex + (er * 0.66) * math.cos(a0 + math.pi / 3)
-        my = ey + (er * 0.66) * math.sin(a0 + math.pi / 3)
-        text(d, (mx, my), ["0 h", "8 h", "16 h"][k], font("mono_sb", 26), PARCHMENT, anchor="mm")
+        mx = ex + (er * 0.60) * math.cos(a0 + math.pi / 3)
+        my = ey + (er * 0.60) * math.sin(a0 + math.pi / 3)
+        LABELS.append((mx, my, k))
     seg = int(((pos / total) * 223 / 3) % 3)
     ang = -math.pi / 2 + seg * 2 * math.pi / 3 + math.pi / 3
     d.line([(ex, ey), (ex + (er - 22) * math.cos(ang), ey + (er - 22) * math.sin(ang))],
            fill=with_alpha(GOLD, 0.95), width=3)
     d.ellipse((ex - 8, ey - 8, ex + 8, ey + 8), fill=GOLD)
+    for mx, my, k in LABELS:
+        d.ellipse((mx - 27, my - 16, mx + 27, my + 16), fill=(8, 12, 18, 235))
+        text(d, (mx, my), ["0 h", "8 h", "16 h"][k], font("mono_sb", 23), PARCHMENT, anchor="mm")
     text(d, (ex, ey + er + 46), "EXELIGMOS · 3 TURNS = 54 YEARS", font("mono", 14), CYAN, anchor="mm", tracking=2, alpha=0.8)
 
     panel(d, (1250, 640, 1824, 800), radius=12, fill=(8, 13, 20, 214), outline=(190, 150, 92, 70))

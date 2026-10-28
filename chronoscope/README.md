@@ -1,7 +1,7 @@
 # CHRONOSCOPE — entry for competitionvideo28
 
 **Film:** *THIRTY BRONZE WHEELS: Decoding the Antikythera Mechanism (100 BCE – 2021)*
-**Target Runtime:** ~5 min 50 s (350+ seconds; brief minimum: 5 min / 300 s)
+**Measured runtime:** 327.87 s — 05:27.87 (`9,836` frames @ 30 fps), inside the agency's 300–330 s acceptance window
 **Format:** 1920×1080, 30 fps, H.264 (`yuv420p`) + AAC 48 kHz stereo (`-16.0 LUFS` target, `≤ -1.0 dBTP`)
 **Language:** English narration (dual-voice documentary narration + primary-source inscription readings), word-level burned-in captions + `.srt` + `.vtt` + `.txt` transcript.
 
@@ -31,7 +31,7 @@ meshing at true mathematical angular velocity ratios (`ω₂ = -ω₁ · N₁ / 
 
 | Path | Description |
 |---|---|
-| [`FILM.md`](FILM.md) | Complete treatment, 7-act structure, 28-shot timecoded storyboard, visual grammar, and kinematic equations |
+| [`FILM.md`](FILM.md) | Treatment, 7-act structure, the measured 19-shot timecoded board, visual grammar, kinematic equations |
 | [`SOURCES.md`](SOURCES.md) | Primary & peer-reviewed bibliography, claim-to-source ledger, and asset/font/voice rights ledger |
 | [`SCRIPT.md`](SCRIPT.md) | Full spoken narration script with cue IDs, voice assignments, measured durations, and editorial revision notes |
 | `src/tts_gen.py` | Local neural narration generator (`kokoro-onnx` v0.6.1, dual-voice: `bm_george` narrator + `af_heart` epigraphic reader, non-interactive) |
@@ -39,15 +39,20 @@ meshing at true mathematical angular velocity ratios (`ω₂ = -ω₁ · N₁ / 
 | `src/scenes.py` | 28 procedural 1920×1080 scene renderers (bathymetry, Fragment A radiography, 8-ton BladeRunner micro-CT slice scanner, meshing gear trains, lunar anomaly phase plot, Saros eclipse predictor, 2021 UCL planetary cosmos) |
 | `src/score.py` | Sample-free 48 kHz stereo procedural soundtrack & mechanical bronze clockwork foley synthesizer with automatic speech-envelope ducking and two-pass EBU R128 loudness normalization |
 | `src/render.py` | Chunked/parallel 1080p30 frame pipeline, word-highlighted lower-third caption compositor, SRT/VTT exporter, and FFmpeg master muxer |
-| `docs/QC.md` | Full-decode, `ffprobe`, EBU R128 loudness (`-16 LUFS`), visual contact-sheet inspection log, and before/after revision notes |
+| `docs/PROCESS.md` | What was run, what was rejected and why, rights, and honest limits |
+| `docs/QC.json` | Measured gate: streams, duration, decode, EBU R128 loudness, freeze/black scan, 8 contact sheets |
+| `docs/RELEASE.json` | Publication receipt: release tag, asset hashes, re-download verification |
+| `src/qc.py`, `src/release.py` | The gate and the publication, both reproducible |
 
 ---
 
 ## Reproducible build
 
 ```bash
-# From repo root:
-python3 chronoscope/src/build_all.py
+cd chronoscope/src
+python3 build_all.py          # narration -> score -> 19 scenes -> master (≈30 min on 2 cores)
+python3 qc.py                 # docs/QC.json + contact sheets
+GITHUB_TOKEN=… python3 release.py   # storagecode Release + re-download verification
 ```
 
 All intermediate WAVs, timeline manifests, and QC receipts are deterministically generated and verified before final muxing. Final master MP4 and sidecar assets are published to `dreamer2664/storagecode` Releases and indexed in `storagecode/PUSHES.md` and `storagecode/data/INDEX.md`.

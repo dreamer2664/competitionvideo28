@@ -1,7 +1,7 @@
 # THIRTY BRONZE WHEELS — Film Treatment & Storyboard
 
 > **Subtitle:** *Decoding the 2,000-Year-Old Computer From the Bottom of the Aegean Sea*
-> **Producer:** `chronoscope` · **Runtime target:** ~5:50 (350 s) · **Resolution:** 1920×1080 @ 30 fps
+> **Producer:** `chronoscope` · **Runtime (measured):** 327.87 s (5:27.87) · **Resolution:** 1920×1080 @ 30 fps
 
 ---
 
@@ -35,32 +35,36 @@ the Sun, the Moon, and the stars.
 
 ---
 
-## 3. Complete 28-Shot Storyboard
+## 3. The 19-shot cut, as built (measured)
 
-| Shot | Act | Time (approx) | Visual Treatment | Explanatory Purpose |
-|---|---|---|---|---|
-| `S01` | I | `0:00–0:15` | **Bathymetric Sonar & Depth Descent** — Cross-section of Cape Glyfadia cliff plunging to `-42.0 m` in Aegean teal; depth gauge ticking down, diver silhouette & scattered Roman amphorae. | Hook viewer with the physical site and depth of the 1900 discovery. |
-| `S02` | I | `0:15–0:30` | **National Archaeological Museum, Athens (May 17, 1902)** — Split schematic of calcified bronze lump cracking open to reveal Fragment A (`180 mm × 150 mm`) and the first visible gear ring. | Show how the corroded exterior hid precision metalwork for two years. |
-| `S03` | I | `0:30–0:48` | **Title Sequence: THIRTY BRONZE WHEELS** — Concentric bronze rings lock into alignment; triangular 60° gear teeth mesh around the title lockup with focal golden light sweep. | Establish the visual thesis and audience promise. |
-| `S04` | II | `0:48–1:06` | **The Incommensurable Sky** — Dual orbital phase comparator: Solar year (`365.2422 d`) vs. Lunar synodic month (`29.53059 d`), showing the `10.875-day` annual drift accumulating on a timeline bar. | Visually prove why a simple 12-month gear ratio fails immediately. |
-| `S05` | II | `1:06–1:24` | **The Metonic Resonance (19 Years = 235 Months)** — Harmonic resonance grid aligning 19 solar orbits against 235 lunar cycles (`6,939.60 days` vs `6,939.69 days`, error `< 2 hours` in 19 years). | Show the integer discovery by Meton of Athens & Babylonian astronomers. |
-| `S06` | II | `1:24–1:40` | **Sidereal vs. Synodic Geometry** — Earth-Moon-Sun orbital vector diagram showing why 235 synodic months relative to the Sun equal `235 + 19 = 254` sidereal revolutions relative to the fixed stars. | Derive the exact ratio `254 / 19` that the gear train must compute. |
-| `S07` | III | `1:40–1:58` | **Prime Factorization on Bronze** — Mathematical breakdown card + animated gear blank cutter: `254 / 19 = (2 × 127) / 19`, expanded into buildable tooth counts: `(64 / 38) × (48 / 24) × (127 / 32)`. | Explain how an ancient engineer turns an irreducible prime fraction into meshing brass/bronze wheels. |
-| `S08` | III | `1:58–2:18` | **Live Meshing Gear Train (`b2 → c1/c2 → d1/d2 → e2`)** — Interactive 6-gear kinematic train rotating in real time with exact tooth counts (`64, 38, 48, 24, 127, 32`), angular velocity vectors, and live ratio readout `13.368421...`. | Let the viewer watch the exact Antikythera Metonic/sidereal train operate. |
-| `S09` | III | `2:18–2:38` | **Derek de Solla Price's 1974 Radiograph vs. Reality** — Radiographic overlay showing how overlapping 2D X-rays confused tooth counts (`±1 tooth` destroys the prime ratio), setting up the need for 3D tomography. | Show why 20th-century 2D X-rays hit a physical wall. |
-| `S10` | IV | `2:38–2:56` | **The 2005 "BladeRunner" 450 kV Micro-CT Rig** — Technical schematic of the 8-ton X-Tek Industrial micro-focus CT scanner in Athens: 450 kV electron beam penetrating bronze, rotating stage, 50-micron voxel grid. | Explain the physics required to see inside high-density corroded tin-bronze. |
-| `S11` | IV | `2:56–3:14` | **Live Virtual Tomography Slice Scanner** — Animated CT depth scrub (`Z = 4.2 mm` → `Z = 18.7 mm`) slicing through Fragment A: calcified crust disappears, revealing hidden gear teeth and sub-millimeter Greek letters. | Demonstrate how 3D volume reconstruction separated stacked gears. |
-| `S12` | IV | `3:14–3:32` | **Polynomial Texture Mapping (PTM) & Epigraphy** — Multi-angle light dome simulation over corroded bronze plate; raking specular light reveals the Parapegma inscription (`Π Α Ρ Α Π Η Γ Μ Α`) with translated English overlay. | Hear and see the actual ancient Greek user manual carved into the case. |
-| `S13` | V | `3:32–3:50` | **The Upper Back Dial: The 5-Turn Metonic Spiral** — Animated 235-cell Archimedean spiral on the upper rear plate with sliding runner pin and Corinthian month names (*Phoinikaios, Kraneios, Lanotropios...*) + Panhellenic Olympiad dial. | Show how the user read the civil calendar and the 4-year Olympic Games cycle. |
-| `S14` | V | `3:50–4:08` | **The Three Lunar Cycles & The Saros (223 Months)** — Triple-wave interference diagram: Synodic (full/new moon, `29.5306 d`), Draconic (orbital node crossing, `27.2122 d`), and Anomalistic (apogee/perigee, `27.5546 d`) converging at exactly `223 synodic months`. | Visually prove why eclipses repeat every 223 lunar months (18 years, 11 days, 8 hours). |
-| `S15` | V | `4:08–4:24` | **The Lower Back Dial: Saros Spiral & Exeligmos** — 223-cell 4-turn spiral with eclipse glyph cells (`Σ` = Lunar, `Η` = Solar) and the 3-sector Exeligmos sub-dial (`0, +8, +16 hours`) driven by the giant `e3` (223-tooth) gear. | Show how the machine predicts both the month and the clock hour shift of eclipses. |
-| `S16` | VI | `4:24–4:42` | **The Anomaly of the Moon's Speed** — Elliptical lunar orbit diagram (`perigee 363,300 km` vs `apogee 405,500 km`) showing angular velocity varying from `~14.2°/day` to `~11.9°/day` (Kepler's Second Law). | Present the hardest dynamical problem in ancient astronomy. |
-| `S17` | VI | `4:42–5:00` | **Hipparchus on Bronze: The Pin-and-Slot Differential (`k1` & `k2`)** — High-magnification mechanical simulation of gears `k1` and `k2` (50 teeth) with `1.1 mm` eccentric axis offset; glowing pin slides inside the radial slot while a live oscilloscope plots `ω_out(t)` vs `ω_in`. | Prove visually how an eccentric pin-and-slot converts uniform rotation into sinusoidal orbital velocity. |
-| `S18` | VI | `5:00–5:12` | **Mounted on the Turntable (`e3`)** — Cross-section showing `k1/k2` riding Piggyback inside the 223-tooth Saros gear `e3`, so the Moon's apogee precesses over its 8.85-year anomalistic cycle! | Reveal the true genius of the epicyclic turntable architecture. |
-| `S19` | VII | `5:12–5:30` | **The 2021 UCL Front Cosmos Reconstruction** — Concentric bronze ring display for Mercury, Venus (`289 / 462`), Mars, Jupiter, and Saturn (`427 / 442`) discovered by Tony Freeth's UCL team from Fragment D (`63-tooth` gear) and front plate inscriptions. | Bring the story up to the modern 2021 peer-reviewed reconstruction. |
-| `S20` | VII | `5:30–5:50` | **Coda: The Unbroken Ratio** — Full 30-gear blueprint explodes and reassembles into a single luminous clockwork cosmos; final takeaway card, source citations, and production signature (`CHRONOSCOPE · 2026`). | Answer the opening promise and leave a lasting intellectual resonance. |
+Runtime **327.87 s** (`9836` frames @ 30 fps) — inside the agency's
+300–330 s acceptance window *and* above the competition minimum of five minutes.
+Five shots from the original 24-shot board were cut for runtime discipline after the first
+assembly measured 7:02: the Babylon/Meton grid, Price's 1974 radiograph, the eclipse-glyph
+detail, the oscilloscope, and the "what remained open" coda beat. Their arguments were folded
+into the neighbouring narration rather than dropped. (See `docs/PROCESS.md` §2.)
 
----
+| shot | time | title | scene |
+|---|---|---|---|
+| `S01` | 00:00.00–00:15.23 | The Shelf Off Cape Glyfadia, Spring 1900 | `bathymetry_dive` |
+| `S02` | 00:15.23–00:32.47 | Athens, May 17, 1902: The Calcified Lump | `museum_discovery` |
+| `S03` | 00:32.47–00:48.47 | Title Lockup: Thirty Bronze Wheels | `title_lockup` |
+| `S04` | 00:48.47–01:07.50 | The Incommensurable Sky: 365.2422 vs 29.5306 | `calendar_drift` |
+| `S06` | 01:07.50–01:27.73 | Nineteen Years, 235 Months, 254 Orbits | `sidereal_vector` |
+| `S07` | 01:27.73–01:47.97 | Factoring 254 / 19 Into Buildable Teeth | `prime_factorization` |
+| `S08` | 01:47.97–02:07.10 | Live Kinematic Train: 64/38 x 48/24 x 127/32 | `live_gear_train` |
+| `S10` | 02:07.10–02:25.07 | The 2005 BladeRunner 450 kV Micro-CT Rig | `bladerunner_rig` |
+| `S11` | 02:25.07–02:40.00 | Virtual 50-Micron Tomography Scrub | `ct_slice_scanner` |
+| `S12` | 02:40.00–02:54.17 | Reading the Parapegma Inscriptions | `ptm_epigraphy` |
+| `S13` | 02:54.17–03:11.30 | Upper Back Dial: Corinthian Calendar & Olympiad | `metonic_spiral_dial` |
+| `S14` | 03:11.30–03:28.73 | Three Lunar Cycles Converge: 223 Months | `saros_convergence` |
+| `S15` | 03:28.73–03:46.37 | The 223-Tooth Gear e3 & The Exeligmos Dial | `saros_spiral_dial` |
+| `S17` | 03:46.37–04:02.00 | The Anomaly of the Moon's Elliptical Speed | `lunar_ellipse_anomaly` |
+| `S18` | 04:02.00–04:19.00 | Hipparchus in Bronze: Gears k1 and k2 | `pin_and_slot_sim` |
+| `S20` | 04:19.00–04:38.13 | The Epicyclic Turntable on e3 (8.85-Year Precession) | `epicyclic_turntable` |
+| `S21` | 04:38.13–04:53.60 | The 2021 UCL Planetary Breakthrough (462 & 442) | `ucl_venus_saturn` |
+| `S22` | 04:53.60–05:11.43 | Fragment D's 63-Tooth Wheel & Concentric Rings | `planetary_ring_cosmos` |
+| `S24` | 05:11.43–05:27.87 | Coda: The Cosmos in the Palm of a Hand | `coda_blueprint` |
 
 ## 4. Visual & Audio Design System
 

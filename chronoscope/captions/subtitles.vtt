@@ -1,283 +1,225 @@
 WEBVTT
 
-00:00:01.200 --> 00:00:06.796
+00:00:00.160 --> 00:00:05.756
 In the spring of 1900, blown off course
 where the Aegean meets the Cretan Sea,
 
-00:00:06.796 --> 00:00:12.426
+00:00:05.756 --> 00:00:11.386
 sponge diver Elias Stadiatis dropped
 forty-two meters down a submerged cliff
 
-00:00:12.426 --> 00:00:15.966
+00:00:11.386 --> 00:00:14.926
 off Antikythera and found a Roman
 shipwreck.
 
-00:00:16.967 --> 00:00:23.317
+00:00:15.393 --> 00:00:21.744
 Among marble statues and amphorae hauled
 to Athens sat a corroded lump of bronze.
 
-00:00:23.317 --> 00:00:29.588
+00:00:21.744 --> 00:00:28.015
 On May 17, 1902, archaeologist Valerios
 Stais noticed the drying case had cracked
 
-00:00:29.588 --> 00:00:33.700
+00:00:28.015 --> 00:00:32.127
 open, exposing miniature sixty-degree gear
 teeth.
 
-00:00:34.800 --> 00:00:40.172
+00:00:32.627 --> 00:00:37.999
 No machine like it was supposed to exist
 for another fourteen centuries. Inside
 
-00:00:40.172 --> 00:00:45.877
+00:00:37.999 --> 00:00:43.704
 eighty-two calcified fragments were thirty
 bronze wheels that computed the calendar,
 
-00:00:45.877 --> 00:00:50.306
+00:00:43.704 --> 00:00:48.133
 predicted eclipses, and modeled the
 variable speed of the Moon.
 
-00:00:51.600 --> 00:00:59.525
+00:00:48.627 --> 00:00:56.551
 To understand why someone cut those teeth
 around 100 BCE, start with the headache of
 
-00:00:59.525 --> 00:01:07.528
+00:00:56.551 --> 00:01:04.555
 every ancient astronomer: one solar year
 of 365.24 days does not divide evenly by a
 
-00:01:07.528 --> 00:01:10.158
+00:01:04.555 --> 00:01:07.185
 lunar month of 29.53 days.
 
-00:01:11.067 --> 00:01:17.359
-Twelve lunar months fall short of a solar
-year by nearly eleven days. Babylonian and
+00:01:07.660 --> 00:01:14.094
+Babylonian and Greek astronomers had
+already found the trick: 19 solar years
 
-00:01:17.359 --> 00:01:23.053
-Greek astronomers found an almost
-miraculous integer resonance: nineteen
+00:01:14.094 --> 00:01:20.910
+equal almost exactly 235 lunar months. The
+Moon needs 235 phase cycles against the
 
-00:01:23.053 --> 00:01:28.301
-solar years equal almost exactly 235 lunar
-months, within two hours.
+00:01:20.910 --> 00:01:27.401
+Sun, plus Earth's own 19 orbits, to return
+to the same place against the stars.
 
-00:01:29.200 --> 00:01:36.678
-Here is the mechanical catch. In nineteen
-years, the Moon completes 235 phase cycles
-
-00:01:36.678 --> 00:01:43.954
-relative to the Sun. Because Earth itself
-circles the Sun nineteen times, the Moon
-
-00:01:43.954 --> 00:01:48.734
-completes 235 plus 19—or 254—orbits
-against the stars.
-
-00:01:49.933 --> 00:01:56.879
+00:01:27.893 --> 00:01:34.839
 How do you turn the fraction 254 over 19
 into bronze? You cannot easily cut a
 
-00:01:56.879 --> 00:02:04.016
+00:01:34.839 --> 00:01:41.976
 single 254-tooth wheel. Instead, the
 designer factored 254 into 2 times the
 
-00:02:04.016 --> 00:02:09.668
+00:01:41.976 --> 00:01:47.628
 prime number 127, and chained six gears
 across three axles.
 
-00:02:10.567 --> 00:02:18.133
+00:01:48.127 --> 00:01:55.693
 Watch the exact train inside Fragment A:
 the 64-tooth drive wheel b2 turns a
 
-00:02:18.133 --> 00:02:26.097
+00:01:55.693 --> 00:02:03.657
 38-tooth gear c1; c2 with 48 teeth drives
 d1 with 24; and d2 with 127 teeth drives
 
-00:02:26.097 --> 00:02:29.226
+00:02:03.657 --> 00:02:06.786
 the 32-tooth lunar spindle e2.
 
-00:02:30.233 --> 00:02:38.234
-Multiply 64 over 38, times 48 over 24,
-times 127 over 32: the factors cancel to
-
-00:02:38.234 --> 00:02:45.928
-254 over 19. Historian Derek de Solla
-Price glimpsed this in 1974 using flat
-
-00:02:45.928 --> 00:02:51.603
-X-rays, but overlapping shadows hid the
-deeper gears.
-
-00:02:52.800 --> 00:02:59.494
+00:02:07.260 --> 00:02:13.954
 Because the fragments were far too fragile
 to travel, in 2005 an international team
 
-00:02:59.494 --> 00:03:04.864
+00:02:13.954 --> 00:02:19.324
 led by Tony Freeth shipped an eight-ton,
 450-kilovolt micro-focus CT
 
-00:03:04.864 --> 00:03:10.300
+00:02:19.324 --> 00:02:24.760
 scanner—nicknamed BladeRunner—straight to
 the museum in Athens.
 
-00:03:11.200 --> 00:03:16.557
+00:02:25.227 --> 00:02:30.584
 Slicing through the bronze in fifty-micron
 layers, three-dimensional tomography
 
-00:03:16.557 --> 00:03:21.700
+00:02:30.584 --> 00:02:35.727
 separated gears packed closer than a
 millimeter apart—and revealed over three
 
-00:03:21.700 --> 00:03:25.653
+00:02:35.727 --> 00:02:39.680
 thousand hidden Greek characters etched
 into the casing.
 
-00:03:26.567 --> 00:03:32.592
+00:02:40.160 --> 00:02:46.185
 The inscriptions read like an astronomical
 manual: "The spiral is divided into 235
 
-00:03:32.592 --> 00:03:38.980
+00:02:46.185 --> 00:02:52.573
 sections... The golden little sphere shows
 the Sun; in the evening the Pleiades rise,
 
-00:03:38.980 --> 00:03:40.244
+00:02:52.573 --> 00:02:53.837
 and the Hyades set."
 
-00:03:41.433 --> 00:03:46.751
+00:02:54.327 --> 00:02:59.644
 On the upper back plate, a five-turn
 spiral tracks all 235 months of the
 
-00:03:46.751 --> 00:03:52.512
+00:02:59.644 --> 00:03:05.406
 Metonic cycle, inscribed with twelve
 Corinthian month names—suggesting a
 
-00:03:52.512 --> 00:03:58.070
+00:03:05.406 --> 00:03:10.963
 heritage tied to Corinth or Syracuse—plus
 a dial for the Olympic Games.
 
-00:03:58.967 --> 00:04:05.219
+00:03:11.460 --> 00:03:17.712
 Below it sits the Saros eclipse predictor.
 An eclipse only happens when a New or Full
 
-00:04:05.219 --> 00:04:10.195
+00:03:17.712 --> 00:03:22.689
 Moon aligns with the tilted node of the
 Moon's orbit. Every 223 lunar
 
-00:04:10.195 --> 00:04:15.903
+00:03:22.689 --> 00:03:28.396
 months—eighteen years, eleven days, and
 eight hours—all three cycles lock.
 
-00:04:16.800 --> 00:04:23.297
+00:03:28.893 --> 00:03:35.390
 Driven by a massive 223-tooth gear e3, the
 pointer sweeps a four-turn spiral marked
 
-00:04:23.297 --> 00:04:29.169
+00:03:35.390 --> 00:03:41.263
 with Sigma for lunar and Eta for solar
 eclipses—while the tiny Exeligmos dial
 
-00:04:29.169 --> 00:04:33.950
+00:03:41.263 --> 00:03:46.043
 adds zero, eight, or sixteen hours to the
 predicted time.
 
-00:04:34.933 --> 00:04:39.256
-Even the color and direction of the
-obscured sky were cataloged on the back
-
-00:04:39.256 --> 00:04:44.436
-cover: "Lunar eclipse at the ninth hour;
-solar eclipse... winds from the east, and
-
-00:04:44.436 --> 00:04:45.551
-dark crimson light."
-
-00:04:46.767 --> 00:04:52.507
+00:03:46.527 --> 00:03:52.267
 Yet the mechanism's deepest triumph lies
 tucked at the back of Fragment A. Because
 
-00:04:52.507 --> 00:04:57.629
+00:03:52.267 --> 00:03:57.389
 the Moon's orbit is elliptical, it speeds
 up near perigee and slows down near
 
-00:04:57.629 --> 00:05:01.924
+00:03:57.389 --> 00:04:01.684
 apogee—varying from fourteen degrees a day
 to under twelve.
 
-00:05:02.833 --> 00:05:08.340
+00:04:02.160 --> 00:04:07.667
 To reproduce the lunar theory of
 Hipparchus, the maker stacked two
 
-00:05:08.340 --> 00:05:15.137
+00:04:07.667 --> 00:04:14.464
 fifty-tooth gears, k1 and k2, with their
 axles offset by just 1.1 millimeters. A
 
-00:05:15.137 --> 00:05:19.355
+00:04:14.464 --> 00:04:18.681
 pin on k1 slides inside a radial slot cut
 into k2.
 
-00:05:20.267 --> 00:05:25.802
-As the lower gear turns at a constant
-rate, the effective radius of the driving
-
-00:05:25.802 --> 00:05:31.602
-pin changes continuously—forcing the upper
-gear to accelerate and decelerate in a
-
-00:05:31.602 --> 00:05:33.383
-smooth harmonic wave.
-
-00:05:34.267 --> 00:05:40.875
+00:04:19.160 --> 00:04:25.768
 Better still, that entire pin-and-slot
 pair rides piggyback on the rotating
 
-00:05:40.875 --> 00:05:47.710
+00:04:25.768 --> 00:04:32.604
 223-tooth Saros gear e3—so the orientation
 of the Moon's apogee slowly precesses
 
-00:05:47.710 --> 00:05:52.920
+00:04:32.604 --> 00:04:37.813
 around the sky every 8.85 years, just as
 it does in nature.
 
-00:05:54.133 --> 00:06:01.114
+00:04:38.293 --> 00:04:45.274
 What about the missing front section? In
 2021, researchers at University College
 
-00:06:01.114 --> 00:06:07.901
+00:04:45.274 --> 00:04:52.061
 London decoded two numbers on the front
 plate: 462 years for Venus, and 442 years
 
-00:06:07.901 --> 00:06:09.108
+00:04:52.061 --> 00:04:53.268
 for Saturn.
 
-00:06:10.000 --> 00:06:16.460
+00:04:53.760 --> 00:05:00.220
 Using an orphaned 63-tooth gear from
 Fragment D—since 462 factors into 6 times
 
-00:06:16.460 --> 00:06:23.178
+00:05:00.220 --> 00:05:06.938
 7 times 11—they showed how concentric
 bronze rings displayed Mercury, Venus,
 
-00:06:23.178 --> 00:06:27.361
+00:05:06.938 --> 00:05:11.121
 Mars, Jupiter, and Saturn around the
 Zodiac.
 
-00:06:28.267 --> 00:06:33.367
-Historians still debate whether the
-workshop stood on Rhodes in the era of
-
-00:06:33.367 --> 00:06:38.345
-Hipparchus or in the tradition of
-Archimedes. Its echoes survived in
-
-00:06:38.345 --> 00:06:44.474
-Byzantine and Islamic geared astrolabes
-before reawakening in European clockwork.
-
-00:06:45.467 --> 00:06:50.687
+00:05:11.593 --> 00:05:16.814
 Two thousand years on the seafloor
 dissolved its wooden frame and froze its
 
-00:06:50.687 --> 00:06:56.446
+00:05:16.814 --> 00:05:22.573
 axles in stone. Yet the prime numbers
 held—thirty bronze wheels proving that the
 
-00:06:56.446 --> 00:07:00.050
+00:05:22.573 --> 00:05:26.177
 sky itself obeys a law you can hold in
 your hands.

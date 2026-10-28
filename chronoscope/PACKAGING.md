@@ -27,13 +27,25 @@ ratios. No stock footage: the plates are original illustrations, the diagrams ar
 generated from the same numbers the film discusses.
 
 CHAPTERS
-00:00 A diver, a cliff, and a ship that sank around 70 BC
-00:51 The calendar problem: 365.2422 does not divide by 29.5306
-01:49 Turning 254/19 into bronze
-02:52 Eight tonnes of X-rays
-03:40 The Saros: 223 months of eclipses
-04:46 The pin, the slot, and Kepler's Moon
-05:53 The lost cosmos, decoded in 2021
+00:00.00 A diver, a cliff, and a ship that sank around 70 BC
+00:15.23 Athens, 1902: gear teeth in a calcified lump
+00:32.47 Thirty bronze wheels
+00:48.47 Why the calendar refuses to divide
+01:07.50 Nineteen years, 235 months, 254 orbits
+01:27.73 Turning 254/19 into bronze
+01:47.97 The real train: 64/38 x 48/24 x 127/32
+02:07.10 Eight tonnes of X-rays
+02:25.07 Fifty-micron slices
+02:40.00 Reading the instrument's own manual
+02:54.17 The five-turn calendar spiral
+03:11.30 223 months: the three cycles converge
+03:28.73 The Saros dial and the Exeligmos
+03:46.37 Why the Moon speeds up and slows down
+04:02.00 A pin, a slot, and Hipparchus
+04:19.00 The turntable that precesses the apogee
+04:38.13 2021: the front plate decoded
+04:53.60 Seven wanderers on concentric rings
+05:11.43 Coda: the sky in your hands
 
 SOURCES
 Freeth et al., "Decoding the ancient Greek astronomical calculator known as the
@@ -52,7 +64,7 @@ Produced by CHRONOSCOPE, 2026.
 
 ## Thumbnail
 
-`assets/thumbnail/thumb_1280x720.jpg` — 1280×720, high-contrast: the Fragment A plate
+`assets/thumbnail/thumb_1280x720.jpg` — 1280×720 (measured 174,407 bytes), high-contrast: the Fragment A plate
 cropped tight on the gear rings, `THIRTY` / `BRONZE WHEELS` in Fraunces, a single
 amber rule, and a small "2,000 YEARS" tag. Legible at 120 px wide (tested by
 downscaling and re-opening; see `docs/QC.md`).

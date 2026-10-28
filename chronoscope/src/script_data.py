@@ -36,8 +36,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 1.2,
-        "tail_out": 0.6,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_01_shipwreck.jpg",
         "scene_kind": "bathymetry_dive",
         "display_text": (
@@ -58,8 +58,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.4,
-        "tail_out": 0.6,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_07_athens_museum_1902.jpg",
         "scene_kind": "museum_discovery",
         "display_text": (
@@ -80,8 +80,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.95,
-        "lead_in": 0.5,
-        "tail_out": 0.8,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_02_fragment_a.jpg",
         "scene_kind": "title_lockup",
         "display_text": (
@@ -104,8 +104,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.5,
-        "tail_out": 0.5,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_03_hellenistic_workshop.jpg",
         "scene_kind": "calendar_drift",
         "display_text": (
@@ -118,45 +118,23 @@ SHOTS = [
         ),
     },
     {
-        "id": "S05",
-        "act": "ACT II · THE CALENDAR PROBLEM",
-        "title": "The Metonic Resonance: 19 Years = 235 Months",
-        "voice": "bm_george",
-        "lang": "en-gb",
-        "speed": 0.96,
-        "lead_in": 0.4,
-        "tail_out": 0.5,
-        "plate": "plate_03_hellenistic_workshop.jpg",
-        "scene_kind": "metonic_grid",
-        "display_text": (
-            "Twelve lunar months fall short of a solar year by nearly eleven days. "
-            "Babylonian and Greek astronomers found an almost miraculous integer resonance: "
-            "nineteen solar years equal almost exactly 235 lunar months, within two hours."
-        ),
-        "tts_text": (
-            "Twelve lunar months fall short of a solar year by nearly eleven days. "
-            "Babylonian and Greek astronomers found an almost miraculous integer resonance: "
-            "nineteen solar years equal almost exactly two hundred and thirty-five lunar months, within two hours."
-        ),
-    },
-    {
         "id": "S06",
         "act": "ACT II · THE CALENDAR PROBLEM",
-        "title": "Synodic vs. Sidereal: 235 + 19 = 254",
+        "title": "Nineteen Years, 235 Months, 254 Orbits",
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.4,
-        "tail_out": 0.7,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_03_hellenistic_workshop.jpg",
         "scene_kind": "sidereal_vector",
         "display_text": (
-            "Here is the mechanical catch. In nineteen years, the Moon completes 235 phase cycles relative to the Sun. "
-            "Because Earth itself circles the Sun nineteen times, the Moon completes 235 plus 19—or 254—orbits against the stars."
+            "Babylonian and Greek astronomers had already found the trick: 19 solar years equal almost exactly 235 lunar months. "
+            "The Moon needs 235 phase cycles against the Sun, plus Earth's own 19 orbits, to return to the same place against the stars."
         ),
         "tts_text": (
-            "Here is the mechanical catch. In nineteen years, the Moon completes two hundred and thirty-five phase cycles relative to the Sun. "
-            "Because Earth itself circles the Sun nineteen times, the Moon completes two hundred and thirty-five plus nineteen, or two hundred and fifty-four, orbits against the stars."
+            "Babylonian and Greek astronomers had already found the trick: nineteen solar years equal almost exactly two hundred and thirty-five lunar months. "
+            "The Moon needs two hundred and thirty-five phase cycles against the Sun, plus Earth's own nineteen orbits, to return to the same place against the stars."
         ),
     },
 
@@ -168,8 +146,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.5,
-        "tail_out": 0.5,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_02_fragment_a.jpg",
         "scene_kind": "prime_factorization",
         "display_text": (
@@ -190,8 +168,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.4,
-        "tail_out": 0.6,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_02_fragment_a.jpg",
         "scene_kind": "live_gear_train",
         "display_text": (
@@ -203,28 +181,6 @@ SHOTS = [
             "C two with forty-eight teeth drives D one with twenty-four; and D two with one hundred and twenty-seven teeth drives the thirty-two tooth lunar spindle E two."
         ),
     },
-    {
-        "id": "S09",
-        "act": "ACT III · THE PRIME-NUMBER GEAR TRAIN",
-        "title": "Why 2D X-Rays Hit a Wall (1974)",
-        "voice": "bm_george",
-        "lang": "en-gb",
-        "speed": 0.96,
-        "lead_in": 0.4,
-        "tail_out": 0.7,
-        "plate": "plate_02_fragment_a.jpg",
-        "scene_kind": "price_radiograph",
-        "display_text": (
-            "Multiply 64 over 38, times 48 over 24, times 127 over 32: the factors cancel to 254 over 19. "
-            "Historian Derek de Solla Price glimpsed this in 1974 using flat X-rays, "
-            "but overlapping shadows hid the deeper gears."
-        ),
-        "tts_text": (
-            "Multiply sixty-four over thirty-eight, times forty-eight over twenty-four, times one hundred and twenty-seven over thirty-two: the factors cancel to two hundred and fifty-four over nineteen. "
-            "Historian Derek de Solla Price glimpsed this in nineteen seventy-four using flat X-rays, "
-            "but overlapping shadows hid the deeper gears."
-        ),
-    },
 
     # ACT IV: EIGHT TONS OF X-RAYS
     {
@@ -234,8 +190,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.5,
-        "tail_out": 0.5,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_04_xray_tomography.jpg",
         "scene_kind": "bladerunner_rig",
         "display_text": (
@@ -254,8 +210,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.4,
-        "tail_out": 0.5,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_04_xray_tomography.jpg",
         "scene_kind": "ct_slice_scanner",
         "display_text": (
@@ -276,8 +232,8 @@ SHOTS = [
         "voice": "af_heart",
         "lang": "en-us",
         "speed": 0.95,
-        "lead_in": 0.4,
-        "tail_out": 0.7,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_04_xray_tomography.jpg",
         "scene_kind": "ptm_epigraphy",
         "display_text": (
@@ -300,8 +256,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.5,
-        "tail_out": 0.5,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_05_saros_eclipse.jpg",
         "scene_kind": "metonic_spiral_dial",
         "display_text": (
@@ -320,8 +276,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.4,
-        "tail_out": 0.5,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_05_saros_eclipse.jpg",
         "scene_kind": "saros_convergence",
         "display_text": (
@@ -340,8 +296,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.4,
-        "tail_out": 0.6,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_05_saros_eclipse.jpg",
         "scene_kind": "saros_spiral_dial",
         "display_text": (
@@ -353,26 +309,6 @@ SHOTS = [
             "and Eta for solar eclipses, while the tiny Ex-el-ig-moss dial adds zero, eight, or sixteen hours to the predicted time."
         ),
     },
-    {
-        "id": "S16",
-        "act": "ACT V · THE SAROS ECLIPSE SPIRAL",
-        "title": "Epigraphic Eclipse Forecast Readout",
-        "voice": "af_heart",
-        "lang": "en-us",
-        "speed": 0.95,
-        "lead_in": 0.4,
-        "tail_out": 0.7,
-        "plate": "plate_05_saros_eclipse.jpg",
-        "scene_kind": "eclipse_glyph_detail",
-        "display_text": (
-            "Even the color and direction of the obscured sky were cataloged on the back cover: "
-            "\"Lunar eclipse at the ninth hour; solar eclipse... winds from the east, and dark crimson light.\""
-        ),
-        "tts_text": (
-            "Even the color and direction of the obscured sky were cataloged on the back cover: "
-            "Lunar eclipse at the ninth hour; solar eclipse, winds from the east, and dark crimson light."
-        ),
-    },
 
     # ACT VI: THE PIN, THE SLOT, AND KEPLER'S MOON
     {
@@ -382,8 +318,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.5,
-        "tail_out": 0.5,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_06_clockwork_cosmos.jpg",
         "scene_kind": "lunar_ellipse_anomaly",
         "display_text": (
@@ -404,8 +340,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.4,
-        "tail_out": 0.5,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_06_clockwork_cosmos.jpg",
         "scene_kind": "pin_and_slot_sim",
         "display_text": (
@@ -418,34 +354,14 @@ SHOTS = [
         ),
     },
     {
-        "id": "S19",
-        "act": "ACT VI · THE PIN, THE SLOT & KEPLER'S MOON",
-        "title": " Oscilloscope: Sinusoidal Angular Velocity",
-        "voice": "bm_george",
-        "lang": "en-gb",
-        "speed": 0.96,
-        "lead_in": 0.4,
-        "tail_out": 0.5,
-        "plate": "plate_06_clockwork_cosmos.jpg",
-        "scene_kind": "pin_slot_oscilloscope",
-        "display_text": (
-            "As the lower gear turns at a constant rate, the effective radius of the driving pin changes continuously—"
-            "forcing the upper gear to accelerate and decelerate in a smooth harmonic wave."
-        ),
-        "tts_text": (
-            "As the lower gear turns at a constant rate, the effective radius of the driving pin changes continuously, "
-            "forcing the upper gear to accelerate and decelerate in a smooth harmonic wave."
-        ),
-    },
-    {
         "id": "S20",
         "act": "ACT VI · THE PIN, THE SLOT & KEPLER'S MOON",
         "title": "The Epicyclic Turntable on e3 (8.85-Year Precession)",
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.4,
-        "tail_out": 0.7,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_06_clockwork_cosmos.jpg",
         "scene_kind": "epicyclic_turntable",
         "display_text": (
@@ -466,8 +382,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.5,
-        "tail_out": 0.5,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_08_planetary_rings.jpg",
         "scene_kind": "ucl_venus_saturn",
         "display_text": (
@@ -486,8 +402,8 @@ SHOTS = [
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.96,
-        "lead_in": 0.4,
-        "tail_out": 0.5,
+        "lead_in": 0.16,
+        "tail_out": 0.24,
         "plate": "plate_08_planetary_rings.jpg",
         "scene_kind": "planetary_ring_cosmos",
         "display_text": (
@@ -500,34 +416,14 @@ SHOTS = [
         ),
     },
     {
-        "id": "S23",
-        "act": "ACT VII · THE LOST COSMOS & CODA",
-        "title": "What Survived and What Remained Open",
-        "voice": "bm_george",
-        "lang": "en-gb",
-        "speed": 0.96,
-        "lead_in": 0.4,
-        "tail_out": 0.5,
-        "plate": "plate_01_shipwreck.jpg",
-        "scene_kind": "historical_lineage",
-        "display_text": (
-            "Historians still debate whether the workshop stood on Rhodes in the era of Hipparchus or in the tradition of Archimedes. "
-            "Its echoes survived in Byzantine and Islamic geared astrolabes before reawakening in European clockwork."
-        ),
-        "tts_text": (
-            "Historians still debate whether the workshop stood on Rhodes in the era of Hipparkus or in the tradition of Archimedes. "
-            "Its echoes survived in Byzantine and Islamic geared astrolabes before reawakening in European clockwork."
-        ),
-    },
-    {
         "id": "S24",
         "act": "ACT VII · THE LOST COSMOS & CODA",
         "title": "Coda: The Cosmos in the Palm of a Hand",
         "voice": "bm_george",
         "lang": "en-gb",
         "speed": 0.94,
-        "lead_in": 0.5,
-        "tail_out": 2.2,
+        "lead_in": 0.16,
+        "tail_out": 1.70,
         "plate": "plate_06_clockwork_cosmos.jpg",
         "scene_kind": "coda_blueprint",
         "display_text": (
