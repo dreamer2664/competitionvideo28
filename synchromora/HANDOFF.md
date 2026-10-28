@@ -15,3 +15,10 @@
 - Five accessible sources downloaded locally at 720p; source 1 still fails YouTube age verification across six official player clients. Anonymous and independent public proxy checks did not yield it. The Director was told an authorized copy is needed. Do not substitute a different upload.
 - `edits/plan.json` contains 15 specific edit decisions and an explicit three-clip blocker. It records original source in/out seconds. `edits/source_words.json` contains *only the selected* timestamped YouTube automatic-caption tokens, with three obvious spelling corrections; machine captions require later listening/verification.
 - `assets/` contains the font and four emoji PNGs plus their licenses, so the intended look can be recovered without a font download. The remaining implementation and final outputs have not yet been delivered.
+
+## 2026-10-28 — rendering implementation
+
+- `src/render_clips.py` builds source-based vertical 720×1280 H.264/AAC clips, per-clip SRTs, burned kinetic subtitles, original synthesized sound cues, emoji and a rank-reveal layout. It consumes the tracked `edits/plan.json` and `edits/source_words.json` plus source MP4s named `<YouTube ID>.mp4` in a supplied input directory.
+- Rendered and visually reviewed a 22.8 s cannonball sample and a 55.5 s three-moment leaderboard sample. Both decoded and probed correctly; sample thumbnails showed the ranked reveal and text. Adjusted standard framing to enlarge the footage without cutting all context.
+- Automatic caption timing has not yet been verified against listening; a second, independent base.en speech-recognition pass is underway as a comparison, not proof of accuracy.
+- Next: inspect the comparison, correct clear transcription defects, render the 15 clips from the five accessible sources, validate/organize them, and publish the release. The first source remains blocked pending an authorized copy.

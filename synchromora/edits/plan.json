@@ -1,23 +1,355 @@
 {
   "version": 1,
-  "format": {"width": 720, "height": 1280, "fps": 30, "video": "H.264", "audio": "AAC"},
+  "format": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "video": "H.264",
+    "audio": "AAC"
+  },
   "caption_provenance": "YouTube English auto-captions, with a small number of obvious spelling corrections. They are not human-audio-verified.",
   "clips": [
-    {"id":"02-kai-01-worst-revive", "folder":"02_KAI_CENAT", "filename":"01_THE_WORST_REVIVE.mp4", "source":"rRSxkBGgTfw", "style":"normal", "layout":"wide", "hook":"THE WORST REVIVE", "emoji":"skull", "emoji_at":14.2, "segments":[{"in":171.6,"out":189.0}]},
-    {"id":"02-kai-02-christmas-coal", "folder":"02_KAI_CENAT", "filename":"02_CHRISTMAS_COAL.mp4", "source":"rRSxkBGgTfw", "style":"normal", "layout":"focus", "focus_x":0.5, "hook":"THE COAL APOLOGY", "emoji":"laugh", "emoji_at":7.0, "segments":[{"in":241.5,"out":262.5}]},
-    {"id":"02-kai-03-ranking", "folder":"02_KAI_CENAT", "filename":"03_RANKING_KAI_MOMENTS.mp4", "source":"rRSxkBGgTfw", "style":"ranking", "layout":"wide", "hook":"KAI CENAT", "segments":[{"in":453.1,"out":467.9,"rank":3,"label":"THE POOL DARE","emoji":"eyes"},{"in":241.5,"out":253.9,"rank":2,"label":"CHRISTMAS COAL","emoji":"laugh"},{"in":171.6,"out":188.9,"rank":1,"label":"WORST REVIVE","emoji":"skull"}]},
-    {"id":"03-jynxzi-2026-01-dad", "folder":"03_JYNXZI_2026", "filename":"01_DADS_BIG_MOMENT.mp4", "source":"IpAjsMJKBvk", "style":"normal", "layout":"wide", "hook":"HIS DAD WAS WATCHING", "emoji":"laugh", "emoji_at":9.8, "segments":[{"in":40.3,"out":56.5}]},
-    {"id":"03-jynxzi-2026-02-403-days", "folder":"03_JYNXZI_2026", "filename":"02_403_DAYS.mp4", "source":"IpAjsMJKBvk", "style":"normal", "layout":"wide", "hook":"HOW MANY DAYS?!", "emoji":"skull", "emoji_at":19.2, "segments":[{"in":539.0,"out":559.8}]},
-    {"id":"03-jynxzi-2026-03-ranking", "folder":"03_JYNXZI_2026", "filename":"03_RANKING_JYNXZI_2026.mp4", "source":"IpAjsMJKBvk", "style":"ranking", "layout":"wide", "hook":"JYNXZI", "segments":[{"in":369.3,"out":379.9,"rank":3,"label":"NOT BAD, KID","emoji":"fire"},{"in":40.3,"out":56.5,"rank":2,"label":"DAD'S REACTION","emoji":"laugh"},{"in":539.0,"out":559.8,"rank":1,"label":"403 DAYS","emoji":"skull"}]},
-    {"id":"04-jynxzi-01-chat-request", "folder":"04_JYNXZI_LIVE", "filename":"01_THE_CHAT_REQUEST.mp4", "source":"G0fg27HzFTE", "style":"normal", "layout":"wide", "hook":"CHAT WON'T STOP ASKING", "emoji":"laugh", "emoji_at":6.9, "segments":[{"in":215.7,"out":240.0}]},
-    {"id":"04-jynxzi-02-time-zone", "folder":"04_JYNXZI_LIVE", "filename":"02_IS_THIS_LIVE.mp4", "source":"G0fg27HzFTE", "style":"normal", "layout":"wide", "hook":"IS THIS LIVE?", "emoji":"skull", "emoji_at":19.4, "segments":[{"in":446.1,"out":469.0}]},
-    {"id":"04-jynxzi-03-ranking", "folder":"04_JYNXZI_LIVE", "filename":"03_RANKING_JYNXZI_LIVE.mp4", "source":"G0fg27HzFTE", "style":"ranking", "layout":"wide", "hook":"JYNXZI", "segments":[{"in":123.9,"out":140.3,"rank":3,"label":"BANDIT EXPERT","emoji":"eyes"},{"in":321.0,"out":340.8,"rank":2,"label":"THE DANGER","emoji":"fire"},{"in":446.1,"out":469.0,"rank":1,"label":"IS THIS LIVE?","emoji":"skull"}]},
-    {"id":"05-jokers-01-cannonball", "folder":"05_IMPRACTICAL_JOKERS", "filename":"01_THE_CANNONBALL.mp4", "source":"zzRhEQ6nX2A", "style":"normal", "layout":"wide", "hook":"THE CANNONBALL", "emoji":"laugh", "emoji_at":15.5, "segments":[{"in":27.0,"out":49.8}]},
-    {"id":"05-jokers-02-count-to-five", "folder":"05_IMPRACTICAL_JOKERS", "filename":"02_COUNT_TO_FIVE.mp4", "source":"zzRhEQ6nX2A", "style":"normal", "layout":"wide", "hook":"COUNT TO FIVE...", "emoji":"laugh", "emoji_at":10.9, "segments":[{"in":232.0,"out":249.5}]},
-    {"id":"05-jokers-03-ranking", "folder":"05_IMPRACTICAL_JOKERS", "filename":"03_RANKING_JOKER_MOMENTS.mp4", "source":"zzRhEQ6nX2A", "style":"ranking", "layout":"wide", "hook":"JOKERS", "segments":[{"in":381.1,"out":400.0,"rank":3,"label":"SMELL THIS","emoji":"eyes"},{"in":29.0,"out":49.8,"rank":2,"label":"CANNONBALL","emoji":"laugh"},{"in":233.7,"out":249.5,"rank":1,"label":"COUNT TO FIVE","emoji":"skull"}]},
-    {"id":"06-ronaldo-01-streamer-university", "folder":"06_STABLE_RONALDO", "filename":"01_STREAMER_UNIVERSITY.mp4", "source":"EajXaGkDweA", "style":"normal", "layout":"wide", "hook":"STREAMER UNIVERSITY?", "emoji":"skull", "emoji_at":10.7, "segments":[{"in":5.0,"out":15.8}]},
-    {"id":"06-ronaldo-02-dance-degree", "folder":"06_STABLE_RONALDO", "filename":"02_THE_DANCE_DEGREE.mp4", "source":"EajXaGkDweA", "style":"normal", "layout":"wide", "hook":"A DEGREE IN DANCE?", "emoji":"laugh", "emoji_at":7.2, "segments":[{"in":94.4,"out":110.5}]},
-    {"id":"06-ronaldo-03-ranking", "folder":"06_STABLE_RONALDO", "filename":"03_RANKING_RONALDO_MOMENTS.mp4", "source":"EajXaGkDweA", "style":"ranking", "layout":"wide", "hook":"RONALDO", "segments":[{"in":299.0,"out":311.5,"rank":3,"label":"TIME ZONES","emoji":"eyes"},{"in":60.3,"out":81.5,"rank":2,"label":"SOMEONE BIGGER","emoji":"laugh"},{"in":5.0,"out":15.8,"rank":1,"label":"STREAMER SCHOOL","emoji":"skull"}]}
+    {
+      "id": "02-kai-01-worst-revive",
+      "folder": "02_KAI_CENAT",
+      "filename": "01_THE_WORST_REVIVE.mp4",
+      "source": "rRSxkBGgTfw",
+      "style": "normal",
+      "layout": "wide",
+      "hook": "THE WORST REVIVE",
+      "emoji": "skull",
+      "emoji_at": 14.2,
+      "segments": [
+        {
+          "in": 171.6,
+          "out": 189.0
+        }
+      ],
+      "focus_x": 0.03
+    },
+    {
+      "id": "02-kai-02-christmas-coal",
+      "folder": "02_KAI_CENAT",
+      "filename": "02_CHRISTMAS_COAL.mp4",
+      "source": "rRSxkBGgTfw",
+      "style": "normal",
+      "layout": "focus",
+      "focus_x": 0.5,
+      "hook": "THE COAL APOLOGY",
+      "emoji": "laugh",
+      "emoji_at": 7.0,
+      "segments": [
+        {
+          "in": 241.5,
+          "out": 262.5
+        }
+      ]
+    },
+    {
+      "id": "02-kai-03-ranking",
+      "folder": "02_KAI_CENAT",
+      "filename": "03_RANKING_KAI_MOMENTS.mp4",
+      "source": "rRSxkBGgTfw",
+      "style": "ranking",
+      "layout": "wide",
+      "hook": "KAI CENAT",
+      "segments": [
+        {
+          "in": 453.1,
+          "out": 467.9,
+          "rank": 3,
+          "label": "THE POOL DARE",
+          "emoji": "eyes"
+        },
+        {
+          "in": 241.5,
+          "out": 253.9,
+          "rank": 2,
+          "label": "CHRISTMAS COAL",
+          "emoji": "laugh"
+        },
+        {
+          "in": 171.6,
+          "out": 188.9,
+          "rank": 1,
+          "label": "WORST REVIVE",
+          "emoji": "skull"
+        }
+      ]
+    },
+    {
+      "id": "03-jynxzi-2026-01-dad",
+      "folder": "03_JYNXZI_2026",
+      "filename": "01_DADS_BIG_MOMENT.mp4",
+      "source": "IpAjsMJKBvk",
+      "style": "normal",
+      "layout": "wide",
+      "hook": "HIS DAD WAS WATCHING",
+      "emoji": "laugh",
+      "emoji_at": 9.8,
+      "segments": [
+        {
+          "in": 40.3,
+          "out": 56.5
+        }
+      ]
+    },
+    {
+      "id": "03-jynxzi-2026-02-403-days",
+      "folder": "03_JYNXZI_2026",
+      "filename": "02_403_DAYS.mp4",
+      "source": "IpAjsMJKBvk",
+      "style": "normal",
+      "layout": "wide",
+      "hook": "HOW MANY DAYS?!",
+      "emoji": "skull",
+      "emoji_at": 19.2,
+      "segments": [
+        {
+          "in": 539.0,
+          "out": 559.8
+        }
+      ]
+    },
+    {
+      "id": "03-jynxzi-2026-03-ranking",
+      "folder": "03_JYNXZI_2026",
+      "filename": "03_RANKING_JYNXZI_2026.mp4",
+      "source": "IpAjsMJKBvk",
+      "style": "ranking",
+      "layout": "wide",
+      "hook": "JYNXZI",
+      "segments": [
+        {
+          "in": 369.3,
+          "out": 379.9,
+          "rank": 3,
+          "label": "NOT BAD, KID",
+          "emoji": "fire"
+        },
+        {
+          "in": 40.3,
+          "out": 56.5,
+          "rank": 2,
+          "label": "DAD'S REACTION",
+          "emoji": "laugh"
+        },
+        {
+          "in": 539.0,
+          "out": 559.8,
+          "rank": 1,
+          "label": "403 DAYS",
+          "emoji": "skull"
+        }
+      ]
+    },
+    {
+      "id": "04-jynxzi-01-chat-request",
+      "folder": "04_JYNXZI_LIVE",
+      "filename": "01_THE_CHAT_REQUEST.mp4",
+      "source": "G0fg27HzFTE",
+      "style": "normal",
+      "layout": "wide",
+      "hook": "CHAT WON'T STOP ASKING",
+      "emoji": "laugh",
+      "emoji_at": 6.9,
+      "segments": [
+        {
+          "in": 215.7,
+          "out": 240.0
+        }
+      ],
+      "focus_x": 0.03
+    },
+    {
+      "id": "04-jynxzi-02-time-zone",
+      "folder": "04_JYNXZI_LIVE",
+      "filename": "02_IS_THIS_LIVE.mp4",
+      "source": "G0fg27HzFTE",
+      "style": "normal",
+      "layout": "wide",
+      "hook": "IS THIS LIVE?",
+      "emoji": "skull",
+      "emoji_at": 19.4,
+      "segments": [
+        {
+          "in": 446.1,
+          "out": 469.0
+        }
+      ],
+      "focus_x": 0.03
+    },
+    {
+      "id": "04-jynxzi-03-ranking",
+      "folder": "04_JYNXZI_LIVE",
+      "filename": "03_RANKING_JYNXZI_LIVE.mp4",
+      "source": "G0fg27HzFTE",
+      "style": "ranking",
+      "layout": "wide",
+      "hook": "JYNXZI",
+      "segments": [
+        {
+          "in": 123.9,
+          "out": 140.3,
+          "rank": 3,
+          "label": "BANDIT EXPERT",
+          "emoji": "eyes"
+        },
+        {
+          "in": 321.0,
+          "out": 340.8,
+          "rank": 2,
+          "label": "THE DANGER",
+          "emoji": "fire"
+        },
+        {
+          "in": 446.1,
+          "out": 469.0,
+          "rank": 1,
+          "label": "IS THIS LIVE?",
+          "emoji": "skull"
+        }
+      ]
+    },
+    {
+      "id": "05-jokers-01-cannonball",
+      "folder": "05_IMPRACTICAL_JOKERS",
+      "filename": "01_THE_CANNONBALL.mp4",
+      "source": "zzRhEQ6nX2A",
+      "style": "normal",
+      "layout": "wide",
+      "hook": "THE CANNONBALL",
+      "emoji": "laugh",
+      "emoji_at": 15.5,
+      "segments": [
+        {
+          "in": 27.0,
+          "out": 49.8
+        }
+      ],
+      "focus_x": 0.38
+    },
+    {
+      "id": "05-jokers-02-count-to-five",
+      "folder": "05_IMPRACTICAL_JOKERS",
+      "filename": "02_COUNT_TO_FIVE.mp4",
+      "source": "zzRhEQ6nX2A",
+      "style": "normal",
+      "layout": "wide",
+      "hook": "COUNT TO FIVE...",
+      "emoji": "laugh",
+      "emoji_at": 10.9,
+      "segments": [
+        {
+          "in": 232.0,
+          "out": 249.5
+        }
+      ]
+    },
+    {
+      "id": "05-jokers-03-ranking",
+      "folder": "05_IMPRACTICAL_JOKERS",
+      "filename": "03_RANKING_JOKER_MOMENTS.mp4",
+      "source": "zzRhEQ6nX2A",
+      "style": "ranking",
+      "layout": "wide",
+      "hook": "JOKERS",
+      "segments": [
+        {
+          "in": 381.1,
+          "out": 400.0,
+          "rank": 3,
+          "label": "SMELL THIS",
+          "emoji": "eyes"
+        },
+        {
+          "in": 29.0,
+          "out": 49.8,
+          "rank": 2,
+          "label": "CANNONBALL",
+          "emoji": "laugh"
+        },
+        {
+          "in": 233.7,
+          "out": 249.5,
+          "rank": 1,
+          "label": "COUNT TO FIVE",
+          "emoji": "skull"
+        }
+      ]
+    },
+    {
+      "id": "06-ronaldo-01-streamer-university",
+      "folder": "06_STABLE_RONALDO",
+      "filename": "01_STREAMER_UNIVERSITY.mp4",
+      "source": "EajXaGkDweA",
+      "style": "normal",
+      "layout": "wide",
+      "hook": "STREAMER UNIVERSITY?",
+      "emoji": "skull",
+      "emoji_at": 10.7,
+      "segments": [
+        {
+          "in": 5.0,
+          "out": 15.8
+        }
+      ]
+    },
+    {
+      "id": "06-ronaldo-02-dance-degree",
+      "folder": "06_STABLE_RONALDO",
+      "filename": "02_THE_DANCE_DEGREE.mp4",
+      "source": "EajXaGkDweA",
+      "style": "normal",
+      "layout": "wide",
+      "hook": "A DEGREE IN DANCE?",
+      "emoji": "laugh",
+      "emoji_at": 7.2,
+      "segments": [
+        {
+          "in": 94.4,
+          "out": 110.5
+        }
+      ]
+    },
+    {
+      "id": "06-ronaldo-03-ranking",
+      "folder": "06_STABLE_RONALDO",
+      "filename": "03_RANKING_RONALDO_MOMENTS.mp4",
+      "source": "EajXaGkDweA",
+      "style": "ranking",
+      "layout": "wide",
+      "hook": "RONALDO",
+      "segments": [
+        {
+          "in": 299.0,
+          "out": 311.5,
+          "rank": 3,
+          "label": "TIME ZONES",
+          "emoji": "eyes"
+        },
+        {
+          "in": 60.3,
+          "out": 81.5,
+          "rank": 2,
+          "label": "SOMEONE BIGGER",
+          "emoji": "laugh"
+        },
+        {
+          "in": 5.0,
+          "out": 15.8,
+          "rank": 1,
+          "label": "STREAMER SCHOOL",
+          "emoji": "skull"
+        }
+      ]
+    }
   ],
-  "blocked": [{"source":"FDRUMXwb4mg", "reason":"YouTube age-restricted; an authorized source file or age-verified access is required", "remaining_clips":3}]
+  "blocked": [
+    {
+      "source": "FDRUMXwb4mg",
+      "reason": "YouTube age-restricted; an authorized source file or age-verified access is required",
+      "remaining_clips": 3
+    }
+  ]
 }
