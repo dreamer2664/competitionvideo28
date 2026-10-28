@@ -21,7 +21,7 @@ def bathymetry_dive(img, shot, u, t, tl):
     bg = plate_frame(shot["plate"], zoom=lerp(1.16, 1.04, ease_out(u)), pan=(pan_x, 0.02), dim=0.30, tint=(4, 16, 24))
     img.paste(bg)
 
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # sonar sweep
     cx, cy = 1560, 300
@@ -47,7 +47,7 @@ def bathymetry_dive(img, shot, u, t, tl):
     # diver marker
     d.polygon([(rx - 13, dy - 9), (rx + 3, dy), (rx - 13, dy + 9)], fill=GOLD)
     glow_ellipse(img, rx, dy, 22, 22, GOLD, alpha=0.30, blur=16)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     panel(d, (108, dy - 26, 372, dy + 26), radius=8, fill=(6, 12, 18, 220), outline=(190, 150, 92, 90))
     text(d, (126, dy), "DEPTH", font("mono_md", 17), MUTED, anchor="lm", alpha=0.8, tracking=2)
@@ -75,7 +75,7 @@ def bathymetry_dive(img, shot, u, t, tl):
 def museum_discovery(img, shot, u, t, tl):
     bg = plate_frame(shot["plate"], zoom=lerp(1.10, 1.02, ease_in_out(u)), pan=(-0.06, -0.02), dim=0.52, tint=(10, 9, 8))
     img.paste(bg)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # magnifier: circular lens that drifts onto the lump
     lens_r = 210
@@ -92,7 +92,7 @@ def museum_discovery(img, shot, u, t, tl):
     mask = Image.new("L", (lens_r * 2, lens_r * 2), 0)
     ImageDraw.Draw(mask).ellipse((0, 0, lens_r * 2 - 1, lens_r * 2 - 1), fill=255)
     img.paste(crop, (int(lx - lens_r), int(ly - lens_r)), mask)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     d.ellipse((lx - lens_r, ly - lens_r, lx + lens_r, ly + lens_r), outline=with_alpha(GOLD, 0.85), width=3)
     d.ellipse((lx - lens_r - 8, ly - lens_r - 8, lx + lens_r + 8, ly + lens_r + 8), outline=with_alpha(GOLD, 0.22), width=1)
     # crosshair
@@ -134,14 +134,14 @@ def museum_discovery(img, shot, u, t, tl):
 def title_lockup(img, shot, u, t, tl):
     bg = plate_frame("plate_06_clockwork_cosmos.jpg", zoom=lerp(1.28, 1.12, ease_out(u)), dim=0.58, blur=3.0)
     img.paste(bg)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     star_field(d, t, count=90, seed=11, alpha=0.5, y_max=H)
 
     # giant slow gear behind the type
     ang = t * 2.2
     paste_gear(img, 300, 223, 1430, 520, ang, palette="dark", spokes=6, alpha=0.55)
     paste_gear(img, 190, 127, 1290, 640, -ang * 1.76, palette="dark", spokes=5, alpha=0.45)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # light sweep
     sweep = -400 + 3200 * ease_in_out(between(u, 0.12, 0.72))
@@ -182,7 +182,7 @@ def title_lockup(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S04
 def calendar_drift(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # left: solar year ring
     sx, sy, sr = 470, 520, 196
@@ -194,7 +194,7 @@ def calendar_drift(img, shot, u, t, tl):
                fill=with_alpha(BRONZE, 0.30 if i % 30 else 0.7), width=1)
     sa = -math.pi / 2 + u * 2 * math.pi * 1.0
     glow_ellipse(img, sx + sr * math.cos(sa), sy + sr * math.sin(sa), 26, 26, GOLD, 0.5, 18)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     d.ellipse((sx + sr * math.cos(sa) - 16, sy + sr * math.sin(sa) - 16,
                sx + sr * math.cos(sa) + 16, sy + sr * math.sin(sa) + 16), fill=GOLD)
     text(d, (sx, sy - 30), "365.2422", font("mono_sb", 44), PARCHMENT, anchor="mm")
@@ -247,7 +247,7 @@ def calendar_drift(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S05
 def metonic_grid(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     cols, rows = 19, 13
     x0, y0 = 300, 330
@@ -301,12 +301,12 @@ def metonic_grid(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S06
 def sidereal_vector(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     sun = (700, 560)
     # sun
     glow_ellipse(img, sun[0], sun[1], 46, 46, GOLD, 0.55, 34)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     d.ellipse((sun[0] - 34, sun[1] - 34, sun[0] + 34, sun[1] + 34), fill=(252, 214, 128))
     text(d, (sun[0], sun[1] + 62), "SUN", font("mono", 17), GOLD, anchor="mm", tracking=3)
 
@@ -362,7 +362,7 @@ def sidereal_vector(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S07
 def prime_factorization(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # left: the fraction
     fx = 330
@@ -373,14 +373,14 @@ def prime_factorization(img, shot, u, t, tl):
 
     # factor tree
     a1 = smooth(between(u, 0.10, 0.28))
-    d.line([(fx + 96, 340), (fx + 210, 300)], fill=with_alpha(BRONZE_LIGHT, 0.6 * a1), width=2)
-    d.line([(fx + 96, 340), (fx + 210, 390)], fill=with_alpha(BRONZE_LIGHT, 0.6 * a1), width=2)
-    text(d, (fx + 226, 300), "2", font("mono_sb", 52), PATINA_LIGHT, anchor="lm", alpha=a1)
-    text(d, (fx + 226, 390), "127", font("mono_sb", 52), GOLD, anchor="lm", alpha=smooth(between(u, 0.16, 0.34)))
-    text(d, (fx + 330, 390), "PRIME", font("mono", 15), CRIMSON, anchor="lm", tracking=2, alpha=smooth(between(u, 0.20, 0.38)))
+    d.line([(fx + 96, 340), (fx + 176, 296)], fill=with_alpha(BRONZE_LIGHT, 0.6 * a1), width=2)
+    d.line([(fx + 96, 340), (fx + 176, 392)], fill=with_alpha(BRONZE_LIGHT, 0.6 * a1), width=2)
+    text(d, (fx + 190, 292), "2", font("mono_sb", 50), PATINA_LIGHT, anchor="lm", alpha=a1)
+    text(d, (fx + 190, 394), "127", font("mono_sb", 50), GOLD, anchor="lm", alpha=smooth(between(u, 0.16, 0.34)))
+    text(d, (fx + 190, 436), "PRIME", font("mono", 14), CRIMSON, anchor="lm", tracking=2, alpha=smooth(between(u, 0.20, 0.38)))
 
     a2 = smooth(between(u, 0.24, 0.42))
-    text(d, (fx + 226, 520), "19 is already prime", font("mono_md", 22), MUTED, alpha=0.85 * a2)
+    text(d, (fx - 60, 540), "19 is already prime", font("mono_md", 22), MUTED, alpha=0.85 * a2)
 
     # the buildable chain
     chain = [
@@ -388,20 +388,20 @@ def prime_factorization(img, shot, u, t, tl):
         ("48", "24", "c2 → d1", 0.46),
         ("127", "32", "d2 → e2", 0.58),
     ]
-    bx = 640
+    bx = 800
     for i, (n1, n2, lab, t0) in enumerate(chain):
         a = smooth(between(u, t0, t0 + 0.14))
-        x = bx + i * 400
+        x = bx + i * 350
         y = 470
         panel(d, (x - 120, y - 90, x + 120, y + 90), radius=14, fill=(9, 14, 21, int(210 * a)),
               outline=(190, 150, 92, int(90 * a)))
         paste_gear(img, 54, int(n1), x - 50, y - 16, t * 12 * (1 if i % 2 == 0 else -1), "bronze", 4, alpha=a)
         paste_gear(img, 42, int(n2), x + 52, y + 34, -t * 12, "patina", 4, alpha=a)
-        d = ImageDraw.Draw(img, "RGBA")
+        d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
         text(d, (x, y + 62), lab, font("mono_md", 17), MUTED, anchor="mm", alpha=a, tracking=2)
         text(d, (x, y - 60), f"{n1}/{n2}", font("mono_sb", 22), GOLD, anchor="mm", alpha=a)
         if i < 2:
-            arrow(d, (x + 132, y), (x + 262, y), c=BRONZE_LIGHT, width=2, head=11, alpha=0.6 * a)
+            arrow(d, (x + 128, y), (x + 214, y), c=BRONZE_LIGHT, width=2, head=11, alpha=0.6 * a)
 
     # product line
     a3 = smooth(between(u, 0.66, 0.86))
@@ -418,7 +418,7 @@ def prime_factorization(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S08
 def live_gear_train(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # ---- exact train geometry
     b2 = dict(cx=336, cy=600, r=112, n=64)
@@ -439,7 +439,7 @@ def live_gear_train(img, shot, u, t, tl):
     for g, th, pal in ((b2, th_b2, "bronze"), (c2, th_c2, "dark"), (c1, th_c1, "bronze"),
                        (d2, th_d2, "patina"), (d1, th_d1, "bronze"), (e2, th_e2, "bronze")):
         paste_gear(img, g["r"], g["n"], g["cx"], g["cy"], th, pal, 4)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # axle lines + labels
     labels = [

@@ -18,7 +18,7 @@ from render_kit import (
 # ------------------------------------------------------------------ S17
 def lunar_ellipse_anomaly(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     cx, cy = 760, 540
     a_ax, b_ax = 400, 300
@@ -28,7 +28,7 @@ def lunar_ellipse_anomaly(img, shot, u, t, tl):
     c = math.sqrt(a_ax ** 2 - b_ax ** 2)
     ex, ey = cx + c, cy
     glow_ellipse(img, ex, ey, 30, 30, CYAN, 0.45, 22)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     d.ellipse((ex - 18, ey - 18, ex + 18, ey + 18), fill=(74, 148, 196), outline=(180, 226, 248))
     text(d, (ex + 28, ey + 30), "EARTH", font("mono", 14), CYAN, tracking=2, alpha=0.8)
 
@@ -64,7 +64,7 @@ def lunar_ellipse_anomaly(img, shot, u, t, tl):
     trail_start = max(0, idx - 60)
     d.line(pts[trail_start:idx + 1], fill=with_alpha(GOLD, 0.95), width=4)
     glow_ellipse(img, mx, my, 22, 22, GOLD, 0.4, 16)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     d.ellipse((mx - 12, my - 12, mx + 12, my + 12), fill=(242, 240, 232))
 
     # live angular speed readout
@@ -106,7 +106,7 @@ def lunar_ellipse_anomaly(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S18
 def pin_and_slot_sim(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     cx, cy = 700, 560
     r_k1, r_k2 = 250, 210
@@ -117,7 +117,7 @@ def pin_and_slot_sim(img, shot, u, t, tl):
 
     # gear k2 (upper, slotted) behind
     paste_gear(img, r_k2, 50, cx, cy, math.degrees(theta2), "patina", 5)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # the radial slot cut into k2
     slot_len = r_k2 * 0.92
@@ -129,7 +129,7 @@ def pin_and_slot_sim(img, shot, u, t, tl):
     # gear k1 (lower, eccentric axle) — drawn semi transparent so the offset reads
     k1cx, k1cy = cx + ecc_px, cy
     paste_gear(img, r_k1, 50, k1cx, k1cy, math.degrees(theta1), "bronze", 5, alpha=0.34)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # the two axles, and the offset between them
     d.ellipse((cx - 6, cy - 6, cx + 6, cy + 6), fill=(240, 240, 235))
@@ -144,15 +144,17 @@ def pin_and_slot_sim(img, shot, u, t, tl):
     px = k1cx + pin_r * math.cos(theta1)
     py = k1cy + pin_r * math.sin(theta1)
     glow_ellipse(img, px, py, 16, 16, GOLD, 0.6, 14)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     d.ellipse((px - 9, py - 9, px + 9, py + 9), fill=GOLD, outline=(255, 255, 240), width=2)
 
     # highlight the engaged radius along the slot
     d.line([(cx, cy), (px, py)], fill=with_alpha(GOLD, 0.45), width=2)
 
     # labels
-    text(d, (k1cx, k1cy + r_k1 + 26), "k1 · 50 teeth · DRIVER", font("mono_md", 17), GOLD, anchor="mm", tracking=2)
-    text(d, (cx, cy - r_k2 - 30), "k2 · 50 teeth · SLOTTED", font("mono_md", 17), PATINA_LIGHT, anchor="mm", tracking=2)
+    panel(d, (k1cx - 190, k1cy + r_k1 + 12, k1cx + 190, k1cy + r_k1 + 52), radius=8, fill=(6, 10, 16, 215), outline=(190, 150, 92, 70))
+    text(d, (k1cx, k1cy + r_k1 + 32), "k1 · 50 teeth · DRIVER", font("mono_md", 16), GOLD, anchor="mm", tracking=2)
+    panel(d, (cx - 190, cy - r_k2 - 56, cx + 190, cy - r_k2 - 16), radius=8, fill=(6, 10, 16, 215), outline=(120, 200, 180, 70))
+    text(d, (cx, cy - r_k2 - 36), "k2 · 50 teeth · SLOTTED", font("mono_md", 16), PATINA_LIGHT, anchor="mm", tracking=2)
 
     # readouts
     panel(d, (1180, 300, 1824, 620), radius=14, fill=(8, 13, 20, 218), outline=(190, 150, 92, 80))
@@ -186,7 +188,7 @@ def pin_and_slot_sim(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S19
 def pin_slot_oscilloscope(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # scope panel
     ox, oy, ow, oh = 200, 260, 1120, 460
@@ -219,7 +221,7 @@ def pin_slot_oscilloscope(img, shot, u, t, tl):
     _, r_now, deg = solve_pin_and_slot(math.radians(cur), ecc_ratio=0.21)
     phy = oy + oh / 2 - (r_now - 1.0) * 620
     glow_ellipse(img, phx, phy, 14, 14, GOLD, 0.5, 12)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     d.ellipse((phx - 7, phy - 7, phx + 7, phy + 7), fill=GOLD)
 
     text(d, (ox + 14, oy + 12), "ω2 / ω1   ·   ONE TURN OF k1", font("greek", 16), CYAN, tracking=2, alpha=0.8)
@@ -251,12 +253,12 @@ def pin_slot_oscilloscope(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S20
 def epicyclic_turntable(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     cx, cy = 760, 560
     # the great e3 turntable
     paste_gear(img, 330, 223, cx, cy, t * 4.0, "dark", 6, alpha=0.9)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     d.ellipse((cx - 250, cy - 250, cx + 250, cy + 250), outline=with_alpha(BRONZE, 0.25), width=1)
 
     # the k-pair riding on the turntable, off centre
@@ -268,10 +270,11 @@ def epicyclic_turntable(img, shot, u, t, tl):
     theta2, _, _ = solve_pin_and_slot(theta1, 0.21)
     paste_gear(img, 86, 50, kx, ky, math.degrees(theta1), "bronze", 4, alpha=0.95)
     paste_gear(img, 74, 50, kx + 16, ky, math.degrees(theta2), "patina", 4, alpha=0.92)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     d.ellipse((kx - 5, ky - 5, kx + 5, ky + 5), fill=(240, 240, 235))
 
-    text(d, (kx, ky + 108), "k1 / k2", font("mono_md", 16), GOLD, anchor="mm", tracking=2)
+    panel(d, (kx - 58, ky + 96, kx + 58, ky + 130), radius=7, fill=(6, 10, 16, 220), outline=(190, 150, 92, 80))
+    text(d, (kx, ky + 113), "k1 / k2", font("mono_md", 15), GOLD, anchor="mm", tracking=2)
 
     # line of apsides
     apogee_ang = ti
@@ -320,7 +323,7 @@ def epicyclic_turntable(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S21
 def ucl_venus_saturn(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     text(d, (W / 2, 236), "THE FRONT PLATE · DECODED 2021", font("mono_md", 19), CYAN, anchor="mm", tracking=4, alpha=0.9)
     hairline(d, W / 2 - 260, 268, W / 2 + 260, 268, CYAN, 0.35)
@@ -368,7 +371,7 @@ def ucl_venus_saturn(img, shot, u, t, tl):
 def planetary_ring_cosmos(img, shot, u, t, tl):
     bg = plate_frame("plate_08_planetary_rings.jpg", zoom=lerp(1.22, 1.05, ease_out(u)), dim=0.52, blur=1.4)
     img.paste(bg)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     cx, cy = 760, 560
     planets = [
@@ -428,12 +431,13 @@ def planetary_ring_cosmos(img, shot, u, t, tl):
 def historical_lineage(img, shot, u, t, tl):
     bg = plate_frame(shot["plate"], zoom=lerp(1.18, 1.06, ease_out(u)), dim=0.66, tint=(6, 14, 22), blur=1.2)
     img.paste(bg)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     band = Image.new("RGBA", img.size, (0, 0, 0, 0))
-    ImageDraw.Draw(band).rectangle((150, 470, 1770, 760), fill=(4, 8, 13, 190))
-    img.alpha_composite(band.filter(ImageFilter.GaussianBlur(46)))
-    d = ImageDraw.Draw(img, "RGBA")
+    ImageDraw.Draw(band, "RGBA").rectangle((150, 470, 1770, 760), fill=(4, 8, 13, 190))
+    band = band.filter(ImageFilter.GaussianBlur(46))
+    img.paste(band, (0, 0), band)
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     x0, x1, y = 200, 1720, 640
     d.line([(x0, y), (x1, y)], fill=with_alpha(PARCHMENT, 0.35), width=2)
@@ -482,7 +486,7 @@ def historical_lineage(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S24
 def coda_blueprint(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     star_field(d, t, count=120, seed=21, alpha=0.55)
 
     # 30 wheels assembling out of the dark
@@ -499,30 +503,32 @@ def coda_blueprint(img, shot, u, t, tl):
         size = lerp(14, 18 + 150 / (2 + i * 0.5), build)
         a = clamp(build * 1.4 - i * 0.014)
         paste_gear(img, size, teeth, x, y, t * (8 + i % 5) * (1 if i % 2 == 0 else -1), "bronze", 4, alpha=a * 0.9)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # luminous core
     glow_ellipse(img, cx, cy, 90, 90, GOLD, 0.16 * build, 60)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # scrim so the type never fights the wheel cluster
     scrim = Image.new("RGBA", img.size, (0, 0, 0, 0))
     sd = ImageDraw.Draw(scrim)
     sd.ellipse((240, 150, 1680, 430), fill=(4, 7, 11, 206))
     scrim = scrim.filter(ImageFilter.GaussianBlur(70))
-    img.alpha_composite(scrim)
-    d = ImageDraw.Draw(img, "RGBA")
+    img.paste(scrim, (0, 0), scrim)
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # closing card
     a1 = smooth(between(u, 0.56, 0.76))
     a2 = smooth(between(u, 0.66, 0.86))
-    text(d, (W / 2, 268), "THIRTY BRONZE WHEELS", font("display", 76), PARCHMENT, anchor="mm", alpha=a1, tracking=4)
-    text(d, (W / 2, 344), "a machine built to make the sky legible", font("sans_md", 27), BRONZE_LIGHT, anchor="mm", alpha=a2)
+    text(d, (W / 2, 250), "THIRTY BRONZE WHEELS", font("display", 62), PARCHMENT, anchor="mm", alpha=a1, tracking=3)
+    text(d, (W / 2, 310), "a machine built to make the sky legible", font("sans_md", 24), BRONZE_LIGHT, anchor="mm", alpha=a2)
 
     a3 = smooth(between(u, 0.62, 0.80))
-    panel(d, (470, 806, 1450, 900), radius=12, fill=(6, 10, 15, 200), outline=(190, 150, 92, 60))
-    text(d, (W / 2, 838), "CHRONOSCOPE  ·  2026", font("mono_md", 20), GOLD, anchor="mm", tracking=5, alpha=a3)
-    text(d, (W / 2, 872), "written, drawn and scored by code  ·  sources in SOURCES.md", font("mono", 15),
+    if a3 > 0.02:
+        panel(d, (470, 900, 1450, 992), radius=12,
+              fill=(6, 10, 15, int(248 * a3)), outline=(190, 150, 92, int(70 * a3)))
+    text(d, (W / 2, 932), "CHRONOSCOPE  ·  2026", font("mono_md", 20), GOLD, anchor="mm", tracking=5, alpha=a3)
+    text(d, (W / 2, 966), "written, drawn and scored by code  ·  sources in SOURCES.md", font("mono", 15),
          MUTED, anchor="mm", alpha=0.8 * a3)
 
     act_header(d, shot["act"], shot["title"], shot["index"] + 1, len(tl["shots"]), alpha_for(u, 0, 0.55, 0.1))

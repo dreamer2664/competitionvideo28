@@ -96,17 +96,16 @@ def living_layer(img, f, shot):
     fff = -(inv - 1.0) * H / 2 + dy
     img = img.transform((W, H), Image.AFFINE, (a, 0, c, 0, e, fff), resample=Image.BILINEAR)
 
-    # 2. drifting light band (quarter-res sprite, upscaled)
-    sp = _light_layer()
-    lx = (f * 1.9) % (W + 900) - 450
-    light = sp.resize((520, 420), Image.BILINEAR).convert("RGBA")
-    halo = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    halo.alpha_composite(light, (int(max(-260, min(W + 260, lx))), int(H * 0.18)))
-    img = Image.alpha_composite(img.convert("RGBA"), halo)
+    # 2. drifting light band (sprite upscaled, pasted with its alpha as mask)
+    sp = _light_layer().resize((520, 420), Image.BILINEAR)
+    lx = int(max(-300, min(W + 60, (f * 1.9) % (W + 900) - 450)))
+    base_img = img.convert("RGB")
+    base_img.paste(sp, (lx, int(H * 0.18)), sp)
+    img = base_img
 
     # 3. animated grain, blended at low amplitude
     g = _grain_bank()[(f // 2) % 6].resize((W, H), Image.BILINEAR)
-    return Image.blend(img.convert("RGB"), g, 0.045)
+    return Image.blend(img, g, 0.045)
 
 
 def render_frame(f, tl):
@@ -114,7 +113,7 @@ def render_frame(f, tl):
     t = (f - s["frame_start"]) / float(FPS)
     t = min(max(t, 0.0), s["duration"] - 1e-4)
     u = t / max(s["duration"], 1e-6)
-    img = Image.new("RGBA", (W, H), (0, 0, 0, 255))
+    img = Image.new("RGB", (W, H), (0, 0, 0))
     fn = REGISTRY[s["scene_kind"]]
     img = fn(img, s, u, t, tl)
     if img.mode != "RGB":

@@ -173,6 +173,22 @@ def plate_frame(name, zoom=1.0, pan=(0.0, 0.0), dim=0.42, tint=(6, 9, 14), blur=
     return crop.convert("RGB")
 
 
+def composite(img, layer, pos=(0, 0)):
+    """Alpha-composite onto an RGB canvas without leaving RGB.
+
+    Pillow only blends ink when the *target* is RGB and the Draw was created with
+    mode="RGBA"; on an RGBA target it silently overwrites pixels (alpha and all),
+    which turns every alpha-0 panel opaque and every fade into a pop. Keeping the
+    canvas in RGB and pasting with the layer's alpha as mask avoids that class of
+    bug entirely (found here by an alpha-0 panel drawing as a black box).
+    """
+    if layer.mode == "RGBA":
+        img.paste(layer, pos, layer)
+    else:
+        img.paste(layer, pos)
+    return img
+
+
 def base_canvas(bg=None, grid=True, grain=True, vignette=True):
     """Start a frame: plate or ink gradient, then grid/vignette."""
     if bg is None:
@@ -185,12 +201,12 @@ def base_canvas(bg=None, grid=True, grain=True, vignette=True):
         bg = Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8), "RGB")
     img = bg.convert("RGB")
     if vignette:
-        img = Image.alpha_composite(img.convert("RGBA"), _vignette())
+        composite(img, _vignette())
     if grid:
-        img = Image.alpha_composite(img, _grid())
+        composite(img, _grid())
     if grain:
         gimg, _ = _grain()
-        img = Image.alpha_composite(img, gimg)
+        composite(img, gimg)
     return img
 
 
@@ -282,7 +298,7 @@ def glow_ellipse(img, cx, cy, rx, ry, color, alpha=0.5, blur=28):
     d = ImageDraw.Draw(layer)
     d.ellipse((blur * 2, blur * 2, blur * 2 + rx * 2, blur * 2 + ry * 2), fill=with_alpha(color, alpha))
     layer = layer.filter(ImageFilter.GaussianBlur(blur))
-    img.alpha_composite(layer, (int(cx - rx - blur * 2), int(cy - ry - blur * 2)))
+    img.paste(layer, (int(cx - rx - blur * 2), int(cy - ry - blur * 2)), layer)
 
 
 # ----------------------------------------------------------------- gear sprites
@@ -364,7 +380,11 @@ def paste_gear(img, r_pitch, teeth, cx, cy, angle_deg, palette="bronze", spokes=
         sp = sp.copy()
         a = sp.getchannel("A").point(lambda v: int(v * alpha))
         sp.putalpha(a)
-    img.alpha_composite(sp, (int(cx - sp.width / 2), int(cy - sp.height / 2)))
+    pos = (int(cx - sp.width / 2), int(cy - sp.height / 2))
+    if sp.mode == "RGBA":
+        img.paste(sp, pos, sp)
+    else:
+        img.paste(sp, pos)
 
 
 def mesh_angle(teeth_driver, phase_driver_deg, driver_angle_deg, center_driver, center_driven, teeth_driven=None):
@@ -426,10 +446,10 @@ def draw_caption(img, cards, t, t_shot_start, alpha=1.0):
     y0 = y1 - box_h
 
     band = Image.new("RGBA", img.size, (0, 0, 0, 0))
-    bd = ImageDraw.Draw(band)
+    bd = ImageDraw.Draw(band, "RGBA")
     bd.rounded_rectangle((x0, y0, x0 + box_w, y1), radius=12, fill=(6, 9, 14, 205), outline=(190, 150, 92, 60), width=1)
     bd.rounded_rectangle((x0 + 10, y0 + 12, x0 + 14, y1 - 12), radius=2, fill=with_alpha(BRONZE, 0.8))
-    img.alpha_composite(band.filter(ImageFilter.GaussianBlur(0.4)))
+    composite(img, band)
 
     # word-level highlight
     word_times = {(w["word"], round(w["start"], 3)): (w["start"], w["end"]) for w in active["words"]}

@@ -20,7 +20,7 @@ from kinematics import (
 # ------------------------------------------------------------------ S09
 def price_radiograph(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # radiographic plate rectangle
     px0, py0, px1, py1 = 300, 250, 1240, 900
@@ -42,7 +42,7 @@ def price_radiograph(img, shot, u, t, tl):
     for y in range(py0, py1, 6):
         d.line([(px0, y), (px1, y)], fill=(140, 230, 255, 4))
     glow_ellipse(img, 660, 580, 200, 200, CYAN, 0.10, 60)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # overlap ambiguity callout
     a1 = smooth(between(u, 0.22, 0.44))
@@ -85,7 +85,7 @@ def price_radiograph(img, shot, u, t, tl):
 def bladerunner_rig(img, shot, u, t, tl):
     bg = plate_frame(shot["plate"], zoom=lerp(1.14, 1.03, ease_out(u)), pan=(0.05, 0.0), dim=0.44, tint=(6, 14, 16))
     img.paste(bg)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # scanning beam across the specimen
     sx = 470 + 620 * ease_in_out(between(u, 0.05, 0.72))
@@ -129,7 +129,7 @@ def bladerunner_rig(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S11
 def ct_slice_scanner(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # left: a stack of reconstructed slices in isometric offset
     ox, oy = 240, 300
@@ -209,14 +209,14 @@ def ct_slice_scanner(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S12
 def ptm_epigraphy(img, shot, u, t, tl):
     img.paste(base_canvas(tint=None) if False else base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # bronze plate
     px0, py0, px1, py1 = 190, 230, 1300, 900
     plate_img = plate("plate_02_fragment_a.jpg").crop((260, 120, 1160, 700)).resize((px1 - px0, py1 - py0), Image.LANCZOS)
     plate_img = plate_img.filter(ImageFilter.GaussianBlur(0.6))
     img.paste(plate_img, (px0, py0))
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     d.rectangle((px0, py0, px1, py1), outline=with_alpha(BRONZE, 0.6), width=2)
 
     # raking light: a moving bright band from the left
@@ -235,12 +235,18 @@ def ptm_epigraphy(img, shot, u, t, tl):
         ("ΕΣΠΕΡΙΑΣ ΠΛΕΙΑΣ", "in the evening, the Pleiades"),
         ("ΑΝΑΤΕΛΛΟΥΣΙΝ", "rise"),
     ]
+    scrim = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    ImageDraw.Draw(scrim, "RGBA").rectangle((px0 + 24, py0 + 40, px0 + 700, py0 + 470), fill=(4, 7, 11, 150))
+    scrim = scrim.filter(ImageFilter.GaussianBlur(26))
+    img.paste(scrim, (0, 0), scrim)
+    d = ImageDraw.Draw(img, "RGBA")
+
     for i, (gr, en) in enumerate(lines):
         a = smooth(between(u, 0.12 + i * 0.055, 0.26 + i * 0.055))
-        y = py0 + 78 + i * 78
-        x = px0 + 60
-        text(d, (x, y), gr, font("sans_md", 34), (255, 244, 222), alpha=0.94 * a, tracking=3)
-        text(d, (x + 4, y + 40), en, font("sans", 17), (250, 214, 158), alpha=0.75 * a)
+        y = py0 + 70 + i * 66
+        x = px0 + 54
+        text(d, (x, y), gr, font("greek", 29), (255, 244, 222), alpha=0.95 * a, tracking=2)
+        text(d, (x + 4, y + 34), en, font("sans", 15), (250, 214, 158), alpha=0.78 * a)
 
     # translation panel
     panel(d, (1350, 300, 1824, 640), radius=12, fill=(8, 13, 20, 214), outline=(190, 150, 92, 80))
@@ -271,7 +277,7 @@ def ptm_epigraphy(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S13
 def metonic_spiral_dial(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     cx, cy = 830, 570
     r_in, r_out, turns, total = 118, 300, 5, 235
@@ -293,7 +299,7 @@ def metonic_spiral_dial(img, shot, u, t, tl):
     px, py, pr, pth = spiral_point(cx, cy, r_in, r_out, turns, total, pos)
     d.line([(cx, cy), (px, py)], fill=with_alpha(GOLD, 0.55), width=2)
     glow_ellipse(img, px, py, 26, 26, GOLD, 0.42, 18)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     d.ellipse((px - 9, py - 9, px + 9, py + 9), fill=GOLD, outline=(40, 28, 10))
 
     # month name at the pointer
@@ -338,7 +344,7 @@ def metonic_spiral_dial(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S14
 def saros_convergence(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # three period traces normalised across 223 synodic months
     x0, x1 = 220, 1700
@@ -394,7 +400,7 @@ def saros_convergence(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S15
 def saros_spiral_dial(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     cx, cy = 720, 570
     r_in, r_out, turns, total = 96, 296, 4, 223
@@ -418,7 +424,7 @@ def saros_spiral_dial(img, shot, u, t, tl):
     px, py, pr, pth = spiral_point(cx, cy, r_in, r_out, turns, total, pos)
     d.line([(cx, cy), (px, py)], fill=with_alpha(GOLD, 0.5), width=2)
     glow_ellipse(img, px, py, 26, 26, CRIMSON, 0.35, 18)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     d.ellipse((px - 9, py - 9, px + 9, py + 9), fill=GOLD)
 
     # gear e3 behind the dial (223 teeth, hand-drawn as a ring of teeth)
@@ -470,7 +476,7 @@ def saros_spiral_dial(img, shot, u, t, tl):
 # ------------------------------------------------------------------ S16
 def eclipse_glyph_detail(img, shot, u, t, tl):
     img.paste(base_canvas())
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
 
     # total eclipse disc (plate) on the right
     eclipse = plate("plate_05_saros_eclipse.jpg")
@@ -479,7 +485,7 @@ def eclipse_glyph_detail(img, shot, u, t, tl):
     mask = Image.new("L", (r * 2, r * 2), 0)
     ImageDraw.Draw(mask).ellipse((0, 0, r * 2 - 1, r * 2 - 1), fill=255)
     img.paste(crop, (int(cx - r), int(cy - r)), mask)
-    d = ImageDraw.Draw(img, "RGBA")
+    d = ImageDraw.Draw(img.convert("RGB") if img.mode != "RGB" else img, "RGBA")
     d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=with_alpha(GOLD, 0.6), width=2)
 
     # corona ticks radiating
