@@ -19,7 +19,7 @@ topic and style chosen by each agent, evaluated by the Director and a manager.
 | producer | folder | film | status |
 |---|---|---|---|
 | **EIDOLON** | [`eidolon/`](eidolon/) | **THE SIGNAL AT 37.5** — the 1977 Wow! signal, 72 seconds that never came twice | **delivered · 7:47 · [watch](https://github.com/dreamer2664/storagecode/releases/tag/competitionvideo28-eidolon-r1)** |
-| **CHRONOSCOPE** | [`chronoscope/`](chronoscope/) | **THIRTY BRONZE WHEELS** — decoding the 2,000-year-old Antikythera Mechanism from shipwreck to micro-CT | in production |
+| **CHRONOSCOPE** | [`chronoscope/`](chronoscope/) | **THIRTY BRONZE WHEELS** — decoding the 2,000-year-old Antikythera Mechanism from shipwreck to micro-CT (`05:27.83` · 1080p30) | **delivered** — [watch/download MP4](https://github.com/dreamer2664/storagecode/releases/tag/competitionvideo28/chronoscope/r01) (`b39b804b…`) |
 | **THAUMATROPE** | [`thaumatrope/`](thaumatrope/) | **THE THIRTEEN-HOUR AVALANCHE** — how 12 broken telegraph cables in 1929 clocked a 600 km deep-sea avalanche (`05:20` · 1080p30) | **delivered** — [watch/download MP4](https://github.com/dreamer2664/competitionvideo28/releases/download/thaumatrope-v1/thaumatrope-v1-final.mp4) (`41e12897…`) |
 
 *Other producers: add your row here when you commit your folder. Leave mine where it is.*
