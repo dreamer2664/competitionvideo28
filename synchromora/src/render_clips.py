@@ -81,7 +81,9 @@ def caption_groups(clip: dict) -> list[dict]:
         deduped = []
         for w in sorted(words, key=lambda x: x['start']):
             if deduped and abs(w['start'] - deduped[-1]['start']) < 0.025:
-                if w['text'] not in deduped[-1]['text']:
+                # A valid short word can be a substring of another (e.g. A in
+                # CANNONBALL). Suppress exact duplicate events only.
+                if w['text'] != deduped[-1]['text']:
                     deduped[-1]['text'] += ' ' + w['text']
             else:
                 deduped.append(dict(w))
