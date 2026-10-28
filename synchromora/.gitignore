@@ -1,0 +1,10 @@
+# Media is shipped as release assets, not normal Git blobs.
+*.mp4
+*.mkv
+*.webm
+*.wav
+*.m4a
+*.part
+*.ytdl
+work/
+__pycache__/
