@@ -244,9 +244,10 @@ def emoji_events(clip: dict) -> list[tuple[str, float, float]]:
     return result
 
 
-def render(clip: dict, input_dir: Path, deliverables: Path, preset: str, crf: int) -> Path:
-    source = input_dir / (clip['source'] + '.mp4')
-    if not source.is_file():
+def render(clip: dict, input_dir: Path | None, deliverables: Path, preset: str, crf: int,
+           recovery: tuple[dict, Path] | None = None) -> Path:
+    source = input_dir / (clip['source'] + '.mp4') if input_dir else None
+    if recovery is None and (source is None or not source.is_file()):
         raise FileNotFoundError(f'Missing {source}; never substitute a different source')
     stage = WORK / clip['id']
     stage.mkdir(parents=True, exist_ok=True)
@@ -265,7 +266,18 @@ def render(clip: dict, input_dir: Path, deliverables: Path, preset: str, crf: in
     emoji = emoji_events(clip)
     cmd = ['ffmpeg', '-hide_banner', '-loglevel', 'warning', '-nostdin', '-y', '-filter_complex_threads', '2']
     for seg in clip['segments']:
-        cmd += ['-ss', f"{seg['in']:.3f}", '-t', f"{seg['out'] - seg['in']:.3f}", '-i', str(source)]
+        if recovery is None:
+            segment_file, seek = source, seg['in']
+        else:
+            table, map_dir = recovery
+            key = f"{clip['source']}:{seg['in']:.3f}:{seg['out']:.3f}"
+            record = table.get(key)
+            if record is None:
+                raise KeyError(f'No calibrated recovery segment for {key}')
+            segment_file, seek = map_dir / record['file'], record['seek']
+            if not segment_file.is_file():
+                raise FileNotFoundError(segment_file)
+        cmd += ['-ss', f'{seek:.6f}', '-t', f"{seg['out'] - seg['in']:.3f}", '-i', str(segment_file)]
     for name, _, _ in emoji:
         cmd += ['-i', str(ASSETS / (name + '.png'))]
     cmd += ['-i', str(sfx)]
@@ -318,18 +330,25 @@ def render(clip: dict, input_dir: Path, deliverables: Path, preset: str, crf: in
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument('--input-dir', required=True, type=Path)
+    p.add_argument('--input-dir', type=Path, help='directory containing original source MP4s')
+    p.add_argument('--recovery-map', type=Path, help='calibrated inputs/input-map.json from the rebuild kit')
     p.add_argument('--output-dir', type=Path, default=WORK / 'deliverables')
     p.add_argument('--only', help='render one clip by id')
     p.add_argument('--source', help='render all clips for one YouTube id')
     p.add_argument('--preset', default='veryfast')
     p.add_argument('--crf', type=int, default=23)
     args = p.parse_args()
+    if not args.input_dir and not args.recovery_map:
+        p.error('Provide --input-dir or --recovery-map')
+    recovery = None
+    if args.recovery_map:
+        mapping = json.loads(args.recovery_map.read_text(encoding='utf-8'))
+        recovery = ({x['key']: x for x in mapping['segments']}, args.recovery_map.parent)
     selected = [c for c in PLAN['clips'] if (not args.only or c['id'] == args.only) and (not args.source or c['source'] == args.source)]
     if not selected:
         p.error('No clips matched')
     for clip in selected:
-        render(clip, args.input_dir, args.output_dir, args.preset, args.crf)
+        render(clip, args.input_dir, args.output_dir, args.preset, args.crf, recovery)
 
 if __name__ == '__main__':
     main()

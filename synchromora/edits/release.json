@@ -1,6 +1,11 @@
 {
   "repository": "dreamer2664/competitionvideo28",
-  "release_id": 426365455,
-  "tag": "synchromora-clips-20261028-r01",
-  "status": "draft in progress; publish as partial if the first source remains unavailable"
+  "release_id": 426372188,
+  "tag": "synchromora-clips-20261028-r02",
+  "status": "draft; publish as partial if the first source remains unavailable",
+  "prior_production_draft": {
+    "release_id": 426365455,
+    "tag": "synchromora-clips-20261028-r01",
+    "reason": "Unmastered checkpoint retained; the r02 release contains audio-leveled final exports."
+  }
 }

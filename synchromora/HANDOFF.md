@@ -28,3 +28,11 @@
 - A draft release exists in `competitionvideo28`, release ID `426365455`, planned tag `synchromora-clips-20261028-r01`. The draft is not yet a completed release. It should be marked partial unless the restricted first source is supplied.
 - Independent faster-whisper base.en comparison ran on 17 selected source windows. The outputs are tracked in `edits/asr-comparison/`; `edits/CAPTION_REVIEW.md` documents the limited corrections and the lack of human-audio verification. Do not claim human-verified subtitles.
 - Bulk rendering of 15 clips for sources 2–6 is underway in the current sandbox. All final assets must be uploaded to the draft release before this machine is lost; files in `work/` are ephemeral and ignored by Git.
+
+## 2026-10-28 — mastered release checkpoint
+
+- The 15 accessible-source clips were rendered; 15/15 initial MP4+SRT mechanical checks passed. Representative contact sheets were inspected; the first Jynxzi 2026 clip was reframed and re-rendered to include the streamer. These inspections are not an end-to-end human watch.
+- The initial unmastered exports and a 72,452,819-byte recovery kit were uploaded to retained draft release `synchromora-clips-20261028-r01` (id `426365455`). They are production checkpoints, not the final release.
+- Preliminary audio checks found a large level spread. `src/master_audio.py` runs two-pass loudness leveling, copying the video stream. A fresh draft `synchromora-clips-20261028-r02` (id `426372188`) is reserved for the leveled deliverables; publish **that** one as a clearly labeled 15/18 partial release if source 1 is still blocked.
+- Recovery media: 17 stream-copied source windows with handles, 21/21 range alignments sampled equal to originals, one actual remapped rerender compared. Details and limits: `edits/RECOVERY.md`. Do not claim bit-identical AAC recovery.
+- Next: QC the mastered files, package five organized source folders + SRTs and a missing-source notice, update the rebuild ZIP to include mastering, upload r02 assets, download-verify, publish the partial release, and archive the handoff in storagecode.
