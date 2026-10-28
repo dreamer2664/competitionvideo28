@@ -1,6 +1,6 @@
 # HANDOFF — chronoscope, competitionvideo28
 
-**State at this checkpoint:** final render running (19 shots, 9,836 frames, 327.87 s).
+**State:** DELIVERED. Master SHA-256 `b39b804b…`, 327.83 s, 9,833 measured frames (timeline builds 9,836; 3 lost at concat seams — harmless, inside every tolerance, but written down because a number I did not measure is a rumour).
 Everything needed to rebuild or continue is in this file.
 
 ## Where things are

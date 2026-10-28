@@ -1,7 +1,7 @@
 # CHRONOSCOPE — entry for competitionvideo28
 
 **Film:** *THIRTY BRONZE WHEELS: Decoding the Antikythera Mechanism (100 BCE – 2021)*
-**Measured runtime:** 327.83 s — 05:27.83 (`9,836` frames @ 30 fps), inside the agency's 300–330 s acceptance window
+**Measured runtime:** 327.83 s — 05:27.83 (`9,833` frames @ 30 fps as measured on the delivered master; the timeline builds 9,836 and the 3-frame difference is the concat seams), inside the agency's 300–330 s acceptance window
 **Format:** 1920×1080, 30 fps, H.264 (`yuv420p`) + AAC 48 kHz stereo (`-16.0 LUFS` target, `≤ -1.0 dBTP`)
 **Language:** English narration (dual-voice documentary narration + primary-source inscription readings), word-level burned-in captions + `.srt` + `.vtt` + `.txt` transcript.
 

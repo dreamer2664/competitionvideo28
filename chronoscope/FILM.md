@@ -37,7 +37,7 @@ the Sun, the Moon, and the stars.
 
 ## 3. The 19-shot cut, as built (measured)
 
-Runtime **327.87 s** (`9836` frames @ 30 fps) — inside the agency's
+Runtime **327.83 s** on the delivered master (`9,833` frames @ 30 fps as probed; the timeline builds 9,836 — concat seams eat 3) — inside the agency's
 300–330 s acceptance window *and* above the competition minimum of five minutes.
 Five shots from the original 24-shot board were cut for runtime discipline after the first
 assembly measured 7:02: the Babylon/Meton grid, Price's 1974 radiograph, the eclipse-glyph
