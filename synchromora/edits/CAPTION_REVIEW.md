@@ -10,4 +10,4 @@ Corrections made where context or the second pass made the obvious error clear:
 - Ronaldo: `Kaisenette` → `Kai Cenat`.
 - Jynxzi Live: unreadable overlapping game-commentary words in 224.6–232.1 are labeled `[game commentary]` instead of being fabricated; the truncated `G` at 340.36 becomes `gone`.
 
-The source auto-caption provider replaces some words with `[__]`; the burn-in displays `[…]` rather than pretending to know those words. Captions are supplied as separate SRTs to make corrections easy. The Director should listen and correct them before public posting.
+The source auto-caption provider replaces some words with `[__]`; the burn-in displays `[…]` rather than pretending to know those words. Captions are supplied as separate SRTs to make sidecar corrections easy. Editing an SRT does not update the captions already burned into an MP4: change `edits/source_words.json` and rerender for that. The Director should listen and correct them before public posting.

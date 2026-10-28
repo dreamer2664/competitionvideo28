@@ -73,6 +73,16 @@ def inspect(clip, base):
     means=re.findall(r'mean_volume:\s*([^\n]+)',vol.stderr); peaks=re.findall(r'max_volume:\s*([^\n]+)',vol.stderr)
     result['mean_volume']=means[-1].strip() if means else None;result['max_volume']=peaks[-1].strip() if peaks else None
     if vol.returncode or not means or '-inf' in means[-1]:result['issues'].append('audio empty or volume measurement failed')
+    # Analyze the delivered, AAC-encoded output (not the pre-encode prediction).
+    loud=subprocess.run(['ffmpeg','-hide_banner','-nostats','-i',str(p),'-vn','-af',
+                         'loudnorm=I=-16:TP=-2:LRA=11:print_format=json','-f','null','-'],capture_output=True,text=True)
+    match=re.findall(r'\{\s*"input_i"\s*:.*?\}',loud.stderr,re.S)
+    if loud.returncode or not match:
+        result['issues'].append('loudness measurement failed')
+    else:
+        measured=json.loads(match[-1]);result['integrated_lufs']=float(measured['input_i']);result['true_peak_dbtp']=float(measured['input_tp'])
+        if abs(result['integrated_lufs']+16)>1.1:result['issues'].append('integrated loudness outside target tolerance')
+        if result['true_peak_dbtp']>-1.0:result['issues'].append('post-encode true peak above -1 dBTP')
     return result
 
 
@@ -90,13 +100,14 @@ def main():
                            'Third-party rights and any embedded music require clearance before posting.']}
     (ROOT/'edits/QC.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
     rows=['# Synchromora clips — producer QC', '',f"Mechanical checks: {sum(not x['issues'] for x in items)}/{len(items)} passed.",
-          'Each pass includes ffprobe, full video+audio decode, SHA-256, portrait format, and SRT time bounds.',
+          'Each pass includes ffprobe, full video+audio decode, SHA-256, portrait format, SRT time bounds, and post-encode loudness and true peak measurement.',
+          'Loudness target: −16 LUFS ±1.1 LU; true peak no higher than −1 dBTP.',
           'Visual inspection used sampled contact sheets, not a human end-to-end watch.',
           'Captions are machine-generated and not human-audio-verified.', '',
-          '| Clip | Seconds | SRT cues | Audio mean / max | Decode | SHA-256 |',
+          '| Clip | Seconds | SRT cues | LUFS / dBTP | Decode | SHA-256 |',
           '|---|---:|---:|---|---|---|']
     for x in items:
-        rows.append(f"| {x['id']} | {x.get('duration_seconds','?')} | {x.get('srt_cues','?')} | {x.get('mean_volume','?')} / {x.get('max_volume','?')} | {'PASS' if x.get('full_decode_ok') else 'FAIL'} | `{x.get('sha256','')}` |")
+        rows.append(f"| {x['id']} | {x.get('duration_seconds','?')} | {x.get('srt_cues','?')} | {x.get('integrated_lufs','?')} / {x.get('true_peak_dbtp','?')} | {'PASS' if x.get('full_decode_ok') else 'FAIL'} | `{x.get('sha256','')}` |")
     rows += ['', '## Open items', '- Source 1 is age-restricted and its three clips are not made.',
              '- Listen to and correct the editable SRTs before public posting.',
              '- The supplied footage and any music remain third-party material; confirm reuse rights.']

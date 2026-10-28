@@ -36,22 +36,33 @@ def master(clip, inp:Path, out:Path):
     if not src.is_file():raise FileNotFoundError(src)
     dest.parent.mkdir(parents=True,exist_ok=True)
     m=measurement(src)
+    duration=sum(segment['out']-segment['in'] for segment in clip['segments'])
     filt=('loudnorm=I=-16:TP=-2.0:LRA=11:'
           f"measured_I={m['input_i']}:measured_TP={m['input_tp']}:"
           f"measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:"
-          f"offset={m['target_offset']}:linear=true:print_format=summary,aresample=48000")
+          f"offset={m['target_offset']}:linear=true:print_format=summary,"
+          f'aresample=48000,alimiter=limit=0.75:level=0:latency=1,atrim=duration={duration:.3f}')
     print('MASTER',clip['id'],'input',m['input_i'],'LUFS',m['input_tp'],'dBTP',flush=True)
-    cmd=['ffmpeg','-hide_banner','-loglevel','warning','-nostdin','-y','-i',str(src),
-         '-map','0:v:0','-map','0:a:0','-c:v','copy','-af',filt,
-         '-c:a','aac','-b:a','160k','-ar','48000','-movflags','+faststart',str(dest)]
-    r=subprocess.run(cmd,capture_output=True,text=True)
-    if r.returncode:raise RuntimeError('master failed: '+r.stderr[-600:])
+    # AAC can overshoot a limiter. Measure the encoded output and, if needed,
+    # redo from the same source with a small extra gain reduction (no extra generation).
+    gain_db=0.0
+    for attempt in range(3):
+        final_filter=filt+(f',volume={gain_db:.2f}dB' if gain_db else '')
+        cmd=['ffmpeg','-hide_banner','-loglevel','warning','-nostdin','-y','-i',str(src),
+             '-map','0:v:0','-map','0:a:0','-c:v','copy','-af',final_filter,
+             '-c:a','aac','-b:a','160k','-ar','48000','-movflags','+faststart',str(dest)]
+        r=subprocess.run(cmd,capture_output=True,text=True)
+        if r.returncode:raise RuntimeError('master failed: '+r.stderr[-600:])
+        after=measurement(dest)
+        if float(after['input_tp'])<=-1.2:break
+        gain_db-=float(after['input_tp'])+1.65
+        print('PEAK RETRY',clip['id'],'gain',round(gain_db,2),'dB',flush=True)
+    if float(after['input_tp'])>-1.0:raise RuntimeError('post-encode true peak still too high')
     shutil.copy2(src.with_suffix('.srt'),dest.with_suffix('.srt'))
-    after=measurement(dest)
     print('MASTERED',clip['id'],'actual',after['input_i'],'LUFS',after['input_tp'],'dBTP',flush=True)
     return {'id':clip['id'],'input_i':m['input_i'],'input_tp':m['input_tp'],
             'output_i':after['input_i'],'output_tp':after['input_tp'],
-            'target_i':-16.0,'target_tp':-2.0}
+            'post_gain_db':round(gain_db,2),'target_i':-16.0,'target_tp':-2.0}
 
 
 def main():

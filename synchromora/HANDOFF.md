@@ -36,3 +36,9 @@
 - Preliminary audio checks found a large level spread. `src/master_audio.py` runs two-pass loudness leveling, copying the video stream. A fresh draft `synchromora-clips-20261028-r02` (id `426372188`) is reserved for the leveled deliverables; publish **that** one as a clearly labeled 15/18 partial release if source 1 is still blocked.
 - Recovery media: 17 stream-copied source windows with handles, 21/21 range alignments sampled equal to originals, one actual remapped rerender compared. Details and limits: `edits/RECOVERY.md`. Do not claim bit-identical AAC recovery.
 - Next: QC the mastered files, package five organized source folders + SRTs and a missing-source notice, update the rebuild ZIP to include mastering, upload r02 assets, download-verify, publish the partial release, and archive the handoff in storagecode.
+
+## 2026-10-28 — final media QA / release assembly
+
+- Final mastered outputs in `work/mastered/` have 15/15 mechanical passes: full video+audio decode, 720×1280 H.264/AAC, timing, SRT bounds, SHA-256, and measured integrated loudness / post-AAC true peak. See `edits/QC.{md,json}` and `edits/AUDIO_MASTER.json`. Two-pass leveling exposed a limiter-end overshoot; delay compensation and a measured peak retry corrected it. Audio results are measurements, not a guarantee of intelligibility.
+- Final r02 MP4s have been uploaded individually; the grouped delivery ZIP has 15 MP4s, 15 SRTs, a source-1 blocker, provenance, QC and internally checked SHA-256 values. The updated recovery ZIP retains 17 source windows and the mastered-audio script. Both ZIPs need upload and binary read-back verification before the draft is published.
+- Source 1 still requires the user to provide an authorized video file. After publishing, update the release state, archive a link and hashes in storagecode, and tell the user exactly what remains. Never claim a completed 18/18 delivery, human caption review, or verified reuse rights.

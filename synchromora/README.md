@@ -1,17 +1,36 @@
 # synchromora — six-source Shorts commission
 
-**Producer:** synchromora. This folder is my exclusive workshop; other producers' folders are untouched.
+**Status: 15 of 18 requested clips delivered; source 1 is blocked.**
 
-## Deliverable
+The brief is two normal vertical Shorts and one ranked multi-moment Short from each of the six videos in `clippingvids`. The five accessible sources each have all three edits; the age-restricted IShowSpeed source still needs an authorized copy. No substitute source or fabricated clip was used.
 
-The Director replaced the original long-form competition brief: for each of the six source videos listed in the repository's `clippingvids`, make two individually edited vertical Shorts and one ranked multi-moment Short (18 total), in the style of the three supplied references. Burn in legible timed subtitles, use purposeful sound effects and emoji, and publish an organized GitHub Release. Source attribution and exact cut ranges accompany the work.
+## Get the work
 
-## Recovery map
+[**Open the organized partial GitHub release**](https://github.com/dreamer2664/competitionvideo28/releases/tag/synchromora-clips-20261028-r02)
 
-- `HANDOFF.md` — current progress, decisions and blockers.
-- `sources.json` — source identity and metadata (never signed download URLs).
-- `src/` — render and production scripts (added as they are written).
-- `edits/` — timeline manifests, captions and review notes (added as they are written).
-- Release assets — finished MP4s and reproducibility media packages, not Git blobs.
+- **`00_ALL_AVAILABLE_CLIPS_AND_SRT_r02.zip`**: the easiest handoff — all 15 finished MP4s, paired SRTs, grouped by source; a blocker notice for source 1; source links, exact cuts, QC and checksums.
+- **Individually named MP4 assets**: preview/download one clip without unpacking the ZIP.
+- **`99_REBUILD_KIT_PARTIAL_r02.zip`**: production scripts, edit/caption data, licensed assets and 17 source windows needed to reconstruct the 15 accessible-source edits.
 
-All source access is public except where specifically noted in the handoff. YouTube-generated transcripts are unverified drafts until checked; do not silently call them human-checked. The source material is owned by the respective creators. Credit alone is not reuse permission; the Director should secure the necessary rights for public posting.
+Each edit has portrait framing, burned-in word-timed captions, creator credit, sound effects and emoji; rankings count down with persistent context. The audio was leveled after rendering. See `edits/QC.md` for actual measurements, not just targets.
+
+**Important before posting:** captions are machine-generated and machine-compared, not checked by a person listening; listen and correct them. The SRT files are editable sidecars, but changing an SRT does not change captions already burned into the video: update `edits/source_words.json` and rerender. Footage and any embedded music belong to third parties; attribution is not permission and reuse rights were not verified.
+
+## Recovery
+
+- `HANDOFF.md` — status, decisions, outstanding work and exact locations.
+- `sources.json` — source IDs, links and attribution, without signed download URLs.
+- `edits/plan.json` — source in/out points, crop focus, ranks and filenames.
+- `edits/source_words.json`, `edits/CAPTION_REVIEW.md`, and `edits/asr-comparison/` — time-coded captions and machine comparison.
+- `edits/QC.{md,json}`, `edits/AUDIO_MASTER.json`, `edits/RECOVERY.md` and `evidence/` — measured QA and sampled visual evidence. Screenshots are not an end-to-end viewing review.
+- `src/` — FFmpeg rendering, two-pass loudness mastering, checks, delivery/rebuild packaging, and release upload/verify scripts.
+- `assets/` — emoji, font and license notices. Large media live in GitHub release assets, not Git history.
+
+To rebuild after downloading and extracting the recovery ZIP, install FFmpeg, Python 3 and NumPy; from the extracted `synchromora/` directory run:
+
+```bash
+python3 src/render_clips.py --recovery-map ../inputs/input-map.json --output-dir work/unmastered
+python3 src/master_audio.py --input-dir work/unmastered --output-dir work/deliverables
+```
+
+Encoder and library versions or lossy audio passes can change file hashes. A recovery-based test render and sampled frame comparison are documented in `edits/RECOVERY.md`; source 1 cannot be rebuilt because its video is not included. To finish the commission, provide an authorized copy of `FDRUMXwb4mg` and then edit two individual Shorts plus one ranking from that video.

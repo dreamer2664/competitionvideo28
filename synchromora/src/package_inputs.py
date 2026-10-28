@@ -134,6 +134,23 @@ def build(input_dir: Path, output: Path):
     recovery = {'version': 1, 'readme': 'Files are adjacent to this map. Segment seeks were calibrated against original frames; original in/out values remain in edits/plan.json.',
                 'chunks': chunks, 'segments': entries}
     (media / 'input-map.json').write_text(json.dumps(recovery, indent=2) + '\n')
+    package_existing(output)
+    bad = [e for e in entries if e['match_mae_gray_160x90'] > 0.5]
+    print('CALIBRATION', len(entries)-len(bad), '/', len(entries), 'near-exact sampled frame matches', flush=True)
+    if bad:
+        print('WARNING: approximate seek matches:', ', '.join(e['key'] for e in bad), flush=True)
+
+
+def package_existing(output: Path):
+    stage = ROOT / 'work/recovery'
+    media = stage / 'inputs'
+    mapping = json.loads((media / 'input-map.json').read_text())
+    planned = {f"{c['source']}:{s['in']:.3f}:{s['out']:.3f}" for c in PLAN['clips'] for s in c['segments']}
+    if planned != {s['key'] for s in mapping['segments']}:
+        raise RuntimeError('The existing recovery map does not match the current cut plan')
+    for chunk in mapping['chunks']:
+        if sha256(media/chunk['file']) != chunk['sha256']:
+            raise RuntimeError('Recovery source hash mismatch: ' + chunk['file'])
     (stage / 'RECOVER.md').write_text('''# Recover the edits
 
 This ZIP contains only source windows used in the edits, with short handles, plus the production code, edit plan, caption evidence, assets, and licenses.
@@ -141,9 +158,13 @@ This ZIP contains only source windows used in the edits, with short handles, plu
 1. Unzip the archive. Install ffmpeg, Python 3 and numpy.
 2. From the extracted `synchromora/` directory run:
 
-   `python3 src/render_clips.py --recovery-map ../inputs/input-map.json`
+   `python3 src/render_clips.py --recovery-map ../inputs/input-map.json --output-dir work/unmastered`
 
-3. Outputs and SRTs appear in `synchromora/work/deliverables/`. Compare them with the release manifest; encoder/library versions can change exact encoded hashes.
+3. Level the audio, preserving the video stream and copying the SRTs:
+
+   `python3 src/master_audio.py --input-dir work/unmastered --output-dir work/deliverables`
+
+4. Outputs and SRTs appear in `synchromora/work/deliverables/`. Compare them with the release manifest; encoder/library versions and the independent lossy audio pass can change exact encoded hashes.
 
 The recovery source windows are copies from third-party source videos. They are provided for this editing project; attribution is not proof of permission to publish. The three clips for source 1 are not in this partial package because the source was age-restricted.
 ''', encoding='utf-8')
@@ -154,24 +175,27 @@ The recovery source windows are copies from third-party source videos. They are 
                 z.write(path, arcname='inputs/' + path.name,
                         compress_type=zipfile.ZIP_STORED if path.suffix == '.mp4' else zipfile.ZIP_DEFLATED)
         z.write(stage/'RECOVER.md', arcname='RECOVER.md', compress_type=zipfile.ZIP_DEFLATED)
-        for dirname in ('src', 'edits', 'assets'):
+        for dirname in ('src', 'edits', 'assets', 'evidence'):
             for path in sorted((ROOT/dirname).rglob('*')):
                 if path.is_file() and '__pycache__' not in path.parts:
                     z.write(path, arcname='synchromora/' + str(path.relative_to(ROOT)), compress_type=zipfile.ZIP_DEFLATED)
         for filename in ('README.md','HANDOFF.md','sources.json'):
             z.write(ROOT/filename, arcname='synchromora/' + filename, compress_type=zipfile.ZIP_DEFLATED)
     print('RECOVERY ZIP', output, output.stat().st_size, 'bytes; sha256', sha256(output), flush=True)
-    bad = [e for e in entries if e['match_mae_gray_160x90'] > 0.5]
-    print('CALIBRATION', len(entries)-len(bad), '/', len(entries), 'near-exact sampled frame matches', flush=True)
-    if bad:
-        print('WARNING: approximate seek matches:', ', '.join(e['key'] for e in bad), flush=True)
 
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument('--input-dir', type=Path, required=True)
+    p.add_argument('--input-dir', type=Path, help='Directory of full source files; needed unless --reuse')
+    p.add_argument('--reuse', action='store_true', help='Repackage and validate existing source windows without extracting again')
     p.add_argument('--output', type=Path, default=ROOT/'work/99_REBUILD_KIT.zip')
-    args = p.parse_args(); build(args.input_dir, args.output)
+    args = p.parse_args()
+    if args.reuse:
+        package_existing(args.output)
+    elif args.input_dir:
+        build(args.input_dir, args.output)
+    else:
+        p.error('--input-dir is required unless --reuse is given')
 
 if __name__ == '__main__':
     main()

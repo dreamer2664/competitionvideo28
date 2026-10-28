@@ -1,0 +1,152 @@
+[
+  {
+    "id": "02-kai-01-worst-revive",
+    "input_i": "-11.50",
+    "input_tp": "-1.54",
+    "output_i": "-16.06",
+    "output_tp": "-6.03",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  },
+  {
+    "id": "02-kai-02-christmas-coal",
+    "input_i": "-16.89",
+    "input_tp": "-5.54",
+    "output_i": "-16.04",
+    "output_tp": "-4.53",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  },
+  {
+    "id": "02-kai-03-ranking",
+    "input_i": "-13.70",
+    "input_tp": "0.04",
+    "output_i": "-15.27",
+    "output_tp": "-2.45",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  },
+  {
+    "id": "03-jynxzi-2026-01-dad",
+    "input_i": "-14.58",
+    "input_tp": "-2.71",
+    "output_i": "-16.05",
+    "output_tp": "-4.23",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  },
+  {
+    "id": "03-jynxzi-2026-02-403-days",
+    "input_i": "-22.25",
+    "input_tp": "-5.21",
+    "output_i": "-16.23",
+    "output_tp": "-2.25",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  },
+  {
+    "id": "03-jynxzi-2026-03-ranking",
+    "input_i": "-17.33",
+    "input_tp": "-2.83",
+    "output_i": "-16.23",
+    "output_tp": "-2.04",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  },
+  {
+    "id": "04-jynxzi-01-chat-request",
+    "input_i": "-17.38",
+    "input_tp": "-5.61",
+    "output_i": "-16.05",
+    "output_tp": "-4.32",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  },
+  {
+    "id": "04-jynxzi-02-time-zone",
+    "input_i": "-24.71",
+    "input_tp": "-6.63",
+    "output_i": "-15.51",
+    "output_tp": "-2.01",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  },
+  {
+    "id": "04-jynxzi-03-ranking",
+    "input_i": "-21.17",
+    "input_tp": "-5.76",
+    "output_i": "-16.05",
+    "output_tp": "-1.89",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  },
+  {
+    "id": "05-jokers-01-cannonball",
+    "input_i": "-25.15",
+    "input_tp": "-12.20",
+    "output_i": "-16.05",
+    "output_tp": "-3.02",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  },
+  {
+    "id": "05-jokers-02-count-to-five",
+    "input_i": "-24.68",
+    "input_tp": "-10.26",
+    "output_i": "-15.95",
+    "output_tp": "-2.22",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  },
+  {
+    "id": "05-jokers-03-ranking",
+    "input_i": "-24.72",
+    "input_tp": "-10.07",
+    "output_i": "-16.01",
+    "output_tp": "-2.45",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  },
+  {
+    "id": "06-ronaldo-01-streamer-university",
+    "input_i": "-12.88",
+    "input_tp": "0.44",
+    "output_i": "-16.01",
+    "output_tp": "-2.65",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  },
+  {
+    "id": "06-ronaldo-02-dance-degree",
+    "input_i": "-14.90",
+    "input_tp": "1.01",
+    "output_i": "-16.90",
+    "output_tp": "-3.11",
+    "post_gain_db": -0.69,
+    "target_i": -16.0,
+    "target_tp": -2.0
+  },
+  {
+    "id": "06-ronaldo-03-ranking",
+    "input_i": "-15.57",
+    "input_tp": "-0.10",
+    "output_i": "-15.50",
+    "output_tp": "-2.07",
+    "target_i": -16.0,
+    "target_tp": -2.0,
+    "post_gain_db": 0.0
+  }
+]

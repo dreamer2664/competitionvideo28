@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-28T07:33:35.084688+00:00",
+  "generated_utc": "2026-10-28T07:39:51.379771+00:00",
   "expected_count": 15,
   "requested_count": 18,
   "blocked_count": 3,
@@ -19,8 +19,8 @@
       "issues": [],
       "duration_seconds": 17.4,
       "planned_seconds": 17.4,
-      "bytes": 3074847,
-      "sha256": "127a9cf9fa4b88a47c880709f1cc0d46de0f0e92a2928868f6115b03cf12fa8f",
+      "bytes": 3073408,
+      "sha256": "6530c3b9a5a81049020283203d7613575f56ad2aee097c1f4927f2c9cae6324a",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -35,8 +35,10 @@
       },
       "srt_cues": 22,
       "full_decode_ok": true,
-      "mean_volume": "-17.1 dB",
-      "max_volume": "-1.5 dB"
+      "mean_volume": "-21.6 dB",
+      "max_volume": "-6.0 dB",
+      "integrated_lufs": -16.06,
+      "true_peak_dbtp": -6.03
     },
     {
       "id": "02-kai-02-christmas-coal",
@@ -53,8 +55,8 @@
       "issues": [],
       "duration_seconds": 21.8,
       "planned_seconds": 21.8,
-      "bytes": 6027049,
-      "sha256": "079c0ae8aa4b81bcef3551e44a46b49b30deb30f90ed883eae2b5b60fd2b55b6",
+      "bytes": 6028866,
+      "sha256": "1bf71849d09cab9a39d42076e5181e1ca7115b96eac038c84c0d17b3713be520",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -69,8 +71,10 @@
       },
       "srt_cues": 24,
       "full_decode_ok": true,
-      "mean_volume": "-21.5 dB",
-      "max_volume": "-5.5 dB"
+      "mean_volume": "-20.6 dB",
+      "max_volume": "-4.6 dB",
+      "integrated_lufs": -16.04,
+      "true_peak_dbtp": -4.53
     },
     {
       "id": "02-kai-03-ranking",
@@ -104,8 +108,8 @@
       "issues": [],
       "duration_seconds": 44.5,
       "planned_seconds": 44.5,
-      "bytes": 9017922,
-      "sha256": "dbeeb7205f9d879718bddbf6201134d1ae584eb2ec22c17f92ef9e1a3ed57550",
+      "bytes": 9017062,
+      "sha256": "4d259d31b0092f9d04eb6974aefa0954c05d1db7d610475b03eb444c980b17b9",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -120,8 +124,10 @@
       },
       "srt_cues": 55,
       "full_decode_ok": true,
-      "mean_volume": "-17.8 dB",
-      "max_volume": "0.0 dB"
+      "mean_volume": "-18.9 dB",
+      "max_volume": "-2.5 dB",
+      "integrated_lufs": -15.27,
+      "true_peak_dbtp": -2.45
     },
     {
       "id": "03-jynxzi-2026-01-dad",
@@ -138,8 +144,8 @@
       "issues": [],
       "duration_seconds": 16.2,
       "planned_seconds": 16.2,
-      "bytes": 2141506,
-      "sha256": "d420b7fba719e7511860edaa059ec496d8324db3a7d90aaed32439b3ab5b59b4",
+      "bytes": 2143252,
+      "sha256": "ec8b9e08d75d133bda05247afc1516ce8d539b2cb43870181b5950b149a52a44",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -154,8 +160,10 @@
       },
       "srt_cues": 13,
       "full_decode_ok": true,
-      "mean_volume": "-20.1 dB",
-      "max_volume": "-2.7 dB"
+      "mean_volume": "-21.6 dB",
+      "max_volume": "-4.2 dB",
+      "integrated_lufs": -16.05,
+      "true_peak_dbtp": -4.23
     },
     {
       "id": "03-jynxzi-2026-02-403-days",
@@ -172,8 +180,8 @@
       "issues": [],
       "duration_seconds": 20.8,
       "planned_seconds": 20.8,
-      "bytes": 2429915,
-      "sha256": "a4261d3c32f115c2bd8280592a138c36467620c1eafa6b631a3fd51556b7859e",
+      "bytes": 2430944,
+      "sha256": "a4141372f0bdf1d7d05b3d24844178fa6fef57125b24ca915d68ccaf5400948a",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -188,8 +196,10 @@
       },
       "srt_cues": 25,
       "full_decode_ok": true,
-      "mean_volume": "-24.4 dB",
-      "max_volume": "-5.2 dB"
+      "mean_volume": "-18.7 dB",
+      "max_volume": "-2.4 dB",
+      "integrated_lufs": -16.23,
+      "true_peak_dbtp": -2.25
     },
     {
       "id": "03-jynxzi-2026-03-ranking",
@@ -223,8 +233,8 @@
       "issues": [],
       "duration_seconds": 47.6,
       "planned_seconds": 47.6,
-      "bytes": 5805587,
-      "sha256": "ad5892e02080ad29a3cfbdd2cfecfb55695c60d8aa6470e38fabd84c276c3cd0",
+      "bytes": 5803567,
+      "sha256": "e712df5aed22fc98450b80d6573e9c144fda0ec9ad7b9a32d804a86f8eb3e99e",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -239,8 +249,10 @@
       },
       "srt_cues": 43,
       "full_decode_ok": true,
-      "mean_volume": "-21.7 dB",
-      "max_volume": "-2.8 dB"
+      "mean_volume": "-19.7 dB",
+      "max_volume": "-2.1 dB",
+      "integrated_lufs": -16.23,
+      "true_peak_dbtp": -2.04
     },
     {
       "id": "04-jynxzi-01-chat-request",
@@ -257,8 +269,8 @@
       "issues": [],
       "duration_seconds": 24.3,
       "planned_seconds": 24.3,
-      "bytes": 4364214,
-      "sha256": "488dcfb9f24cbefac95001b23f3881b9cafc55b66fbc45f017519640bfab0435",
+      "bytes": 4363646,
+      "sha256": "9bd02fb30e9eec40c0fcd60a7ca2384e45ef1bfbb7592bc0cabb7bdc376f579a",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -273,8 +285,10 @@
       },
       "srt_cues": 22,
       "full_decode_ok": true,
-      "mean_volume": "-22.7 dB",
-      "max_volume": "-5.6 dB"
+      "mean_volume": "-21.3 dB",
+      "max_volume": "-4.3 dB",
+      "integrated_lufs": -16.05,
+      "true_peak_dbtp": -4.32
     },
     {
       "id": "04-jynxzi-02-time-zone",
@@ -291,8 +305,8 @@
       "issues": [],
       "duration_seconds": 24.1,
       "planned_seconds": 24.1,
-      "bytes": 2380691,
-      "sha256": "cfb9bf1a1d65ade965d40fe04074feccd1a7ab256b90ced99aa50a2cfcdfded0",
+      "bytes": 2377536,
+      "sha256": "812ba6f281926b1028a947640ef1d4d806d4cf96dda6f73197c4cf79105d5d52",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -307,8 +321,10 @@
       },
       "srt_cues": 28,
       "full_decode_ok": true,
-      "mean_volume": "-30.1 dB",
-      "max_volume": "-6.6 dB"
+      "mean_volume": "-20.3 dB",
+      "max_volume": "-2.1 dB",
+      "integrated_lufs": -15.51,
+      "true_peak_dbtp": -2.01
     },
     {
       "id": "04-jynxzi-03-ranking",
@@ -342,8 +358,8 @@
       "issues": [],
       "duration_seconds": 62.2,
       "planned_seconds": 62.2,
-      "bytes": 9179065,
-      "sha256": "4dca8d9317c8d5021ee79eaa6f54f21c63f8d392f8496021ebbf5316b0b32e26",
+      "bytes": 9172348,
+      "sha256": "2142b689c4caf09b0011726d0edd7daf375eeba91d4cee3fab7e4b93c4376704",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -358,8 +374,10 @@
       },
       "srt_cues": 57,
       "full_decode_ok": true,
-      "mean_volume": "-26.5 dB",
-      "max_volume": "-6.0 dB"
+      "mean_volume": "-20.9 dB",
+      "max_volume": "-1.9 dB",
+      "integrated_lufs": -16.05,
+      "true_peak_dbtp": -1.89
     },
     {
       "id": "05-jokers-01-cannonball",
@@ -376,8 +394,8 @@
       "issues": [],
       "duration_seconds": 22.8,
       "planned_seconds": 22.8,
-      "bytes": 4664495,
-      "sha256": "bd93a0d4d11f3a23aa4ff21993a833402ba565c2759878e8b7dbe41781e15945",
+      "bytes": 4666162,
+      "sha256": "67b9b2953a056bbc408262cf8c7936d7266ddfba52e63ea22ef4896e98de9eca",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -392,8 +410,10 @@
       },
       "srt_cues": 24,
       "full_decode_ok": true,
-      "mean_volume": "-29.3 dB",
-      "max_volume": "-12.2 dB"
+      "mean_volume": "-20.2 dB",
+      "max_volume": "-3.0 dB",
+      "integrated_lufs": -16.05,
+      "true_peak_dbtp": -3.02
     },
     {
       "id": "05-jokers-02-count-to-five",
@@ -410,8 +430,8 @@
       "issues": [],
       "duration_seconds": 17.5,
       "planned_seconds": 17.5,
-      "bytes": 1407968,
-      "sha256": "d2e34bf9e19134dc7e3b11b18fc09888205012fec3a90250ad368f22d607f3cf",
+      "bytes": 1405351,
+      "sha256": "a8b7cacbe8fd3f36bfddbb481fdee8235ec75aa50489ed947e4da642f942e855",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -426,8 +446,10 @@
       },
       "srt_cues": 18,
       "full_decode_ok": true,
-      "mean_volume": "-28.1 dB",
-      "max_volume": "-10.3 dB"
+      "mean_volume": "-19.3 dB",
+      "max_volume": "-2.2 dB",
+      "integrated_lufs": -15.95,
+      "true_peak_dbtp": -2.22
     },
     {
       "id": "05-jokers-03-ranking",
@@ -461,8 +483,8 @@
       "issues": [],
       "duration_seconds": 55.5,
       "planned_seconds": 55.5,
-      "bytes": 9102979,
-      "sha256": "7f56ef6de76ce1079ac15e979beb02adae630e3ff84d71332b06346936a7247f",
+      "bytes": 9102294,
+      "sha256": "208a19afdc332aad0f7e3b368ebb0912bc55bfb1eff3445f81b8512b2298a223",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -477,8 +499,10 @@
       },
       "srt_cues": 56,
       "full_decode_ok": true,
-      "mean_volume": "-28.7 dB",
-      "max_volume": "-10.1 dB"
+      "mean_volume": "-20.0 dB",
+      "max_volume": "-2.5 dB",
+      "integrated_lufs": -16.01,
+      "true_peak_dbtp": -2.45
     },
     {
       "id": "06-ronaldo-01-streamer-university",
@@ -495,8 +519,8 @@
       "issues": [],
       "duration_seconds": 10.8,
       "planned_seconds": 10.8,
-      "bytes": 1240540,
-      "sha256": "2c20b1c84202841748f6ea4f228da376b87ef21e565586bceccd591e327c40d0",
+      "bytes": 1241060,
+      "sha256": "84be24421bcb3b2c7c35906a2a1dd5508514f996ab97daa58206f0ad8af3c722",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -511,8 +535,10 @@
       },
       "srt_cues": 15,
       "full_decode_ok": true,
-      "mean_volume": "-16.6 dB",
-      "max_volume": "-0.0 dB"
+      "mean_volume": "-19.7 dB",
+      "max_volume": "-3.1 dB",
+      "integrated_lufs": -16.01,
+      "true_peak_dbtp": -2.65
     },
     {
       "id": "06-ronaldo-02-dance-degree",
@@ -529,8 +555,8 @@
       "issues": [],
       "duration_seconds": 16.1,
       "planned_seconds": 16.1,
-      "bytes": 1823830,
-      "sha256": "feb6ae4efeed9caf8260feee18c129d7201978f026d7a531887c33f3b2c1322e",
+      "bytes": 1822709,
+      "sha256": "17ad9e4d377758ecfe0d8ca3d46888fc66048c55d0bc2d3c38297650f54a00a5",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -545,8 +571,10 @@
       },
       "srt_cues": 16,
       "full_decode_ok": true,
-      "mean_volume": "-18.1 dB",
-      "max_volume": "-0.5 dB"
+      "mean_volume": "-19.9 dB",
+      "max_volume": "-3.2 dB",
+      "integrated_lufs": -16.9,
+      "true_peak_dbtp": -3.11
     },
     {
       "id": "06-ronaldo-03-ranking",
@@ -580,8 +608,8 @@
       "issues": [],
       "duration_seconds": 44.5,
       "planned_seconds": 44.5,
-      "bytes": 4387989,
-      "sha256": "4455c532d9129b86f802589dd85feb21743389edae9a898cb9cee2023cc2ce0c",
+      "bytes": 4384420,
+      "sha256": "26798a875e5e453b318281a576d6624177e3255339838ec364ce98d5b02e2bef",
       "video": {
         "codec_name": "h264",
         "width": 720,
@@ -596,8 +624,10 @@
       },
       "srt_cues": 49,
       "full_decode_ok": true,
-      "mean_volume": "-20.0 dB",
-      "max_volume": "-0.1 dB"
+      "mean_volume": "-19.0 dB",
+      "max_volume": "-2.2 dB",
+      "integrated_lufs": -15.5,
+      "true_peak_dbtp": -2.07
     }
   ],
   "blocked": [
