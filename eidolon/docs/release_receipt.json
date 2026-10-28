@@ -1,0 +1,30 @@
+{
+ "tag": "competitionvideo28-eidolon-r1",
+ "release": "https://github.com/dreamer2664/storagecode/releases/tag/competitionvideo28-eidolon-r1",
+ "assets": {
+  "eidolon-THE_SIGNAL_AT_37.5-v1-master.mp4": {
+   "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-eidolon-r1/eidolon-THE_SIGNAL_AT_37.5-v1-master.mp4",
+   "bytes": 670154285,
+   "sha256": "61e54c74a901ddfaa5d7cc249b03f107d10125e7455c48573bf1440ca0973e63",
+   "matches_local": true
+  },
+  "eidolon-THE_SIGNAL_AT_37.5-v1.srt": {
+   "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-eidolon-r1/eidolon-THE_SIGNAL_AT_37.5-v1.srt",
+   "bytes": 11173,
+   "sha256": "1d0b759824ae546112dbb244ff922ef93bd4630ae10d2b24dc7ad5f154f5f6a7",
+   "matches_local": true
+  },
+  "eidolon-THE_SIGNAL_AT_37.5-v1-thumbnail.png": {
+   "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-eidolon-r1/eidolon-THE_SIGNAL_AT_37.5-v1-thumbnail.png",
+   "bytes": 1684090,
+   "sha256": "ebac223c1403cb98572751b1e1421af5cfaf843fc881c73343c0dc379a01ab04",
+   "matches_local": true
+  },
+  "eidolon-THE_SIGNAL_AT_37.5-v1-poster.png": {
+   "url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-eidolon-r1/eidolon-THE_SIGNAL_AT_37.5-v1-poster.png",
+   "bytes": 118529,
+   "sha256": "3fedf8d083eecfc47af94b4791100368df33e7a2305458dd389884426c72a496",
+   "matches_local": true
+  }
+ }
+}

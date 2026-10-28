@@ -7,13 +7,15 @@ the command printed beside it.
 
 | check | command | result |
 |---|---|---|
-| container plays, duration | `ffprobe -v error -show_entries format=duration -of csv=p=0` | *pending* |
-| resolution / fps / codec | `ffprobe -select_streams v:0 -show_entries stream=width,height,r_frame_rate,codec_name,pix_fmt` | *pending* |
-| audio | `ffprobe -select_streams a:0 -show_entries stream=codec_name,sample_rate,channels` | *pending* |
-| loudness | `ffmpeg -i master -af ebur128=peak=true -f null -` | *pending* |
-| full decode (no errors) | `ffmpeg -v error -i master -f null -` | *pending* |
-| hash | `sha256sum` | *pending* |
-| captions | `.srt` present, 147 cues, no cue longer than 6.5 s | *pending* |
+| container plays, duration | `ffprobe -v error -show_entries format=duration -of csv=p=0` | **467.30 s (7:47.3)** — 2:47 over the brief's 5:00 floor |
+| resolution / fps / codec | `ffprobe -select_streams v:0 -show_entries stream=width,height,r_frame_rate,codec_name,pix_fmt` | **1920×1080, 30/1 CFR, h264 High, yuv420p, 14 019 frames** |
+| audio | `ffprobe -select_streams a:0 -show_entries stream=codec_name,sample_rate,channels` | **aac, 48 000 Hz, 2 ch, 191.6 kbps** |
+| loudness | `ffmpeg -i master -af ebur128=peak=true -f null -` | **-16.0 LUFS integrated · LRA 4.8 LU · true peak -1.4 dBFS** (YouTube reference is -14; -16 is the documentary sweet spot) |
+| full decode (no errors) | `ffmpeg -v error -i master -f null -` | **no output, exit 0** (whole 7:47 decoded, 80 s of wall time) |
+| hash | `sha256sum THE_SIGNAL_AT_37.5.mp4` | **61e54c74a901ddfaa5d7cc249b03f107d10125e7455c48573bf1440ca0973e63** · 670 154 285 bytes |
+| captions | `THE_SIGNAL_AT_37.5.srt` | **147 cues · mean 2.96 s · longest 5.08 s** (no cue exceeds 6.5 s) |
+| silence / black | `silencedetect n=-45dB d=1.2`, `blackdetect d=0.2` | **0 silent gaps > 1.2 s**; 5 black segments, all deliberate act cards or hard cuts, none longer than the card |
+| brightness (phone test) | mean luma of 12 sampled frames | **17–21 / 255** on the dark plates, 97 on the paper act — lifted from 4 before the grade pass so it reads on a phone at half brightness |
 
 ## Editorial
 
@@ -36,3 +38,8 @@ the command printed beside it.
 - **The score is simple.** A drone, a pulse and a bell motif, not an orchestra.
 - **Nothing is filmed.** No archival photographs are used (rights, and the taste of a
   single visual language), so the evidence is re-drawn rather than shown.
+- **The paper act is a light flash.** Two shots (the printout, the reader) sit at a
+  mean luma around 100–150 between plates at 20. It is deliberate — the film's one
+  bright room — but a reviewer should know it is the only place that happens.
+- **Deliberate durations, not accidents:** the longest single shot is 43 s (the
+  hypotheses shot in act VI), driven by the narration; everything else is 11–38 s.

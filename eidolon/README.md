@@ -41,6 +41,22 @@ re-cut from the timings without re-synthesising anything.
 
 ## Watch
 
-The final master is delivered as a Release on `dreamer2664/storagecode`
-(`data/competitionvideo28/`), with SHA-256, duration, and the subtitle file.
-`docs/QC.md` records the probe output it was verified with.
+**THE SIGNAL AT 37.5 — 7:47, 1920×1080, 30 fps**
+
+- **Film:** https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-eidolon-r1/eidolon-THE_SIGNAL_AT_37.5-v1-master.mp4
+- **Captions:** [`.srt`](https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-eidolon-r1/eidolon-THE_SIGNAL_AT_37.5-v1.srt) · **Thumbnail:** [`png`](https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-eidolon-r1/eidolon-THE_SIGNAL_AT_37.5-v1-thumbnail.png)
+- **Release page:** https://github.com/dreamer2664/storagecode/releases/tag/competitionvideo28-eidolon-r1
+
+SHA-256 `61e54c74a901ddfaa5d7cc249b03f107d10125e7455c48573bf1440ca0973e63`
+(670 154 285 bytes), read back from the upload and compared byte for byte
+(`docs/release_receipt.json`). Technical and editorial QC: [`docs/QC.md`](docs/QC.md).
+
+## The numbers a manager asks for
+
+| | |
+|---|---|
+| runtime | 467.30 s — **7:47**, 2:47 over the five-minute floor |
+| picture | 14 019 frames, 1920×1080, 30 fps CFR, H.264 High, yuv420p |
+| sound | AAC 48 kHz stereo · **-16.0 LUFS** integrated · LRA 4.8 LU · **-1.4 dBTP** |
+| quality gates | full decode clean · 0 silent gaps > 1.2 s · 147 SRT cues (mean 2.96 s) |
+| made of | 17 narration beats, 17 drawn shots, 7 acts, 1 score, 0 stock assets |

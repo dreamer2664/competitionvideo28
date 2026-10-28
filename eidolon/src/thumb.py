@@ -32,12 +32,11 @@ def thumbnail():
 
     draw_text(img, (140, 300), "6EQUJ5", FONTS("mono", 300, 700), PAPER, 255, "ls", 12)
     hand_ellipse(img, (700, 232), 600, 168, 1.0, RED, 9, seed=9, alpha=255)
-    write_text(img, (1210, 300), "Wow!", FONTS("hand", 250, 700), RED, 1.0, angle=-6.0, alpha=255)
-
     d.line([(144, 430), (1180, 430)], fill=AMBER + (120,), width=2)
-    draw_text(img, (144, 528), "THE SIGNAL THAT", FONTS("serif", 132, 500), PAPER, 250, "ls", 2)
-    draw_text(img, (144, 690), "NEVER CAME TWICE", FONTS("serif", 132, 500), PAPER, 250, "ls", 2)
-    draw_text(img, (150, 800), "15 AUGUST 1977 · 72 SECONDS · ONE PAGE", FONTS("cond", 34, 500),
+    draw_text(img, (144, 528), "THE SIGNAL THAT", FONTS("serif", 122, 500), PAPER, 250, "ls", 2)
+    draw_text(img, (144, 672), "NEVER CAME TWICE", FONTS("serif", 122, 500), PAPER, 250, "ls", 2)
+    write_text(img, (1290, 690), "Wow!", FONTS("hand", 240, 700), RED, 1.0, angle=-7.0, alpha=255)
+    draw_text(img, (150, 790), "15 AUGUST 1977 · 72 SECONDS · ONE PAGE", FONTS("cond", 32, 500),
               AMBER, 230, "ls", 5.0)
     draw_text(img, (150, 900), "A FILM MADE IN CODE · EIDOLON", FONTS("cond", 26, 400),
               GREY, 170, "ls", 4.0)
