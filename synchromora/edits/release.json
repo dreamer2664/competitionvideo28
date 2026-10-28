@@ -134,5 +134,27 @@
     }
   ],
   "published_at": "2026-10-28T07:41:56Z",
-  "binary_verification": "All 17 release assets downloaded through the GitHub asset API and SHA-256 matched their local files."
+  "binary_verification": "All 17 release assets downloaded through the GitHub asset API and SHA-256 matched their local files.",
+  "archive_mirror": {
+    "repository": "dreamer2664/storagecode",
+    "release_id": 426378048,
+    "release_url": "https://github.com/dreamer2664/storagecode/releases/tag/competitionvideo28-synchromora-r02-backup",
+    "binary_verification": "Both archive ZIPs downloaded and SHA-256 matched the canonical ZIPs.",
+    "assets": [
+      {
+        "name": "00_ALL_AVAILABLE_CLIPS_AND_SRT_r02.zip",
+        "id": 684231977,
+        "bytes": 67061280,
+        "digest": "sha256:7c0c6a35a5e6b3855a170e11dd4ee5a862797c7174c5971d0c71140e83be2d42",
+        "download_url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-synchromora-r02-backup/00_ALL_AVAILABLE_CLIPS_AND_SRT_r02.zip"
+      },
+      {
+        "name": "99_REBUILD_KIT_PARTIAL_r02.zip",
+        "id": 684232193,
+        "bytes": 73145320,
+        "digest": "sha256:b6339d2f18e4c65260ab758ca72ffda443bdf4c4614370ec1966f6566b136b72",
+        "download_url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-synchromora-r02-backup/99_REBUILD_KIT_PARTIAL_r02.zip"
+      }
+    ]
+  }
 }
