@@ -17,7 +17,7 @@ Captions are machine-generated and not human-audio-verified.
 | 04-jynxzi-01-chat-request | 24.3 | 22 | -16.05 / -4.32 | PASS | `9bd02fb30e9eec40c0fcd60a7ca2384e45ef1bfbb7592bc0cabb7bdc376f579a` |
 | 04-jynxzi-02-time-zone | 24.1 | 28 | -15.51 / -2.01 | PASS | `812ba6f281926b1028a947640ef1d4d806d4cf96dda6f73197c4cf79105d5d52` |
 | 04-jynxzi-03-ranking | 62.2 | 57 | -16.05 / -1.89 | PASS | `2142b689c4caf09b0011726d0edd7daf375eeba91d4cee3fab7e4b93c4376704` |
-| 05-jokers-01-cannonball | 22.8 | 24 | -16.05 / -3.02 | PASS | `67b9b2953a056bbc408262cf8c7936d7266ddfba52e63ea22ef4896e98de9eca` |
+| 05-jokers-01-cannonball | 22.8 | 24 | -16.05 / -3.02 | PASS | `0405a83610f9f94a79ac25cc75375a66ad40cb00b35e0169ad349b06a05eca2e` |
 | 05-jokers-02-count-to-five | 17.5 | 18 | -15.95 / -2.22 | PASS | `a8b7cacbe8fd3f36bfddbb481fdee8235ec75aa50489ed947e4da642f942e855` |
 | 05-jokers-03-ranking | 55.5 | 56 | -16.01 / -2.45 | PASS | `208a19afdc332aad0f7e3b368ebb0912bc55bfb1eff3445f81b8512b2298a223` |
 | 06-ronaldo-01-streamer-university | 10.8 | 15 | -16.01 / -2.65 | PASS | `84be24421bcb3b2c7c35906a2a1dd5508514f996ab97daa58206f0ad8af3c722` |

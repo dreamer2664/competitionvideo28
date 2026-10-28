@@ -2,13 +2,17 @@
 
 ## Download
 
-- **[All available Shorts + SRTs, organized by source](https://github.com/dreamer2664/competitionvideo28/releases/download/synchromora-clips-20261028-r02/00_ALL_AVAILABLE_CLIPS_AND_SRT_r02.zip)** — 15 MP4s, 15 matching SRTs, source/cut index, QC and checksums in one ZIP.
-- **[Rebuild kit](https://github.com/dreamer2664/competitionvideo28/releases/download/synchromora-clips-20261028-r02/99_REBUILD_KIT_PARTIAL_r02.zip)** — edit plan, caption data, source windows, rendering/mastering scripts, fonts, emoji and licenses.
+- **[All available Shorts + SRTs, organized by source](https://github.com/dreamer2664/competitionvideo28/releases/download/synchromora-clips-20261028-r03/00_ALL_AVAILABLE_CLIPS_AND_SRT_r03.zip)** — 15 MP4s, 15 matching SRTs, source/cut index, QC and checksums in one ZIP.
+- **[Rebuild kit](https://github.com/dreamer2664/competitionvideo28/releases/download/synchromora-clips-20261028-r03/99_REBUILD_KIT_PARTIAL_r03.zip)** — edit plan, caption data, source windows, rendering/mastering scripts, fonts, emoji and licenses.
 - The individual MP4s are also listed as release assets, named with their source folder and clip number.
 
 ## What is included
 
 Each of these five sources has **two normal Shorts and one ranked compilation**: [Kai Cenat Shorts](https://www.youtube.com/watch?v=rRSxkBGgTfw), [NeverMissClip / Jynxzi 2026](https://www.youtube.com/watch?v=IpAjsMJKBvk), [Jynxzi Live](https://www.youtube.com/watch?v=G0fg27HzFTE), [THE BEST OF / Impractical Jokers](https://www.youtube.com/watch?v=zzRhEQ6nX2A), and [Half Court / Stable Ronaldo](https://www.youtube.com/watch?v=EajXaGkDweA). The videos have burned-in timed captions, source credits, emoji and original synthesized sound cues.
+
+## Revision note
+
+This r03 revision corrects a missing “A” before “CANNONBALL” in the standalone Jokers clip. The other 14 MP4s, including the ranking, are unchanged from r02. The earlier release remains available as a historical revision.
 
 ## What remains
 
@@ -22,7 +26,7 @@ The [IShowSpeed source from Community W Clips](https://www.youtube.com/watch?v=F
 
 ## SHA-256
 
-- `00_ALL_AVAILABLE_CLIPS_AND_SRT_r02.zip` (67,061,280 bytes): `7c0c6a35a5e6b3855a170e11dd4ee5a862797c7174c5971d0c71140e83be2d42`
-- `99_REBUILD_KIT_PARTIAL_r02.zip` (73,145,320 bytes): `b6339d2f18e4c65260ab758ca72ffda443bdf4c4614370ec1966f6566b136b72`
+- `00_ALL_AVAILABLE_CLIPS_AND_SRT_r03.zip` (67,066,102 bytes): `b60bf46939adbd573581882bc017fe8bab3cc12079a0ff6f77f98a2b4c81bc64`
+- `99_REBUILD_KIT_PARTIAL_r03.zip` (73,197,014 bytes): `59b207855bb000a4156b4abc0109c28586291b81b1c9d955adbdc6b79fb59865`
 
 Individual file hashes and cut points are in the delivery ZIP and the tracked QC report. Producer: **synchromora**.

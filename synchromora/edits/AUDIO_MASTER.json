@@ -95,9 +95,9 @@
     "input_tp": "-12.20",
     "output_i": "-16.05",
     "output_tp": "-3.02",
+    "post_gain_db": 0.0,
     "target_i": -16.0,
-    "target_tp": -2.0,
-    "post_gain_db": 0.0
+    "target_tp": -2.0
   },
   {
     "id": "05-jokers-02-count-to-five",
@@ -115,9 +115,9 @@
     "input_tp": "-10.07",
     "output_i": "-16.01",
     "output_tp": "-2.45",
+    "post_gain_db": 0.0,
     "target_i": -16.0,
-    "target_tp": -2.0,
-    "post_gain_db": 0.0
+    "target_tp": -2.0
   },
   {
     "id": "06-ronaldo-01-streamer-university",

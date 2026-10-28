@@ -2,7 +2,7 @@
   "repository": "dreamer2664/competitionvideo28",
   "release_id": 426380291,
   "tag": "synchromora-clips-20261028-r03",
-  "status": "draft; corrected caption revision, still 15/18",
+  "status": "draft, r03 correction uploaded; verification in progress",
   "requested_clip_count": 18,
   "completed_clip_count": 15,
   "blocked_clip_count": 3,
@@ -10,7 +10,7 @@
     "release_id": 426372188,
     "tag": "synchromora-clips-20261028-r02",
     "url": "https://github.com/dreamer2664/competitionvideo28/releases/tag/synchromora-clips-20261028-r02",
-    "reason": "Superseded by r03: two Jokers clips dropped the article before cannonball."
+    "reason": "Superseded by r03: the standalone Jokers cannonball clip dropped the article before cannonball. The ranking was not affected."
   },
   "prior_production_draft": {
     "release_id": 426365455,
@@ -38,5 +38,127 @@
         "download_url": "https://github.com/dreamer2664/storagecode/releases/download/competitionvideo28-synchromora-r02-backup/99_REBUILD_KIT_PARTIAL_r02.zip"
       }
     ]
-  }
+  },
+  "release_url": "https://github.com/dreamer2664/competitionvideo28/releases/tag/synchromora-clips-20261028-r03",
+  "assets": [
+    {
+      "name": "00_ALL_AVAILABLE_CLIPS_AND_SRT_r03.zip",
+      "id": 684247887,
+      "bytes": 67066102,
+      "digest": "sha256:b60bf46939adbd573581882bc017fe8bab3cc12079a0ff6f77f98a2b4c81bc64",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/00_ALL_AVAILABLE_CLIPS_AND_SRT_r03.zip"
+    },
+    {
+      "name": "02_KAI_CENAT__01_THE_WORST_REVIVE.mp4",
+      "id": 684246705,
+      "bytes": 3073408,
+      "digest": "sha256:6530c3b9a5a81049020283203d7613575f56ad2aee097c1f4927f2c9cae6324a",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/02_KAI_CENAT__01_THE_WORST_REVIVE.mp4"
+    },
+    {
+      "name": "02_KAI_CENAT__02_CHRISTMAS_COAL.mp4",
+      "id": 684246786,
+      "bytes": 6028866,
+      "digest": "sha256:1bf71849d09cab9a39d42076e5181e1ca7115b96eac038c84c0d17b3713be520",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/02_KAI_CENAT__02_CHRISTMAS_COAL.mp4"
+    },
+    {
+      "name": "02_KAI_CENAT__03_RANKING_KAI_MOMENTS.mp4",
+      "id": 684246873,
+      "bytes": 9017062,
+      "digest": "sha256:4d259d31b0092f9d04eb6974aefa0954c05d1db7d610475b03eb444c980b17b9",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/02_KAI_CENAT__03_RANKING_KAI_MOMENTS.mp4"
+    },
+    {
+      "name": "03_JYNXZI_2026__01_DADS_BIG_MOMENT.mp4",
+      "id": 684246961,
+      "bytes": 2143252,
+      "digest": "sha256:ec8b9e08d75d133bda05247afc1516ce8d539b2cb43870181b5950b149a52a44",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/03_JYNXZI_2026__01_DADS_BIG_MOMENT.mp4"
+    },
+    {
+      "name": "03_JYNXZI_2026__02_403_DAYS.mp4",
+      "id": 684247049,
+      "bytes": 2430944,
+      "digest": "sha256:a4141372f0bdf1d7d05b3d24844178fa6fef57125b24ca915d68ccaf5400948a",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/03_JYNXZI_2026__02_403_DAYS.mp4"
+    },
+    {
+      "name": "03_JYNXZI_2026__03_RANKING_JYNXZI_2026.mp4",
+      "id": 684247112,
+      "bytes": 5803567,
+      "digest": "sha256:e712df5aed22fc98450b80d6573e9c144fda0ec9ad7b9a32d804a86f8eb3e99e",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/03_JYNXZI_2026__03_RANKING_JYNXZI_2026.mp4"
+    },
+    {
+      "name": "04_JYNXZI_LIVE__01_THE_CHAT_REQUEST.mp4",
+      "id": 684247215,
+      "bytes": 4363646,
+      "digest": "sha256:9bd02fb30e9eec40c0fcd60a7ca2384e45ef1bfbb7592bc0cabb7bdc376f579a",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/04_JYNXZI_LIVE__01_THE_CHAT_REQUEST.mp4"
+    },
+    {
+      "name": "04_JYNXZI_LIVE__02_IS_THIS_LIVE.mp4",
+      "id": 684247278,
+      "bytes": 2377536,
+      "digest": "sha256:812ba6f281926b1028a947640ef1d4d806d4cf96dda6f73197c4cf79105d5d52",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/04_JYNXZI_LIVE__02_IS_THIS_LIVE.mp4"
+    },
+    {
+      "name": "04_JYNXZI_LIVE__03_RANKING_JYNXZI_LIVE.mp4",
+      "id": 684247320,
+      "bytes": 9172348,
+      "digest": "sha256:2142b689c4caf09b0011726d0edd7daf375eeba91d4cee3fab7e4b93c4376704",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/04_JYNXZI_LIVE__03_RANKING_JYNXZI_LIVE.mp4"
+    },
+    {
+      "name": "05_IMPRACTICAL_JOKERS__01_THE_CANNONBALL.mp4",
+      "id": 684247402,
+      "bytes": 4670440,
+      "digest": "sha256:0405a83610f9f94a79ac25cc75375a66ad40cb00b35e0169ad349b06a05eca2e",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/05_IMPRACTICAL_JOKERS__01_THE_CANNONBALL.mp4"
+    },
+    {
+      "name": "05_IMPRACTICAL_JOKERS__02_COUNT_TO_FIVE.mp4",
+      "id": 684247482,
+      "bytes": 1405351,
+      "digest": "sha256:a8b7cacbe8fd3f36bfddbb481fdee8235ec75aa50489ed947e4da642f942e855",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/05_IMPRACTICAL_JOKERS__02_COUNT_TO_FIVE.mp4"
+    },
+    {
+      "name": "05_IMPRACTICAL_JOKERS__03_RANKING_JOKER_MOMENTS.mp4",
+      "id": 684247543,
+      "bytes": 9102294,
+      "digest": "sha256:208a19afdc332aad0f7e3b368ebb0912bc55bfb1eff3445f81b8512b2298a223",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/05_IMPRACTICAL_JOKERS__03_RANKING_JOKER_MOMENTS.mp4"
+    },
+    {
+      "name": "06_STABLE_RONALDO__01_STREAMER_UNIVERSITY.mp4",
+      "id": 684247623,
+      "bytes": 1241060,
+      "digest": "sha256:84be24421bcb3b2c7c35906a2a1dd5508514f996ab97daa58206f0ad8af3c722",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/06_STABLE_RONALDO__01_STREAMER_UNIVERSITY.mp4"
+    },
+    {
+      "name": "06_STABLE_RONALDO__02_THE_DANCE_DEGREE.mp4",
+      "id": 684247676,
+      "bytes": 1822709,
+      "digest": "sha256:17ad9e4d377758ecfe0d8ca3d46888fc66048c55d0bc2d3c38297650f54a00a5",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/06_STABLE_RONALDO__02_THE_DANCE_DEGREE.mp4"
+    },
+    {
+      "name": "06_STABLE_RONALDO__03_RANKING_RONALDO_MOMENTS.mp4",
+      "id": 684247753,
+      "bytes": 4384420,
+      "digest": "sha256:26798a875e5e453b318281a576d6624177e3255339838ec364ce98d5b02e2bef",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/06_STABLE_RONALDO__03_RANKING_RONALDO_MOMENTS.mp4"
+    },
+    {
+      "name": "99_REBUILD_KIT_PARTIAL_r03.zip",
+      "id": 684248056,
+      "bytes": 73197014,
+      "digest": "sha256:59b207855bb000a4156b4abc0109c28586291b81b1c9d955adbdc6b79fb59865",
+      "download_url": "https://github.com/dreamer2664/competitionvideo28/releases/download/untagged-62788278b2ed3117fa78/99_REBUILD_KIT_PARTIAL_r03.zip"
+    }
+  ]
 }

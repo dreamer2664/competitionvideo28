@@ -6,11 +6,11 @@ The brief is two normal vertical Shorts and one ranked multi-moment Short from e
 
 ## Get the work
 
-[**Open the organized partial GitHub release**](https://github.com/dreamer2664/competitionvideo28/releases/tag/synchromora-clips-20261028-r02)
+[**Open the organized partial GitHub release**](https://github.com/dreamer2664/competitionvideo28/releases/tag/synchromora-clips-20261028-r03)
 
-- **`00_ALL_AVAILABLE_CLIPS_AND_SRT_r02.zip`**: the easiest handoff — all 15 finished MP4s, paired SRTs, grouped by source; a blocker notice for source 1; source links, exact cuts, QC and checksums.
+- **`00_ALL_AVAILABLE_CLIPS_AND_SRT_r03.zip`**: the easiest handoff — all 15 finished MP4s, paired SRTs, grouped by source; a blocker notice for source 1; source links, exact cuts, QC and checksums.
 - **Individually named MP4 assets**: preview/download one clip without unpacking the ZIP.
-- **`99_REBUILD_KIT_PARTIAL_r02.zip`**: production scripts, edit/caption data, licensed assets and 17 source windows needed to reconstruct the 15 accessible-source edits.
+- **`99_REBUILD_KIT_PARTIAL_r03.zip`**: production scripts, edit/caption data, licensed assets and 17 source windows needed to reconstruct the 15 accessible-source edits.
 
 Each edit has portrait framing, burned-in word-timed captions, creator credit, sound effects and emoji; rankings count down with persistent context. The audio was leveled after rendering. See `edits/QC.md` for actual measurements, not just targets.
 

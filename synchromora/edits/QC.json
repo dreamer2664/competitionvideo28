@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-28T07:39:51.379771+00:00",
+  "generated_utc": "2026-10-28T07:48:16.508269+00:00",
   "expected_count": 15,
   "requested_count": 18,
   "blocked_count": 3,
@@ -394,8 +394,8 @@
       "issues": [],
       "duration_seconds": 22.8,
       "planned_seconds": 22.8,
-      "bytes": 4666162,
-      "sha256": "67b9b2953a056bbc408262cf8c7936d7266ddfba52e63ea22ef4896e98de9eca",
+      "bytes": 4670440,
+      "sha256": "0405a83610f9f94a79ac25cc75375a66ad40cb00b35e0169ad349b06a05eca2e",
       "video": {
         "codec_name": "h264",
         "width": 720,

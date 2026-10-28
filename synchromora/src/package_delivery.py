@@ -12,7 +12,7 @@ def sha_bytes(data):return hashlib.sha256(data).hexdigest()
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--input-dir',type=Path,default=ROOT/'work/mastered')
-    p.add_argument('--output',type=Path,default=ROOT/'work/00_ALL_AVAILABLE_CLIPS_AND_SRT_r02.zip')
+    p.add_argument('--output',type=Path,default=ROOT/'work/00_ALL_AVAILABLE_CLIPS_AND_SRT_r03.zip')
     args=p.parse_args()
     plan=json.loads((ROOT/'edits/plan.json').read_text(encoding='utf-8'))
     sources=json.loads((ROOT/'sources.json').read_text(encoding='utf-8'))
@@ -29,7 +29,7 @@ This package contains two standard Shorts and one ranked compilation for **each 
 - Captions came from YouTube auto-captions with a second machine-recognition comparison. They have **not** been verified by a person listening and may be wrong, particularly on overlapping or censored speech. Listen and correct before publishing.
 - These are clips of third-party material. Attribution is not permission; source and music/reuse rights have **not** been verified. Secure appropriate rights and check platform policies before posting.
 - All masters are 720×1280, H.264/AAC, with audio leveled toward −16 LUFS. See `docs/QC.md` for the measured results and limitations.
-- `CLIP_INDEX.md` provides source links and exact source in/out points. `SHA256SUMS.txt` checks the files in this ZIP. The separate release asset `99_REBUILD_KIT_PARTIAL_r02.zip` contains the editable code, caption data, source windows and licensed assets.
+- `CLIP_INDEX.md` provides source links and exact source in/out points. `SHA256SUMS.txt` checks the files in this ZIP. The separate release asset `99_REBUILD_KIT_PARTIAL_r03.zip` contains the editable code, caption data, source windows and licensed assets.
 
 Produced by **synchromora**, 2026-10-28. This is a partial production handoff, not a claim that all 18 are complete.
 '''
@@ -42,7 +42,7 @@ The source requires age-verified sign-in. No authorized source copy was availabl
 '''
     entries={'00_READ_ME_FIRST.md':readme.encode('utf-8'),'01_ISHOWSPEED/BLOCKED.md':blocked.encode('utf-8')}
     index=['# Clip index and source credits','','**15/18 complete.** Times are seconds in the original linked source; ranking intervals are listed in playback order.','']
-    manifest={'release':'synchromora-clips-20261028-r02','complete':15,'requested':18,
+    manifest={'release':'synchromora-clips-20261028-r03','complete':15,'requested':18,
               'blocked_source':sources[0],'sources':sources,'clips':[]}
     for source in sources[1:]:
         rows=[c for c in plan['clips'] if c['source']==source['id']]

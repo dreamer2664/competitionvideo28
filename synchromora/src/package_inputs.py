@@ -177,8 +177,11 @@ The recovery source windows are copies from third-party source videos. They are 
         z.write(stage/'RECOVER.md', arcname='RECOVER.md', compress_type=zipfile.ZIP_DEFLATED)
         for dirname in ('src', 'edits', 'assets', 'evidence'):
             for path in sorted((ROOT/dirname).rglob('*')):
-                if path.is_file() and '__pycache__' not in path.parts:
-                    z.write(path, arcname='synchromora/' + str(path.relative_to(ROOT)), compress_type=zipfile.ZIP_DEFLATED)
+                rel = path.relative_to(ROOT).as_posix()
+                # Live release metadata can change after this archive is frozen;
+                # exclude it rather than embedding stale or self-referential hashes.
+                if path.is_file() and '__pycache__' not in path.parts and rel not in ('edits/release.json','edits/RELEASE_NOTES.md'):
+                    z.write(path, arcname='synchromora/' + rel, compress_type=zipfile.ZIP_DEFLATED)
         for filename in ('README.md','HANDOFF.md','sources.json'):
             z.write(ROOT/filename, arcname='synchromora/' + filename, compress_type=zipfile.ZIP_DEFLATED)
     print('RECOVERY ZIP', output, output.stat().st_size, 'bytes; sha256', sha256(output), flush=True)
